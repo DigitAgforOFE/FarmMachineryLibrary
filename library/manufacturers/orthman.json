@@ -1,0 +1,391 @@
+[
+  {
+    "id": "orthman-8315-row-crop-cultivator",
+    "manufacturer": "Orthman",
+    "modelFamily": "8315",
+    "displayName": "Orthman 8315 Row Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "orthman-row-crop-cultivators-jun.-2025.pdf (Orthman/Unverferth 8000-Series Row Crop Cultivators brochure, ORCC52516005M2, 2025), 8315 specifications table p.6 (read from the rendered page; text layer drops row labels). Feet-inches converted to inches. Sweep quantity = rows + 1."
+    },
+    "constants": {
+      "hpPerRow": "10-15 (up to 20 with added tillage options)",
+      "sweepStdIn": 14
+    },
+    "variants": [
+      {
+        "sku": "8315 6R30 Rigid",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "sweeps": 7,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Rigid",
+        "transportWidthIn": 205,
+        "transportHeightIn": 70,
+        "workingWidthIn": 205,
+        "transportLengthIn": 54,
+        "weightLb": 3350
+      },
+      {
+        "sku": "8315 6R30 Folding",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "sweeps": 7,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 162,
+        "transportHeightIn": 106,
+        "workingWidthIn": 204,
+        "transportLengthIn": 54,
+        "weightLb": 4100
+      },
+      {
+        "sku": "8315 8R30 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Rigid",
+        "transportWidthIn": 266,
+        "transportHeightIn": 70,
+        "workingWidthIn": 266,
+        "transportLengthIn": 54,
+        "weightLb": 4140
+      },
+      {
+        "sku": "8315 8R30 Folding",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 162,
+        "transportHeightIn": 106,
+        "workingWidthIn": 264,
+        "transportLengthIn": 54,
+        "weightLb": 4850
+      },
+      {
+        "sku": "8315 8R36 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 36,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Rigid",
+        "transportWidthIn": 314,
+        "transportHeightIn": 70,
+        "workingWidthIn": 314,
+        "transportLengthIn": 54,
+        "weightLb": 4270
+      },
+      {
+        "sku": "8315 8R36 Folding",
+        "rows": 8,
+        "rowSpacingIn": 36,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 192,
+        "transportHeightIn": 106,
+        "workingWidthIn": 312,
+        "transportLengthIn": 54,
+        "weightLb": 4960
+      },
+      {
+        "sku": "8315 8R38 Folding",
+        "rows": 8,
+        "rowSpacingIn": 38,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 202,
+        "transportHeightIn": 106,
+        "workingWidthIn": 328,
+        "transportLengthIn": 54,
+        "weightLb": 5010
+      },
+      {
+        "sku": "8315 8R40 Folding",
+        "rows": 8,
+        "rowSpacingIn": 40,
+        "sweeps": 9,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 212,
+        "transportHeightIn": 106,
+        "workingWidthIn": 344,
+        "transportLengthIn": 54,
+        "weightLb": 5110
+      },
+      {
+        "sku": "8315 12R30 Folding",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "sweeps": 13,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 222,
+        "transportHeightIn": 106,
+        "workingWidthIn": 384,
+        "transportLengthIn": 54,
+        "weightLb": 6450
+      },
+      {
+        "sku": "8315 12R36 Folding",
+        "rows": 12,
+        "rowSpacingIn": 36,
+        "sweeps": 13,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 264,
+        "transportHeightIn": 106,
+        "workingWidthIn": 465,
+        "transportLengthIn": 54,
+        "weightLb": 7110
+      },
+      {
+        "sku": "8315 12R38 Folding",
+        "rows": 12,
+        "rowSpacingIn": 38,
+        "sweeps": 13,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 278,
+        "transportHeightIn": 106,
+        "workingWidthIn": 489,
+        "transportLengthIn": 54,
+        "weightLb": 7280
+      },
+      {
+        "sku": "8315 12R40 Folding",
+        "rows": 12,
+        "rowSpacingIn": 40,
+        "sweeps": 13,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "transportWidthIn": 308,
+        "transportHeightIn": 106,
+        "workingWidthIn": 498,
+        "transportLengthIn": 54,
+        "weightLb": 7360
+      },
+      {
+        "sku": "8315 16R30 Folding",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "sweeps": 17,
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 176°",
+        "transportWidthIn": 282,
+        "transportHeightIn": 112,
+        "workingWidthIn": 504,
+        "transportLengthIn": 54,
+        "weightLb": 8620
+      },
+      {
+        "sku": "8315 16R30 Folding",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "sweeps": 17,
+        "toolbar": "Double 5x7 & 7x7",
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 175°",
+        "transportWidthIn": 318,
+        "transportHeightIn": 114,
+        "workingWidthIn": 502,
+        "transportLengthIn": 54,
+        "weightLb": 10310
+      },
+      {
+        "sku": "8315 16R30 Folding (Cat 4/4N)",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "sweeps": 17,
+        "toolbar": "Double 5x7 & 7x7",
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 175°",
+        "transportWidthIn": 294,
+        "transportHeightIn": 114,
+        "workingWidthIn": 502,
+        "transportLengthIn": 54,
+        "weightLb": 10360
+      },
+      {
+        "sku": "8315 16R36 Folding (Cat 4/4N)",
+        "rows": 16,
+        "rowSpacingIn": 36,
+        "sweeps": 17,
+        "toolbar": "Double 7x7 with top truss",
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 170°",
+        "transportWidthIn": 344,
+        "transportHeightIn": 136,
+        "workingWidthIn": 594,
+        "transportLengthIn": 54,
+        "weightLb": 11780
+      },
+      {
+        "sku": "8315 16R40 Folding (Cat 4/4N)",
+        "rows": 16,
+        "rowSpacingIn": 40,
+        "sweeps": 17,
+        "toolbar": "Double 7x7 with top truss",
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 170°",
+        "transportWidthIn": 384,
+        "transportHeightIn": 144,
+        "workingWidthIn": 664,
+        "transportLengthIn": 54,
+        "weightLb": 12320
+      },
+      {
+        "sku": "8315 18R30 Folding (Cat 4/4N)",
+        "rows": 18,
+        "rowSpacingIn": 30,
+        "sweeps": 19,
+        "toolbar": "Double 7x7 with top truss",
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 170°",
+        "transportWidthIn": 293,
+        "transportHeightIn": 136,
+        "workingWidthIn": 554,
+        "transportLengthIn": 54,
+        "weightLb": 11020
+      },
+      {
+        "sku": "8315 18R36 Folding (Cat 4/4N)",
+        "rows": 18,
+        "rowSpacingIn": 36,
+        "sweeps": 19,
+        "toolbar": "Double 7x7 with top truss",
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 170°",
+        "transportWidthIn": 344,
+        "transportHeightIn": 146,
+        "workingWidthIn": 660,
+        "transportLengthIn": 54,
+        "weightLb": 12050
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "orthman-8650-row-crop-cultivator",
+    "manufacturer": "Orthman",
+    "modelFamily": "8650",
+    "displayName": "Orthman 8650 Narrow-Row Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "orthman-row-crop-cultivators-jun.-2025.pdf, 8650 specifications table p.6 (rendered page). Weight depends on tail-trip type (rigid vs spring-cushion)."
+    },
+    "constants": {
+      "hpPerRow": "10-15 (up to 20 with added tillage options)",
+      "rowUnitDepthIn": "up to 9 wrench-free"
+    },
+    "variants": [
+      {
+        "sku": "8650 16R22 (CAT 3/3N)",
+        "rows": 16,
+        "rowSpacingIn": 22,
+        "sweeps": 17,
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "transportWidthIn": 210,
+        "transportHeightIn": 94,
+        "workingWidthIn": 371,
+        "transportLengthIn": 54,
+        "weightLbByTailTrip": {
+          "rigid": 6390,
+          "spring cushion": 6700
+        }
+      },
+      {
+        "sku": "8650 16R22 (CAT 4/4N)",
+        "rows": 16,
+        "rowSpacingIn": 22,
+        "sweeps": 17,
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 180°",
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "transportWidthIn": 210,
+        "transportHeightIn": 94,
+        "workingWidthIn": 371,
+        "transportLengthIn": 54,
+        "weightLbByTailTrip": {
+          "rigid": 6570,
+          "spring cushion": 6870
+        }
+      },
+      {
+        "sku": "8650 18R22 (CAT 3/3N)",
+        "rows": 18,
+        "rowSpacingIn": 22,
+        "sweeps": 19,
+        "hitch": "CAT 3/3N",
+        "frame": "Folding 180°",
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "transportWidthIn": 254,
+        "transportHeightIn": 94,
+        "workingWidthIn": 415,
+        "transportLengthIn": 54,
+        "weightLbByTailTrip": {
+          "rigid": 6860,
+          "spring cushion": 7200
+        }
+      },
+      {
+        "sku": "8650 18R22 (CAT 4/4N)",
+        "rows": 18,
+        "rowSpacingIn": 22,
+        "sweeps": 19,
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 180°",
+        "toolbar": "Single 7x7 / 5x7 bolt-on hitch",
+        "transportWidthIn": 254,
+        "transportHeightIn": 94,
+        "workingWidthIn": 415,
+        "transportLengthIn": 54,
+        "weightLbByTailTrip": {
+          "rigid": 7040,
+          "spring cushion": 7380
+        }
+      },
+      {
+        "sku": "8650 24R22 (CAT 4/4N)",
+        "rows": 24,
+        "rowSpacingIn": 22,
+        "sweeps": 25,
+        "hitch": "CAT 4/4N",
+        "frame": "Folding 180°",
+        "toolbar": "Double 5x7 & 7x7",
+        "transportWidthIn": 309,
+        "transportHeightIn": 106,
+        "workingWidthIn": 554,
+        "transportLengthIn": 65,
+        "weightLbByTailTrip": {
+          "rigid": 11510,
+          "spring cushion": 12010
+        }
+      }
+    ],
+    "referencePhotos": []
+  }
+]

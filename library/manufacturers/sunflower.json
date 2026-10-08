@@ -1,0 +1,213 @@
+[
+  {
+    "id": "sunflower-1000-series-disc-harrows",
+    "manufacturer": "Sunflower",
+    "modelFamily": "1000 Series Disc Harrows",
+    "displayName": "Sunflower 1000 Series Disc Harrows",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.2. Table gives a working-width and weight RANGE per model line (spanning N discrete widths), not individual per-width rows, so variants are recorded as ranges. Sunflower is a distinct brand from Wil-Rich (this brochure was bundled in the same download batch)."
+    },
+    "constants": {
+      "bladeDiameterOptionsIn": "22 or 24 (full-concavity)"
+    },
+    "variants": [
+      { "sku": "1212", "bladeSpacing": "8.5in (216mm)", "numWidths": 4, "workingWidthRange": "10'6\"-14'7\"", "weightRangeLb": "3978-5234" },
+      { "sku": "1234", "bladeSpacing": "7.5in F / 8.5in R", "numWidths": 8, "workingWidthRange": "18'11\"-32'", "weightRangeLb": "10904-17098" },
+      { "sku": "1321", "bladeSpacing": "8.5in F & R", "numWidths": 4, "workingWidthRange": "12'-18'", "weightRangeLb": "6079-9845" },
+      { "sku": "1331", "bladeSpacing": "8.5in F & R", "numWidths": 1, "workingWidth": "20'", "weightLb": 9857 },
+      { "sku": "1435", "bladeSpacing": "8.75in F & R", "numWidths": 7, "workingWidthRange": "20'7\"-35'10\"", "weightRangeLb": "12500-19980" },
+      { "sku": "1444", "bladeSpacing": "8.5in F & R", "numWidths": 4, "workingWidthRange": "30'6\"-40'", "weightRangeLb": "17916-24137" },
+      { "sku": "1544", "bladeSpacing": "8.75in F & R", "numWidths": 2, "workingWidthOptions": "42'7\" & 45'4\"", "weightOptionsLb": "27200 & 28975" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-2433-chisel-plow",
+    "manufacturer": "Sunflower",
+    "modelFamily": "2000 Series Chisel Plow (2433)",
+    "displayName": "Sunflower 2433 Chisel Plow",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.4. Clean per-model table, 8 widths, the heaviest/largest chisel plow in the Sunflower line."
+    },
+    "constants": {
+      "tongue": "4in x 6in tubular steel, bolted to each bar",
+      "depthControl": "Rephasing hydraulics"
+    },
+    "variants": [
+      { "sku": "2433-25", "shanks": 25, "workingWidth": "25'", "transportWidth": "18'7\"", "transportHeight": "9'10\"", "weightLb": 9135 },
+      { "sku": "2433-27", "shanks": 27, "workingWidth": "27'", "transportWidth": "18'7\"", "transportHeight": "10'6\"", "weightLb": 9369 },
+      { "sku": "2433-31", "shanks": 31, "workingWidth": "31'", "transportWidth": "18'7\"", "transportHeight": "12'8\"", "weightLb": 9917 },
+      { "sku": "2433-33", "shanks": 33, "workingWidth": "33'", "transportWidth": "18'7\"", "transportHeight": "13'4\"", "weightLb": 10151 },
+      { "sku": "2433-35", "shanks": 35, "workingWidth": "35'", "transportWidth": "18'7\"", "transportHeight": "14'4\"", "weightLb": 10465 },
+      { "sku": "2433-37", "shanks": 37, "workingWidth": "37'", "transportWidth": "18'7\"", "transportHeight": "15'7\"", "weightLb": 11039 },
+      { "sku": "2433-39", "shanks": 39, "workingWidth": "39'", "transportWidth": "18'7\"", "transportHeight": "16'3\"", "weightLb": 11273 },
+      { "sku": "2433-41", "shanks": 41, "workingWidth": "41'", "transportWidth": "18'7\"", "transportHeight": "17'3\"", "weightLb": 11587 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-3000-3300-3600-blade-plows",
+    "manufacturer": "Sunflower",
+    "modelFamily": "3000 / 3300 / 3600 Series Fallow Tillage Blade Plows",
+    "displayName": "Sunflower Fallow Tillage Blade Plows",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.6. A 'blade plow' is a shank-mounted sweep/V-blade dryland fallow tillage tool (not a moldboard plow); filed under Chisel Plows since shanks is the countField and construction is shank-based. Table gives working-width/weight ranges or paired values per model line rather than one row per exact width."
+    },
+    "constants": {
+      "uhmwPolymer": "UHMW technology in lifts, coulter pivot bushings, hinge pivot bushings and flanges (3372 model)",
+      "leveling": "Adjustable swivel linkages between rockshafts at each frame"
+    },
+    "variants": [
+      { "sku": "3030", "modelLine": "3000 Series Fallow Tool", "bladeSize": "26in/32in", "numWidths": 2, "shanksOptions": "13 & 15", "workingWidthOptions": "21' & 25'", "weightOptionsLb": "5944 & 6160" },
+      { "sku": "3040", "modelLine": "3000 Series Fallow Tool", "bladeSize": "26in/32in", "numWidths": 2, "shanksOptions": "17 & 19", "workingWidthOptions": "28' & 32'", "weightOptionsLb": "8044 & 8274" },
+      { "sku": "3050-35", "modelLine": "3000 Series Fallow Tool", "bladeSize": "26in/32in", "shanks": 21, "workingWidth": "35'", "weightLb": 9759 },
+      { "sku": "3060-42", "modelLine": "3000 Series Fallow Tool", "bladeSize": "26in/32in", "shanks": 25, "workingWidth": "42'", "weightLb": 11874 },
+      { "sku": "3070-49", "modelLine": "3000 Series Fallow Tool", "bladeSize": "26in/32in", "shanks": 29, "workingWidth": "49'", "weightLb": 13650 },
+      { "sku": "3300", "modelLine": "3300 Series Blade Plow (6ft blades)", "bladeSize": "72in", "numWidths": 2, "bladesOptions": "7 & 9", "workingWidthOptions": "40' & 52'", "weightOptionsLb": "12718 & 15280" },
+      { "sku": "3662-30", "modelLine": "3600 Series Blade Plow", "bladeSizeRange": "5in-5.6in", "numWidths": 4, "bladesRange": "6, 7, 9, 11", "workingWidthRange": "30'6\"-55'6\"", "weightRangeLb": "9294-21058" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-4200-coulter-chisel",
+    "manufacturer": "Sunflower",
+    "modelFamily": "4213 / 4233 Coulter Chisel",
+    "displayName": "Sunflower 4213 / 4233 Coulter Chisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.8. Working-width/weight ranges per model line, not individual per-width rows."
+    },
+    "constants": {
+      "bladeDiameterSpacing": "20in @ 7.5in",
+      "shankType": "H.D. Chisel, 15in spacing"
+    },
+    "variants": [
+      { "sku": "4213", "numWidths": 5, "workingWidthRange": "8'9\"-18'9\"", "weightRangeLb": "6760-10692" },
+      { "sku": "4233", "numWidths": 4, "workingWidthRange": "21'3\"-28'9\"", "weightRangeLb": "14487-17047" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-4412-disc-ripper-disc",
+    "manufacturer": "Sunflower",
+    "modelFamily": "4412 Disc Ripper Disc",
+    "displayName": "Sunflower 4412 Disc Ripper Disc",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.8. Combination disc+ripper unit; 2 discrete widths given as a paired value, not a range."
+    },
+    "constants": {
+      "bladeDiameterSpacing": "22in @ 12in F, 10.5in R",
+      "shankType": "Parabolic, 30in spacing"
+    },
+    "variants": [
+      { "sku": "4412", "numWidths": 2, "workingWidthOptions": "12'6\" & 17'6\"", "weightOptionsLb": "13615 & 16200" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-45xx-disc-chisel-disc",
+    "manufacturer": "Sunflower",
+    "modelFamily": "4511 / 4530 Disc Chisel Disc",
+    "displayName": "Sunflower 4511 / 4530 Disc Chisel Disc",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.8. Combination disc+chisel unit (hydraulically independent front/rear disc gangs plus 15in-spaced chisel shanks reaching 12-14in deep); filed under Chisel Plows since shanks is the countField."
+    },
+    "constants": {
+      "bladeDiameterSpacing": "22in @ 12in F, 10.5in R",
+      "shankType": "H.D. Chisel, 15in spacing",
+      "workingDepthIn": "12-14"
+    },
+    "variants": [
+      { "sku": "4511", "numWidths": 5, "workingWidthRange": "11'3\"-18'9\"", "weightRangeLb": "13160-17900" },
+      { "sku": "4530", "numWidths": 1, "workingWidth": "23'9\"", "weightLb": 24360 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-5000-series-field-cultivators",
+    "manufacturer": "Sunflower",
+    "modelFamily": "5000 Series Field Cultivators",
+    "displayName": "Sunflower 5000 Series Field Cultivators",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.10. Working-width/weight ranges per model line."
+    },
+    "constants": {
+      "frame": "3in x 4in rectangular tube",
+      "shankSpacingIn": 6,
+      "shankType": "Spring tension or S-tine, up to 190lb point load",
+      "depthControl": "Single-point with rephasing lift cylinders",
+      "hitch": "Self-leveling"
+    },
+    "variants": [
+      { "sku": "5035", "numWidths": 10, "workingWidthRange": "18'6\"-36'6\"", "transportWidthRange": "13'-17'", "weightRangeLb": "6000-10450" },
+      { "sku": "5135 SW", "numWidths": 4, "workingWidthRange": "36'6\"-42'6\"", "transportWidthRange": "15'9\"-17'9\"", "weightRangeLb": "10800-11950" },
+      { "sku": "5055", "numWidths": 6, "workingWidthRange": "44'6\"-62'6\"", "transportWidthRange": "17'6\"-19'6\"", "weightRangeLb": "14000-19500" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-6000-series-land-finishers",
+    "manufacturer": "Sunflower",
+    "modelFamily": "6000 Series Land Finishers",
+    "displayName": "Sunflower 6000 Series Land Finishers",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.12. Disc + condition + incorporate + cultivate + finish combination tool. Working-width/weight ranges per model line."
+    },
+    "constants": {
+      "shankSpacingIn": 9,
+      "depthControl": "Precision single-point, ground-operable"
+    },
+    "variants": [
+      { "sku": "6221", "numWidths": 2, "workingWidthOptions": "17'4\" & 20'4\"", "weightOptionsLb": "8772 & 9315" },
+      { "sku": "6333", "numWidths": 6, "workingWidthRange": "21'9\"-36'9\"", "weightRangeLb": "12250-17290" },
+      { "sku": "6433 SW", "numWidths": 3, "workingWidthRange": "36'9\"-42'9\"", "weightRangeLb": "21175-22500" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "sunflower-7000-series-soil-conditioners",
+    "manufacturer": "Sunflower",
+    "modelFamily": "7000 Series Soil Conditioners",
+    "displayName": "Sunflower 7000 Series Soil Conditioners",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FullLineBrochure-English_SF09052.pdf, p.14. A towed finishing-reel attachment pulled behind a primary/secondary tillage tool (not a standalone primary implement); filed under Mulch Finishers as the closest fit. Working-width/weight ranges per model line."
+    },
+    "constants": {
+      "reelDiameterIn": 17,
+      "reelMount": "C-Flex-mounted Chevron reels",
+      "wingFlex": "Up and 10deg below level, adjustable wing sections"
+    },
+    "variants": [
+      { "sku": "7212", "numWidths": 4, "sections": 1, "workingWidthRange": "15'-22'6\"", "weightRangeLb": "2781-3224" },
+      { "sku": "7232", "numWidths": 11, "sections": 3, "workingWidthRange": "18'-37'6\"", "weightRangeLb": "3890-6920" },
+      { "sku": "7252", "numWidths": 12, "sections": 5, "workingWidthRange": "32'6\"-56'", "weightRangeLb": "6220-10192" }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,1447 @@
+[
+  {
+    "id": "horsch-tiger",
+    "manufacturer": "Horsch",
+    "modelFamily": "Tiger (AS/LT/MT/SL)",
+    "displayName": "Horsch Tiger LT",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Tiger_LT_2022_en.pdf, HORSCH's own 2-page spec sheet, Technical Specifications table p.2. Clean table, high confidence. Only the LT variant's numeric table was in hand and extracted; the AS/MT/SL variant brochures (also in Unsorted) are descriptive text only, no spec table — not yet extracted, would need their own numeric tables if available elsewhere. Marketed explicitly as \"the clever alternative to the plough,\" 3-bar frame, TerraGrip tines with MulchMix points, gentle loosening up to 35cm (13.8in) working depth below the plough pan."
+    },
+    "constants": {
+      "tineSpacingRowIn": "37.4 to 40in (96/95/90/90cm across sizes)",
+      "frameHeightIn": 33.5,
+      "frameDesign": "3-bar",
+      "workingDepthMaxIn": 13.8,
+      "hitchOptions": "3-point lower link (Cat III-III/IV-IV) or adjustable drawbar (bolt or ball-joint/K80)"
+    },
+    "variants": [
+      {
+        "sku": "Tiger 5 LT",
+        "workingWidthIn": 189,
+        "transportWidthIn": 118,
+        "transportHeightIn": 130,
+        "weightLb": 12115,
+        "tines": 15,
+        "tineSpacingIn": 12.6,
+        "hpMin": 200,
+        "hpMax": 370
+      },
+      {
+        "sku": "Tiger 6 LT",
+        "workingWidthIn": 236,
+        "transportWidthIn": 118,
+        "transportHeightIn": 146,
+        "weightLb": 13845,
+        "tines": 19,
+        "tineSpacingIn": 12.4,
+        "hpMin": 240,
+        "hpMax": 400
+      },
+      {
+        "sku": "Tiger 8 LT",
+        "workingWidthIn": 295,
+        "transportWidthIn": 118,
+        "transportHeightIn": 157,
+        "weightLb": 16976,
+        "tines": 25,
+        "tineSpacingIn": 11.8,
+        "hpMin": 300,
+        "hpMax": 500
+      },
+      {
+        "sku": "Tiger 10 LT",
+        "workingWidthIn": 402,
+        "transportWidthIn": 197,
+        "transportHeightIn": 193,
+        "weightLb": 23886,
+        "tines": 34,
+        "tineSpacingIn": 11.8,
+        "hpMin": 400,
+        "hpMax": 600
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-joker",
+    "manufacturer": "Horsch",
+    "modelFamily": "Joker (4-6 HD / CT / HD Classic / RT / RT+)",
+    "displayName": "Horsch Joker CT",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Joker_CT_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. Only the CT variant's numeric table was extracted; the sibling brochures (4-6 HD, HD Classic, RT, RT+, also in Unsorted) are the same disc-harrow concept at different disc/frame configurations but were not cross-extracted — flagged as a follow-up if those specific variants matter. Compact disc harrow, discs arranged in pairs on one arm with rubber mounting."
+    },
+    "constants": {
+      "discCuttingAngleDeg": 17,
+      "discThicknessMm": 6,
+      "hitch": "3-point, Cat II/III (3-4m) or Cat III/IV (5-7m)"
+    },
+    "variants": [
+      {
+        "sku": "Joker 3 CT",
+        "workingWidthIn": 118,
+        "transportWidthIn": 118,
+        "transportHeightIn": 63,
+        "weightMinLb": 3527,
+        "weightMaxLb": 5732,
+        "discDiameterIn": "20.5-22.8",
+        "discs": 24,
+        "hpMin": 90,
+        "hpMax": 120
+      },
+      {
+        "sku": "Joker 3.5 CT",
+        "workingWidthIn": 138,
+        "transportWidthIn": 138,
+        "transportHeightIn": 63,
+        "weightMinLb": 3968,
+        "weightMaxLb": 6283,
+        "discDiameterIn": 20.5,
+        "discs": 28,
+        "hpMin": 100,
+        "hpMax": 140
+      },
+      {
+        "sku": "Joker 4 CT",
+        "workingWidthIn": 157,
+        "transportWidthIn": 116,
+        "transportHeightIn": 94,
+        "weightMinLb": 5291,
+        "weightMaxLb": 6834,
+        "discDiameterIn": "20.5-22.8",
+        "discs": 32,
+        "hpMin": 120,
+        "hpMax": 160
+      },
+      {
+        "sku": "Joker 5 CT",
+        "workingWidthIn": 197,
+        "transportWidthIn": 116,
+        "transportHeightIn": 110,
+        "weightMinLb": 6173,
+        "weightMaxLb": 7716,
+        "discDiameterIn": "20.5-22.8",
+        "discs": 40,
+        "hpMin": 150,
+        "hpMax": 200
+      },
+      {
+        "sku": "Joker 6 CT",
+        "workingWidthIn": 236,
+        "transportWidthIn": 116,
+        "transportHeightIn": 134,
+        "weightMinLb": 6614,
+        "weightMaxLb": 8598,
+        "discDiameterIn": "20.5-22.8",
+        "discs": 48,
+        "hpMin": 180,
+        "hpMax": 240
+      },
+      {
+        "sku": "Joker 7 CT",
+        "workingWidthIn": 276,
+        "transportWidthIn": 116,
+        "transportHeightIn": 150,
+        "weightMinLb": 7716,
+        "weightMaxLb": 10031,
+        "discDiameterIn": "20.5-22.8",
+        "discs": 56,
+        "hpMin": 280,
+        "hpMax": 350
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-fortis",
+    "manufacturer": "Horsch",
+    "modelFamily": "Fortis (AS/LT)",
+    "displayName": "Horsch Fortis LT",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Fortis_LT_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. No single \"Weight\" field — source gives Axle load + Vertical load separately; total weight recorded as their sum (min and max). Only LT variant extracted; the AS variant brochure (also in Unsorted, rated to 850HP vs LT's 500HP) was not cross-extracted."
+    },
+    "constants": {
+      "tineSpacingRowCm": 108,
+      "frameHeightIn": 33.5,
+      "frameDesign": "4-bar",
+      "hitchOptions": "3-point lower link (Cat III-III/III-IV/IV-IV) or adjustable drawbar (towing eye or K80 ball head)"
+    },
+    "variants": [
+      {
+        "sku": "Fortis 4.4 LT",
+        "workingWidthIn": 181,
+        "transportWidthIn": 118,
+        "transportHeightIn": 115,
+        "weightMinLb": 12831,
+        "weightMaxLb": 16535,
+        "tines": 17,
+        "tineSpacingIn": 10.6,
+        "hpMin": 250,
+        "hpMax": 300
+      },
+      {
+        "sku": "Fortis 5.4 LT",
+        "workingWidthIn": 220,
+        "transportWidthIn": 118,
+        "transportHeightIn": 140,
+        "weightMinLb": 16358,
+        "weightMaxLb": 18739,
+        "tines": 21,
+        "tineSpacingIn": 10.6,
+        "hpMin": 275,
+        "hpMax": 394
+      },
+      {
+        "sku": "Fortis 6.4 LT",
+        "workingWidthIn": 244,
+        "transportWidthIn": 118,
+        "transportHeightIn": 148,
+        "weightMinLb": 17901,
+        "weightMaxLb": 20393,
+        "tines": 23,
+        "tineSpacingIn": 10.6,
+        "hpMin": 300,
+        "hpMax": 425
+      },
+      {
+        "sku": "Fortis 7.4 LT",
+        "workingWidthIn": 264,
+        "transportWidthIn": 118,
+        "transportHeightIn": 157,
+        "weightMinLb": 18563,
+        "weightMaxLb": 20944,
+        "tines": 25,
+        "tineSpacingIn": 10.6,
+        "hpMin": 340,
+        "hpMax": 450
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-terrano",
+    "manufacturer": "Horsch",
+    "modelFamily": "Terrano (FM/FX/GX/MT)",
+    "displayName": "Horsch Terrano FX",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Terrano_FX_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. Two weight figures given per model (shear-bolt point protection vs TerraGrip point protection) — recorded both; TerraGrip used as the primary weightLb since it's the more common configuration shown elsewhere in HORSCH literature. Only FX variant extracted; FM/GX/MT sibling brochures (also in Unsorted) were not cross-extracted."
+    },
+    "constants": {
+      "frameDesign": "3-bar",
+      "frameHeightIn": 33.5,
+      "hitch": "3-point, Cat II/III (smaller) up to Cat III/IV (5 FX)"
+    },
+    "variants": [
+      {
+        "sku": "3 FX",
+        "workingWidthIn": 118,
+        "transportWidthIn": 118,
+        "transportHeightIn": 81,
+        "weightShearBoltLb": 3064,
+        "weightLb": 4101,
+        "tines": 10,
+        "tineSpacingIn": 11.8,
+        "hpMin": 120,
+        "hpMax": 200
+      },
+      {
+        "sku": "3.5 FX",
+        "workingWidthIn": 138,
+        "transportWidthIn": 138,
+        "transportHeightIn": 81,
+        "weightShearBoltLb": 3990,
+        "weightLb": 4828,
+        "tines": 12,
+        "tineSpacingIn": 11.4,
+        "hpMin": 140,
+        "hpMax": 220
+      },
+      {
+        "sku": "4 FX",
+        "workingWidthIn": 157,
+        "transportWidthIn": 160,
+        "transportHeightIn": 81,
+        "weightShearBoltLb": 4960,
+        "weightLb": 5732,
+        "tines": 14,
+        "tineSpacingIn": 11.6,
+        "hpMin": 160,
+        "hpMax": 250
+      },
+      {
+        "sku": "R 4 FX",
+        "workingWidthIn": 157,
+        "transportWidthIn": 118,
+        "transportHeightIn": 102,
+        "weightShearBoltLb": 4850,
+        "weightLb": 6041,
+        "tines": 13,
+        "tineSpacingIn": 12.0,
+        "hpMin": 160,
+        "hpMax": 250
+      },
+      {
+        "sku": "5 FX",
+        "workingWidthIn": 197,
+        "transportWidthIn": 118,
+        "transportHeightIn": 122,
+        "weightShearBoltLb": 6614,
+        "weightLb": 8157,
+        "tines": 16,
+        "tineSpacingIn": 12.2,
+        "hpMin": 205,
+        "hpMax": 300
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-cruiser",
+    "manufacturer": "Horsch",
+    "modelFamily": "Cruiser (SL/5-6 XL/7-12 XL)",
+    "displayName": "Horsch Cruiser SL",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Cruiser_SL_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. Only SL variant extracted; the 5-6 XL and 7-12 XL sibling brochures (also in Unsorted, wider 6-bar frames per their own brochure text) were not cross-extracted."
+    },
+    "constants": {
+      "tineSpacingRowCm": 64,
+      "maxWorkingDepthIn": 5.9,
+      "frameHeightIn": 27.6,
+      "hitch": "3-point Cat III"
+    },
+    "variants": [
+      {
+        "sku": "Cruiser 4 SL",
+        "workingWidthIn": 157,
+        "transportWidthIn": 116,
+        "transportHeightIn": 89,
+        "weightMinLb": 4850,
+        "weightMaxLb": 5952,
+        "tines": 25,
+        "tineSpacingIn": 6.3,
+        "hpMin": 140,
+        "hpMax": 190
+      },
+      {
+        "sku": "Cruiser 5 SL",
+        "workingWidthIn": 195,
+        "transportWidthIn": 116,
+        "transportHeightIn": 106,
+        "weightMinLb": 5512,
+        "weightMaxLb": 7275,
+        "tines": 31,
+        "tineSpacingIn": 6.3,
+        "hpMin": 170,
+        "hpMax": 230
+      },
+      {
+        "sku": "Cruiser 6 SL",
+        "workingWidthIn": 233,
+        "transportWidthIn": 116,
+        "transportHeightIn": 126,
+        "weightMinLb": 6614,
+        "weightMaxLb": 7937,
+        "tines": 37,
+        "tineSpacingIn": 6.3,
+        "hpMin": 200,
+        "hpMax": 270
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-finer",
+    "manufacturer": "Horsch",
+    "modelFamily": "Finer (SL/XL)",
+    "displayName": "Horsch Finer XL",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Finer_XL_Brochure_English.pdf, Technical Data table p.4. Clean table, high confidence. Only XL variant extracted (2 sizes: 7 XL, 8 XL); the SL variant brochure (also in Unsorted, described as compact 50cm bar spacing) was not cross-extracted."
+    },
+    "constants": {
+      "tineSpacingRowCm": 90,
+      "frameHeightIn": 23.6,
+      "maxWorkingDepthIn": 3.9,
+      "tireDepthControlWheels": "23x10.5-12"
+    },
+    "variants": [
+      {
+        "sku": "Finer 7 XL",
+        "workingWidthIn": 278,
+        "transportWidthIn": 118,
+        "transportHeightIn": 146,
+        "weightLb": 17637,
+        "tines": 47,
+        "hpMin": 250,
+        "hpMax": 350
+      },
+      {
+        "sku": "Finer 8 XL",
+        "workingWidthIn": 313,
+        "transportWidthIn": 118,
+        "transportHeightIn": 157,
+        "weightLb": 18387,
+        "tines": 53,
+        "hpMin": 350,
+        "hpMax": 450
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-focus",
+    "manufacturer": "Horsch",
+    "modelFamily": "Focus MT",
+    "displayName": "Horsch Focus 7 MT",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Focus_MT_en.pdf, Technical Specifications table p.5. Clean table, high confidence. Only one size (Focus 7 MT) shown in this brochure — no other widths found. Strip-till bar: TurboDisc/TurboEdge coulter follows a TerraGrip tine per row, targeted loosening + fertilization + sowing. Row spacing offered as 21 rows @ 35cm or 42 rows @ 17.5cm (split-row option) on the same 7m frame."
+    },
+    "constants": {
+      "tineSpacingRowCm": 70,
+      "frameHeightIn": 33.5,
+      "tripReleaseForceLb": 1389,
+      "tripHeightIn": 10.2,
+      "workingSpeedMph": [
+        3.7,
+        6.2
+      ],
+      "coulterPressureLb": [
+        11,
+        265
+      ]
+    },
+    "variants": [
+      {
+        "sku": "Focus 7 MT",
+        "workingWidthIn": 276,
+        "transportWidthNoWagonIn": 117,
+        "transportHeightIn": 157,
+        "weightNoWagonLb": 30423,
+        "tines": 21,
+        "rowOptions": "21 rows @ 35cm (13.8in) or 42 rows @ 17.5cm (6.9in)",
+        "seedWagonSW12000WeightLb": 7716,
+        "seedWagonSW17003WeightLb": 11155
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-cultro",
+    "manufacturer": "Horsch",
+    "modelFamily": "Cultro TC",
+    "displayName": "Horsch Cultro TC",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Cultro_TC_Brochure_English.pdf, Technical Data table (unpaginated, near end of brochure). Clean table, high confidence. Knife roller for residue crushing, can be front- or rear-mounted (TC3/5/6 give separate front/rear weights for the two mounting options; TC9/12/18 give only rear-mount weight, or axle+vertical load for the largest two which are presumably towed/semi-mounted). Weight recorded as the rear-mount figure (or axle+vertical sum for TC12/TC18) since that's given for every size."
+    },
+    "constants": {
+      "knifeRollerDiameterIn": 11.8,
+      "hitch": "3-point Cat II/III (TC3-TC9); ring hitch, ball-joint, or K80 ball head (TC12/TC18)"
+    },
+    "variants": [
+      {
+        "sku": "Cultro 3 TC",
+        "workingWidthIn": 114,
+        "transportWidthIn": 118,
+        "transportHeightIn": 48,
+        "weightMinLb": 3968,
+        "weightMaxLb": 4630,
+        "hpMin": 80,
+        "hpMax": 150
+      },
+      {
+        "sku": "Cultro 5 TC",
+        "workingWidthIn": 181,
+        "transportWidthIn": 93,
+        "transportHeightIn": 104,
+        "weightMinLb": 5291,
+        "weightMaxLb": 6393,
+        "hpMin": 130,
+        "hpMax": 200
+      },
+      {
+        "sku": "Cultro 6 TC",
+        "workingWidthIn": 224,
+        "transportWidthIn": 93,
+        "transportHeightIn": 126,
+        "weightMinLb": 5512,
+        "weightMaxLb": 6834,
+        "hpMin": 150,
+        "hpMax": 220
+      },
+      {
+        "sku": "Cultro 9 TC",
+        "workingWidthIn": 350,
+        "transportWidthIn": 117,
+        "transportHeightIn": 148,
+        "weightMinLb": 7893,
+        "weightMaxLb": 10538,
+        "hpMin": 190,
+        "hpMax": 290
+      },
+      {
+        "sku": "Cultro 12 TC",
+        "workingWidthIn": 480,
+        "transportWidthIn": 118,
+        "transportHeightIn": 132,
+        "weightMinLb": 16094,
+        "weightMaxLb": 19842,
+        "hpMin": 270,
+        "hpMax": 350
+      },
+      {
+        "sku": "Cultro 18 TC",
+        "workingWidthIn": 717,
+        "transportWidthIn": 118,
+        "transportHeightIn": 145,
+        "weightMinLb": 23589,
+        "weightMaxLb": 28000,
+        "hpMin": 320,
+        "hpMax": 450
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-cura",
+    "manufacturer": "Horsch",
+    "modelFamily": "Cura (ST/VT)",
+    "displayName": "Horsch Cura ST",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Cura_ST_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. CATEGORY STILL TENTATIVE (carried over from the Spec Desk flag): this is a full-width blind-harrow for mechanical weed control (tine pressure 300g to >5000g, used for blind harrowing / crust breaking / keeping soil brown per the brochure's own description) — not a row-following inter-row tool, so \"Row Crop Cultivators\" may not be the right fit; recommend reviewing against the app's actual category definitions before treating this as a normal row-crop entry. Working width is given as three figures per model (e.g. \"6.15 / 4.20 / 2.30\" m) — read as max/mid/min via a telescoping or foldable frame; recorded as a min-max range rather than picking one number."
+    },
+    "constants": {
+      "barSpacingMm": 200,
+      "tineSpacingMm": 28,
+      "tineDiameterMm": 8,
+      "frameHeightMm": 450,
+      "tinePressureG": "300 to >5000",
+      "tineAngleOptions": "100 or 125 degrees"
+    },
+    "variants": [
+      {
+        "sku": "Cura 6 ST",
+        "workingWidthMaxIn": 242,
+        "workingWidthMinIn": 91,
+        "transportWidthIn": 110,
+        "transportHeightIn": 109,
+        "weightLb": 2866,
+        "hpMin": 90
+      },
+      {
+        "sku": "Cura 9 ST",
+        "workingWidthMaxIn": 360,
+        "workingWidthMinIn": 106,
+        "transportWidthIn": 116,
+        "transportHeightIn": 152,
+        "weightLb": 3527,
+        "hpMin": 100
+      },
+      {
+        "sku": "Cura 12 ST",
+        "workingWidthMaxIn": 480,
+        "workingWidthMinIn": 303,
+        "transportWidthIn": 116,
+        "transportHeightIn": 142,
+        "weightLb": 5071,
+        "hpMin": 120
+      },
+      {
+        "sku": "Cura 13 ST",
+        "workingWidthMaxIn": 539,
+        "workingWidthMinIn": 315,
+        "transportWidthIn": 116,
+        "transportHeightIn": 146,
+        "weightLb": 5512,
+        "hpMin": 135
+      },
+      {
+        "sku": "Cura 15 ST",
+        "workingWidthMaxIn": 598,
+        "workingWidthMinIn": 343,
+        "transportWidthIn": 116,
+        "transportHeightIn": 152,
+        "weightLb": 6173,
+        "hpMin": 150
+      },
+      {
+        "sku": "Cura 24 ST",
+        "workingWidthMaxIn": 965,
+        "transportWidthIn": 116,
+        "transportHeightIn": 144,
+        "weightLb": 19180,
+        "hpMin": 200
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-transformer",
+    "manufacturer": "Horsch",
+    "modelFamily": "Transformer VF",
+    "displayName": "Horsch Transformer VF",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Transformer_VF_Brochure_English.pdf, Technical Data table p.6. Clean table, high confidence. Confirmed genuine row-crop cultivator via its own body text: camera-guided inter-row hoe with a 450mm-travel side-slide frame for precise row tracking — unlike Cura, this one IS a row-following tool, category confidently assigned."
+    },
+    "constants": {
+      "frameHeightFieldMm": 750,
+      "rowSpacingOptionsIn": [
+        10,
+        20,
+        30
+      ],
+      "tireSupportWheels": "23x10.50-12",
+      "sideSlideTravelMm": 450,
+      "note": "Row spacing also offered in a wide metric menu (15/25/30/45/50/60/70/75/80cm) alongside the 10/20/30in options — both systems given in the source, recorded here as the inch menu since this library's convention is inches."
+    },
+    "variants": [
+      {
+        "sku": "Transformer 4 VF",
+        "workingWidthIn": 189,
+        "transportWidthIn": 116,
+        "transportHeightIn": 122,
+        "weightLb": 3307,
+        "hpMin": 120
+      },
+      {
+        "sku": "Transformer 6 VF",
+        "workingWidthIn": 236,
+        "transportWidthIn": 116,
+        "transportHeightIn": 122,
+        "weightLb": 3748,
+        "hpMin": 120
+      },
+      {
+        "sku": "Transformer 9 VF",
+        "workingWidthIn": 354,
+        "workingWidthNarrowIn": 236,
+        "transportWidthIn": 116,
+        "transportHeightIn": 123,
+        "weightLb": 6504,
+        "hpMin": 190
+      },
+      {
+        "sku": "Transformer 9 VF+",
+        "workingWidthIn": 354,
+        "transportWidthIn": 138,
+        "transportHeightIn": 167,
+        "weightLb": 8378,
+        "hpMin": 190
+      },
+      {
+        "sku": "Transformer 12 VF",
+        "workingWidthIn": 472,
+        "transportWidthIn": 116,
+        "transportHeightIn": 156,
+        "weightLb": 7716,
+        "hpMin": 250
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-cruiser-xl",
+    "manufacturer": "Horsch",
+    "modelFamily": "Cruiser XL",
+    "displayName": "HORSCH Cruiser XL Cultivator",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Cruiser_5-6_XL_Brochure_English.pdf (5/6 XL) and Cruiser_7-12_XL_Brochure_English.pdf (7/9/12 XL), HORSCH brochures, Technical Data p.6 each. Metric as printed. Two \"tine spacing\" rows are given (row-to-row ~92-102 cm and effective ~15-17 cm); the effective spacing is recorded. Frame height 650 mm on 7/9 XL. Axle/vertical loads are ranges by equipment."
+    },
+    "constants": {
+      "maxWorkingDepthCm": 15,
+      "frameHeightMm": 600
+    },
+    "variants": [
+      {
+        "sku": "Cruiser 5 XL",
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.3,
+        "lengthM": 10.21,
+        "axleLoadKg": "4800-6700",
+        "verticalLoadKg": "850-1350",
+        "tines": 33,
+        "tineSpacingCm": 15.3,
+        "hpKwHp": "145-220 kW / 200-300 hp"
+      },
+      {
+        "sku": "Cruiser 6 XL",
+        "workingWidthM": 5.96,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.7,
+        "lengthM": 10.21,
+        "axleLoadKg": "5600-7600",
+        "verticalLoadKg": "850-1500",
+        "tines": 39,
+        "tineSpacingCm": 15.3,
+        "hpKwHp": "205-295 kW / 280-400 hp"
+      },
+      {
+        "sku": "Cruiser 7 XL",
+        "workingWidthM": 7.5,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthM": 10.2,
+        "axleLoadKg": "6800-8300",
+        "verticalLoadKg": "1300-2300",
+        "tines": 43,
+        "tineSpacingCm": 17,
+        "hpKwHp": "290-395 kW / 390-530 hp"
+      },
+      {
+        "sku": "Cruiser 9 XL",
+        "workingWidthM": 9.0,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthM": 10.1,
+        "axleLoadKg": "8900-10800",
+        "verticalLoadKg": "1400-2500",
+        "tines": 53,
+        "tineSpacingCm": 17,
+        "hpKwHp": "295-405 kW / 400-550 hp"
+      },
+      {
+        "sku": "Cruiser 12 XL",
+        "workingWidthM": 12.0,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthM": 9.5,
+        "axleLoadKg": "10000",
+        "verticalLoadKg": "4000",
+        "tines": 69,
+        "tineSpacingCm": 17,
+        "hpKwHp": "367-441 kW / 500-600 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-cura-vt",
+    "manufacturer": "Horsch",
+    "modelFamily": "Cura VT",
+    "displayName": "HORSCH Cura VT Tine Weeder (harrow)",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Cura/Cura_VT_Brochure_English.pdf (HORSCH brochure), Technical Data p.2. Metric values as printed (source units; decimal commas converted)."
+    },
+    "constants": {
+      "barSpacingMm": 200,
+      "tineSpacingMm": 28,
+      "bars": 6
+    },
+    "variants": [
+      {
+        "sku": "Cura 12 VT",
+        "workingWidthM": 12.2,
+        "transportWidthM": 2.95,
+        "transportHeightM": 3.6,
+        "lengthM": 2.9,
+        "weightKg": 2400
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-finer-sl",
+    "manufacturer": "Horsch",
+    "modelFamily": "Finer SL",
+    "displayName": "HORSCH Finer SL Cultivator (3-point)",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Finer/Finer_SL_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted). Weight depends on equipment."
+    },
+    "constants": {
+      "maxWorkingDepthCm": 10,
+      "frameHeightCm": 58.5,
+      "hitch": "3-point Cat III/IV"
+    },
+    "variants": [
+      {
+        "sku": "Finer 5 SL",
+        "workingWidthM": 5,
+        "transportWidthM": 2.7,
+        "transportHeightM": 2.75,
+        "weightKgRange": "2000-3400",
+        "tines": 33,
+        "tineSpacingCm": 15.2,
+        "hpKwHp": "90-175 kW / 120-240 hp"
+      },
+      {
+        "sku": "Finer 6 SL",
+        "workingWidthM": 6,
+        "transportWidthM": 2.7,
+        "transportHeightM": 3.25,
+        "weightKgRange": "2150-3700",
+        "tines": 39,
+        "tineSpacingCm": 15.4,
+        "hpKwHp": "115-200 kW / 160-270 hp"
+      },
+      {
+        "sku": "Finer 7 SL",
+        "workingWidthM": 7,
+        "transportWidthM": 2.7,
+        "transportHeightM": 3.75,
+        "weightKgRange": "2300-4000",
+        "tines": 45,
+        "tineSpacingCm": 15.6,
+        "hpKwHp": "130-220 kW / 180-300 hp"
+      },
+      {
+        "sku": "Finer 8 SL",
+        "workingWidthM": 8,
+        "transportWidthM": 2.7,
+        "transportHeightM": 4.25,
+        "weightKgRange": "2450-3600",
+        "tines": 53,
+        "tineSpacingCm": 15.1,
+        "hpKwHp": "150-250 kW / 200-340 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-fortis-as",
+    "manufacturer": "Horsch",
+    "modelFamily": "Fortis AS",
+    "displayName": "HORSCH Fortis AS Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Fortis/Fortis_AS_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted). Fortis 9 AS: transport width 3.50 m / height 4.30 m with mechanical TerraGrip."
+    },
+    "constants": {
+      "frameHeightMm": 850
+    },
+    "variants": [
+      {
+        "sku": "Fortis 6 AS",
+        "workingWidthM": 5.6,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.5,
+        "lengthM": 9.3,
+        "axleLoadKg": "6700-8200",
+        "verticalLoadKg": "500-1450",
+        "tines": 21,
+        "tineSpacingCm": 27,
+        "hpKwHp": "260-400 kW / 350-550 hp"
+      },
+      {
+        "sku": "Fortis 7 AS",
+        "workingWidthM": 6.7,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.99,
+        "lengthM": 9.3,
+        "axleLoadKg": "7300-8800",
+        "verticalLoadKg": "600-1500",
+        "tines": 25,
+        "tineSpacingCm": 27,
+        "hpKwHp": "290-440 kW / 400-600 hp"
+      },
+      {
+        "sku": "Fortis 8 AS",
+        "workingWidthM": 8.27,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthM": "9.20-10.20",
+        "axleLoadKg": "10000-11000",
+        "verticalLoadKg": "620-1000",
+        "tines": 29,
+        "tineSpacingCm": 28.5,
+        "hpKwHp": "370 kW / 500 hp"
+      },
+      {
+        "sku": "Fortis 9 AS",
+        "workingWidthM": 8.9,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.99,
+        "lengthM": 9.5,
+        "axleLoadKg": "9100-11500",
+        "verticalLoadKg": "1100-2400",
+        "tines": 33,
+        "tineSpacingCm": 27,
+        "hpKwHp": "370-510 kW / 500-700 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-joker-hd",
+    "manufacturer": "Horsch",
+    "modelFamily": "Joker HD",
+    "displayName": "HORSCH Joker 4-6 HD Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Joker/Joker_4_-_6_HD_Brochure_English.pdf (HORSCH brochure), Technical Data p.5. Metric values as printed (source units; decimal commas converted)."
+    },
+    "constants": {
+      "discThicknessMm": 6,
+      "cuttingAngleDeg": 17
+    },
+    "variants": [
+      {
+        "sku": "Joker 4 HD",
+        "workingWidthM": 4.15,
+        "discDiameterCm": "62-68",
+        "transportWidthM": 3.0,
+        "transportHeightM": 3.01,
+        "lengthM": 8.5,
+        "axleLoadKg": "3300-5700",
+        "verticalLoadKg": "1900-3900",
+        "discs": 34,
+        "hpKwHp": "145-255 kW / 200-350 hp"
+      },
+      {
+        "sku": "Joker 5 HD",
+        "workingWidthM": 5.15,
+        "discDiameterCm": "62-68",
+        "transportWidthM": 3.0,
+        "transportHeightM": 3.57,
+        "lengthM": 8.5,
+        "axleLoadKg": "4400-7100",
+        "verticalLoadKg": "2800-4500",
+        "discs": 42,
+        "hpKwHp": "185-295 kW / 250-400 hp"
+      },
+      {
+        "sku": "Joker 6 HD",
+        "workingWidthM": 6.15,
+        "discDiameterCm": "62-68",
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthM": 8.5,
+        "axleLoadKg": "4700-7600",
+        "verticalLoadKg": "2800-4600",
+        "discs": 50,
+        "hpKwHp": "255-400 kW / 350-550 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-joker-hd-classic",
+    "manufacturer": "Horsch",
+    "modelFamily": "Joker HD Classic",
+    "displayName": "HORSCH Joker HD Classic Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Joker/Joker_HD_Classic_Brochure_English.pdf (HORSCH brochure), Technical Data p.5. Metric values as printed (source units; decimal commas converted). The 8 HD Classic working width is printed as 7 m."
+    },
+    "constants": {
+      "discThicknessMm": 6,
+      "cuttingAngleDeg": 17
+    },
+    "variants": [
+      {
+        "sku": "Joker 5 HD Classic",
+        "workingWidthM": 5,
+        "discDiameterCm": 62,
+        "transportWidthM": 3,
+        "transportHeightM": 3.3,
+        "lengthM": 7.1,
+        "axleLoadKg": "5200-6400",
+        "verticalLoadKg": "1200-1900",
+        "discs": 42,
+        "hpKwHp": "130-170 kW / 180-230 hp"
+      },
+      {
+        "sku": "Joker 6 HD Classic",
+        "workingWidthM": 6,
+        "discDiameterCm": 62,
+        "transportWidthM": 3,
+        "transportHeightM": 3.7,
+        "lengthM": 7.1,
+        "axleLoadKg": "5700-6800",
+        "verticalLoadKg": "1300-2000",
+        "discs": 50,
+        "hpKwHp": "160-180 kW / 220-250 hp"
+      },
+      {
+        "sku": "Joker 8 HD Classic",
+        "workingWidthM": 7,
+        "discDiameterCm": 62,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 7.1,
+        "axleLoadKg": "6200-7500",
+        "verticalLoadKg": "1300-2000",
+        "discs": 58,
+        "hpKwHp": "220-260 kW / 300-350 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-joker-rt",
+    "manufacturer": "Horsch",
+    "modelFamily": "Joker RT",
+    "displayName": "HORSCH Joker RT / RT+ Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Joker/Joker_RT_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted). 10/12 RT+ from Joker_RT__Brochure_English.pdf (EN-60208843, 03/2026), Technical Data p.5."
+    },
+    "constants": {
+      "discThicknessMm": 6,
+      "cuttingAngleDeg": 17
+    },
+    "variants": [
+      {
+        "sku": "Joker 5 RT",
+        "workingWidthM": 5.15,
+        "discDiameterCm": "52-58",
+        "transportWidthM": 3,
+        "transportHeightM": 3.18,
+        "lengthM": "6.96/7.56",
+        "axleLoadKg": "3300-5500",
+        "verticalLoadKg": "1500-3000",
+        "discs": 44,
+        "hpKwHp": "120-160 kW / 160-220 hp"
+      },
+      {
+        "sku": "Joker 6 RT",
+        "workingWidthM": 6.15,
+        "discDiameterCm": "52-58",
+        "transportWidthM": 3,
+        "transportHeightM": 3.6,
+        "lengthM": "6.96/7.56",
+        "axleLoadKg": "3600-5700",
+        "verticalLoadKg": "1800-3400",
+        "discs": 52,
+        "hpKwHp": "140-185 kW / 190-250 hp"
+      },
+      {
+        "sku": "Joker 7 RT+",
+        "workingWidthM": 7.15,
+        "discDiameterCm": "52-58",
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": "6.96/7.56",
+        "axleLoadKg": "4200-6200",
+        "verticalLoadKg": "2200-3700",
+        "discs": 60,
+        "hpKwHp": "175-235 kW / 240-320 hp"
+      },
+      {
+        "sku": "Joker 8 RT",
+        "workingWidthM": 8.15,
+        "discDiameterCm": 52,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": "7.36/7.60",
+        "axleLoadKg": "5500-7400",
+        "verticalLoadKg": "3100-4500",
+        "discs": 68,
+        "hpKwHp": "205-280 kW / 280-380 hp"
+      },
+      {
+        "sku": "Joker 10 RT",
+        "workingWidthM": 9.75,
+        "discDiameterCm": 52,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 7.7,
+        "axleLoadKg": "7700-10000",
+        "verticalLoadKg": "2300-2750",
+        "discs": 80,
+        "hpKwHp": "220-310 kW / 300-420 hp"
+      },
+      {
+        "sku": "Joker 12 RT",
+        "workingWidthM": 12.25,
+        "discDiameterCm": 52,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 7.7,
+        "axleLoadKg": "9700-11300",
+        "verticalLoadKg": "2400-3000",
+        "discs": 98,
+        "hpKwHp": "265-350 kW / 360-480 hp"
+      },
+      {
+        "sku": "Joker 10 RT+",
+        "workingWidthM": 10.15,
+        "discDiameterCm": "52-58",
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 9.3,
+        "axleLoadKg": "9200-14000",
+        "verticalLoadKg": "1300-3000",
+        "discs": 83,
+        "hpKwHp": "220-310 kW / 300-420 hp"
+      },
+      {
+        "sku": "Joker 12 RT+",
+        "workingWidthM": 12.15,
+        "discDiameterCm": "52-58",
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 9.3,
+        "axleLoadKg": "9500-15000",
+        "verticalLoadKg": "1800-3600",
+        "discs": 99,
+        "hpKwHp": "265-350 kW / 360-480 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-terrano-fm",
+    "manufacturer": "Horsch",
+    "modelFamily": "Terrano FM",
+    "displayName": "HORSCH Terrano FM Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Terrano/Terrano_FM_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted). Length without tow hook."
+    },
+    "constants": {
+      "frameHeightMm": 750
+    },
+    "variants": [
+      {
+        "sku": "Terrano 5 FM",
+        "workingWidthM": 4.8,
+        "transportWidthM": 3,
+        "transportHeightM": 3.3,
+        "lengthM": 9.25,
+        "weightKgShearBolt": 6000,
+        "weightKgTerraGrip": 6600,
+        "tines": 17,
+        "tineSpacingCm": 28,
+        "hpKwHp": "150-220 kW / 205-300 hp"
+      },
+      {
+        "sku": "Terrano 6 FM",
+        "workingWidthM": 5.9,
+        "transportWidthM": 3,
+        "transportHeightM": 3.85,
+        "lengthM": 9.25,
+        "weightKgShearBolt": 6750,
+        "weightKgTerraGrip": 7500,
+        "tines": 21,
+        "tineSpacingCm": 28,
+        "hpKwHp": "175-265 kW / 240-360 hp"
+      },
+      {
+        "sku": "Terrano 7 FM",
+        "workingWidthM": 7.0,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 9.25,
+        "weightKgShearBolt": 7500,
+        "weightKgTerraGrip": 8400,
+        "tines": 25,
+        "tineSpacingCm": 28,
+        "hpKwHp": "220-290 kW / 300-395 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-terrano-gx",
+    "manufacturer": "Horsch",
+    "modelFamily": "Terrano GX",
+    "displayName": "HORSCH Terrano GX Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Terrano/Terrano_GX_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted)."
+    },
+    "constants": {
+      "frameHeightMm": 850
+    },
+    "variants": [
+      {
+        "sku": "Terrano 4.3 GX",
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.99,
+        "transportHeightM": 2.83,
+        "lengthM": 8.61,
+        "axleLoadKg": "4000-5700",
+        "verticalLoadKg": "500-950",
+        "tines": 13,
+        "tineSpacingCm": 31,
+        "hpKwHp": "130-170 kW / 175-230 hp"
+      },
+      {
+        "sku": "Terrano 5.3 GX",
+        "workingWidthM": 4.9,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.36,
+        "lengthM": 8.61,
+        "axleLoadKg": "4700-6900",
+        "verticalLoadKg": "650-1400",
+        "tines": 16,
+        "tineSpacingCm": 31,
+        "hpKwHp": "175-210 kW / 240-285 hp"
+      },
+      {
+        "sku": "Terrano 6.3 GX",
+        "workingWidthM": 5.9,
+        "transportWidthM": 2.99,
+        "transportHeightM": 3.85,
+        "lengthM": 8.68,
+        "axleLoadKg": "5600-7800",
+        "verticalLoadKg": "750-1500",
+        "tines": 19,
+        "tineSpacingCm": 31.5,
+        "hpKwHp": "220-260 kW / 300-350 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-terrano-mt",
+    "manufacturer": "Horsch",
+    "modelFamily": "Terrano MT",
+    "displayName": "HORSCH Terrano MT Cultivator (discs + tines)",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Terrano/Terrano_MT_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted)."
+    },
+    "constants": {
+      "discDiameterCm": 52,
+      "frameHeightMm": 850
+    },
+    "variants": [
+      {
+        "sku": "Terrano 4 MT",
+        "workingWidthM": 4.4,
+        "transportWidthM": 3,
+        "transportHeightM": 3.2,
+        "lengthM": 9.25,
+        "weightKg": 6730,
+        "tines": 11,
+        "tineSpacingCm": 40,
+        "discs": 36,
+        "hpKwHp": "150-200 kW / 180-250 hp"
+      },
+      {
+        "sku": "Terrano 6 MT",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3,
+        "transportHeightM": 4.0,
+        "lengthM": 9.25,
+        "weightKg": 7950,
+        "tines": 15,
+        "tineSpacingCm": 40,
+        "discs": 48,
+        "hpKwHp": "200-270 kW / 270-370 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-tiger-as",
+    "manufacturer": "Horsch",
+    "modelFamily": "Tiger AS",
+    "displayName": "HORSCH Tiger AS Deep Cultivator",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Tiger/Tiger_AS_Brochure_English.pdf (HORSCH brochure), Technical Data p.8. Metric values as printed (source units; decimal commas converted). Length 7.95-8.65 m depending on packer."
+    },
+    "constants": {
+      "frameHeightMm": 850
+    },
+    "variants": [
+      {
+        "sku": "Tiger 3 AS",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3,
+        "transportHeightM": 1.9,
+        "weightKg": 3540,
+        "tines": 13,
+        "tineSpacingCm": 23,
+        "hpKwHp": "110-220 kW / 150-300 hp"
+      },
+      {
+        "sku": "Tiger 4 AS",
+        "workingWidthM": 4.0,
+        "transportWidthM": 3,
+        "transportHeightM": 2.9,
+        "weightKg": 5380,
+        "tines": 17,
+        "tineSpacingCm": 23.5,
+        "hpKwHp": "145-270 kW / 200-370 hp"
+      },
+      {
+        "sku": "Tiger 5 AS",
+        "workingWidthM": 4.8,
+        "transportWidthM": 3,
+        "transportHeightM": 3.3,
+        "weightKg": 6120,
+        "tines": 21,
+        "tineSpacingCm": 23,
+        "hpKwHp": "185-330 kW / 250-450 hp"
+      },
+      {
+        "sku": "Tiger 6 AS",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3,
+        "transportHeightM": 3.8,
+        "weightKg": 7210,
+        "tines": 25,
+        "tineSpacingCm": 24,
+        "hpKwHp": "220-400 kW / 300-550 hp"
+      },
+      {
+        "sku": "Tiger 8 AS",
+        "workingWidthM": 7.5,
+        "transportWidthM": 3,
+        "transportHeightM": "4.00/4.15",
+        "weightKg": 8770,
+        "tines": 33,
+        "tineSpacingCm": 23,
+        "hpKwHp": "275-440 kW / 375-600 hp"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-tiger-mt",
+    "manufacturer": "Horsch",
+    "modelFamily": "Tiger MT",
+    "displayName": "HORSCH Tiger MT Cultivator (discs + tines)",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Tiger/Tiger_MT_Brochure_English.pdf (HORSCH brochure), Technical Data p.8. Metric values as printed (source units; decimal commas converted). Weight not given (axle/vertical load ranges by packer type are in the source); hp row truncated in the text layer and omitted."
+    },
+    "constants": {
+      "frameHeightMm": 850
+    },
+    "variants": [
+      {
+        "sku": "Tiger 3 MT",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "transportHeightM": 2.4,
+        "discs": 14,
+        "tines": 7,
+        "tineSpacingCm": 43
+      },
+      {
+        "sku": "Tiger 4 MT R",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.05,
+        "transportHeightM": 2.4,
+        "discs": 18,
+        "tines": 9,
+        "tineSpacingCm": 47
+      },
+      {
+        "sku": "Tiger 4 MT",
+        "workingWidthM": 4.0,
+        "transportWidthM": 3.0,
+        "transportHeightM": 2.9,
+        "discs": 20,
+        "tines": 9,
+        "tineSpacingCm": 47
+      },
+      {
+        "sku": "Tiger 5 MT",
+        "workingWidthM": 4.8,
+        "transportWidthM": 3,
+        "transportHeightM": 3.2,
+        "discs": 24,
+        "tines": 11,
+        "tineSpacingCm": 45.5
+      },
+      {
+        "sku": "Tiger 6 MT",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3,
+        "transportHeightM": 3.6,
+        "discs": 28,
+        "tines": 13,
+        "tineSpacingCm": 48
+      },
+      {
+        "sku": "Tiger 8 MT",
+        "workingWidthM": 7.5,
+        "transportWidthM": 3,
+        "transportHeightM": "4.00/4.15",
+        "discs": 36,
+        "tines": 17,
+        "tineSpacingCm": 45
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "horsch-tiger-sl",
+    "manufacturer": "Horsch",
+    "modelFamily": "Tiger SL",
+    "displayName": "HORSCH Tiger SL Mounted Deep Cultivator",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Tiger/Tiger_SL_Brochure_English.pdf (HORSCH brochure), Technical Data p.6. Metric values as printed (source units; decimal commas converted)."
+    },
+    "constants": {
+      "frameHeightMm": 850,
+      "hitch": "3-point Cat III/IV"
+    },
+    "variants": [
+      {
+        "sku": "Tiger 3 SL",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "transportHeightM": 1.65,
+        "weightKgRange": "2200-2900",
+        "tines": 13,
+        "tineSpacingCm": 23,
+        "hpKwHp": "185-294 kW / 250-400 hp"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

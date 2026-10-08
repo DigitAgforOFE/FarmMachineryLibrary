@@ -1,0 +1,4427 @@
+[
+  {
+    "id": "great-plains-vt1200-ultra-chisel",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1200 Ultra-Chisel",
+    "displayName": "Great Plains VT1200 Ultra-Chisel",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "3385E2-GPM product profile, GreatPlainsAg.com, 2026. Confirmed against pypdf text extraction after an initial Read-tool pass, matched exactly."
+    },
+    "constants": {
+      "shankSpacingOptionsIn": [
+        9,
+        12
+      ],
+      "shankTripForceLb": 900,
+      "chiselPointOptions": "2 in straight or 7 in winged points",
+      "underframeClearanceIn": 30,
+      "depthControl": "Single-point depth control",
+      "rockingBolster": "Patented center-compensating rocking bolster, standard on all sizes",
+      "hitch": "Floating hitch",
+      "maxOperatingSpeedMph": 7.5,
+      "residueRemovalDepthMaxIn": 8
+    },
+    "variants": [
+      {
+        "sku": "VT1200-2409",
+        "workingWidthIn": 288,
+        "shankSpacingIn": 9,
+        "transportWidthIn": 164,
+        "transportHeightIn": 148,
+        "engineHpMin": 250,
+        "engineHpMax": 300,
+        "shanks": 33
+      },
+      {
+        "sku": "VT1200-2412",
+        "workingWidthIn": 288,
+        "shankSpacingIn": 12,
+        "transportWidthIn": 164,
+        "transportHeightIn": 142,
+        "engineHpMin": 250,
+        "engineHpMax": 300,
+        "shanks": 24
+      },
+      {
+        "sku": "VT1200-3009",
+        "workingWidthIn": 351,
+        "shankSpacingIn": 9,
+        "transportWidthIn": 164,
+        "transportHeightIn": 175,
+        "engineHpMin": 300,
+        "engineHpMax": 360,
+        "shanks": 39
+      },
+      {
+        "sku": "VT1200-3012",
+        "workingWidthIn": 360,
+        "shankSpacingIn": 12,
+        "transportWidthIn": 164,
+        "transportHeightIn": 178,
+        "engineHpMin": 300,
+        "engineHpMax": 360,
+        "shanks": 30
+      },
+      {
+        "sku": "VT1200-3612",
+        "workingWidthIn": 432,
+        "shankSpacingIn": 12,
+        "transportWidthIn": 222,
+        "transportHeightIn": 172,
+        "engineHpMin": 380,
+        "engineHpMax": 450,
+        "shanks": 36
+      },
+      {
+        "sku": "VT1200-4212",
+        "workingWidthIn": 504,
+        "shankSpacingIn": 12,
+        "transportWidthIn": 251,
+        "transportHeightIn": 161,
+        "engineHpMin": 450,
+        "engineHpMax": 500,
+        "shanks": 42
+      },
+      {
+        "sku": "VT1200-4612",
+        "workingWidthIn": 552,
+        "shankSpacingIn": 12,
+        "transportWidthIn": 251,
+        "transportHeightIn": 166,
+        "engineHpMin": 500,
+        "engineHpMax": 550,
+        "shanks": 46
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ht1110-terra-max",
+    "manufacturer": "Great Plains",
+    "modelFamily": "HT1110 Terra-Max",
+    "displayName": "Great Plains HT1110 Terra-Max (Narrow-Transport Turbo-Max)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2890C-GPM product profile, GreatPlainsAg.com, 2024. Extracted via pypdf text layer after the Read tool's image-render path failed (pdftoppm unavailable). Metric 6.0 m / 7.5 m models from 588-206m.pdf (Specifications and Capacities). "
+    },
+    "constants": {
+      "coulterSpacingIn": 7.5,
+      "bladeDiameterIn": 20,
+      "bladeType": "TurboSpeed (Turbo-wave + SpeedBlade scalloped profile)",
+      "gangAngleAdjustFrontDeg": [
+        0,
+        8
+      ],
+      "gangAngleAdjustRearDeg": [
+        0,
+        6
+      ],
+      "operatingSpeedMphRange": [
+        7,
+        10
+      ],
+      "operatingDepthRangeIn": [
+        2,
+        5
+      ],
+      "frameType": "Folding",
+      "hitch": "Constant level hitch"
+    },
+    "variants": [
+      {
+        "sku": "HT1110-20",
+        "workingWidthIn": 240,
+        "transportWidthIn": 140,
+        "transportHeightIn": 134,
+        "engineHpMin": 180,
+        "blades": 66,
+        "coulters": 66,
+        "weightLb": 20700
+      },
+      {
+        "sku": "HT1110-25",
+        "workingWidthIn": 300,
+        "transportWidthIn": 140,
+        "transportHeightIn": 156,
+        "engineHpMin": 230,
+        "blades": 82,
+        "coulters": 82,
+        "weightLb": 25000
+      },
+      {
+        "sku": "HT1110-6.0M",
+        "productLine": "metric export model",
+        "tillageWidthM": 6.0,
+        "centerSectionM": 2.97,
+        "coulters": 66,
+        "bladeSpacingCm": 19,
+        "weightKgNoWeightPacks": 9550,
+        "hitchLoadKg": 533,
+        "axleLoadKg": 9017,
+        "transportWidthM": 3.0,
+        "transportHeightM": 3.5,
+        "lengthWithAttachmentM": 7.0,
+        "hpPtoRange": "180-230"
+      },
+      {
+        "sku": "HT1110-7.5M",
+        "productLine": "metric export model",
+        "tillageWidthM": 7.5,
+        "centerSectionM": 2.97,
+        "coulters": 82,
+        "bladeSpacingCm": 19,
+        "weightKgNoWeightPacks": 11430,
+        "hitchLoadKg": 460,
+        "axleLoadKg": 10970,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthWithAttachmentM": 7.0,
+        "hpPtoRange": "230-285"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-vt1110-turbo-max",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1110 Turbo-Max",
+    "displayName": "Great Plains VT1110 Turbo-Max (Narrow-Transport Turbo-Max)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2890D-GPM product profile, GreatPlainsAg.com, 2024. Extracted via pypdf text layer after the Read tool's image-render path failed (pdftoppm unavailable). Metric 6.0 m / 7.5 m models from 588-689m.pdf (Specifications and Capacities). The VT1110 metric table prints the 7.5 m axle load in lb as 1,015 (copy error; 10,970 kg is ~24,184 lb)."
+    },
+    "constants": {
+      "coulterSpacingIn": 7.5,
+      "bladeDiameterOptionsIn": [
+        20,
+        22
+      ],
+      "gangAngleAdjustDeg": [
+        0,
+        6
+      ],
+      "operatingSpeedMphRange": [
+        7,
+        10
+      ],
+      "operatingDepthRangeIn": [
+        1,
+        5
+      ],
+      "frameType": "Folding",
+      "hitch": "Multiple hitch options, constant level standard"
+    },
+    "variants": [
+      {
+        "sku": "VT1110-20",
+        "workingWidthIn": 240,
+        "transportWidthIn": 140,
+        "transportHeightIn": 134,
+        "engineHpMin": 180,
+        "blades": 65,
+        "coulters": 65,
+        "weightLb": 20700
+      },
+      {
+        "sku": "VT1110-25",
+        "workingWidthIn": 300,
+        "transportWidthIn": 140,
+        "transportHeightIn": 156,
+        "engineHpMin": 230,
+        "blades": 81,
+        "coulters": 81,
+        "weightLb": 25000
+      },
+      {
+        "sku": "VT1110-6.0M",
+        "productLine": "metric export model",
+        "tillageWidthM": 6.0,
+        "centerSectionM": 2.97,
+        "coulters": 66,
+        "bladeSpacingCm": 19,
+        "weightKgNoWeightPacks": 9550,
+        "hitchLoadKg": 533,
+        "axleLoadKg": 9017,
+        "transportWidthM": 3.0,
+        "transportHeightM": 3.5,
+        "lengthWithAttachmentM": 7.0,
+        "hpPtoRange": "180-230"
+      },
+      {
+        "sku": "VT1110-7.5M",
+        "productLine": "metric export model",
+        "tillageWidthM": 7.5,
+        "centerSectionM": 2.97,
+        "coulters": 82,
+        "bladeSpacingCm": 19,
+        "weightKgNoWeightPacks": 11430,
+        "hitchLoadKg": 460,
+        "axleLoadKg": 10970,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthWithAttachmentM": 7.0,
+        "hpPtoRange": "230-285"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ct8400-ct8410",
+    "manufacturer": "Great Plains",
+    "modelFamily": "CT8400/CT8410",
+    "displayName": "Great Plains CT8400/CT8410 Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "3347A-GPM product profile, GreatPlainsAg.com, 2025. Extracted via pypdf text layer. Source table gives no shank count — omitted rather than guessed. CT8400 = constant-level/rigid hitch, CT8410 = floating hitch; sizes 24-51ft come in both, 53/58/63ft are floating-only."
+    },
+    "constants": {
+      "shankTripForceLb": "210 standard; 185 optional K-Flex spring steel",
+      "shankPattern": "Max-Mix",
+      "hitchOptions": "Constant-level hitch (CT8400) standard; floating hitch (CT8410) with front caster wheels for uneven terrain"
+    },
+    "variants": [
+      {
+        "sku": "CT8400/10-24",
+        "sections": 3,
+        "workingWidthIn": 290,
+        "transportWidthIn": 168,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 9120,
+        "baseWeightFloatingLb": 10680
+      },
+      {
+        "sku": "CT8400/10-29",
+        "sections": 3,
+        "workingWidthIn": 346,
+        "transportWidthIn": 168,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 10370,
+        "baseWeightFloatingLb": 11930
+      },
+      {
+        "sku": "CT8400/10-33",
+        "sections": 3,
+        "workingWidthIn": 402,
+        "transportWidthIn": 168,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 11370,
+        "baseWeightFloatingLb": 12930
+      },
+      {
+        "sku": "CT8400/10-36",
+        "sections": 3,
+        "workingWidthIn": 430,
+        "transportWidthIn": 194,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 12120,
+        "baseWeightFloatingLb": 13680
+      },
+      {
+        "sku": "CT8400/10-42",
+        "sections": 5,
+        "workingWidthIn": 500,
+        "transportWidthIn": 170,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 14960,
+        "baseWeightFloatingLb": 17420
+      },
+      {
+        "sku": "CT8400/10-46",
+        "sections": 5,
+        "workingWidthIn": 556,
+        "transportWidthIn": 170,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 16260,
+        "baseWeightFloatingLb": 18720
+      },
+      {
+        "sku": "CT8400/10-51",
+        "sections": 5,
+        "workingWidthIn": 612,
+        "transportWidthIn": 170,
+        "hpPerFtMin": 6,
+        "hpPerFtMax": 10,
+        "baseWeightRigidLb": 17560,
+        "baseWeightFloatingLb": 20020
+      },
+      {
+        "sku": "CT8410-53",
+        "sections": 5,
+        "workingWidthIn": 640,
+        "transportWidthIn": 195,
+        "hpPerFtMin": 7,
+        "hpPerFtMax": 10,
+        "floatingOnly": true,
+        "baseWeightFloatingLb": 20820
+      },
+      {
+        "sku": "CT8410-58",
+        "sections": 5,
+        "workingWidthIn": 696,
+        "transportWidthIn": 195,
+        "hpPerFtMin": 7,
+        "hpPerFtMax": 10,
+        "floatingOnly": true,
+        "baseWeightFloatingLb": 21320
+      },
+      {
+        "sku": "CT8410-63",
+        "sections": 5,
+        "workingWidthIn": 752,
+        "transportWidthIn": 195,
+        "hpPerFtMin": 7,
+        "hpPerFtMax": 10,
+        "floatingOnly": true,
+        "baseWeightFloatingLb": 22620
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-7000-series-disk-harrow",
+    "manufacturer": "Great Plains",
+    "modelFamily": "7000 Series Disk Harrow",
+    "displayName": "Great Plains 7000 Series Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two operator manuals: 556-235M (7000 Series II: 7323DH-7336DH, Specifications table p.33) and 556-427M (7110DH-7115DH, Specifications table p.28). Both extracted via pypdf text layer; some labels show font-ligature garbling (e.g. 'Sec/g415on'->'Section', 'Kilowa/g425'->'Kilowatt') but all numeric values read cleanly and are unaffected. Blade/tillage-width figures differ by disc spacing (7.5in vs 9in) on the same frame — both spacings recorded per model rather than picking one."
+    },
+    "constants": {
+      "gangShaft": "1 3/4 in round",
+      "bearingStyle": "Spring C-Shank, maintenance-free",
+      "spools": "Ductile cast",
+      "gangAngleDeg": "20 front / 18 rear",
+      "wingFlexDeg": "14 up / 9 down",
+      "tireWing": "12.5L x 15",
+      "note719DH": "7110DH-7115DH is the narrower/lighter sub-line of the same 7000 Series family; its manual gives no gang angle, wing flex, or tire-wing spec."
+    },
+    "variants": [
+      {
+        "sku": "7323DH",
+        "series": "Series II",
+        "workingWidthIn9in": 277,
+        "workingWidthIn7_5in": 275,
+        "centerSectionIn": 114,
+        "wingIn": 72,
+        "blades9in": 66,
+        "blades7_5in": 78,
+        "weightLb": 14200,
+        "weightPerFtLb": 615,
+        "weightPerBlade9inLb": 215,
+        "transportWidthIn": 168,
+        "transportHeightIn": 138,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 160,
+        "hpMax": 230
+      },
+      {
+        "sku": "7326DH",
+        "series": "Series II",
+        "workingWidthIn9in": 312,
+        "workingWidthIn7_5in": 304,
+        "centerSectionIn": 114,
+        "wingIn": 90,
+        "blades9in": 74,
+        "blades7_5in": 86,
+        "weightLb": 15900,
+        "weightPerFtLb": 612,
+        "weightPerBlade9inLb": 215,
+        "transportWidthIn": 168,
+        "transportHeightIn": 154,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 182,
+        "hpMax": 260
+      },
+      {
+        "sku": "7329DH",
+        "series": "Series II",
+        "workingWidthIn9in": 348,
+        "workingWidthIn7_5in": 332,
+        "centerSectionIn": 114,
+        "wingIn": 108,
+        "blades9in": 82,
+        "blades7_5in": 98,
+        "weightLb": 17600,
+        "weightPerFtLb": 606,
+        "weightPerBlade9inLb": 215,
+        "transportWidthIn": 168,
+        "transportHeightIn": 170,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 203,
+        "hpMax": 290
+      },
+      {
+        "sku": "7330DH",
+        "series": "Series II",
+        "workingWidthIn9in": 362,
+        "workingWidthIn7_5in": 362,
+        "centerSectionIn": 162,
+        "wingIn": 90,
+        "blades9in": 86,
+        "blades7_5in": 102,
+        "weightLb": 18000,
+        "weightPerFtLb": 597,
+        "transportWidthIn": 218,
+        "transportHeightIn": 152,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 210,
+        "hpMax": 300
+      },
+      {
+        "sku": "7333DH",
+        "series": "Series II",
+        "workingWidthIn9in": 397,
+        "workingWidthIn7_5in": 391,
+        "centerSectionIn": 162,
+        "wingIn": 107,
+        "blades9in": 94,
+        "blades7_5in": 110,
+        "weightLb": 19900,
+        "weightPerFtLb": 601,
+        "transportWidthIn": 218,
+        "transportHeightIn": 168,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 231,
+        "hpMax": 330
+      },
+      {
+        "sku": "7336DH",
+        "series": "Series II",
+        "workingWidthIn9in": 431,
+        "workingWidthIn7_5in": 434,
+        "centerSectionIn": 162,
+        "wingIn": 124,
+        "blades9in": 102,
+        "blades7_5in": 122,
+        "weightLb": 21350,
+        "weightPerFtLb": 594,
+        "transportWidthIn": 218,
+        "transportHeightIn": 183,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 252,
+        "hpMax": 360
+      },
+      {
+        "sku": "7110DH",
+        "series": "Narrow",
+        "workingWidthIn9in": 124,
+        "workingWidthIn7_5in": 119,
+        "blades9in": 34,
+        "blades7_5in": 38,
+        "weightLb": 5650,
+        "transportWidthIn": 132,
+        "tireTransport": "11L x 15 Load F (2)",
+        "hpMin": 70
+      },
+      {
+        "sku": "7112DH",
+        "series": "Narrow",
+        "workingWidthIn9in": 141,
+        "workingWidthIn7_5in": 147,
+        "blades9in": 38,
+        "blades7_5in": 46,
+        "weightLb": 6100,
+        "transportWidthIn": 156,
+        "tireTransport": "11L x 15 Load F (2)",
+        "hpMin": 84
+      },
+      {
+        "sku": "7115DH",
+        "series": "Narrow",
+        "workingWidthIn9in": 175,
+        "workingWidthIn7_5in": 175,
+        "blades9in": 46,
+        "blades7_5in": 54,
+        "weightLb": 7100,
+        "transportWidthIn": 192,
+        "tireTransport": "11L x 15 Load F (4)",
+        "hpMin": 105
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-disc-o-vator",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Disc-O-Vator (DV/DVN series)",
+    "displayName": "Great Plains Disc-O-Vator",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two operator manuals: 550-353M (DV: 8321DV-8552DV, Specifications table p.30) and 550-466M (DVN narrow: 8315DVN-8324DVN, Specifications table p.65). Combines disking/cultivating/harrowing in one pass — the manual describes a coulter/disc gang followed by a sweep-tine gang on one frame, hence two width and two count fields per model (sweep vs coulter/disc). DVN table's row labels were shifted down one row from their values in the pypdf text layer (a PDF-layout artifact, not a data error) — realigned by matching each label to the value row it visually follows in the source; imperial values taken directly from the source's own parenthetical conversions, not re-derived from metric."
+    },
+    "constants": {
+      "note": "Coulter/disc gang runs ahead of a sweep/tine gang on the same frame — sweep width and coulter/disc width are both real, distinct dimensions of the same machine, not alternate configurations."
+    },
+    "variants": [
+      {
+        "sku": "8321DV",
+        "sweepWidthIn": 247,
+        "coulterDiscWidthIn": 240,
+        "sweeps": 35,
+        "coulterDiscCount": 30,
+        "centerSectionIn": 117,
+        "wingIn": 66,
+        "transportWidthIn": 168,
+        "transportHeightIn": 111,
+        "weightLb": 8925,
+        "tireCenter": "9.5L x 15 8 ply",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 125,
+        "hpMax": 175
+      },
+      {
+        "sku": "8324DV",
+        "sweepWidthIn": 289,
+        "coulterDiscWidthIn": 285,
+        "sweeps": 41,
+        "coulterDiscCount": 36,
+        "centerSectionIn": 117,
+        "wingIn": 90,
+        "transportWidthIn": 168,
+        "transportHeightIn": 129,
+        "weightLb": 10200,
+        "tireCenter": "9.5L x 15 8 ply",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 160,
+        "hpMax": 210
+      },
+      {
+        "sku": "8326DV",
+        "sweepWidthIn": 316,
+        "coulterDiscWidthIn": 303,
+        "sweeps": 45,
+        "coulterDiscCount": 38,
+        "centerSectionIn": 117,
+        "wingIn": 102,
+        "transportWidthIn": 168,
+        "transportHeightIn": 144,
+        "weightLb": 11050,
+        "tireCenter": "11L-15SL 12 ply",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 200,
+        "hpMax": 250
+      },
+      {
+        "sku": "8328DV",
+        "sweepWidthIn": 345,
+        "coulterDiscWidthIn": 336,
+        "sweeps": 49,
+        "coulterDiscCount": 42,
+        "centerSectionIn": 117,
+        "wingIn": 114,
+        "transportWidthIn": 168,
+        "transportHeightIn": 159,
+        "weightLb": 11890,
+        "tireCenter": "11L-15SL 12 ply",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 225,
+        "hpMax": 275
+      },
+      {
+        "sku": "8333DV",
+        "sweepWidthIn": 401,
+        "coulterDiscWidthIn": 384,
+        "sweeps": 57,
+        "coulterDiscCount": 48,
+        "centerSectionIn": 144,
+        "wingIn": 126,
+        "transportWidthIn": 193,
+        "transportHeightIn": 171,
+        "weightLb": 14025,
+        "tireCenter": "11L-15SL 12 ply",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 250,
+        "hpMax": 300
+      },
+      {
+        "sku": "8537DV",
+        "sweepWidthIn": 443,
+        "coulterDiscWidthIn": 432,
+        "sweeps": 63,
+        "coulterDiscCount": 54,
+        "centerSectionIn": 117,
+        "wing1In": 102,
+        "wing2In": 60,
+        "transportWidthIn": 180,
+        "transportHeightIn": 150,
+        "weightLb": 15392,
+        "tireCenter": "11L x 15 Load F",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 280,
+        "hpMax": 340
+      },
+      {
+        "sku": "8544DV",
+        "sweepWidthIn": 527,
+        "coulterDiscWidthIn": 513,
+        "sweeps": 75,
+        "coulterDiscCount": 64,
+        "centerSectionIn": 117,
+        "wing1In": 114,
+        "wing2In": 87,
+        "transportWidthIn": 180,
+        "transportHeightIn": 159,
+        "weightLb": 18320,
+        "tireCenter": "12.5L x 15 Load F",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 320,
+        "hpMax": 380
+      },
+      {
+        "sku": "8548DV",
+        "sweepWidthIn": 569,
+        "coulterDiscWidthIn": 558,
+        "sweeps": 81,
+        "coulterDiscCount": 70,
+        "centerSectionIn": 144,
+        "wing1In": 129,
+        "wing2In": 84,
+        "transportWidthIn": 219,
+        "transportHeightIn": 177,
+        "weightLb": 19968,
+        "tireCenter": "12.5L x 16.5/G",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 340,
+        "hpMax": 400
+      },
+      {
+        "sku": "8552DV",
+        "sweepWidthIn": 625,
+        "coulterDiscWidthIn": 609,
+        "sweeps": 89,
+        "coulterDiscCount": 76,
+        "centerSectionIn": 144,
+        "wing1In": 129,
+        "wing2In": 111,
+        "transportWidthIn": 219,
+        "transportHeightIn": 177,
+        "weightLb": 21632,
+        "tireCenter": "12.5L x 16.5/G",
+        "tireWing": "9.5L x 15 8 ply",
+        "hpMin": 375,
+        "hpMax": null
+      },
+      {
+        "sku": "8315DVN",
+        "sweepWidthIn": 191,
+        "coulterDiscWidthIn": 189,
+        "sweeps": 27,
+        "coulterDiscCount": 24,
+        "transportWidthRetractIn": 118,
+        "transportWidthNoRetractIn": 138,
+        "heightIn": 102,
+        "weightTotalLb": 6650,
+        "weightTongueLb": 665,
+        "weightAxleLb": 5985,
+        "tireCenter": "12.5L x 16.5/G",
+        "tireWing": "12.5L x 16.5/G",
+        "hpMin": 115,
+        "hpMax": 135
+      },
+      {
+        "sku": "8318DVN",
+        "sweepWidthIn": 219,
+        "coulterDiscWidthIn": 214,
+        "sweeps": 31,
+        "coulterDiscCount": 28,
+        "transportWidthRetractIn": 118,
+        "transportWidthNoRetractIn": 128,
+        "heightIn": 114,
+        "weightTotalLb": 8000,
+        "weightTongueLb": 800,
+        "weightAxleLb": 7200,
+        "tireCenter": "12.5L x 16.5/G",
+        "tireWing": "12.5L x 16.5/G",
+        "hpMin": 135,
+        "hpMax": 155
+      },
+      {
+        "sku": "8321DVN",
+        "sweepWidthIn": 261,
+        "coulterDiscWidthIn": 259,
+        "sweeps": 37,
+        "coulterDiscCount": 32,
+        "transportWidthRetractIn": 118,
+        "transportWidthNoRetractIn": 121,
+        "heightIn": 129,
+        "weightTotalLb": 9200,
+        "weightTongueLb": 920,
+        "weightAxleLb": 8280,
+        "tireCenter": "15.5x16.5/G",
+        "tireWing": "12.5L x 16.5/G",
+        "hpMin": 155,
+        "hpMax": 185
+      },
+      {
+        "sku": "8324DVN",
+        "sweepWidthIn": 289,
+        "coulterDiscWidthIn": 285,
+        "sweeps": 41,
+        "coulterDiscCount": 36,
+        "transportWidthRetractIn": 118,
+        "transportWidthNoRetractIn": 118,
+        "heightIn": 147,
+        "weightTotalLb": 11000,
+        "weightTongueLb": 1100,
+        "weightAxleLb": 9900,
+        "tireCenter": "15.5x16.5/G",
+        "tireWing": "12.5L x 16.5/G",
+        "hpMin": 185,
+        "hpMax": 200
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-hs2100-velocity",
+    "manufacturer": "Great Plains",
+    "modelFamily": "HS2100 Velocity",
+    "displayName": "Great Plains HS2100 Velocity",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "556-428M, Specifications and Capacities table p.33. IMPORTANT: this table is numerically IDENTICAL, model-for-model, to the 7000 Series Disk Harrow Series II table in 556-235M (same tillage widths, weights, HP ranges, tire sizes, everything) — only the model numbers differ (HS2100-23DH..HS2100-36DH here vs 7323DH..7336DH there). This strongly indicates Velocity is a rebrand/marketing name for the same physical 7000 Series II platform, not a mechanically distinct disk harrow. Recorded as its own entry since it's sold under its own model numbers, but treat its specs as duplicates of great-plains-7000-series-disk-harrow's Series II variants, not independent data."
+    },
+    "constants": {
+      "gangShaft": "1 3/4 in round",
+      "bearingStyle": "Spring C-Shank, maintenance-free",
+      "spools": "Ductile cast",
+      "gangAngleDeg": "20 front / 18 rear",
+      "wingFlexDeg": "14 up / 9 down",
+      "tireWing": "12.5L x 15"
+    },
+    "variants": [
+      {
+        "sku": "HS2100-23DH",
+        "workingWidthIn7_5in": 275,
+        "centerSectionIn": 114,
+        "wingIn": 72,
+        "blades7_5in": 78,
+        "weightLb": 14200,
+        "weightPerFtLb": 615,
+        "transportWidthIn": 168,
+        "transportHeightIn": 138,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 160,
+        "hpMax": 230
+      },
+      {
+        "sku": "HS2100-26DH",
+        "workingWidthIn7_5in": 304,
+        "centerSectionIn": 114,
+        "wingIn": 90,
+        "blades7_5in": 86,
+        "weightLb": 15900,
+        "weightPerFtLb": 612,
+        "transportWidthIn": 168,
+        "transportHeightIn": 154,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 182,
+        "hpMax": 260
+      },
+      {
+        "sku": "HS2100-29DH",
+        "workingWidthIn7_5in": 332,
+        "centerSectionIn": 114,
+        "wingIn": 108,
+        "blades7_5in": 98,
+        "weightLb": 17600,
+        "weightPerFtLb": 606,
+        "transportWidthIn": 168,
+        "transportHeightIn": 170,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 203,
+        "hpMax": 290
+      },
+      {
+        "sku": "HS2100-30DH",
+        "workingWidthIn7_5in": 362,
+        "centerSectionIn": 162,
+        "wingIn": 90,
+        "blades7_5in": 102,
+        "weightLb": 18000,
+        "weightPerFtLb": 597,
+        "transportWidthIn": 218,
+        "transportHeightIn": 152,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 210,
+        "hpMax": 300
+      },
+      {
+        "sku": "HS2100-33DH",
+        "workingWidthIn7_5in": 391,
+        "centerSectionIn": 162,
+        "wingIn": 107,
+        "blades7_5in": 110,
+        "weightLb": 19900,
+        "weightPerFtLb": 601,
+        "transportWidthIn": 218,
+        "transportHeightIn": 168,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 231,
+        "hpMax": 330
+      },
+      {
+        "sku": "HS2100-36DH",
+        "workingWidthIn7_5in": 434,
+        "centerSectionIn": 162,
+        "wingIn": 124,
+        "blades7_5in": 122,
+        "weightLb": 21350,
+        "weightPerFtLb": 594,
+        "transportWidthIn": 218,
+        "transportHeightIn": 183,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 252,
+        "hpMax": 360
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-hs2200-qualidisc",
+    "manufacturer": "Great Plains",
+    "modelFamily": "HS2200 Qualidisc",
+    "displayName": "Great Plains HS2200 Qualidisc",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "556-436M, \"Technical specifications\" table p.18. Model numbers (HS2200-13/16/20/23) confirmed by regex-scanning the full manual text rather than assumed from the family title, which only names the two end SKUs. Compact disc harrow (independent-arm, elastomer-cushioned discs) — mechanically distinct from the Series II/Velocity tandem-disk-harrow platform above, not a rebrand of it."
+    },
+    "constants": {
+      "overallLengthNoDrawbarIn": 276,
+      "overallLengthWithDrawbarIn": 318,
+      "discType": "Conical, toothed, independent-arm mount with elastomer safety device",
+      "discDiameterIn": 23.625,
+      "discThicknessIn": 0.25,
+      "gapBetweenDiscsIn": 9.75,
+      "discHub": "Angular contact ball bearing, 5-lip seal",
+      "depthControl": "Roller with hydraulic adjustment via plastic chocks",
+      "workingDepthRangeIn": [
+        1,
+        6
+      ],
+      "rollerOptions": "Cage roller 21.5in diameter (reinforced cage), or Actipack roller 22in diameter",
+      "speedRangeMph": [
+        5,
+        12
+      ],
+      "hitch": "Fixed eye, 2in diameter",
+      "transportWidthNonFoldingIn": 179,
+      "transportWidthFoldingIn": 108
+    },
+    "variants": [
+      {
+        "sku": "HS2200-13",
+        "workingWidthIn": 157,
+        "discs": 32,
+        "maxHeightIn": 126,
+        "roadHeightIn": 114,
+        "hpMin": 150,
+        "hpMax": 250,
+        "weightLb": 9635
+      },
+      {
+        "sku": "HS2200-16",
+        "workingWidthIn": 197,
+        "discs": 40,
+        "maxHeightIn": 157,
+        "roadHeightIn": 134,
+        "hpMin": 170,
+        "hpMax": 300,
+        "weightLb": 10953
+      },
+      {
+        "sku": "HS2200-20",
+        "workingWidthIn": 236,
+        "discs": 48,
+        "maxHeightIn": 177,
+        "roadHeightIn": 156,
+        "hpMin": 190,
+        "hpMax": 350,
+        "weightLb": 12483
+      },
+      {
+        "sku": "HS2200-23",
+        "workingWidthIn": 275,
+        "discs": 56,
+        "maxHeightIn": 197,
+        "roadHeightIn": 170,
+        "hpMin": 210,
+        "hpMax": 400,
+        "weightLb": 13737
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-8000-series-fc",
+    "manufacturer": "Great Plains",
+    "modelFamily": "8000 Series Field Cultivator",
+    "displayName": "Great Plains 8000 Series Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two operator manuals with identical-layout Specifications tables: 560-484M (Floating Hitch, FCF suffix, p.22) and 560-483M (Constant Level Hitch, FCC suffix, p.23). Same Max-Mix shank pattern as CT8400/CT8410 (already entered) but a distinct, larger-frame model line with its own SKUs. Sweep width, sweep count, section widths, transport dims, and HP are identical between FCF/FCC at each size (only tire size on the two largest and base weight differ) — same relationship already seen between CT8400 and CT8410. International metric models FCC8308M-FCC8513M from 620-163M-ENG (2013, Specifications and Capacities p.27) and FCF8513M from 620-164M-ENG (2014, p.27); the sweep count for the 13.41 m models is not legible in the extracted table and is omitted. FCC8308N (UK \"Field Cultivator Narrow\", three-section) from 620-199M-ENG Rev A (2016), Technical Data p.23."
+    },
+    "constants": {
+      "shankPattern": "Max-Mix",
+      "hitchOptions": "Constant-level hitch (FCC) or floating hitch (FCF) with front caster wheels for uneven terrain",
+      "tireGaugeWheel": "9.5L x 15 8-Ply",
+      "tireWing": "9.5L x 15 8-Ply"
+    },
+    "variants": [
+      {
+        "sku": "8323FC",
+        "sweeps": 39,
+        "workingWidthIn": 276,
+        "centerSectionIn": 120,
+        "wing1In": 78,
+        "transportWidthIn": 168,
+        "transportHeightIn": 120,
+        "tireCenter": "9.5L x 15 8-Ply",
+        "hpMin": 120,
+        "hpMax": 175,
+        "weightFloatingLb": 7935,
+        "weightConstantLevelLb": 7590
+      },
+      {
+        "sku": "8328FC",
+        "sweeps": 47,
+        "workingWidthIn": 333,
+        "centerSectionIn": 120,
+        "wing1In": 108,
+        "transportWidthIn": 168,
+        "transportHeightIn": 150,
+        "tireCenter": "9.5L x 15 8-Ply",
+        "hpMin": 150,
+        "hpMax": 200,
+        "weightFloatingLb": 9380,
+        "weightConstantLevelLb": 8960
+      },
+      {
+        "sku": "8332FC",
+        "sweeps": 55,
+        "workingWidthIn": 390,
+        "centerSectionIn": 120,
+        "wing1In": 135,
+        "transportWidthIn": 168,
+        "transportHeightIn": 177,
+        "tireCenter": "11L-15 12-Ply",
+        "hpMin": 175,
+        "hpMax": 225,
+        "weightFloatingLb": 10400,
+        "weightConstantLevelLb": 9800
+      },
+      {
+        "sku": "8336FC",
+        "sweeps": 61,
+        "workingWidthIn": 432,
+        "centerSectionIn": 144,
+        "wing1In": 135,
+        "transportWidthIn": 193,
+        "transportHeightIn": 177,
+        "tireCenter": "11L-15 12-Ply",
+        "hpMin": 200,
+        "hpMax": 250,
+        "weightFloatingLb": 12780,
+        "weightConstantLevelLb": 11700
+      },
+      {
+        "sku": "8539FC",
+        "sweeps": 67,
+        "workingWidthIn": 474,
+        "centerSectionIn": 120,
+        "wing1In": 96,
+        "wing2In": 78,
+        "transportWidthIn": 180,
+        "transportHeightIn": 141,
+        "tireCenter": "11L x 15 Load F",
+        "hpMin": 200,
+        "hpMax": 275,
+        "weightFloatingLb": 13650,
+        "weightConstantLevelLb": 12550
+      },
+      {
+        "sku": "8544FC",
+        "sweeps": 75,
+        "workingWidthIn": 528,
+        "centerSectionIn": 120,
+        "wing1In": 126,
+        "wing2In": 78,
+        "transportWidthIn": 180,
+        "transportHeightIn": 168,
+        "tireCenter": "11L x 15 Load F",
+        "hpMin": 225,
+        "hpMax": 300,
+        "weightFloatingLb": 15180,
+        "weightConstantLevelLb": 13860
+      },
+      {
+        "sku": "8548FC",
+        "sweeps": 83,
+        "workingWidthIn": 585,
+        "centerSectionIn": 120,
+        "wing1In": 126,
+        "wing2In": 108,
+        "transportWidthIn": 180,
+        "transportHeightIn": 168,
+        "tireCenter": "11L x 15 Load F",
+        "hpMin": 250,
+        "hpMax": 325,
+        "weightFloatingLb": 16320,
+        "weightConstantLevelLb": 14940
+      },
+      {
+        "sku": "8551FC",
+        "sweeps": 87,
+        "workingWidthIn": 612,
+        "centerSectionIn": 144,
+        "wing1In": 126,
+        "wing2In": 108,
+        "transportWidthIn": 202,
+        "transportHeightIn": 168,
+        "tireCenterFloating": "11L x 15 Load F",
+        "tireCenterConstantLevel": "12.5L x 15 Load F",
+        "hpMin": 275,
+        "hpMax": 350,
+        "weightFloatingLb": 17340,
+        "weightConstantLevelLb": 15560
+      },
+      {
+        "sku": "8556FC",
+        "sweeps": 95,
+        "workingWidthIn": 669,
+        "centerSectionIn": 144,
+        "wing1In": 153,
+        "wing2In": 108,
+        "transportWidthIn": 202,
+        "transportHeightIn": 196,
+        "tireCenterFloating": "11L x 15 Load F",
+        "tireCenterConstantLevel": "12.5L x 15 Load F",
+        "hpMin": 300,
+        "hpMax": 375,
+        "weightFloatingLb": 17710,
+        "weightConstantLevelLb": 16280
+      },
+      {
+        "sku": "8560FC",
+        "sweeps": 103,
+        "workingWidthIn": 726,
+        "centerSectionIn": 144,
+        "wing1In": 153,
+        "wing2In": 132,
+        "transportWidthIn": 202,
+        "transportHeightIn": 196,
+        "tireCenterFloating": "11L x 15 Load F",
+        "tireCenterConstantLevel": "12.5L x 15 Load F",
+        "hpMin": 325,
+        "hpMax": 400,
+        "weightFloatingLb": 18420,
+        "weightConstantLevelLb": 16500
+      },
+      {
+        "sku": "FCC8308M",
+        "productLine": "International (metric) model",
+        "hitch": "constant-level hitch",
+        "sweepWidthM": 8.46,
+        "centerSectionM": 3.05,
+        "firstWingM": 2.74,
+        "transportWidthM": 4.27,
+        "transportHeightM": 3.81,
+        "hpPtoRange": "150-200",
+        "weightKg": 4093,
+        "tires": "10.0/75-15 14 ply",
+        "sweeps": 47
+      },
+      {
+        "sku": "FCC8310M",
+        "productLine": "International (metric) model",
+        "hitch": "constant-level hitch",
+        "sweepWidthM": 9.9,
+        "centerSectionM": 3.05,
+        "firstWingM": 3.43,
+        "transportWidthM": 4.27,
+        "transportHeightM": 4.47,
+        "hpPtoRange": "175-225",
+        "weightKg": 4790,
+        "tires": "10.0/75-15 14 ply",
+        "sweeps": 55
+      },
+      {
+        "sku": "FCC8512M",
+        "productLine": "International (metric) model",
+        "hitch": "constant-level hitch",
+        "sweepWidthM": 12.04,
+        "centerSectionM": 3.05,
+        "firstWingM": 2.44,
+        "transportWidthM": 4.57,
+        "transportHeightM": 3.58,
+        "hpPtoRange": "200-275",
+        "weightKg": 6290,
+        "tires": "10.0/75-15 14 ply",
+        "sweeps": 67,
+        "secondWingM": 1.98
+      },
+      {
+        "sku": "FCC8513M",
+        "productLine": "International (metric) model",
+        "hitch": "constant-level hitch",
+        "sweepWidthM": 13.41,
+        "centerSectionM": 3.05,
+        "firstWingM": 3.2,
+        "transportWidthM": 4.57,
+        "transportHeightM": 4.27,
+        "hpPtoRange": "225-300",
+        "weightKg": 6737,
+        "tires": "10.0/75-15 14 ply",
+        "secondWingM": 1.98
+      },
+      {
+        "sku": "FCF8513M",
+        "productLine": "International (metric) model",
+        "hitch": "floating hitch",
+        "sweepWidthM": 13.41,
+        "centerSectionM": 3.05,
+        "firstWingM": 3.2,
+        "transportWidthM": 4.57,
+        "transportHeightM": 4.27,
+        "hpPtoRange": "225-300",
+        "weightKg": 7555,
+        "tires": "10.0/75-15 14 ply",
+        "secondWingM": 1.98
+      },
+      {
+        "sku": "FCC8308N",
+        "productLine": "UK narrow-transport model",
+        "hitch": "constant-level hitch",
+        "workingWidthMm": 7800,
+        "transportWidthMm": 2950,
+        "transportHeightMm": 3995,
+        "transportLengthMm": 9282,
+        "weightKg": 5500,
+        "hpRange": "175-225",
+        "drawbarLoadMaxKg": 305
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ct8300-flex-harrow",
+    "manufacturer": "Great Plains",
+    "modelFamily": "CT8300 Flex Harrow",
+    "displayName": "Great Plains CT8300 Flex Harrow",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "564-278M, Specifications and Capacities table p.34. The pypdf text layer reversed several table rows character-by-character (a PDF layout/rendering artifact, e.g. \"Tillage Width\" came out as \"htdiW egalliT\") — decoded by reversing those specific lines back, and cross-checked that the recovered Tillage Width values exactly equal each SKU's own number in feet (CT8300-18 = 18ft, etc.), which they do. Transport Width, Center Section Width, and exact tire assignment are printed once per size-BLOCK in the source (not once per model) and the block boundaries were not fully recoverable from the garbled layout — omitted rather than guessed which models they cover. Weight, HP, working width, transport height, wing section width, and harrow-section count are all per-model and high confidence."
+    },
+    "constants": {
+      "foldingSections": 2,
+      "note": "\"Harrow Section\" count is a separate spec field from \"Folding Sections\" (always 2) — the number of harrow bar segments across the machine, not fold points."
+    },
+    "variants": [
+      {
+        "sku": "CT8300-18",
+        "workingWidthIn": 216,
+        "harrowSections": 4,
+        "transportHeightIn": 136,
+        "wingSectionIn": 54,
+        "hpMin": 50,
+        "weightLb": 5810
+      },
+      {
+        "sku": "CT8300-21",
+        "workingWidthIn": 252,
+        "harrowSections": 4,
+        "transportHeightIn": 138,
+        "wingSectionIn": 72,
+        "hpMin": 60,
+        "weightLb": 6160
+      },
+      {
+        "sku": "CT8300-24",
+        "workingWidthIn": 288,
+        "harrowSections": 4,
+        "transportHeightIn": 140,
+        "wingSectionIn": 90,
+        "hpMin": 70,
+        "weightLb": 6510
+      },
+      {
+        "sku": "CT8300-27",
+        "workingWidthIn": 324,
+        "harrowSections": 6,
+        "transportHeightIn": 141,
+        "wingSectionIn": 108,
+        "hpMin": 80,
+        "weightLb": 6860
+      },
+      {
+        "sku": "CT8300-30",
+        "workingWidthIn": 360,
+        "harrowSections": 6,
+        "transportHeightIn": 141,
+        "wingSectionIn": 126,
+        "hpMin": 90,
+        "weightLb": 7210
+      },
+      {
+        "sku": "CT8300-33",
+        "workingWidthIn": 396,
+        "harrowSections": 6,
+        "transportHeightIn": 140,
+        "wingSectionIn": 126,
+        "hpMin": 100,
+        "weightLb": 7660
+      },
+      {
+        "sku": "CT8300-36",
+        "workingWidthIn": 432,
+        "harrowSections": 6,
+        "transportHeightIn": 142,
+        "wingSectionIn": 144,
+        "hpMin": 110,
+        "weightLb": 8060
+      },
+      {
+        "sku": "CT8300-39",
+        "workingWidthIn": 468,
+        "harrowSections": 6,
+        "transportHeightIn": 144,
+        "wingSectionIn": 162,
+        "hpMin": 120,
+        "weightLb": 8460
+      },
+      {
+        "sku": "CT8300-42",
+        "workingWidthIn": 504,
+        "harrowSections": 6,
+        "transportHeightIn": 144,
+        "wingSectionIn": 180,
+        "hpMin": 125,
+        "weightLb": 8860
+      },
+      {
+        "sku": "CT8300-45",
+        "workingWidthIn": 540,
+        "harrowSections": 8,
+        "transportHeightIn": 141,
+        "wingSectionIn": 198,
+        "hpMin": 135,
+        "weightLb": 9565
+      },
+      {
+        "sku": "CT8300-48",
+        "workingWidthIn": 576,
+        "harrowSections": 8,
+        "transportHeightIn": 142,
+        "wingSectionIn": 216,
+        "hpMin": 145,
+        "weightLb": 10015
+      },
+      {
+        "sku": "CT8300-51",
+        "workingWidthIn": 612,
+        "harrowSections": 8,
+        "transportHeightIn": 142,
+        "wingSectionIn": 234,
+        "hpMin": 155,
+        "weightLb": 10465
+      },
+      {
+        "sku": "CT8300-54",
+        "workingWidthIn": 648,
+        "harrowSections": 8,
+        "transportHeightIn": 144,
+        "wingSectionIn": 252,
+        "hpMin": 165,
+        "weightLb": 10915
+      },
+      {
+        "sku": "CT8300-57",
+        "workingWidthIn": 684,
+        "harrowSections": 8,
+        "transportHeightIn": 144,
+        "wingSectionIn": 252,
+        "hpMin": 175,
+        "weightLb": 11360
+      },
+      {
+        "sku": "CT8300-60",
+        "workingWidthIn": 720,
+        "harrowSections": 8,
+        "transportHeightIn": 144,
+        "wingSectionIn": 270,
+        "hpMin": 180,
+        "weightLb": 11815
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-vt1500-sub-soiler",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1500 Sub-Soiler",
+    "displayName": "Great Plains VT1500 Sub-Soiler",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "596-381M, Specifications and Capacities table p.25 — the table itself is a graphic/vector table (not extractable as text via pypdf), rendered to an image at 200dpi and read visually. It's a dense 18-column grid (all combinations of 3-6 shanks x 5 spacing options) and individual per-model transport-width/frame-number cells are easy to mis-map by eye at that density. Working width was cross-checked against 3 known-good rows and equals shankSpacingIn x numberOfShanks exactly, so it's given as a formula rather than transcribed per row (removes that whole risk). Weight and HP bucket by shank count (with two sub-tiers at 5 shanks) and were verified consistent across the columns read for each bucket. Transport width, kilowatt, and internal frame-number fields were NOT transcribed — the visual density made per-column mapping unreliable enough that I'd rather omit them than risk silently-wrong numbers; re-derive from the source table image directly if needed. Despite the \"VT\" prefix (usually Vertical Tillage in this brand's naming) this is functionally an inline sub-soiler/ripper, not vertical tillage. (sku values were synthesized from subline/shank count/spacing because the source table lists configurations rather than model numbers.)"
+    },
+    "constants": {
+      "shankSpacingOptionsIn": [
+        24,
+        30,
+        36,
+        38,
+        40
+      ],
+      "workingWidthFormula": "shankSpacingIn * numberOfShanks (confirmed against source table, not assumed)",
+      "gaugeWheelTireSize": "20.5x8 10-ply",
+      "gaugeWheels": 2,
+      "shankTypeOptions": [
+        "Rigid No-Till Shank",
+        "Auto ResetShank"
+      ]
+    },
+    "variants": [
+      {
+        "sku": "VT1500 3-shank",
+        "shanks": 3,
+        "weightRigidLb": 2339,
+        "weightAutoResetLb": 3140,
+        "hpMin": 150,
+        "hpMax": 240
+      },
+      {
+        "sku": "VT1500 4-shank",
+        "shanks": 4,
+        "weightRigidLb": 2519,
+        "weightAutoResetLb": 3587,
+        "hpMin": 200,
+        "hpMax": 320
+      },
+      {
+        "sku": "VT1500 5-shank @ 24in",
+        "shanks": 5,
+        "spacingIn": 24,
+        "weightRigidLb": 2519,
+        "weightAutoResetLb": 3587,
+        "hpMin": 200,
+        "hpMax": 320,
+        "note": "at 24in spacing only, the 5-shank model shares the 4-shank weight/HP bucket"
+      },
+      {
+        "sku": "VT1500 5-shank @ [30, 36, 38, 40]in",
+        "shanks": 5,
+        "spacingIn": [
+          30,
+          36,
+          38,
+          40
+        ],
+        "weightRigidLb": 2688,
+        "weightAutoResetLb": 4023,
+        "hpMin": 250,
+        "hpMax": 400,
+        "note": "exact weight at 38/40in spacing read as slightly higher (~2925/4260lb) in the source table but low-confidence at that column density — verify before relying on it"
+      },
+      {
+        "sku": "VT1500 6-shank",
+        "shanks": 6,
+        "weightRigidLb": 3092,
+        "weightAutoResetLb": 4694,
+        "hpMin": 300,
+        "hpMax": 480
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-lc40-lister-cultivator",
+    "manufacturer": "Great Plains",
+    "modelFamily": "LC40 Lister Cultivator",
+    "displayName": "Great Plains LC40 Lister Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "591-049M, Specifications and Capacities LC40 table p.46, plus a corroborating weight-range table on p.22. Stack-fold toolbar with parallel-linkage row units. Row count does NOT follow the SKU's own last-two-digits pattern (LC40-1236 has 12 rows at 36in spacing, but LC40-1238 has 16 rows at 38in, not 12) — recorded exactly as printed rather than assumed from the SKU. LC40-1630's row count was blank in its table column (likely a merged/split cell for its 30in vs 60in-bed configurations) and is omitted rather than guessed."
+    },
+    "constants": {
+      "workingFrameWidthIn": 492,
+      "workingLengthMaxRangeIn": [
+        55.5,
+        90.5
+      ],
+      "workingHeightIn": 74,
+      "transportHeightIn": 176,
+      "hitch": "3-Point Category III Wide or IV (N or W)",
+      "toolBarIn": "7 x 7 x 0.5 in",
+      "hydraulicCircuits": "Closed- or Open-Center, 1 Remote",
+      "hydraulicPowerRequired": "2250 psi, 2 gal/min",
+      "rowDownPressureLb": [
+        350,
+        540
+      ],
+      "rowTravelIn": "4 up, 2.75 down",
+      "coulterDepthIn": 4.0
+    },
+    "variants": [
+      {
+        "sku": "LC40-1236",
+        "rows": 12,
+        "rowUnits": 13,
+        "rowSpacingIn": 36,
+        "swathIn": 432,
+        "transportWidthIn": 312,
+        "weightMinLb": 11000,
+        "weightMaxLb": 13000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "LC40-1238",
+        "rows": 16,
+        "rowUnits": 17,
+        "rowSpacingIn": 38,
+        "swathIn": 456,
+        "transportWidthIn": 296,
+        "weightMinLb": 11000,
+        "weightMaxLb": 13000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "LC40-1240",
+        "rows": 8,
+        "rowUnits": 9,
+        "rowSpacingIn": 40,
+        "swathIn": 480,
+        "transportWidthIn": 296,
+        "weightMinLb": 11000,
+        "weightMaxLb": 13000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "LC40-1630",
+        "rowSpacingIn": 30,
+        "swathIn": 480,
+        "transportWidthIn": 312,
+        "weightMinLb": 13000,
+        "weightMaxLb": 15500,
+        "minTractorHp": 320,
+        "note": "also available on a 60in bed (same swath/transport figures); row count not given in source table"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ht1100-terra-max",
+    "manufacturer": "Great Plains",
+    "modelFamily": "HT1100 Terra-Max",
+    "displayName": "Great Plains HT1100 Terra-Max",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two of the three size-tier manuals have clean text-layer Specifications tables: 588-447M (HT1100-10/12/15, p.36) and 586-831M (HT1100-20/25/30, p.37). The third, 586-926M (HT1100-35/40), does NOT — its appendix runs tire chart -> hydraulic connectors -> torque chart -> warranty with no model-dimension table anywhere in the text layer (checked every appendix page and several operating-instruction pages that mentioned weight/width in passing); may be a table that only exists in a different document (e.g. a spec sheet, not the operator manual) or was dropped from this particular manual. HT1100-35/40 rows are therefore omitted rather than guessed — still a confirmed real model (per the family's own name and cross-references inside 586-926M), just without recovered dimensions yet. Larger/base sibling of HT1110 (narrow-transport) already entered."
+    },
+    "constants": {
+      "bladeSpacingIn": 7.5,
+      "gangAngle": "Hydraulically adjustable, 0 to 6 degrees",
+      "finishReelDownPressurePsi": [
+        200,
+        800
+      ]
+    },
+    "variants": [
+      {
+        "sku": "HT1100-10",
+        "workingWidthIn": 120,
+        "transportWidthIn": 162,
+        "blades": 34,
+        "weightLb": 10075,
+        "transportWeightLb": 9125,
+        "tongueWeightLb": 950,
+        "transportHeightIn": 63,
+        "tireSize": "340/60R16.5",
+        "hpMin": 90,
+        "hpMax": 115
+      },
+      {
+        "sku": "HT1100-12",
+        "workingWidthIn": 144,
+        "transportWidthIn": 172,
+        "blades": 42,
+        "weightLb": 11235,
+        "transportWeightLb": 10280,
+        "tongueWeightLb": 955,
+        "transportHeightIn": 63,
+        "tireSize": "11L-15SL 12-Ply",
+        "hpMin": 108,
+        "hpMax": 138
+      },
+      {
+        "sku": "HT1100-15",
+        "workingWidthIn": 180,
+        "transportWidthIn": 207,
+        "blades": 50,
+        "weightLb": 13330,
+        "transportWeightLb": 12690,
+        "tongueWeightLb": 650,
+        "transportHeightIn": 63,
+        "tireSize": "11L-15 Load F",
+        "hpMin": 135,
+        "hpMax": 173
+      },
+      {
+        "sku": "HT1100-20",
+        "workingWidthIn": 240,
+        "centerSectionIn": 147,
+        "wingIn": 63,
+        "blades": 66,
+        "weightLb": 17800,
+        "transportWidthIn": 187,
+        "transportHeightIn": 112,
+        "tireCenter": "380/55R16.5G",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 180,
+        "hpMax": 230
+      },
+      {
+        "sku": "HT1100-25",
+        "workingWidthIn": 300,
+        "centerSectionIn": 147,
+        "wingIn": 93,
+        "blades": 80,
+        "weightLb": 22250,
+        "transportWidthIn": 187,
+        "transportHeightIn": 148,
+        "tireCenter": "380/55R16.5G",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 230,
+        "hpMax": 285
+      },
+      {
+        "sku": "HT1100-30",
+        "workingWidthIn": 360,
+        "centerSectionIn": 147,
+        "wingIn": 124,
+        "blades": 96,
+        "weightLb": 26375,
+        "transportWidthIn": 187,
+        "transportHeightIn": 172,
+        "tireCenter": "410/50R16.5",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 285,
+        "hpMax": 340
+      },
+      {
+        "sku": "HT1100-35",
+        "note": "confirmed real (named throughout 586-926M) but no dimension table recovered from that manual's text layer — see source note"
+      },
+      {
+        "sku": "HT1100-40",
+        "note": "confirmed real (named throughout 586-926M) but no dimension table recovered from that manual's text layer — see source note"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-max-chisel",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Max-Chisel (MC series)",
+    "displayName": "Great Plains Max-Chisel",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two manuals with clean Specifications tables: 566-242M (MC5109-5315, p.29 — covers two sub-frame ranges within one document, MC51xx and MC53xx, with different weights/transport widths despite matching shank counts) and 566-357M (MC5317 & MC5319, p.31, the current/largest sizes). SKU's last two digits equal shank count in every model (MC5109=9 shanks, MC5313=13 shanks, MC5317=17 shanks, etc.) — confirmed directly from the table, not assumed."
+    },
+    "constants": {
+      "shankSpacingIn": 15,
+      "bladeSpacingIn": 7.5,
+      "lengthWithoutAttachmentIn": 274,
+      "pointOptions": "2in straight or 4in twisted points on chisel shanks; 7in winged points on parabolic shanks"
+    },
+    "variants": [
+      {
+        "sku": "MC5109",
+        "shanks": 9,
+        "workingWidthIn": 138,
+        "blades": 22,
+        "weightLb": 10170,
+        "transportWidthIn": 178,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpMin": 250
+      },
+      {
+        "sku": "MC5111",
+        "shanks": 11,
+        "workingWidthIn": 168,
+        "blades": 26,
+        "weightLb": 12430,
+        "transportWidthIn": 208,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpMin": 300
+      },
+      {
+        "sku": "MC5113",
+        "shanks": 13,
+        "workingWidthIn": 195,
+        "blades": 30,
+        "weightLb": 13920,
+        "transportWidthIn": 198,
+        "tireCenter": "12.5L x 15 F-ply",
+        "hpMin": 350
+      },
+      {
+        "sku": "MC5115",
+        "shanks": 15,
+        "workingWidthIn": 225,
+        "blades": 34,
+        "weightLb": 16160,
+        "transportWidthIn": 228,
+        "tireCenter": "12.5L x 15 F-ply",
+        "hpMin": 400
+      },
+      {
+        "sku": "MC5313",
+        "shanks": 13,
+        "workingWidthIn": 198,
+        "blades": 30,
+        "weightLb": 14580,
+        "transportWidthIn": 174,
+        "transportHeightIn": 126,
+        "tireCenter": "340/60R16.5",
+        "hpMin": 350
+      },
+      {
+        "sku": "MC5315",
+        "shanks": 15,
+        "workingWidthIn": 228,
+        "blades": 34,
+        "weightLb": 16820,
+        "transportWidthIn": 174,
+        "transportHeightIn": 135,
+        "tireCenter": "340/60R16.5",
+        "hpMin": 400
+      },
+      {
+        "sku": "MC5317",
+        "shanks": 17,
+        "workingWidthIn": 258,
+        "centerSectionIn": 129,
+        "wingIn": 72,
+        "blades": 38,
+        "weightLb": 21700,
+        "transportWidthIn": 188,
+        "transportHeightIn": 150,
+        "tireCenter": "IF 340/65R18",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpMin": 450
+      },
+      {
+        "sku": "MC5319",
+        "shanks": 19,
+        "workingWidthIn": 288,
+        "centerSectionIn": 129,
+        "wingIn": 87,
+        "blades": 42,
+        "weightLb": 22800,
+        "transportWidthIn": 188,
+        "transportHeightIn": 165,
+        "tireCenter": "IF 340/65R18",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpMin": 500
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-turbo-chisel",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Turbo-Chisel (TC/TCN series)",
+    "displayName": "Great Plains Turbo-Chisel",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Three manuals: 566-046M (TC5109-5323, S/N A1419X-, p.28) and 566-224M (same TC5109-5323 range, S/N A1420X+, p.28) have IDENTICAL dimension/weight/HP tables — the only difference between serial ranges is a tire-spec revision (TC5113/TC5115 center tire changed from 12-ply to F-ply on the newer serial range); recorded once, not duplicated. 566-170M (TCN5107-5313, p.58) is a genuinely narrower/different sub-line with its own smaller dimensions."
+    },
+    "constants": {
+      "shankSpacingIn": 15,
+      "bladeSpacingIn": 7.5,
+      "lengthWithoutAttachmentIn": 274,
+      "pointOptions": "2in straight or 3in twisted points on chisel shanks; 7in winged points on parabolic shanks",
+      "tireRevisionNote": "S/N A1420X+ changed TC5113/TC5115 center tire from 12-ply to F-ply; all other TC dimensions/weights/HP unchanged from S/N A1419X-"
+    },
+    "variants": [
+      {
+        "sku": "TC5109",
+        "shanks": 9,
+        "workingWidthIn": 135,
+        "weightLb": 8080,
+        "transportWidthIn": 138,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 200,
+        "hpChiselMax": 250,
+        "hpParabolicMin": 230,
+        "hpParabolicMax": 260
+      },
+      {
+        "sku": "TC5111",
+        "shanks": 11,
+        "workingWidthIn": 165,
+        "weightLb": 9835,
+        "transportWidthIn": 171,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 230,
+        "hpChiselMax": 285,
+        "hpParabolicMin": 255,
+        "hpParabolicMax": 315
+      },
+      {
+        "sku": "TC5113",
+        "shanks": 13,
+        "workingWidthIn": 195,
+        "weightLb": 11240,
+        "transportWidthIn": 198,
+        "tireCenter": "12.5L x 15 12-ply (A1419X-) / F-ply (A1420X+)",
+        "hpChiselMin": 270,
+        "hpChiselMax": 329,
+        "hpParabolicMin": 315,
+        "hpParabolicMax": 385
+      },
+      {
+        "sku": "TC5115",
+        "shanks": 15,
+        "workingWidthIn": 225,
+        "weightLb": 12600,
+        "transportWidthIn": 228,
+        "tireCenter": "12.5L x 15 12-ply (A1419X-) / F-ply (A1420X+)",
+        "hpChiselMin": 315,
+        "hpChiselMax": 385,
+        "hpParabolicMin": 355,
+        "hpParabolicMax": 440
+      },
+      {
+        "sku": "TC5313",
+        "shanks": 13,
+        "workingWidthIn": 195,
+        "weightLb": 11280,
+        "transportWidthIn": 174,
+        "transportHeightIn": 114,
+        "tireCenter": "12.5L x 15 F-ply",
+        "hpChiselMin": 270,
+        "hpChiselMax": 329,
+        "hpParabolicMin": 315,
+        "hpParabolicMax": 385
+      },
+      {
+        "sku": "TC5315",
+        "shanks": 15,
+        "workingWidthIn": 225,
+        "weightLb": 12900,
+        "transportWidthIn": 174,
+        "transportHeightIn": 123,
+        "tireCenter": "12.5L x 15 F-ply",
+        "hpChiselMin": 315,
+        "hpChiselMax": 385,
+        "hpParabolicMin": 355,
+        "hpParabolicMax": 440
+      },
+      {
+        "sku": "TC5317",
+        "shanks": 17,
+        "workingWidthIn": 255,
+        "weightLb": 13700,
+        "transportWidthIn": 177,
+        "transportHeightIn": 132,
+        "tireCenter": "12.5L x 15 F-ply",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpChiselMin": 355,
+        "hpChiselMax": 440,
+        "hpParabolicMin": 425,
+        "hpParabolicMax": 500
+      },
+      {
+        "sku": "TC5319",
+        "shanks": 19,
+        "workingWidthIn": 285,
+        "weightLb": 14200,
+        "transportWidthIn": 177,
+        "transportHeightIn": 147,
+        "tireCenter": "12.5L x 15 F-ply",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpChiselMin": 397,
+        "hpChiselMax": 468,
+        "hpParabolicMin": 450,
+        "hpParabolicMax": 530
+      },
+      {
+        "sku": "TC5321",
+        "shanks": 21,
+        "workingWidthIn": 315,
+        "weightLb": 15650,
+        "transportWidthIn": 177,
+        "transportHeightIn": 162,
+        "tireCenter": "12.5L x 15 F-ply",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpChiselMin": 440,
+        "hpChiselMax": 510,
+        "hpParabolicMin": 568,
+        "hpParabolicMax": null
+      },
+      {
+        "sku": "TC5323",
+        "shanks": 23,
+        "workingWidthIn": 345,
+        "weightLb": 16250,
+        "transportWidthIn": 177,
+        "transportHeightIn": 174,
+        "tireCenter": "12.5L x 15 F-ply",
+        "tireWing": "12.5L x 15 12-ply",
+        "hpChiselMin": 497,
+        "hpChiselMax": null,
+        "hpParabolicMin": null,
+        "hpParabolicMax": null
+      },
+      {
+        "sku": "TCN5107",
+        "shanks": 7,
+        "workingWidthIn": 105,
+        "centerSectionIn": 108,
+        "weightLb": 9970,
+        "tongueWeightLb": 249,
+        "axleWeightLb": 9721,
+        "transportWidthIn": 108,
+        "transportHeightIn": 69,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 170,
+        "hpChiselMax": 230,
+        "hpParabolicMin": 200,
+        "hpParabolicMax": 240
+      },
+      {
+        "sku": "TCN5309",
+        "shanks": 9,
+        "workingWidthIn": 135,
+        "centerSectionIn": 108,
+        "wingIn": 21,
+        "weightLb": 13215,
+        "tongueWeightLb": 330,
+        "axleWeightLb": 12885,
+        "transportWidthIn": 118,
+        "transportHeightIn": 113,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 200,
+        "hpChiselMax": 250,
+        "hpParabolicMin": 230,
+        "hpParabolicMax": 260
+      },
+      {
+        "sku": "TCN5311",
+        "shanks": 11,
+        "workingWidthIn": 165,
+        "centerSectionIn": 108,
+        "wingIn": 30,
+        "weightLb": 14920,
+        "tongueWeightLb": 373,
+        "axleWeightLb": 14547,
+        "transportWidthIn": 118,
+        "transportHeightIn": 118,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 230,
+        "hpChiselMax": 285,
+        "hpParabolicMin": 255,
+        "hpParabolicMax": 315
+      },
+      {
+        "sku": "TCN5313",
+        "shanks": 13,
+        "workingWidthIn": 195,
+        "centerSectionIn": 108,
+        "wingIn": 45,
+        "weightLb": 16055,
+        "tongueWeightLb": 401,
+        "axleWeightLb": 15654,
+        "transportWidthIn": 118,
+        "transportHeightIn": 123,
+        "tireCenter": "12.5L x 15 12-ply",
+        "hpChiselMin": 270,
+        "hpChiselMax": 329,
+        "hpParabolicMin": 315,
+        "hpParabolicMax": 385
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-turbo-max-850-1000tm",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Turbo-Max (850TM/1000TM/1200TM/1500TM)",
+    "displayName": "Great Plains Turbo-Max (850TM-4000TM)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "586-592M, Specifications and Capacities table p.27 — covers only 850TM/1000TM, the two smallest sizes in this family. Manuals for the family's other size tiers (1200/1500TM, 1800/2400/3000TM, 3500/4000TM, 4800TM, 6&8M, 3.0M) are also in hand (Brochures/Great Plains/Turbo-Max (850-1000-1200-1500TM)/) but not yet extracted — out of scope for this pass, which matches the originally-requested 850TM/1000TM range from p.6-7 of the tillage catalog. 1200TM-4000TM added from 586-288M (2012, Turbo Max Specifications and Capacities p.41): 7.5in blade spacing; weight is with spike harrow & reel. In that table the coulter counts (41/49/57/77, 97/109/125) are printed below the outer-wing row with their label displaced; read as Number of Coulters. 4800TM from 586-632M (2020, p.37); 3.0M TM from 588-154M (2026, p.28); 6.0 m and 8.0 m metric models from 588-015M (2026, p.32). Blade spacing 7.5in / 19 cm throughout."
+    },
+    "constants": {
+      "bladeSpacingIn": 7.5,
+      "gangAngle": "Adjustable 0 to 6 degrees",
+      "transportHeightIn": 64,
+      "lengthWithoutAttachmentIn": 221,
+      "tireSize": "340/60R16.5"
+    },
+    "variants": [
+      {
+        "sku": "850TM",
+        "workingWidthIn": 102,
+        "centerSectionIn": 96,
+        "coulters": 27,
+        "weightLb": 7500,
+        "transportWidthIn": 120,
+        "hpMin": 85
+      },
+      {
+        "sku": "1000TM",
+        "workingWidthIn": 120,
+        "centerSectionIn": 120,
+        "coulters": 31,
+        "weightLb": 8250,
+        "transportWidthIn": 138,
+        "hpMin": 100
+      },
+      {
+        "sku": "1200TM",
+        "tillageWidthIn": 158,
+        "blades": 41,
+        "weightLbWithSpikeReel": 9000,
+        "transportWidthIn": 162,
+        "transportHeightIn": 64,
+        "hpPtoRange": "115-140"
+      },
+      {
+        "sku": "1500TM",
+        "tillageWidthIn": 188,
+        "blades": 49,
+        "weightLbWithSpikeReel": 10000,
+        "transportWidthIn": 186,
+        "transportHeightIn": 64,
+        "hpPtoRange": "140-180"
+      },
+      {
+        "sku": "1800TM",
+        "tillageWidthIn": 216,
+        "blades": 57,
+        "weightLbWithSpikeReel": 15180,
+        "transportWidthIn": 168,
+        "transportHeightIn": 99,
+        "hpPtoRange": "180-230"
+      },
+      {
+        "sku": "2400TM",
+        "tillageWidthIn": 293,
+        "blades": 77,
+        "weightLbWithSpikeReel": 18800,
+        "transportWidthIn": 184,
+        "transportHeightIn": 135,
+        "hpPtoRange": "230-285"
+      },
+      {
+        "sku": "3000TM",
+        "tillageWidthIn": 368,
+        "blades": 97,
+        "weightLbWithSpikeReel": 22700,
+        "transportWidthIn": 184,
+        "transportHeightIn": 168,
+        "hpPtoRange": "285-340"
+      },
+      {
+        "sku": "3500TM",
+        "tillageWidthIn": 414,
+        "blades": 109,
+        "weightLbWithSpikeReel": 26860,
+        "transportWidthIn": 201,
+        "transportHeightIn": 172,
+        "hpPtoRange": "340-380"
+      },
+      {
+        "sku": "4000TM",
+        "tillageWidthIn": 474,
+        "blades": 125,
+        "weightLbWithSpikeReel": 32260,
+        "transportWidthIn": 216,
+        "transportHeightIn": 170,
+        "hpPtoRange": "380-450"
+      },
+      {
+        "sku": "4800TM",
+        "tillageWidthIn": 576,
+        "blades": 153,
+        "weightLb": 37900,
+        "transportWidthIn": 216,
+        "transportHeightIn": 174,
+        "centerSectionFt": 12,
+        "firstWingFt": 11,
+        "secondWingFt": 7
+      },
+      {
+        "sku": "3.0M TM",
+        "productLine": "metric export model",
+        "tillageWidthM": 3.0,
+        "blades": 31,
+        "weightKgWithSpikeReel": 3740,
+        "transportWidthM": 3.0,
+        "transportHeightM": 1.6,
+        "lengthNoAttachmentM": 5.6,
+        "hpPtoMin": "100+"
+      },
+      {
+        "sku": "6.0m Turbo-Max",
+        "productLine": "metric export model",
+        "tillageWidthM": 6.0,
+        "blades": 65,
+        "weightKgMax": 9650,
+        "hitchLoadKg": 1150,
+        "axleLoadKg": 8500,
+        "transportWidthM": 3.0,
+        "transportHeightM": 3.0,
+        "lengthWithAttachmentM": 8.7,
+        "hpPtoMin": "200+"
+      },
+      {
+        "sku": "8.0m Turbo-Max",
+        "productLine": "metric export model",
+        "tillageWidthM": 8.0,
+        "blades": 85,
+        "weightKgMax": 10950,
+        "hitchLoadKg": 1150,
+        "axleLoadKg": 9800,
+        "transportWidthM": 3.0,
+        "transportHeightM": 4.0,
+        "lengthWithAttachmentM": 8.7,
+        "hpPtoMin": "275+"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ultra-chisel-base",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Ultra-Chisel (6xxxUC base line)",
+    "displayName": "Great Plains Ultra-Chisel (6000 Series)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two manuals: 562-229M (6000 Series Ultra Chisel 3-Section: 6321UC-6333UC, p.27) and 562-339M (Ultra Chisel 5-Section: 6539UC-6545UC, p.32, found in the Unsorted haul). Distinct SKU range from VT1200 Ultra-Chisel already entered. Shank/blade spacing offered at 9in or 12in (some rows say 7.5in instead of 12in for the largest 3-section models — recorded as printed, not corrected, since it's the source's own inconsistency). 6530UC and 6533UC added from 562-094M (2015), Specifications and Capacities p.30 (graphic table, read from the rendered page); other models there match. That table labels the second width row \"7 1/2in spacing\" and the count row \"Number of Blades 12in Spacing\" for the 63xx/65xx group; recorded as shanks at 12in."
+    },
+    "constants": {
+      "underFrameClearanceIn": 30,
+      "maxWorkingDepthIn": 8,
+      "tireWing": "12.5L x 15",
+      "spacingOptionsIn": [
+        9,
+        12
+      ]
+    },
+    "variants": [
+      {
+        "sku": "6321UC",
+        "workingWidthIn9in": 261,
+        "workingWidthIn12in": 261,
+        "shanks9in": 29,
+        "shanks12in": 22,
+        "transportWidthIn": 164,
+        "transportHeightIn9in": 130,
+        "transportHeightIn12in": 130,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 190,
+        "hpMax": 220
+      },
+      {
+        "sku": "6324UC",
+        "workingWidthIn9in": 297,
+        "workingWidthIn12in": 285,
+        "shanks9in": 33,
+        "shanks12in": 24,
+        "transportWidthIn": 164,
+        "transportHeightIn9in": 148,
+        "transportHeightIn12in": 142,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "9.5L x 15",
+        "hpMin": 200,
+        "hpMax": 250
+      },
+      {
+        "sku": "6327UC",
+        "workingWidthIn9in": 333,
+        "workingWidthIn12in": 333,
+        "shanks9in": 37,
+        "shanks12in": 28,
+        "transportWidthIn": 164,
+        "transportHeightIn9in": 166,
+        "transportHeightIn12in": 166,
+        "tireTransport": "340/60R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 240,
+        "hpMax": 290
+      },
+      {
+        "sku": "6329UC",
+        "workingWidthIn9in": 351,
+        "workingWidthIn7_5in": 357,
+        "shanks9in": 39,
+        "blades12in": 30,
+        "transportWidthIn": 164,
+        "transportHeightIn9in": 175,
+        "transportHeightIn12in": 178,
+        "tireTransport": "340/60R15.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 250,
+        "hpMax": 325
+      },
+      {
+        "sku": "6330UC",
+        "workingWidthIn9in": 369,
+        "workingWidthIn7_5in": 369,
+        "shanks9in": 41,
+        "blades12in": 32,
+        "transportWidthIn": 200,
+        "transportHeightIn9in": 166,
+        "transportHeightIn12in": 166,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 250,
+        "hpMax": 350
+      },
+      {
+        "sku": "6333UC",
+        "workingWidthIn9in": 405,
+        "workingWidthIn7_5in": 393,
+        "shanks9in": 45,
+        "blades12in": 34,
+        "transportWidthIn": 200,
+        "transportHeightIn9in": 184,
+        "transportHeightIn12in": 178,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 325,
+        "hpMax": 450
+      },
+      {
+        "sku": "6539UC",
+        "workingWidthIn9in": 459,
+        "workingWidthIn12in": 468,
+        "shanks9in": 51,
+        "shanks12in": 39,
+        "transportWidthIn": 193,
+        "transportHeightIn9in": 159,
+        "transportHeightIn12in": 161,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 330,
+        "hpMax": 430
+      },
+      {
+        "sku": "6541UC",
+        "workingWidthIn9in": 477,
+        "workingWidthIn12in": 492,
+        "shanks9in": 53,
+        "shanks12in": 41,
+        "transportWidthIn": 193,
+        "transportHeightIn9in": 159,
+        "transportHeightIn12in": 161,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 330,
+        "hpMax": 450
+      },
+      {
+        "sku": "6543UC",
+        "workingWidthIn9in": 513,
+        "workingWidthIn12in": 516,
+        "shanks9in": 57,
+        "blades12in": 43,
+        "transportWidthIn": 193,
+        "transportHeightIn9in": 164,
+        "transportHeightIn12in": 166,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 345,
+        "hpMax": 480
+      },
+      {
+        "sku": "6545UC",
+        "workingWidthIn9in": 549,
+        "workingWidthIn12in": 540,
+        "shanks9in": 61,
+        "blades12in": 45,
+        "transportWidthIn": 193,
+        "transportHeightIn9in": 164,
+        "transportHeightIn12in": 166,
+        "tireTransport": "380/55R16.5",
+        "tireGauge": "11L x 15",
+        "hpMin": 360,
+        "hpMax": 515
+      },
+      {
+        "sku": "6530UC",
+        "frame": "5-section",
+        "tillageWidthIn9": 369,
+        "tillageWidthIn7_5": 369,
+        "shanks9in": 41,
+        "shanks12in": 32,
+        "underframeClearanceIn": 30,
+        "transportWidthIn": 200,
+        "transportHeightIn9": 166,
+        "transportHeightIn12": 166,
+        "hpPtoRange": "250-350"
+      },
+      {
+        "sku": "6533UC",
+        "frame": "5-section",
+        "tillageWidthIn9": 405,
+        "tillageWidthIn7_5": 393,
+        "shanks9in": 45,
+        "shanks12in": 34,
+        "underframeClearanceIn": 30,
+        "transportWidthIn": 200,
+        "transportHeightIn9": 184,
+        "transportHeightIn12": 178,
+        "hpPtoRange": "325-450"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-plains-plow-series-ii",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Plains Plow Series II",
+    "displayName": "Great Plains Plains Plow Series II",
+    "category": "Plows",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "580-043M, PP Specifications and Capacities table p.24. \"Number of Sweeps\" row is a shared-template mislabel (a plow has bottoms, not sweeps) and the digits for the first 4 models were concatenated by the PDF text layer (\"67 9 1 1\") — decoded as 6/7/9/11 by cross-checking against the working-width growth per model, which increases consistently with that bottom-count sequence; the second block's digits (12/13/14/15) extracted cleanly and needed no reconstruction. Horsepower is not given anywhere in the source table for the 4 largest models (9744PP-9756PP) — omitted rather than guessed."
+    },
+    "constants": {
+      "tireGaugeWheel": "9.5L-15 8-ply"
+    },
+    "variants": [
+      {
+        "sku": "9322PP",
+        "bottoms": 6,
+        "workingWidthIn": 268,
+        "centerSectionIn": 90,
+        "wing1In": 96,
+        "weightLb": 8160,
+        "transportWidthIn": 156,
+        "transportHeightIn": 150,
+        "tireCenter": "11L-15SL 12-ply",
+        "tireWing": "11L-15 8-ply",
+        "hpMin": 150,
+        "hpMax": 205
+      },
+      {
+        "sku": "9326PP",
+        "bottoms": 7,
+        "workingWidthIn": 312,
+        "centerSectionIn": 120,
+        "wing1In": 96,
+        "weightLb": 9220,
+        "transportWidthIn": 200,
+        "transportHeightIn": 150,
+        "tireCenter": "11L-15 8-ply",
+        "tireWing": "11L-15 8-ply",
+        "hpMin": 180,
+        "hpMax": 240
+      },
+      {
+        "sku": "9533PP",
+        "bottoms": 9,
+        "workingWidthIn": 400,
+        "centerSectionIn": 120,
+        "wing1In": 84,
+        "wing2In": 48,
+        "weightLb": 11500,
+        "transportWidthIn": 216,
+        "transportHeightIn": 174,
+        "tireCenter": "11L-15SL 12-ply",
+        "tireWing": "11L-15 8-ply",
+        "hpMin": 230,
+        "hpMax": 305
+      },
+      {
+        "sku": "9540PP",
+        "bottoms": 11,
+        "workingWidthIn": 488,
+        "centerSectionIn": 120,
+        "wing1In": 96,
+        "wing2In": 84,
+        "weightLb": 13480,
+        "transportWidthIn": 216,
+        "transportHeightIn": 162,
+        "tireCenter": "11L-15SL 12-ply",
+        "tireWing": "11L-15 8-ply",
+        "hpMin": 285,
+        "hpMax": 370
+      },
+      {
+        "sku": "9744PP",
+        "bottoms": 12,
+        "workingWidthIn": 532,
+        "centerSectionIn": 90,
+        "wing1In": 90,
+        "wing2In": 84,
+        "wing3In": 48,
+        "weightLb": 17300,
+        "transportWidthIn": 262,
+        "transportHeightIn": 174,
+        "tireCenterInnerWing": "11L-15 Load F",
+        "tireOuterWing": "11L-15 8-ply",
+        "hpMin": null,
+        "hpMax": null
+      },
+      {
+        "sku": "9748PP",
+        "bottoms": 13,
+        "workingWidthIn": 576,
+        "centerSectionIn": 120,
+        "wing1In": 84,
+        "wing2In": 84,
+        "wing3In": 48,
+        "weightLb": 18620,
+        "transportWidthIn": 306,
+        "transportHeightIn": 174,
+        "tireCenterInnerWing": "11L-15 Load F",
+        "tireOuterWing": "11L-15 8-ply",
+        "hpMin": null,
+        "hpMax": null
+      },
+      {
+        "sku": "9752PP",
+        "bottoms": 14,
+        "workingWidthIn": 620,
+        "centerSectionIn": 90,
+        "wing1In": 90,
+        "wing2In": 96,
+        "wing3In": 84,
+        "weightLb": 19220,
+        "transportWidthIn": 262,
+        "transportHeightIn": 174,
+        "tireCenterInnerWing": "11L-15 Load F",
+        "tireOuterWing": "11L-15 8-ply",
+        "hpMin": null,
+        "hpMax": null
+      },
+      {
+        "sku": "9756PP",
+        "bottoms": 15,
+        "workingWidthIn": 664,
+        "centerSectionIn": 120,
+        "wing1In": 90,
+        "wing2In": 96,
+        "wing3In": 84,
+        "weightLb": 20540,
+        "transportWidthIn": 306,
+        "transportHeightIn": 174,
+        "tireCenterInnerWing": "11L-15 Load F",
+        "tireOuterWing": "11L-15 8-ply",
+        "hpMin": null,
+        "hpMax": null
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ultra-disk",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Ultra Disk (UD2200/UD2600/UD3000/UD3300)",
+    "displayName": "Great Plains Ultra Disk",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "559-460M, Specifications and Capacities table p.48. Clean text-layer table, high confidence. Weight is given as a range (base machine to fully optioned), not a single figure like most other GP entries — recorded as weightMinLb/weightMaxLb rather than picking an endpoint."
+    },
+    "constants": {
+      "bladeSpacingIn": 10,
+      "gangTubeIn": "3 x 6 x 0.375in",
+      "gangSpacingIn": 88,
+      "gangToeAngle": "18 degrees front, 16 degrees rear",
+      "diskOperatingDepthIn": [
+        0,
+        7
+      ],
+      "wingFlex": "12 degrees down, unlimited up",
+      "hydraulicCircuits": "Closed Center - 2, 3, or 4 Remotes",
+      "hydraulicCapability": "2250 psi, 10 gal/min",
+      "transportClearanceIn": 14,
+      "tireWing": "12.5L x 15 SL 12-ply Straight Rib",
+      "tireGaugeWheel": "12.5L x 15 SL 12-ply Straight Rib",
+      "hitch": "Pull-Type Category III/IV or V"
+    },
+    "variants": [
+      {
+        "sku": "UD2200",
+        "workingWidthIn": 264,
+        "blades": 54,
+        "diskDiameterIn": 20,
+        "weightMinLb": 17340,
+        "weightMaxLb": 18840,
+        "frameWidthUnfoldedIn": 292,
+        "transportWidthIn": 187,
+        "transportHeightMaxIn": 138,
+        "tireTransport": "380/55R16.5 Load F",
+        "hpMin": 240,
+        "hpMax": 275
+      },
+      {
+        "sku": "UD2600",
+        "workingWidthIn": 320,
+        "blades": 66,
+        "diskDiameterIn": 20,
+        "weightMinLb": 17500,
+        "weightMaxLb": 23800,
+        "frameWidthUnfoldedIn": 356,
+        "transportWidthIn": 182,
+        "transportHeightMaxIn": 160,
+        "tireTransport": "380/55R16.5 Load F",
+        "hpMin": 280,
+        "hpMax": 400
+      },
+      {
+        "sku": "UD3000",
+        "workingWidthIn": 360,
+        "blades": 74,
+        "diskDiameterIn": 22,
+        "weightMinLb": 19300,
+        "weightMaxLb": 24400,
+        "frameWidthUnfoldedIn": 387,
+        "transportWidthIn": 182,
+        "transportHeightMaxIn": 180,
+        "tireTransport": "440/55R18 159A8/B",
+        "hpMin": 330,
+        "hpMax": 450
+      },
+      {
+        "sku": "UD3300",
+        "workingWidthIn": 400,
+        "blades": 82,
+        "diskDiameterIn": 24,
+        "weightMinLb": 20600,
+        "weightMaxLb": 28300,
+        "frameWidthUnfoldedIn": 431,
+        "transportWidthIn": 222,
+        "transportHeightMaxIn": 180,
+        "tireTransport": "440/55R18 159A8/B",
+        "hpMin": 360,
+        "hpMax": 500
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ss-series-inline-ripper",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Sub-Soiler Inline Ripper (SS series)",
+    "displayName": "Great Plains Sub-Soiler Inline Ripper (SS series)",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Three manuals, each a dense shank-count x spacing option matrix (spacing offered at some combination of 24/30/36/38/40in depending on shank count): 596-224M (SS0300, 3-6 shank, p.23), 596-086M (SS1300 3-8 shank & SS1700 5-9 shank, one document, p.24-25), 596-222M (SS1800 6-7 shank & SS2000 7-12 shank, one document, p.24). Distinct SS-prefix inline ripper line, separate from the VT1500/1510/1520 Sub-Soiler family. IMPORTANT: weight is NOT purely a function of shank count — SS0300, SS1300/1700, and SS1800/2000 are three physically different frame sizes with different weights at the SAME shank count (e.g. 3 shanks = 2030lb on SS0300 but 2339lb on SS1300) — recorded as three separate sub-lines, not merged into one shank-count table. Working width varies by spacing option within each shank-count row and was not transcribed per spacing option (dozens of combinations) — weight/HP (which are constant across spacing options at a given shank count) are the reliable, extracted fields; spacing options are listed as a constant per sub-line. (sku values were synthesized from subline/shank count/spacing because the source table lists configurations rather than model numbers.)"
+    },
+    "constants": {
+      "spacingOptionsIn": [
+        24,
+        27.5,
+        29.5,
+        30,
+        36,
+        38,
+        40
+      ],
+      "gaugeWheelTireSize": "20.5x8 10-ply",
+      "note": "SS1800/SS2000's \"Weight\" field is a single total, unlike SS0300/SS1300/SS1700's rigid-vs-auto-reset-shank split — recorded as printed in each sub-line."
+    },
+    "variants": [
+      {
+        "sku": "SS0300 3-shank",
+        "subline": "SS0300",
+        "shanks": 3,
+        "weightRigidLb": 2030,
+        "weightAutoResetLb": 2750,
+        "hpMin": 150,
+        "hpMax": 240
+      },
+      {
+        "sku": "SS0300 4-shank",
+        "subline": "SS0300",
+        "shanks": 4,
+        "weightRigidLb": 2305,
+        "weightAutoResetLb": 3265,
+        "hpMin": 200,
+        "hpMax": 320
+      },
+      {
+        "sku": "SS0300 5-shank",
+        "subline": "SS0300",
+        "shanks": 5,
+        "weightRigidLb": 2580,
+        "weightAutoResetLb": 3780,
+        "hpMin": 250,
+        "hpMax": 400
+      },
+      {
+        "sku": "SS0300 6-shank",
+        "subline": "SS0300",
+        "shanks": 6,
+        "weightRigidLb": 2860,
+        "weightAutoResetLb": 4300,
+        "hpMin": 300,
+        "hpMax": 480
+      },
+      {
+        "sku": "SS1300 3-shank",
+        "subline": "SS1300",
+        "shanks": 3,
+        "weightRigidLb": 2339,
+        "weightAutoResetLb": 3140,
+        "hpMin": 150,
+        "hpMax": 240
+      },
+      {
+        "sku": "SS1300 4-shank",
+        "subline": "SS1300",
+        "shanks": 4,
+        "weightRigidLb": 2519,
+        "weightAutoResetLb": 3587,
+        "hpMin": 200,
+        "hpMax": 320
+      },
+      {
+        "sku": "SS1300 5-shank",
+        "subline": "SS1300",
+        "shanks": 5,
+        "weightRigidLb": 2688,
+        "weightAutoResetLb": 4023,
+        "hpMin": 250,
+        "hpMax": 400
+      },
+      {
+        "sku": "SS1300 6-shank",
+        "subline": "SS1300",
+        "shanks": 6,
+        "weightRigidLb": 3092,
+        "weightAutoResetLb": 4694,
+        "hpMin": 300,
+        "hpMax": 480
+      },
+      {
+        "sku": "SS1300 7-shank",
+        "subline": "SS1300",
+        "shanks": 7,
+        "weightRigidLb": 3392,
+        "weightAutoResetLb": 5212,
+        "hpMin": 350,
+        "hpMax": 400
+      },
+      {
+        "sku": "SS1300 8-shank",
+        "subline": "SS1300",
+        "shanks": 8,
+        "weightRigidLb": 3778,
+        "weightAutoResetLb": 5914,
+        "hpMin": 400,
+        "hpMax": null
+      },
+      {
+        "sku": "SS1700 5-shank",
+        "subline": "SS1700",
+        "shanks": 5,
+        "weightRigidLb": 2925,
+        "weightAutoResetLb": 4260,
+        "hpMin": 250,
+        "hpMax": 400
+      },
+      {
+        "sku": "SS1700 6-shank",
+        "subline": "SS1700",
+        "shanks": 6,
+        "weightRigidLb": 3100,
+        "weightAutoResetLb": 4702,
+        "hpMin": 300,
+        "hpMax": 480
+      },
+      {
+        "sku": "SS1700 7-shank",
+        "subline": "SS1700",
+        "shanks": 7,
+        "weightRigidLb": 3588,
+        "weightAutoResetLb": 5336,
+        "hpMin": 300,
+        "hpMax": 480,
+        "note": "some 7-shank spacing options print HP as 350+ instead of the 300-480 range shown for others — recorded the range, flagged"
+      },
+      {
+        "sku": "SS1700 8-shank",
+        "subline": "SS1700",
+        "shanks": 8,
+        "weightRigidLb": 3842,
+        "weightAutoResetLb": 5979,
+        "hpMin": 400,
+        "hpMax": null
+      },
+      {
+        "sku": "SS1700 9-shank",
+        "subline": "SS1700",
+        "shanks": 9,
+        "weightRigidLb": 4148,
+        "weightAutoResetLb": 6408,
+        "hpMin": 450,
+        "hpMax": null
+      },
+      {
+        "sku": "SS1800 6-shank",
+        "subline": "SS1800",
+        "shanks": 6,
+        "weightLb": 4850,
+        "hpMin": 300,
+        "hpMax": 480
+      },
+      {
+        "sku": "SS1800 7-shank",
+        "subline": "SS1800",
+        "shanks": 7,
+        "weightLb": 5125,
+        "hpMin": 350,
+        "hpMax": null
+      },
+      {
+        "sku": "SS2000 7-shank",
+        "subline": "SS2000",
+        "shanks": 7,
+        "weightLb": 5840,
+        "hpMin": 350,
+        "hpMax": null
+      },
+      {
+        "sku": "SS2000 8-shank",
+        "subline": "SS2000",
+        "shanks": 8,
+        "weightLb": 6125,
+        "hpMin": 400,
+        "hpMax": null
+      },
+      {
+        "sku": "SS2000 9-shank",
+        "subline": "SS2000",
+        "shanks": 9,
+        "weightLb": 6500,
+        "hpMin": 450,
+        "hpMax": null
+      },
+      {
+        "sku": "SS2000 10-shank",
+        "subline": "SS2000",
+        "shanks": 10,
+        "weightLb": 6650,
+        "hpMin": 500,
+        "hpMax": null
+      },
+      {
+        "sku": "SS2000 12-shank",
+        "subline": "SS2000",
+        "shanks": 12,
+        "weightLb": 7400,
+        "hpMin": 500,
+        "hpMax": null
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-hipper-bedder",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Hipper Bedder (HB25 & HB40)",
+    "displayName": "Great Plains Hipper Bedder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "591-092M, Specifications and Capacities HB25 (p.36) and HB40 (p.35) tables. NOTABLE: HB40's Working Frame Width (41'0\"), Transport Height (14'8\"), Hitch, Toolbar (7x7x0.5in), Hydraulic Circuit, and row-spacing options are all IDENTICAL to the LC40 Lister Cultivator already entered — same underlying toolbar/frame, just fitted with hipper/bedder shovels instead of cultivator sweeps. Row count is blank in the source table for the -1240/-1630 (HB40) and -0838/-0840 (HB25) columns, same gap pattern seen in LC40's table — omitted rather than guessed."
+    },
+    "constants": {
+      "workingLengthIn": [
+        53.5,
+        82.5
+      ],
+      "hitch": "3-Point Category III Wide or IV (N or W)",
+      "note": "Shares its toolbar/frame with the LC40 Lister Cultivator (see source note)"
+    },
+    "variants": [
+      {
+        "sku": "HB25-0830",
+        "rows": 8,
+        "rowUnits": 9,
+        "rowSpacingIn": 30,
+        "frameWidthIn": 255,
+        "swathIn": 240,
+        "transportWidthIn": 255,
+        "workingHeightIn": 64.5,
+        "transportHeightIn": 76.5,
+        "weightMinLb": 4900,
+        "weightMaxLb": 5700,
+        "minTractorHp": 170
+      },
+      {
+        "sku": "HB25-0836",
+        "rowSpacingIn": 36,
+        "frameWidthIn": 335,
+        "swathIn": 288,
+        "transportWidthIn": 335,
+        "weightMinLb": 5100,
+        "weightMaxLb": 5900,
+        "minTractorHp": 170
+      },
+      {
+        "sku": "HB25-0838",
+        "rowSpacingIn": 38,
+        "frameWidthIn": 335,
+        "swathIn": 304,
+        "transportWidthIn": 335,
+        "weightMinLb": 5100,
+        "weightMaxLb": 5900,
+        "minTractorHp": 170
+      },
+      {
+        "sku": "HB25-0840",
+        "rowSpacingIn": 40,
+        "frameWidthIn": 335,
+        "swathIn": 320,
+        "transportWidthIn": 335,
+        "weightMinLb": 5100,
+        "weightMaxLb": 5900,
+        "minTractorHp": 170
+      },
+      {
+        "sku": "HB40-1236",
+        "rows": 12,
+        "rowUnits": 13,
+        "rowSpacingIn": 36,
+        "frameWidthIn": 492,
+        "swathIn": 432,
+        "transportWidthIn": 309,
+        "workingHeightIn": 74,
+        "transportHeightIn": 176,
+        "weightMinLb": 9600,
+        "weightMaxLb": 11000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "HB40-1238",
+        "rows": 16,
+        "rowUnits": 17,
+        "rowSpacingIn": 38,
+        "frameWidthIn": 492,
+        "swathIn": 456,
+        "transportWidthIn": 296,
+        "weightMinLb": 9600,
+        "weightMaxLb": 11000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "HB40-1240",
+        "rowSpacingIn": 40,
+        "frameWidthIn": 492,
+        "swathIn": 480,
+        "transportWidthIn": 296,
+        "weightMinLb": 9600,
+        "weightMaxLb": 11000,
+        "minTractorHp": 250
+      },
+      {
+        "sku": "HB40-1630",
+        "rowSpacingIn": 30,
+        "frameWidthIn": 492,
+        "swathIn": 480,
+        "transportWidthIn": 296,
+        "weightMinLb": 10800,
+        "weightMaxLb": 12400,
+        "minTractorHp": 320
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-vt1100-turbo-max",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1100 Turbo-Max (wide/base sibling of VT1110 already entered)",
+    "displayName": "Great Plains VT1100 Turbo-Max",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Two manuals: 588-685M (VT1100-20/25/30, p.37) and 588-686M (VT1100-35/40, p.39). NOTABLE: the -20/25/30 table is numerically IDENTICAL to HT1100 Terra-Max's -20/25/30 table already entered (same weights, transport dims, HP) — same relationship as the HS2100 Velocity / 7000 Series Disk Harrow finding earlier: Turbo-Max and Terra-Max appear to share the same physical frame at this size tier, differing only in branding/blade style, not in the dimensions recorded here."
+    },
+    "constants": {
+      "bladeSpacingIn": 7.5,
+      "gangAngle": "Hydraulically adjustable, 0 to 6 degrees",
+      "lengthMachineOnlyIn": 261,
+      "note": "Offset gangs at 3.75in stagger, 7.5in spacing per gang (same convention as HT1100)"
+    },
+    "variants": [
+      {
+        "sku": "VT1100-20",
+        "workingWidthIn": 240,
+        "centerSectionIn": 147,
+        "wingIn": 63,
+        "blades": 66,
+        "weightLb": 17800,
+        "transportWidthIn": 187,
+        "transportHeightIn": 112,
+        "tireCenter": "380/55R16.5 Load F",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 180,
+        "hpMax": 230
+      },
+      {
+        "sku": "VT1100-25",
+        "workingWidthIn": 300,
+        "centerSectionIn": 147,
+        "wingIn": 93,
+        "blades": 80,
+        "weightLb": 22250,
+        "transportWidthIn": 187,
+        "transportHeightIn": 148,
+        "tireCenter": "380/55R16.5 Load F",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 230,
+        "hpMax": 285
+      },
+      {
+        "sku": "VT1100-30",
+        "workingWidthIn": 360,
+        "centerSectionIn": 147,
+        "wingIn": 124,
+        "blades": 96,
+        "weightLb": 26375,
+        "transportWidthIn": 187,
+        "transportHeightIn": 172,
+        "tireCenter": "410/50R16.5",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 285,
+        "hpMax": 340
+      },
+      {
+        "sku": "VT1100-35",
+        "workingWidthIn": 420,
+        "centerSectionIn": 159,
+        "wingOuterIn": 110,
+        "blades": 108,
+        "weightLb": 29000,
+        "transportWidthIn": 204,
+        "transportHeightIn": 175,
+        "tireCenter": "480/45R17",
+        "tireWing": "12.5Lx15 12-ply",
+        "hpMin": 340,
+        "hpMax": 400
+      },
+      {
+        "sku": "VT1100-40",
+        "workingWidthIn": 480,
+        "centerSectionIn": 159,
+        "wingInnerIn": 111,
+        "wingOuterIn": 48,
+        "blades": 128,
+        "weightLb": 34655,
+        "transportWidthIn": 211,
+        "transportHeightIn": 172,
+        "tireCenter": "445/45R19",
+        "tireWing": "12.5Lx15 12-ply",
+        "tireOutsideWing": "12.5Lx15 12-ply",
+        "hpMin": 380,
+        "hpMax": 460
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-seedbed-conditioner",
+    "manufacturer": "Great Plains",
+    "modelFamily": "SC Series",
+    "displayName": "Great Plains Seedbed Conditioner (2112SC-2551SC)",
+    "category": "Land Rollers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "540-072M (2021, models 2112-2335SC, SC Specifications and Capacities p.26) and 540-179M (2018, models 2536-2551SC, p.25), Great Plains Seedbed Conditioner operator manuals. Tillage width is a range (depends on basket spacing/setting); drums = number of rolling baskets. Center/wing section widths are in the source but not recorded. Transport height is N/A for the rigid 1-section 2112/2115SC."
+    },
+    "constants": {
+      "basketTires": "9.5L x 15 8-ply (2112-2335SC); 11L x 15 single / 9.5L x 15 dual (2536-2551SC)"
+    },
+    "variants": [
+      {
+        "sku": "2112SC",
+        "frame": "1-section",
+        "tillageWidthRangeIn": [
+          155,
+          163
+        ],
+        "transportWidthIn": 171,
+        "drums": 3,
+        "weightLb": 1701
+      },
+      {
+        "sku": "2115SC",
+        "frame": "1-section",
+        "tillageWidthRangeIn": [
+          185,
+          193
+        ],
+        "transportWidthIn": 202,
+        "drums": 3,
+        "weightLb": 2025
+      },
+      {
+        "sku": "2317SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          205,
+          221
+        ],
+        "transportWidthIn": 180,
+        "drums": 5,
+        "weightLb": 2675,
+        "transportHeightIn": 95
+      },
+      {
+        "sku": "2320SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          235,
+          251
+        ],
+        "transportWidthIn": 180,
+        "drums": 5,
+        "weightLb": 3040,
+        "transportHeightIn": 109
+      },
+      {
+        "sku": "2322SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          265,
+          281
+        ],
+        "transportWidthIn": 180,
+        "drums": 5,
+        "weightLb": 3435,
+        "transportHeightIn": 123
+      },
+      {
+        "sku": "2325SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          285,
+          309
+        ],
+        "transportWidthIn": 180,
+        "drums": 7,
+        "weightLb": 3600,
+        "transportHeightIn": 137
+      },
+      {
+        "sku": "2327SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          315,
+          339
+        ],
+        "transportWidthIn": 180,
+        "drums": 7,
+        "weightLb": 4200,
+        "transportHeightIn": 151
+      },
+      {
+        "sku": "2330SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          345,
+          369
+        ],
+        "transportWidthIn": 180,
+        "drums": 7,
+        "weightLb": 4560,
+        "transportHeightIn": 165
+      },
+      {
+        "sku": "2332SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          375,
+          399
+        ],
+        "transportWidthIn": 210,
+        "drums": 7,
+        "weightLb": 4955,
+        "transportHeightIn": 165
+      },
+      {
+        "sku": "2335SC",
+        "frame": "3-section",
+        "tillageWidthRangeIn": [
+          405,
+          429
+        ],
+        "transportWidthIn": 210,
+        "drums": 7,
+        "weightLb": 5320,
+        "transportHeightIn": 179
+      },
+      {
+        "sku": "2536SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          435,
+          453
+        ],
+        "transportWidthIn": 210,
+        "drums": 8,
+        "weightLb": 6120,
+        "transportHeightIn": 153
+      },
+      {
+        "sku": "2538SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          451,
+          483
+        ],
+        "transportWidthIn": 210,
+        "drums": 8,
+        "weightLb": 6460,
+        "transportHeightIn": 153
+      },
+      {
+        "sku": "2541SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          477,
+          513
+        ],
+        "transportWidthIn": 210,
+        "drums": 8,
+        "weightLb": 6970,
+        "transportHeightIn": 153
+      },
+      {
+        "sku": "2543SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          507,
+          543
+        ],
+        "transportWidthIn": 210,
+        "drums": 8,
+        "weightLb": 7310,
+        "transportHeightIn": 168
+      },
+      {
+        "sku": "2546SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          540,
+          573
+        ],
+        "transportWidthIn": 210,
+        "drums": 8,
+        "weightLb": 7820,
+        "transportHeightIn": 168
+      },
+      {
+        "sku": "2548SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          570,
+          588
+        ],
+        "transportWidthIn": 210,
+        "drums": 10,
+        "weightLb": 8160,
+        "transportHeightIn": 168
+      },
+      {
+        "sku": "2551SC",
+        "frame": "5-section",
+        "tillageWidthRangeIn": [
+          600,
+          618
+        ],
+        "transportWidthIn": 210,
+        "drums": 10,
+        "weightLb": 8670,
+        "transportHeightIn": 183
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-discovator-series-vii",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Discovator Series VII",
+    "displayName": "Great Plains Discovator Series VII (Disc & Coulter / Field Cultivator Combination)",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "550-220M (2009, models 5110-6324, Specifications and Capacities p.47) and 550-221M (2008, models 6326-7552, p.107) - both print the same full 14-model table. Vintage (discontinued) line. Sweep and disc tillage widths differ; blades = discs. Feet-inches converted to inches; section sizes kept in feet as printed. Transport height N/A for the 1-section 5110/6112."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "5110",
+        "sweepTillageWidthIn": 121,
+        "discTillageWidthIn": 102,
+        "shanks": 17,
+        "blades": 14,
+        "centerSectionFt": 6.5,
+        "transportWidthIn": 122,
+        "weightLb": 4550,
+        "hpRange": "80-100"
+      },
+      {
+        "sku": "5315",
+        "sweepTillageWidthIn": 191,
+        "discTillageWidthIn": 182,
+        "shanks": 27,
+        "blades": 22,
+        "centerSectionFt": 6.5,
+        "firstWingFt": 4.5,
+        "transportHeightIn": 101,
+        "transportWidthIn": 123,
+        "weightLb": 6910,
+        "hpRange": "115-135"
+      },
+      {
+        "sku": "6112",
+        "sweepTillageWidthIn": 149,
+        "discTillageWidthIn": 142,
+        "shanks": 21,
+        "blades": 18,
+        "centerSectionFt": 10,
+        "transportWidthIn": 149,
+        "weightLb": 5030,
+        "hpRange": "90-110"
+      },
+      {
+        "sku": "6318",
+        "sweepTillageWidthIn": 219,
+        "discTillageWidthIn": 214,
+        "shanks": 31,
+        "blades": 26,
+        "centerSectionFt": 10,
+        "firstWingFt": 4,
+        "transportHeightIn": 87,
+        "transportWidthIn": 165,
+        "weightLb": 8190,
+        "hpRange": "135-155"
+      },
+      {
+        "sku": "6320",
+        "sweepTillageWidthIn": 261,
+        "discTillageWidthIn": 246,
+        "shanks": 37,
+        "blades": 30,
+        "centerSectionFt": 10,
+        "firstWingFt": 6.5,
+        "transportHeightIn": 115,
+        "transportWidthIn": 165,
+        "weightLb": 8830,
+        "hpRange": "165-185"
+      },
+      {
+        "sku": "6324",
+        "sweepTillageWidthIn": 289,
+        "discTillageWidthIn": 278,
+        "shanks": 41,
+        "blades": 36,
+        "centerSectionFt": 10,
+        "firstWingFt": 7,
+        "transportHeightIn": 129,
+        "transportWidthIn": 165,
+        "weightLb": 10380,
+        "hpRange": "180-200"
+      },
+      {
+        "sku": "6326",
+        "sweepTillageWidthIn": 317,
+        "discTillageWidthIn": 310,
+        "shanks": 45,
+        "blades": 38,
+        "centerSectionFt": 10,
+        "firstWingFt": 8.5,
+        "transportHeightIn": 143,
+        "transportWidthIn": 165,
+        "weightLb": 11050,
+        "hpRange": "215-235"
+      },
+      {
+        "sku": "6328",
+        "sweepTillageWidthIn": 345,
+        "discTillageWidthIn": 342,
+        "shanks": 49,
+        "blades": 42,
+        "centerSectionFt": 10,
+        "firstWingFt": 9.5,
+        "transportHeightIn": 157,
+        "transportWidthIn": 165,
+        "weightLb": 11890,
+        "hpRange": "255-275"
+      },
+      {
+        "sku": "6536",
+        "sweepTillageWidthIn": 429,
+        "discTillageWidthIn": 420,
+        "shanks": 61,
+        "blades": 52,
+        "centerSectionFt": 10,
+        "firstWingFt": 8.5,
+        "secondWingFt": 4,
+        "transportHeightIn": 154,
+        "transportWidthIn": 165,
+        "weightLb": 14670,
+        "hpRange": "275-295"
+      },
+      {
+        "sku": "6542",
+        "sweepTillageWidthIn": 513,
+        "discTillageWidthIn": 510,
+        "shanks": 73,
+        "blades": 62,
+        "centerSectionFt": 10,
+        "firstWingFt": 9.5,
+        "secondWingFt": 6.5,
+        "transportHeightIn": 157,
+        "transportWidthIn": 165,
+        "weightLb": 17390,
+        "hpRange": "330-350"
+      },
+      {
+        "sku": "7333",
+        "sweepTillageWidthIn": 401,
+        "discTillageWidthIn": 388,
+        "shanks": 57,
+        "blades": 48,
+        "centerSectionFt": 12,
+        "firstWingFt": 10.5,
+        "transportHeightIn": 161,
+        "transportWidthIn": 193,
+        "weightLb": 13020,
+        "hpRange": "260-280"
+      },
+      {
+        "sku": "7336",
+        "sweepTillageWidthIn": 429,
+        "discTillageWidthIn": 420,
+        "shanks": 61,
+        "blades": 52,
+        "centerSectionFt": 12,
+        "firstWingFt": 12,
+        "transportHeightIn": 188,
+        "transportWidthIn": 193,
+        "weightLb": 13940,
+        "hpRange": "275-295"
+      },
+      {
+        "sku": "7548",
+        "sweepTillageWidthIn": 569,
+        "discTillageWidthIn": 562,
+        "shanks": 81,
+        "blades": 70,
+        "centerSectionFt": 12,
+        "firstWingFt": 10.5,
+        "secondWingFt": 6.5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 193,
+        "weightLb": 20200,
+        "hpRange": "370-390"
+      },
+      {
+        "sku": "7552",
+        "sweepTillageWidthIn": 625,
+        "discTillageWidthIn": 618,
+        "shanks": 89,
+        "blades": 76,
+        "centerSectionFt": 12,
+        "firstWingFt": 10.5,
+        "secondWingFt": 9,
+        "transportHeightIn": 171,
+        "transportWidthIn": 200,
+        "weightLb": 21050,
+        "hpRange": "390+"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-series-vii-field-cultivator",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Series VII Field Cultivator",
+    "displayName": "Great Plains Series VII Field Cultivator (6113-7560)",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "Eight Series VII field cultivator operator manuals (560-198m.pdf, 560-199m.pdf, 560-200m.pdf, 560-201m.pdf, 560-202m.pdf, 560-203m.pdf, 560-204m.pdf, 560-205m.pdf; rigid/constant-level and floating hitch editions, 2003-2009) all print the same 3-section and 5-section Specifications and Capacities tables. Vintage line. Walking tandems on wings of 6323 and larger (3-section); double fold standard on 6546 and larger. Some weights repeat across models exactly as printed (e.g. 6537 = 7337 = 10,096 lb). The 7551 hp range \"210-360\" is as printed."
+    },
+    "constants": {
+      "hitchOptions": "rigid (constant level) or floating"
+    },
+    "variants": [
+      {
+        "sku": "6113",
+        "tillageWidthIn": 163,
+        "transportWidthIn": 164,
+        "centerSectionFt": 10,
+        "firstWingFt": 2,
+        "shanks": 23,
+        "weightLb": 4010,
+        "hpRange": "70-90",
+        "frame": "1-section"
+      },
+      {
+        "sku": "6116",
+        "tillageWidthIn": 191,
+        "transportWidthIn": 192,
+        "centerSectionFt": 10,
+        "firstWingFt": 2,
+        "extensionIn": 28,
+        "shanks": 27,
+        "weightLb": 4204,
+        "hpRange": "85-105",
+        "frame": "1-section"
+      },
+      {
+        "sku": "6318",
+        "tillageWidthIn": 219,
+        "transportHeightIn": 94,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 4,
+        "shanks": 31,
+        "weightLb": 5543,
+        "hpRange": "100-120",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6320",
+        "tillageWidthIn": 247,
+        "transportHeightIn": 108,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 4,
+        "extensionIn": 28,
+        "shanks": 35,
+        "weightLb": 5678,
+        "hpRange": "115-135",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6323",
+        "tillageWidthIn": 275,
+        "transportHeightIn": 122,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 6.5,
+        "shanks": 39,
+        "weightLb": 6616,
+        "hpRange": "130-150",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6325",
+        "tillageWidthIn": 303,
+        "transportHeightIn": 136,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 6.5,
+        "extensionIn": 28,
+        "shanks": 43,
+        "weightLb": 6809,
+        "hpRange": "140-160",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6328",
+        "tillageWidthIn": 333,
+        "transportHeightIn": 150,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 9,
+        "shanks": 47,
+        "weightLb": 7241,
+        "hpRange": "150-170",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6330",
+        "tillageWidthIn": 359,
+        "transportHeightIn": 164,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 10,
+        "shanks": 51,
+        "weightLb": 8400,
+        "hpRange": "160-180",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6332",
+        "tillageWidthIn": 387,
+        "transportHeightIn": 178,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 10,
+        "extensionIn": 28,
+        "shanks": 55,
+        "weightLb": 8630,
+        "hpRange": "170-190",
+        "frame": "3-section"
+      },
+      {
+        "sku": "7332",
+        "tillageWidthIn": 387,
+        "transportHeightIn": 164,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 10,
+        "shanks": 55,
+        "weightLb": 8630,
+        "hpRange": "170-190",
+        "frame": "3-section"
+      },
+      {
+        "sku": "7334",
+        "tillageWidthIn": 415,
+        "transportHeightIn": 178,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 11,
+        "shanks": 59,
+        "weightLb": 9320,
+        "hpRange": "180-200",
+        "frame": "3-section"
+      },
+      {
+        "sku": "7337",
+        "tillageWidthIn": 443,
+        "transportHeightIn": 192,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 12.5,
+        "shanks": 63,
+        "weightLb": 10096,
+        "hpRange": "190-210",
+        "frame": "3-section"
+      },
+      {
+        "sku": "7341",
+        "tillageWidthIn": 499,
+        "transportHeightIn": 178,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 11,
+        "extensionIn": 84,
+        "shanks": 71,
+        "weightLb": 10741,
+        "hpRange": "200-220",
+        "frame": "3-section"
+      },
+      {
+        "sku": "7344",
+        "tillageWidthIn": 527,
+        "transportHeightIn": 192,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 12.5,
+        "extensionIn": 84,
+        "shanks": 75,
+        "weightLb": 10979,
+        "hpRange": "220-240",
+        "frame": "3-section"
+      },
+      {
+        "sku": "6537",
+        "tillageWidthIn": 443,
+        "transportHeightIn": 150,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 9,
+        "secondWingFt": 4.5,
+        "shanks": 63,
+        "weightLb": 10096,
+        "hpRange": "190-210",
+        "frame": "5-section"
+      },
+      {
+        "sku": "6539",
+        "tillageWidthIn": 471,
+        "transportHeightIn": 150,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 9,
+        "secondWingFt": 5.5,
+        "shanks": 67,
+        "weightLb": 10215,
+        "hpRange": "195-215",
+        "frame": "5-section"
+      },
+      {
+        "sku": "6541",
+        "tillageWidthIn": 499,
+        "transportHeightIn": 150,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 9,
+        "secondWingFt": 6,
+        "shanks": 71,
+        "weightLb": 10741,
+        "hpRange": "200-220",
+        "frame": "5-section"
+      },
+      {
+        "sku": "6544",
+        "tillageWidthIn": 527,
+        "transportHeightIn": 150,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 9,
+        "secondWingFt": 7,
+        "shanks": 75,
+        "weightLb": 10979,
+        "hpRange": "220-240",
+        "frame": "5-section"
+      },
+      {
+        "sku": "6546",
+        "tillageWidthIn": 555,
+        "transportHeightIn": 164,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 10,
+        "secondWingFt": 7,
+        "shanks": 79,
+        "weightLb": 11178,
+        "hpRange": "240-290",
+        "frame": "5-section"
+      },
+      {
+        "sku": "6548",
+        "tillageWidthIn": 583,
+        "transportHeightIn": 164,
+        "transportWidthIn": 165,
+        "centerSectionFt": 10,
+        "firstWingFt": 10,
+        "secondWingFt": 8.5,
+        "shanks": 83,
+        "weightLb": 12956,
+        "hpRange": "260-300",
+        "frame": "5-section"
+      },
+      {
+        "sku": "7551",
+        "tillageWidthIn": 611,
+        "transportHeightIn": 164,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 10,
+        "secondWingFt": 8.5,
+        "shanks": 87,
+        "weightLb": 13155,
+        "hpRange": "210-360 (sic)",
+        "frame": "5-section"
+      },
+      {
+        "sku": "7553",
+        "tillageWidthIn": 639,
+        "transportHeightIn": 178,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 11,
+        "secondWingFt": 8.5,
+        "shanks": 91,
+        "weightLb": 13861,
+        "hpRange": "320-370",
+        "frame": "5-section"
+      },
+      {
+        "sku": "7556",
+        "tillageWidthIn": 667,
+        "transportHeightIn": 178,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 11,
+        "secondWingFt": 10,
+        "shanks": 95,
+        "weightLb": 14060,
+        "hpRange": "330-380",
+        "frame": "5-section"
+      },
+      {
+        "sku": "7558",
+        "tillageWidthIn": 695,
+        "transportHeightIn": 192,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 12.5,
+        "secondWingFt": 10,
+        "shanks": 99,
+        "weightLb": 14298,
+        "hpRange": "340-390",
+        "frame": "5-section"
+      },
+      {
+        "sku": "7560",
+        "tillageWidthIn": 723,
+        "transportHeightIn": 192,
+        "transportWidthIn": 193,
+        "centerSectionFt": 12,
+        "firstWingFt": 12.5,
+        "secondWingFt": 11,
+        "shanks": 103,
+        "weightLb": 14690,
+        "hpRange": "350-400",
+        "frame": "5-section"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-ultra-till-series-i",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Ultra-Till Series I",
+    "displayName": "Great Plains Ultra-Till Series I (Disc & Coulter)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "576-026M (2009), Specifications and Capacities p.69. The same document number appears as 576-026m.pdf (Vintage Tillage) and 576-026m-a.pdf (Ultra-Till folder)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "UT3030",
+        "tillageWidthFt": 30,
+        "coulters": 44,
+        "modules": 13,
+        "centerSectionFt": 10,
+        "firstWingFt": 9.5,
+        "transportHeightIn": 172,
+        "transportWidthIn": 176,
+        "weightLb": 12000,
+        "hpRange": "150-200"
+      },
+      {
+        "sku": "UT5036",
+        "tillageWidthFt": 36,
+        "coulters": 52,
+        "modules": 17,
+        "centerSectionFt": 10,
+        "firstWingFt": 8.5,
+        "secondWingFt": 4,
+        "transportHeightIn": 152,
+        "transportWidthIn": 199,
+        "weightLb": 14700,
+        "hpRange": "180-250"
+      },
+      {
+        "sku": "UT5042",
+        "tillageWidthFt": 42,
+        "coulters": 64,
+        "modules": 21,
+        "centerSectionFt": 10,
+        "firstWingFt": 9.5,
+        "secondWingFt": 6.5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 199,
+        "weightLb": 17450,
+        "hpRange": "200-300"
+      },
+      {
+        "sku": "UT5048",
+        "tillageWidthFt": 48,
+        "coulters": 70,
+        "modules": 21,
+        "centerSectionFt": 12.5,
+        "firstWingFt": 10.5,
+        "secondWingFt": 6.5,
+        "transportHeightIn": 186,
+        "transportWidthIn": 227,
+        "weightLb": 20220,
+        "hpRange": "250-350"
+      },
+      {
+        "sku": "UT5052",
+        "tillageWidthFt": 52,
+        "coulters": 78,
+        "modules": 21,
+        "centerSectionFt": 12.5,
+        "firstWingFt": 10.5,
+        "secondWingFt": 8.5,
+        "transportHeightIn": 186,
+        "transportWidthIn": 227,
+        "weightLb": 21500,
+        "hpRange": "300+"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-turbo-till-series-i",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Turbo-Till Series I",
+    "displayName": "Great Plains Turbo-Till Series I (1000TT-4000TT)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "586-043M (S/N K1001NN to GP-2758NN, 2008), Specifications and Capacities p.74. Weight is base machine. Transport height N/A for the rigid 1000/1200TT."
+    },
+    "constants": {
+      "coulterSpacingIn": 10,
+      "effectiveCuttingWidthIn": 5,
+      "lengthNoAttachmentIn": 209
+    },
+    "variants": [
+      {
+        "sku": "1000TT",
+        "tillageWidthIn": 110,
+        "blades": 23,
+        "weightLb": 5000,
+        "transportWidthIn": 117,
+        "hpDrawbar": "65-85"
+      },
+      {
+        "sku": "1200TT",
+        "tillageWidthIn": 140,
+        "blades": 29,
+        "weightLb": 5600,
+        "transportWidthIn": 149,
+        "hpDrawbar": "80-100"
+      },
+      {
+        "sku": "1700TT",
+        "tillageWidthIn": 200,
+        "blades": 41,
+        "weightLb": 7700,
+        "transportWidthIn": 176,
+        "transportHeightIn": 84,
+        "hpDrawbar": "115-140"
+      },
+      {
+        "sku": "2200TT",
+        "tillageWidthIn": 260,
+        "blades": 53,
+        "weightLb": 9200,
+        "transportWidthIn": 176,
+        "transportHeightIn": 113,
+        "hpDrawbar": "150-180"
+      },
+      {
+        "sku": "3000TT",
+        "tillageWidthIn": 360,
+        "blades": 73,
+        "weightLb": 12900,
+        "transportWidthIn": 176,
+        "transportHeightIn": 162,
+        "hpDrawbar": "210-240"
+      },
+      {
+        "sku": "4000TT",
+        "tillageWidthIn": 480,
+        "blades": 97,
+        "weightLb": 16500,
+        "transportWidthIn": 202,
+        "transportHeightIn": 172,
+        "hpDrawbar": "275-375"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-verti-till-ripper",
+    "manufacturer": "Great Plains",
+    "modelFamily": "Verti-Till",
+    "displayName": "Great Plains Verti-Till 5300/7225/7300/9225 (5, 7 & 9 shank)",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "596-098M (2007), Specifications and Capacities p.38. The table gives two working widths (12.5 / 17.5 ft) and two overall widths for four models; assigned by shank count x spacing (5x30in and 7x22.5in ~ 12.5 ft; 7x30in and 9x22.5in ~ 17.5 ft). No weight given."
+    },
+    "constants": {
+      "overallHeightIn": 78,
+      "tillDepthIn": "6-16",
+      "coulters": "2in Turbo on 15in spacing, 2 gangs",
+      "tires": "12.5L 15 Load Range F"
+    },
+    "variants": [
+      {
+        "sku": "5300",
+        "shanks": 5,
+        "shankSpacingIn": 30,
+        "workingWidthFt": 12.5,
+        "overallWidthIn": 155.75,
+        "overallLengthIn": 314.25
+      },
+      {
+        "sku": "7225",
+        "shanks": 7,
+        "shankSpacingIn": 22.5,
+        "workingWidthFt": 12.5,
+        "overallWidthIn": 155.75,
+        "overallLengthIn": 352.5
+      },
+      {
+        "sku": "7300",
+        "shanks": 7,
+        "shankSpacingIn": 30,
+        "workingWidthFt": 17.5,
+        "overallWidthIn": 215.76,
+        "overallLengthIn": 314.25
+      },
+      {
+        "sku": "9225",
+        "shanks": 9,
+        "shankSpacingIn": 22.5,
+        "workingWidthFt": 17.5,
+        "overallWidthIn": 215.76,
+        "overallLengthIn": 352.5
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-sd-series-disk",
+    "manufacturer": "Great Plains",
+    "modelFamily": "SD Series",
+    "displayName": "Great Plains SD2600/SD3000/SD3300 Disk",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "559-129M (2017), Specifications and Capacities p.56. Weight range is from minimum configuration (rigid level, Cat III/IV hitch, no weights/attachment/gauge wheels) to maximum (hydraulic level, Cat V hitch, two weight kits, cast rollers, gauge wheels)."
+    },
+    "constants": {
+      "bladeSpacingIn": 10,
+      "gangSpacingIn": 88,
+      "gangToeAngle": "18° front, 16° rear",
+      "bladeOptions": [
+        "20 x 1/4in",
+        "22 x 1/4in",
+        "24 x 1/4in concave boron steel"
+      ],
+      "operatingDepthIn": "0-7"
+    },
+    "variants": [
+      {
+        "sku": "SD2600",
+        "tillageWidthIn": 317,
+        "blades": 66,
+        "weightLbRange": [
+          15700,
+          23800
+        ],
+        "hpRange": "300-400"
+      },
+      {
+        "sku": "SD3000",
+        "tillageWidthIn": 354,
+        "blades": 74,
+        "weightLbRange": [
+          16100,
+          24400
+        ],
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "SD3300",
+        "tillageWidthIn": 399,
+        "blades": 82,
+        "weightLbRange": [
+          19600,
+          28300
+        ],
+        "hpRange": "400-500"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-3000-4000-series-disk-harrow",
+    "manufacturer": "Great Plains",
+    "modelFamily": "3000/4000 Series DH",
+    "displayName": "Great Plains 3323DH-4336DH Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "556-100M (2012), DH Specifications and Capacities p.36. Weight is base machine (24in x 6 ga blades, 9in spacing). The second 4300 model is printed as a duplicate \"4330DH\" header; its 33 ft width shows it is the 4333DH. blades = count at 9in spacing; 7.5in-spacing counts and widths also recorded."
+    },
+    "constants": {
+      "gangAngle": "20° front / 18° rear",
+      "gangShaft": "1-3/4in round",
+      "bearingStandards": "spring C-shank",
+      "wingFlex": "14° up / 9° down"
+    },
+    "variants": [
+      {
+        "sku": "3323DH",
+        "tillageWidthIn9": 277,
+        "tillageWidthIn7_5": 275,
+        "bladesFrontRear9": "66 (32/34)",
+        "bladesFrontRear7_5": "78 (38/40)",
+        "weightLb": 12000,
+        "transportWidthIn": 166,
+        "transportHeightIn": 132,
+        "hpPtoRange": "230-330",
+        "blades": 66
+      },
+      {
+        "sku": "3326DH",
+        "tillageWidthIn9": 312,
+        "tillageWidthIn7_5": 304,
+        "bladesFrontRear9": "74 (36/38)",
+        "bladesFrontRear7_5": "88 (42/44)",
+        "weightLb": 13800,
+        "transportWidthIn": 166,
+        "transportHeightIn": 148,
+        "hpPtoRange": "260-370",
+        "blades": 74
+      },
+      {
+        "sku": "3329DH",
+        "tillageWidthIn9": 348,
+        "tillageWidthIn7_5": 332,
+        "bladesFrontRear9": "82 (40/42)",
+        "bladesFrontRear7_5": "94 (46/48)",
+        "weightLb": 15700,
+        "transportWidthIn": 166,
+        "transportHeightIn": 164,
+        "hpPtoRange": "290-415",
+        "blades": 82
+      },
+      {
+        "sku": "4330DH",
+        "tillageWidthIn9": 362,
+        "tillageWidthIn7_5": 362,
+        "bladesFrontRear9": "86 (42/44)",
+        "bladesFrontRear7_5": "102 (50/52)",
+        "weightLb": 17200,
+        "transportWidthIn": 214,
+        "transportHeightIn": 148,
+        "hpPtoRange": "300-430",
+        "blades": 86
+      },
+      {
+        "sku": "4333DH",
+        "tillageWidthIn9": 397,
+        "tillageWidthIn7_5": 391,
+        "bladesFrontRear9": "94 (46/48)",
+        "bladesFrontRear7_5": "110 (54/56)",
+        "weightLb": 18500,
+        "transportWidthIn": 214,
+        "transportHeightIn": 164,
+        "hpPtoRange": "330-472",
+        "blades": 94
+      },
+      {
+        "sku": "4336DH",
+        "tillageWidthIn9": 431,
+        "tillageWidthIn7_5": 434,
+        "bladesFrontRear9": "102 (50/52)",
+        "bladesFrontRear7_5": "122 (60/62)",
+        "weightLb": 20000,
+        "transportWidthIn": 214,
+        "transportHeightIn": 180,
+        "hpPtoRange": "360-515",
+        "blades": 102
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-fh-heavy-harrow",
+    "manufacturer": "Great Plains",
+    "modelFamily": "FH6400HD/6600HD/6800HD",
+    "displayName": "Great Plains FH Series Heavy-Duty Folding Harrow",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "564-070M (2022), Specifications and Capacities pp.36-37. Diamond-shaped 6in forged teeth on 9in tooth spacing, 11in bar-to-bar, 12 bars standard (16 optional) = 16.0 teeth/ft (21.3 with 16 bars)."
+    },
+    "constants": {
+      "transportHeightIn": 130,
+      "transportWidthIn": 152,
+      "transportClearanceIn": 11.3,
+      "teethPerFt": "16.0 (12 bar) / 21.3 (16 bar)",
+      "hitch": "Cat IV; Cat III or clevis with accessories"
+    },
+    "variants": [
+      {
+        "sku": "FH6424HD",
+        "workingWidthFt": 24,
+        "weightLbRange": [
+          4050,
+          4550
+        ],
+        "tongueWeightLb": 480,
+        "hpRange": "70-100",
+        "fieldLengthIn": 456,
+        "transportLengthIn": 264
+      },
+      {
+        "sku": "FH6630HD",
+        "workingWidthFt": 30,
+        "weightLbRange": [
+          5000,
+          5650
+        ],
+        "tongueWeightLb": 600,
+        "hpRange": "90-140",
+        "fieldLengthIn": 456,
+        "transportLengthIn": 264
+      },
+      {
+        "sku": "FH6636HD",
+        "workingWidthFt": 36,
+        "weightLbRange": [
+          6000,
+          6450
+        ],
+        "tongueWeightLb": 820,
+        "hpRange": "110-170",
+        "fieldLengthIn": 456,
+        "transportLengthIn": 264
+      },
+      {
+        "sku": "FH6642HD",
+        "workingWidthFt": 42,
+        "weightLbRange": [
+          6200,
+          6700
+        ],
+        "tongueWeightLb": 1200,
+        "hpRange": "125-195",
+        "fieldLengthIn": 456,
+        "transportLengthIn": 264
+      },
+      {
+        "sku": "FH6845HD",
+        "workingWidthFt": 45,
+        "weightLbRange": [
+          6250,
+          7250
+        ],
+        "tongueWeightLb": 1580,
+        "hpRange": "135-210",
+        "fieldLengthIn": 504,
+        "transportLengthIn": 312
+      },
+      {
+        "sku": "FH6848HD",
+        "workingWidthFt": 48,
+        "weightLbRange": [
+          6700,
+          7700
+        ],
+        "tongueWeightLb": 1680,
+        "hpRange": "145-220",
+        "fieldLengthIn": 504,
+        "transportLengthIn": 312
+      },
+      {
+        "sku": "FH6851HD",
+        "workingWidthFt": 51,
+        "weightLbRange": [
+          7100,
+          8300
+        ],
+        "tongueWeightLb": 2180,
+        "hpRange": "155-235",
+        "fieldLengthIn": 504,
+        "transportLengthIn": 312
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-vt1510-sub-soiler",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1510",
+    "displayName": "Great Plains VT1510 Folding Sub-Soiler",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "596-382M (2025), VT1510-0636 - VT1510-1224 Specifications and Capacities p.28. Model suffix = shank count + spacing (e.g. 0836 = 8 shanks on 36in). Inch figures recorded (source also metric). The 0824 working width (14ft 9in) is as printed although 8 x 24in = 16 ft."
+    },
+    "constants": {
+      "gaugeWheelTire": "20.5x8 10 ply"
+    },
+    "variants": [
+      {
+        "sku": "VT1510-0636",
+        "shankSpacingIn": 36,
+        "shanks": 6,
+        "weightLb": 4850,
+        "workingWidthIn": 216,
+        "transportWidthIn": 157,
+        "hpPtoRange": "300-480"
+      },
+      {
+        "sku": "VT1510-0638",
+        "shankSpacingIn": 38,
+        "shanks": 6,
+        "weightLb": 4925,
+        "workingWidthIn": 228,
+        "transportWidthIn": 153,
+        "hpPtoRange": "300-480"
+      },
+      {
+        "sku": "VT1510-0730",
+        "shankSpacingIn": 30,
+        "shanks": 7,
+        "weightLb": 5125,
+        "workingWidthIn": 210,
+        "transportWidthIn": 157,
+        "hpPtoRange": "350+"
+      },
+      {
+        "sku": "VT1510-0736",
+        "shankSpacingIn": 36,
+        "shanks": 7,
+        "weightLb": 5840,
+        "workingWidthIn": 252,
+        "transportWidthIn": 185,
+        "hpPtoRange": "350+"
+      },
+      {
+        "sku": "VT1510-0824",
+        "shankSpacingIn": 24,
+        "shanks": 8,
+        "weightLb": 6125,
+        "workingWidthIn": 177,
+        "transportWidthIn": 172,
+        "hpPtoRange": "400+"
+      },
+      {
+        "sku": "VT1510-0830",
+        "shankSpacingIn": 30,
+        "shanks": 8,
+        "weightLb": 6125,
+        "workingWidthIn": 240,
+        "transportWidthIn": 180,
+        "hpPtoRange": "400+"
+      },
+      {
+        "sku": "VT1510-0836",
+        "shankSpacingIn": 36,
+        "shanks": 8,
+        "weightLb": 6275,
+        "workingWidthIn": 288,
+        "transportWidthIn": 157,
+        "hpPtoRange": "400+"
+      },
+      {
+        "sku": "VT1510-0838",
+        "shankSpacingIn": 38,
+        "shanks": 8,
+        "weightLb": 6350,
+        "workingWidthIn": 304,
+        "transportWidthIn": 153,
+        "hpPtoRange": "400+"
+      },
+      {
+        "sku": "VT1510-0930",
+        "shankSpacingIn": 30,
+        "shanks": 9,
+        "weightLb": 6500,
+        "workingWidthIn": 269,
+        "transportWidthIn": 157,
+        "hpPtoRange": "450+"
+      },
+      {
+        "sku": "VT1510-1024",
+        "shankSpacingIn": 24,
+        "shanks": 10,
+        "weightLb": 6650,
+        "workingWidthIn": 240,
+        "transportWidthIn": 166,
+        "hpPtoRange": "500+"
+      },
+      {
+        "sku": "VT1510-1030",
+        "shankSpacingIn": 30,
+        "shanks": 10,
+        "weightLb": 6875,
+        "workingWidthIn": 300,
+        "transportWidthIn": 180,
+        "hpPtoRange": "500+"
+      },
+      {
+        "sku": "VT1510-1224",
+        "shankSpacingIn": 24,
+        "shanks": 12,
+        "weightLb": 7400,
+        "workingWidthIn": 288,
+        "transportWidthIn": 166,
+        "hpPtoRange": "500+"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "great-plains-vt1520-sub-soiler",
+    "manufacturer": "Great Plains",
+    "modelFamily": "VT1520",
+    "displayName": "Great Plains VT1520 Sub-Soiler (3-point, metric spacing)",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "596-383M (2025), VT1520 Specifications and Capacities p.31. Spacings are metric (70/75 cm etc.); inch equivalents as printed. Height to top of light placard 78in for all. The 0654 hp is 330-480 but 0656 is 300-480, as printed."
+    },
+    "constants": {
+      "heightIn": 78,
+      "gaugeWheels": 2
+    },
+    "variants": [
+      {
+        "sku": "VT1520-0370",
+        "shankSpacingIn": 27.5,
+        "shanks": 3,
+        "weightLbRigidShanks": 2030,
+        "weightLbAutoResetShanks": 2750,
+        "workingWidthIn": 81,
+        "transportWidthIn": 117,
+        "hpPtoRange": "150-240"
+      },
+      {
+        "sku": "VT1520-0375",
+        "shankSpacingIn": 29.5,
+        "shanks": 3,
+        "weightLbRigidShanks": 2030,
+        "weightLbAutoResetShanks": 2750,
+        "workingWidthIn": 87,
+        "transportWidthIn": 117,
+        "hpPtoRange": "150-240"
+      },
+      {
+        "sku": "VT1520-0470",
+        "shankSpacingIn": 27.5,
+        "shanks": 4,
+        "weightLbRigidShanks": 2305,
+        "weightLbAutoResetShanks": 3265,
+        "workingWidthIn": 108,
+        "transportWidthIn": 117,
+        "hpPtoRange": "200-320"
+      },
+      {
+        "sku": "VT1520-0475",
+        "shankSpacingIn": 29.5,
+        "shanks": 4,
+        "weightLbRigidShanks": 2305,
+        "weightLbAutoResetShanks": 3265,
+        "workingWidthIn": 117,
+        "transportWidthIn": 117,
+        "hpPtoRange": "200-320"
+      },
+      {
+        "sku": "VT1520-0568",
+        "shankSpacingIn": 26.75,
+        "shanks": 5,
+        "weightLbRigidShanks": 2580,
+        "weightLbAutoResetShanks": 3780,
+        "workingWidthIn": 135,
+        "transportWidthIn": 117,
+        "hpPtoRange": "250-400"
+      },
+      {
+        "sku": "VT1520-0570",
+        "shankSpacingIn": 27.5,
+        "shanks": 5,
+        "weightLbRigidShanks": 2580,
+        "weightLbAutoResetShanks": 3780,
+        "workingWidthIn": 138,
+        "transportWidthIn": 120,
+        "hpPtoRange": "250-400"
+      },
+      {
+        "sku": "VT1520-0654",
+        "shankSpacingIn": 21.25,
+        "shanks": 6,
+        "weightLbRigidShanks": 2860,
+        "weightLbAutoResetShanks": 4300,
+        "workingWidthIn": 126,
+        "transportWidthIn": 120,
+        "hpPtoRange": "330-480"
+      },
+      {
+        "sku": "VT1520-0656",
+        "shankSpacingIn": 22,
+        "shanks": 6,
+        "weightLbRigidShanks": 2860,
+        "weightLbAutoResetShanks": 4300,
+        "workingWidthIn": 132,
+        "transportWidthIn": 120,
+        "hpPtoRange": "300-480"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

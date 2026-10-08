@@ -1,0 +1,124 @@
+[
+  {
+    "id": "yetter-rotary-hoe",
+    "manufacturer": "Yetter",
+    "modelFamily": "3400 / 3500 Rotary Hoe",
+    "displayName": "Yetter 3400 / 3500 Series Rotary Hoe",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "rotary_hoe_manual_rev_x.pdf (Yetter rotary hoe operator manual rev X), 3400 Model Specifications p.4 and 3500 Model Specifications p.5. Toolbar length = working width; the manual also gives row-coverage/overlap tables per row spacing (not recorded). The 3500 folded length of 130in is labelled \"10'10\"\"; recorded in inches as printed."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "3412-101",
+        "series": "3400 (rigid)",
+        "sections": 3,
+        "toolbarLengthIn": 149,
+        "weightLb": 1250
+      },
+      {
+        "sku": "3415-101",
+        "series": "3400 (rigid)",
+        "sections": 4,
+        "toolbarLengthIn": 184,
+        "weightLb": 1600
+      },
+      {
+        "sku": "3421-101",
+        "series": "3400 (rigid)",
+        "sections": 6,
+        "toolbarLengthIn": 254,
+        "weightLb": 2400
+      },
+      {
+        "sku": "3428-101",
+        "series": "3400 (rigid)",
+        "sections": 8,
+        "toolbarLengthIn": 338,
+        "weightLb": 3050
+      },
+      {
+        "sku": "3430-101",
+        "series": "3400 (rigid)",
+        "sections": 8,
+        "toolbarLengthIn": 366,
+        "weightLb": 3300
+      },
+      {
+        "sku": "3434-101",
+        "series": "3400 (rigid)",
+        "sections": 8,
+        "toolbarLengthIn": 408,
+        "weightLb": 3700
+      },
+      {
+        "sku": "3521-101",
+        "series": "3500 (folding)",
+        "sections": 4,
+        "toolbarLengthIn": 252,
+        "transportLengthFoldedIn": 130,
+        "weightLb": 3100
+      },
+      {
+        "sku": "3528-101",
+        "series": "3500 (folding)",
+        "sections": 8,
+        "toolbarLengthIn": 336,
+        "transportLengthFoldedIn": 184,
+        "weightLb": 3850
+      },
+      {
+        "sku": "3530-101",
+        "series": "3500 (folding)",
+        "sections": 8,
+        "toolbarLengthIn": 364,
+        "transportLengthFoldedIn": 186,
+        "weightLb": 4100
+      },
+      {
+        "sku": "3534-101",
+        "series": "3500 (folding)",
+        "sections": 8,
+        "toolbarLengthIn": 406,
+        "transportLengthFoldedIn": 207,
+        "weightLb": 4500
+      },
+      {
+        "sku": "3541-101",
+        "series": "3500 (folding)",
+        "sections": 9,
+        "toolbarLengthIn": 490,
+        "transportLengthFoldedIn": 249,
+        "weightLb": 5000
+      },
+      {
+        "sku": "3546-101",
+        "series": "3500 (folding)",
+        "sections": 9,
+        "toolbarLengthIn": 550,
+        "transportLengthFoldedIn": 309,
+        "weightLb": 5500
+      },
+      {
+        "sku": "3554-101",
+        "series": "3500 (folding)",
+        "sections": 12,
+        "toolbarLengthIn": 650,
+        "transportLengthFoldedIn": 340,
+        "weightLb": 8400
+      },
+      {
+        "sku": "3560-101",
+        "series": "3500 (folding)",
+        "sections": 13,
+        "toolbarLengthIn": 726,
+        "transportLengthFoldedIn": 389,
+        "weightLb": 10000
+      }
+    ],
+    "referencePhotos": []
+  }
+]

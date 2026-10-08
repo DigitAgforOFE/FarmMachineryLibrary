@@ -1,0 +1,656 @@
+[
+  {
+    "id": "john-deere-610-chisel-plow",
+    "manufacturer": "John Deere",
+    "modelFamily": "610",
+    "displayName": "John Deere 610 Series Integral Rigid Chisel Plow",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "JD_Comparison_SpecSheet.pdf, official deere.com product-comparison export (3 columns: 610-8ft/10ft/16ft), user-supplied, captured 2026-09-23; plus Brochures/Unsorted/JD_610 - 10 ft_SpecSheet.pdf and JD_610 - 20 ft_SpecSheet.pdf (individual single-model exports for those two widths). One field intentionally excluded from variants: 'Transport Width' shows '9.83-19.58 ft' identically across all 4 widths now checked (8/10/16/20ft) - confirms this is a static family-level attribute (converts to a round 3.0-6.0m in metric), not a per-width computed value. It describes the 610 family's overall transport-width span rather than any single variant - correctly left out of the per-width variants for that reason, not because it was a data error. Similarly, the 'Stabilizer Wheels' note text (constants.stabilizerWheels) is unchanged across all four widths and only ever mentions 8ft/16ft explicitly - also read as static family-level text, not evidence about the 20ft model specifically. 'Frame > Underframe Clearance' is populated only for the 8ft column and blank for 10ft/16ft in that section, though the same figures are given correctly per shank-type option further down under 'Standard Options' for all four widths - used that section instead, recorded in constants.shankOptions. Cross-checked against dsaa74466-field-prep-tools.pdf p.30 (Deere's full-line brochure spec table): confirms all shared constants exactly and confirms weight is genuinely unpublished by Deere for this model across all source formats checked (compare sheet, full-line brochure, single-model pages for 10ft and 20ft)."
+    },
+    "constants": {
+      "frameType": "Rigid, non-fold (integral)",
+      "operatingSpeedMph": "5-7",
+      "hpRequired": "Rigid & spring-reset standards: 6-10 hp/ft; Tru-Depth standard: 6-14 hp/ft",
+      "depthControl": "Tractor 3-point hitch",
+      "frameTubing": "High-strength box beam steel cross members 4x4in, welded steel end tubes 2x4in",
+      "foreAndAftIn": 72,
+      "standardSpacingIn": 12,
+      "groundEngagingComponents": "Variety of sweeps, shovels, and chisel points",
+      "stabilizerWheels": "5.90-15 4PR implement tires on stabilizer wheel frames; optional on 8ft base models, standard on 16ft base models",
+      "basketHarrowOption": "3-bar coil tine, 12in rank spacing, 12in spike/coil dimensions",
+      "shankOptions": "Option 1 (Rigid standard): 1.5x2x28in shank, max operating depth 8in, underframe clearance 28in, 12in or 16in spacing. Option 2 (TruPosition spring-reset standard): 1.25x2x28in shank, trip force 550lb, trip height 10in, max operating depth 12in, underframe clearance 28in, 12in spacing. Option 3 (Tru-Depth standard): 2x1.25x32in shank, trip force 1250lb, trip height 11in, max operating depth 12in, underframe clearance 32in, 12in or 16in spacing"
+    },
+    "variants": [
+      {
+        "sku": "610 - 8 ft",
+        "workingWidthFt": 8,
+        "shanks": 8,
+        "shanksNote": "derived from working width / 12in standard spacing; not an explicit manufacturer figure in this source"
+      },
+      {
+        "sku": "610 - 10 ft",
+        "workingWidthFt": 10,
+        "shanks": 10,
+        "shanksNote": "derived from working width / 12in standard spacing; not an explicit manufacturer figure in this source"
+      },
+      {
+        "sku": "610 - 16 ft",
+        "workingWidthFt": 16,
+        "shanks": 16,
+        "shanksNote": "derived from working width / 12in standard spacing; not an explicit manufacturer figure in this source"
+      },
+      {
+        "sku": "610 - 20 ft",
+        "workingWidthFt": 20,
+        "shanks": 20,
+        "shanksNote": "derived from working width / 12in standard spacing; not an explicit manufacturer figure in this source. Now confirmed via JD_610 - 20 ft_SpecSheet.pdf (individual single-model export, user-supplied 2026-09-23) - all shared constants (frame, HP, shank options, depth control) verified identical to the 8/10/16ft sources for this width too."
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2230ll-field-cultivator",
+    "manufacturer": "John Deere",
+    "modelFamily": "2230LL",
+    "displayName": "John Deere 2230LL Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 5in (12.7cm)",
+      "workingSpeed": "6-10 mph (10-16 km/h)",
+      "requiredHp": "8-12 hp (19.6-29.4 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "6in (15.2cm) split-the-middle or 9in (22.9cm)",
+      "residueConditions": "Light/medium",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2230fh-field-cultivator",
+    "manufacturer": "John Deere",
+    "modelFamily": "2230FH",
+    "displayName": "John Deere 2230FH Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 5in (12.7cm)",
+      "workingSpeed": "6-10 mph (10-16 km/h)",
+      "requiredHp": "8-12 hp (19.6-29.4 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "6in (15.2cm) split-the-middle or 9in (22.9cm)",
+      "residueConditions": "Light/medium",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2330-mulch-finisher",
+    "manufacturer": "John Deere",
+    "modelFamily": "2330",
+    "displayName": "John Deere 2330 Mulch Finisher",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 6in (15.2cm)",
+      "workingSpeed": "6-10 mph (10-16 km/h)",
+      "requiredHp": "10-14 hp (24.5-34.2 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "9in (22.9cm) split-the-middle",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2660vt",
+    "manufacturer": "John Deere",
+    "modelFamily": "2660VT",
+    "displayName": "John Deere 2660VT Variable-Intensity Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs. Deere markets this as its own 'Variable-Intensity Tillage' category (not plain vertical tillage); filed under Vertical Tillage since this library has no separate category for it."
+    },
+    "constants": {
+      "workingDepth": "Up to 6in (15.2cm)",
+      "workingSpeed": "8-10 mph (13-16 km/h)",
+      "requiredHp": "10-14 hp (24.5-34.2 kW/m)",
+      "weight": "Estimated avg 260lb (118kg)",
+      "spacingOption": "7.25in (18.4cm)",
+      "residueConditions": "Light/medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2633vt",
+    "manufacturer": "John Deere",
+    "modelFamily": "2633VT",
+    "displayName": "John Deere 2633VT Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 3in (7.6cm)",
+      "workingSpeed": "7-10 mph (11.4-16 km/h)",
+      "requiredHp": "9-11 hp (22-26.95 kW/m)",
+      "weight": "197-227lb (89.4-103kg)",
+      "spacingOption": "7.25in (18.4cm)",
+      "residueConditions": "Light/medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2680h",
+    "manufacturer": "John Deere",
+    "modelFamily": "2680H",
+    "displayName": "John Deere 2680H High-Performance Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "2-6in (5.1-15.2cm)",
+      "workingSpeed": "10-14 mph (16-22.5 km/h)",
+      "requiredHp": "15+ hp (36.7 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "10in (25.4cm)",
+      "residueConditions": "Light/medium/heavy",
+      "depthControl": "TruSet Set-Point Depth / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-hsd-series",
+    "manufacturer": "John Deere",
+    "modelFamily": "HSD Series",
+    "displayName": "John Deere HSD Series High-Speed Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "2-6in (5.1-15.2cm)",
+      "workingSpeed": "10-14 mph (16-22.5 km/h)",
+      "requiredHp": "15+ hp (36.7 kW/m)",
+      "weight": "306-388lb (138.8-176kg)",
+      "spacingOption": "10in (25.4cm)",
+      "residueConditions": "Light/medium",
+      "depthControl": "TruSet Set-Point Depth / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2630-tandem-disk",
+    "manufacturer": "John Deere",
+    "modelFamily": "2630",
+    "displayName": "John Deere 2630 3- and 5-Section Tandem Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 5in (12.7cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "7-11 hp (17.15-26.95 kW/m)",
+      "weight": "175-209lb (81.2-94.8kg)",
+      "spacingOption": "7.25in (18.4cm) or 9in (22.9cm)",
+      "residueConditions": "Light/medium",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2633-tandem-disk",
+    "manufacturer": "John Deere",
+    "modelFamily": "2633",
+    "displayName": "John Deere 2633 3- and 5-Section Tandem Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 6in (15.2cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "7-11 hp (17.15-26.95 kW/m)",
+      "weight": "201-243lb (91.2-110.2kg)",
+      "spacingOption": "9in (22.9cm)",
+      "residueConditions": "Light/medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2635-tandem-disk",
+    "manufacturer": "John Deere",
+    "modelFamily": "2635",
+    "displayName": "John Deere 2635 3-Section Tandem Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 8in (20.3cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "8-11 hp (19.6-26.95 kW/m)",
+      "weight": "280-286lb (127-129.7kg)",
+      "spacingOption": "9in (22.9cm) or 11in (27.9cm)",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-cc-series-coulter-chisel",
+    "manufacturer": "John Deere",
+    "modelFamily": "CC Series",
+    "displayName": "John Deere CC Series Coulter Chisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "6-8in (15.2-20.3cm)",
+      "workingSpeed": "6-7 mph (9.6-11.3 km/h)",
+      "requiredHp": "20-25 hp (48.95-61.2 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "15in (38.1cm)",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-cp-series-chisel-plow",
+    "manufacturer": "John Deere",
+    "modelFamily": "CP Series",
+    "displayName": "John Deere CP Series Chisel Plow",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs. Note: the printed hp-to-kW conversion (7-17hp = 4.5-10.4kW/m) doesn't match standard unit conversion (should be ~5.2-12.7kW) - transcribed as printed in source, not corrected, since the discrepancy is in Deere's own table."
+    },
+    "constants": {
+      "workingDepth": "Up to 12in (30.6cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "7-17 hp (4.5-10.4 kW/m)",
+      "weight": "n/a",
+      "spacingOption": "n/a",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "TruSet Tillage Technology / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-da-series-disk-applicator",
+    "manufacturer": "John Deere",
+    "modelFamily": "DA Series",
+    "displayName": "John Deere DA Series Disk Applicator",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "3-5.5in (7.6-14cm)",
+      "workingSpeed": "Up to 10 mph (16.1 km/h)",
+      "requiredHp": "15-25 hp (11.2-18.6 kW) per row",
+      "weight": "n/a",
+      "spacingOption": "30in (76.2cm)",
+      "residueConditions": "Light/medium/heavy",
+      "depthControl": "Gauge wheel at opener"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-2730-combination-ripper",
+    "manufacturer": "John Deere",
+    "modelFamily": "2730",
+    "displayName": "John Deere 2730 Combination Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 16in (40.6cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "34-55 hp (25.3-41 kW) / standard",
+      "weight": "n/a",
+      "spacingOption": "n/a",
+      "residueConditions": "Heavy",
+      "depthControl": "TruSet / Single-point"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-mt-series-ripper",
+    "manufacturer": "John Deere",
+    "modelFamily": "MT Series",
+    "displayName": "John Deere MT Series In-Line Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs."
+    },
+    "constants": {
+      "workingDepth": "Up to 16in (40.6cm)",
+      "workingSpeed": "5-7 mph (8-11.3 km/h)",
+      "requiredHp": "50-60 hp (37-44 kW) / standard",
+      "weight": "n/a",
+      "spacingOption": "30in (76.2cm)",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "TruSet / 3pt hitch"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-995-reversible-plow",
+    "manufacturer": "John Deere",
+    "modelFamily": "995",
+    "displayName": "John Deere 995 Reversible Moldboard Plow (5, 6, or 7 bottoms)",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.30 'FIELD PREP TOOLS SPECIFICATIONS' at-a-glance table (32-page full-line brochure, user-supplied). Series-level summary only - no per-width/per-count model breakdown given on this page, so no shank/blade/bottom count is recorded (would need a compare-tool export or dedicated model page per size to get that). Figures transcribed exactly as printed, including 'n/a' for unpublished specs. Bottom count (5, 6, or 7) stated in model name but not broken out per-bottom weight/dimensions on this page."
+    },
+    "constants": {
+      "workingDepth": "Up to 14in (35.6cm)",
+      "workingSpeed": "5 mph (8 km/h)",
+      "requiredHp": "23-35 hp PTO per bottom (16.4-26.1 kW/bottom)",
+      "weight": "n/a",
+      "spacingOption": "n/a",
+      "residueConditions": "Medium/heavy",
+      "depthControl": "Gauge wheels"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-hh-series-heavy-harrow",
+    "manufacturer": "John Deere",
+    "modelFamily": "HH Series (HH50 / HH70 / HH82)",
+    "displayName": "John Deere HH50/HH70/HH82 Heavy Harrow",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dsaa74466-field-prep-tools.pdf, p.15 (marketing/description page, not the p.30 at-a-glance spec table which omits Heavy Harrows entirely despite the brochure's cover page listing them in scope). Data is thin: only a working-width range and top speed are stated, with no weight, no HP requirement, and no per-model (HH50 vs HH70 vs HH82) breakdown anywhere in this 32-page document. This library has no dedicated 'Heavy Harrows' category; filed under Mulch Finishers as the closest existing secondary-tillage/residue-management category - flag for a real category addition if more heavy-harrow data is added later."
+    },
+    "constants": {
+      "workingWidthRange": "50 ft to 82 ft (15.2 m to 25 m), spanning the HH50/HH70/HH82 models",
+      "topSpeed": "Up to 12 mph (19.3 km/h)",
+      "weight": "n/a",
+      "requiredHp": "n/a",
+      "maintenanceFeature": "Drop-out tine bar replacement (remove a few bolts); tine adjustment mechanical or hydraulic",
+      "groundContact": "Flexible sections maintain even ground contact"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-st-drawn-strip-till",
+    "manufacturer": "John Deere",
+    "modelFamily": "ST Drawn (ST12 / ST16)",
+    "displayName": "John Deere ST Drawn Strip-Till Bar (ST12 / ST16)",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "JD_Comparison_SpecSheet-3.pdf (ST12/ST18 @ 30ft) and JD_Comparison_SpecSheet-4.pdf (ST16 @ 40ft / ST18 @ 33ft), official deere.com product-comparison exports, user-supplied, captured 2026-09-23. Some fields (Rear Hitch GVW, Main Frame Wheels) appeared without clear per-column alignment in the raw PDF text extraction - reconstructed by matching stated vs. blank values against which columns' other fields (e.g. 'wagon hitch or two-wheeled cart hitch' language) implied they applied to, not guessed from nothing."
+    },
+    "constants": {
+      "leadCoulter": "13-wave blade, 17in diameter",
+      "dualCoulterOption": "Dual 13-wave blades, 20in diameter, 5in spacing, max working depth 6in, max operating speed 10mph",
+      "shankOption": "Max working depth 11in, max operating speed 8mph",
+      "rowCleaners": "Notched disk blade, 13in diameter",
+      "containmentCoulters": "Sawtooth, 25in diameter",
+      "operatingClearance": "20in",
+      "rowUnitTravel": "8in",
+      "depthControl": "Pneumatic row-unit down pressure",
+      "stabilizerWheels": "240/80R15 125D, 8-bolt hub",
+      "foldType": "Front fold",
+      "hitchCategory": "4/4HD/5",
+      "rearHitch": "Optional wagon hitch, max GVW 25,000 lb",
+      "scvsRequired": "4-6",
+      "mainFrameWheels": "Dual 600/70R30 159D (ST12; not stated for ST16 in this source)",
+      "dryFertilizerTankCapacityLb": 20000
+    },
+    "variants": [
+      {
+        "sku": "ST12 Drawn - 30ft",
+        "rows": 12,
+        "workingWidthFt": 30,
+        "rowSpacingIn": 30.0,
+        "frameSections": 3,
+        "transportWidth": "17ft 7in",
+        "transportHeight": "14ft 1in",
+        "weightLb": 29900,
+        "powerReqPerShankHp": "30-37.5",
+        "hydraulicFlowGpm": "22-77"
+      },
+      {
+        "sku": "ST16 Drawn - 40ft",
+        "rows": 16,
+        "workingWidthFt": 40,
+        "rowSpacingIn": 30.0,
+        "frameSections": 3,
+        "transportWidth": "17ft 7in",
+        "transportHeight": "14ft 9in",
+        "weightLb": 31500,
+        "powerReqPerShankHp": "30-37.5",
+        "hydraulicFlowGpm": "22-77"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-st-integral-strip-till",
+    "manufacturer": "John Deere",
+    "modelFamily": "ST Integral (ST12 / ST16)",
+    "displayName": "John Deere ST Integral Strip-Till Bar (ST12 / ST16)",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "JD_Comparison_SpecSheet-3.pdf (ST12/ST18 @ 30ft) and JD_Comparison_SpecSheet-4.pdf (ST16 @ 40ft / ST18 @ 33ft), official deere.com product-comparison exports, user-supplied, captured 2026-09-23. Some fields (Rear Hitch GVW, Main Frame Wheels) appeared without clear per-column alignment in the raw PDF text extraction - reconstructed by matching stated vs. blank values against which columns' other fields (e.g. 'wagon hitch or two-wheeled cart hitch' language) implied they applied to, not guessed from nothing. Integral versions have a 2nd rear-hitch option (two-wheeled cart hitch, max GVW 23,000lb) alongside the wagon hitch, unlike the Drawn/ST18 lines which only offer the wagon hitch."
+    },
+    "constants": {
+      "leadCoulter": "13-wave blade, 17in diameter",
+      "dualCoulterOption": "Dual 13-wave blades, 20in diameter, 5in spacing, max working depth 6in, max operating speed 10mph",
+      "shankOption": "Max working depth 11in, max operating speed 8mph",
+      "rowCleaners": "Notched disk blade, 13in diameter",
+      "containmentCoulters": "Sawtooth, 25in diameter",
+      "operatingClearance": "20in",
+      "rowUnitTravel": "8in",
+      "depthControl": "Pneumatic row-unit down pressure",
+      "stabilizerWheels": "240/80R15 125D, 8-bolt hub",
+      "foldType": "Vertical fold",
+      "hitchCategory": "4/4N",
+      "rearHitch": "Optional wagon hitch (max GVW 25,000 lb) or two-wheeled cart hitch (max GVW 23,000 lb)",
+      "scvsRequired": "2",
+      "dryFertilizerTankCapacity": "Not equipped (no tank capacity stated for Integral in this source)"
+    },
+    "variants": [
+      {
+        "sku": "ST12 Integral - 30ft",
+        "rows": 12,
+        "workingWidthFt": 30,
+        "rowSpacingIn": 30.0,
+        "frameSections": 3,
+        "transportWidth": "20ft 9in",
+        "transportHeight": "10ft 2in",
+        "weightLb": 12000,
+        "powerReqPerShankHp": "25-32",
+        "hydraulicFlowGpm": "12-14"
+      },
+      {
+        "sku": "ST16 Integral - 40ft",
+        "rows": 16,
+        "workingWidthFt": 40,
+        "rowSpacingIn": 30.0,
+        "frameSections": 5,
+        "transportWidth": "20ft 9in",
+        "transportHeight": "10ft 2in",
+        "weightLb": 14670,
+        "powerReqPerShankHp": "25-32",
+        "hydraulicFlowGpm": "12-14",
+        "note": "Stabilizer wheel count differs from ST12 Integral: (4) 240/80R15 vs (2) - wider 5-section frame"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-st18-strip-till",
+    "manufacturer": "John Deere",
+    "modelFamily": "ST18",
+    "displayName": "John Deere ST18 Strip-Till Bar",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "JD_Comparison_SpecSheet-3.pdf (ST12/ST18 @ 30ft) and JD_Comparison_SpecSheet-4.pdf (ST16 @ 40ft / ST18 @ 33ft), official deere.com product-comparison exports, user-supplied, captured 2026-09-23. Some fields (Rear Hitch GVW, Main Frame Wheels) appeared without clear per-column alignment in the raw PDF text extraction - reconstructed by matching stated vs. blank values against which columns' other fields (e.g. 'wagon hitch or two-wheeled cart hitch' language) implied they applied to, not guessed from nothing."
+    },
+    "constants": {
+      "leadCoulter": "13-wave blade, 17in diameter",
+      "dualCoulterOption": "Dual 13-wave blades, 20in diameter, 5in spacing, max working depth 6in, max operating speed 10mph",
+      "shankOption": "Max working depth 11in, max operating speed 8mph",
+      "rowCleaners": "Notched disk blade, 13in diameter",
+      "containmentCoulters": "Sawtooth, 25in diameter",
+      "operatingClearance": "20in",
+      "rowUnitTravel": "8in",
+      "depthControl": "Pneumatic row-unit down pressure",
+      "stabilizerWheels": "240/80R15 125D, 8-bolt hub",
+      "foldType": "Front fold",
+      "hitchCategory": "4/4HD/5",
+      "rearHitch": "Optional wagon hitch, max GVW 25,000 lb",
+      "scvsRequired": "4-6",
+      "mainFrameWheels": "Dual 600/70R30 159D",
+      "dryFertilizerTankCapacityLb": 20000
+    },
+    "variants": [
+      {
+        "sku": "ST18 - 30ft",
+        "rows": 18,
+        "workingWidthFt": 30,
+        "rowSpacingIn": 20.0,
+        "frameSections": 3,
+        "transportWidth": "17ft 7in",
+        "transportHeight": "15ft 0in",
+        "weightLb": 35500,
+        "powerReqPerShankHp": "30-37.5",
+        "hydraulicFlowGpm": "37-83"
+      },
+      {
+        "sku": "ST18 - 33ft",
+        "rows": 18,
+        "workingWidthFt": 33,
+        "rowSpacingIn": 22.0,
+        "frameSections": 3,
+        "transportWidth": "17ft 7in",
+        "transportHeight": "15ft 0in",
+        "weightLb": 36500,
+        "powerReqPerShankHp": "30-37.5",
+        "hydraulicFlowGpm": "37-83"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "john-deere-sa25-strip-till",
+    "manufacturer": "John Deere",
+    "modelFamily": "SA",
+    "displayName": "John Deere SA25 Strip-Till Applicator",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "JD_SA25_SpecSheet.pdf (deere.com key-specs export, printed 2026-09-27), pp.1-3. Only the 25-row model is covered by this sheet. Transport width 18ft 2in and height 14ft 1in converted to inches."
+    },
+    "constants": {
+      "rowSpacingIn": 30,
+      "foldType": "Five-section fold",
+      "centerframeWidthFt": 12,
+      "underframeClearanceIn": 44,
+      "foreAftClearanceFt": 11.17,
+      "coulterBlade": "22 x 0.177 in",
+      "coulterDownforceLbf": 600,
+      "standardOperatingDepthIn": "3-12",
+      "standardTripForceLbf": 1250,
+      "standardTripHeightIn": 11,
+      "closingDiskBlade": "18 x 0.118 in concave notched",
+      "hitch": "Pull-type floating hitch, Cat 4 or 5",
+      "frameFlexDeg": {
+        "up": 10,
+        "down": 15
+      },
+      "rearHitchMaxGvwLb": 25000
+    },
+    "variants": [
+      {
+        "sku": "SA25",
+        "rows": 25,
+        "standards": 25,
+        "workingWidthFt": 62.5,
+        "transportWidthIn": 218,
+        "transportHeightIn": 169,
+        "overallLengthFt": 32,
+        "weightLb": 30000
+      }
+    ],
+    "referencePhotos": []
+  }
+]

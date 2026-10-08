@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "salford-halo-vrt",
+    "manufacturer": "Salford",
+    "modelFamily": "Halo VRT",
+    "displayName": "Salford Halo VRT High-Speed Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Halo.pdf (Salford Group Halo brochure), HALO VRT model specs table p.18. Transport height/width are given for roller cylinder extended and retracted; the 15 ft model lists a single height. Driving interval (effective working width) converted from ft-in to inches. The 15 ft figures match \"15ft HALO VRT Sell Sheet.pdf\"."
+    },
+    "constants": {
+      "bladeSpacingNetIn": 5,
+      "bladeSpacingPerRowIn": 10,
+      "hpPerFt": "11-18",
+      "workingDepthIn": "1-5",
+      "operatingSpeedMph": "8-14"
+    },
+    "variants": [
+      {
+        "sku": "Halo VRT 15 ft",
+        "nominalWidthFt": 15,
+        "drivingIntervalIn": 170,
+        "blades": 36,
+        "weightLb": 12300,
+        "transportHeightInRollerExtended": 158,
+        "transportWidthInRollerExtended": 118,
+        "transportWidthInRollerRetracted": 118
+      },
+      {
+        "sku": "Halo VRT 20 ft",
+        "nominalWidthFt": 20,
+        "drivingIntervalIn": 229,
+        "blades": 48,
+        "weightLb": 18800,
+        "transportHeightInRollerExtended": 164,
+        "transportWidthInRollerExtended": 155,
+        "transportWidthInRollerRetracted": 135,
+        "transportHeightInRollerRetracted": 177
+      },
+      {
+        "sku": "Halo VRT 25 ft",
+        "nominalWidthFt": 25,
+        "drivingIntervalIn": 289,
+        "blades": 60,
+        "weightLb": 21500,
+        "transportHeightInRollerExtended": 166,
+        "transportWidthInRollerExtended": 155,
+        "transportWidthInRollerRetracted": 135,
+        "transportHeightInRollerRetracted": 182
+      },
+      {
+        "sku": "Halo VRT 30 ft",
+        "nominalWidthFt": 30,
+        "drivingIntervalIn": 350,
+        "blades": 72,
+        "weightLb": 28350,
+        "transportHeightInRollerExtended": 164,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 180
+      },
+      {
+        "sku": "Halo VRT 35 ft",
+        "nominalWidthFt": 35,
+        "drivingIntervalIn": 409,
+        "blades": 84,
+        "weightLb": 31200,
+        "transportHeightInRollerExtended": 165,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 181
+      },
+      {
+        "sku": "Halo VRT 40 ft",
+        "nominalWidthFt": 40,
+        "drivingIntervalIn": 469,
+        "blades": 96,
+        "weightLb": 34100,
+        "transportHeightInRollerExtended": 165,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 181
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-halo-hsd",
+    "manufacturer": "Salford",
+    "modelFamily": "Halo HSD",
+    "displayName": "Salford Halo HSD High-Speed Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Halo.pdf (Salford Group Halo brochure), HALO HSD model specs table p.19. Same table layout as the Halo VRT page. blades = concave blades."
+    },
+    "constants": {
+      "bladeSpacingNetIn": 5,
+      "bladeSpacingPerRowIn": 10,
+      "hpPerFt": "12-18",
+      "workingDepthIn": "2-5",
+      "operatingSpeedMph": "8-14",
+      "bladeDiameterIn": 22,
+      "gangAngles": "front 14°, rear 17° compound"
+    },
+    "variants": [
+      {
+        "sku": "Halo HSD 20 ft",
+        "nominalWidthFt": 20,
+        "drivingIntervalIn": 229,
+        "blades": 48,
+        "weightLb": 15440,
+        "transportHeightInRollerExtended": 150,
+        "transportWidthInRollerExtended": 155,
+        "transportWidthInRollerRetracted": 135,
+        "transportHeightInRollerRetracted": 165
+      },
+      {
+        "sku": "Halo HSD 25 ft",
+        "nominalWidthFt": 25,
+        "drivingIntervalIn": 289,
+        "blades": 60,
+        "weightLb": 19300,
+        "transportHeightInRollerExtended": 151,
+        "transportWidthInRollerExtended": 155,
+        "transportWidthInRollerRetracted": 135,
+        "transportHeightInRollerRetracted": 166
+      },
+      {
+        "sku": "Halo HSD 30 ft",
+        "nominalWidthFt": 30,
+        "drivingIntervalIn": 349,
+        "blades": 72,
+        "weightLb": 26100,
+        "transportHeightInRollerExtended": 161,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 173
+      },
+      {
+        "sku": "Halo HSD 35 ft",
+        "nominalWidthFt": 35,
+        "drivingIntervalIn": 409,
+        "blades": 84,
+        "weightLb": 27800,
+        "transportHeightInRollerExtended": 155,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 168
+      },
+      {
+        "sku": "Halo HSD 40 ft",
+        "nominalWidthFt": 40,
+        "drivingIntervalIn": 469,
+        "blades": 96,
+        "weightLb": 29100,
+        "transportHeightInRollerExtended": 159,
+        "transportWidthInRollerExtended": 165,
+        "transportWidthInRollerRetracted": 143,
+        "transportHeightInRollerRetracted": 172
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i1100-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-1100",
+    "displayName": "Salford I-1100 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "20in x 4.5mm, Coil-Tech Coulter I",
+      "bladeSpacingIn": 7.5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-1100 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 7400,
+        "hpRange": "120-140",
+        "blades": 19
+      },
+      {
+        "sku": "I-1100 16' (3-section, flat fold)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 9500,
+        "hpRange": "160-190",
+        "blades": 25
+      },
+      {
+        "sku": "I-1100 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 12200,
+        "hpRange": "200-240",
+        "blades": 33
+      },
+      {
+        "sku": "I-1100 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 14400,
+        "hpRange": "240-290",
+        "blades": 37
+      },
+      {
+        "sku": "I-1100 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 17400,
+        "hpRange": "280-340",
+        "blades": 45
+      },
+      {
+        "sku": "I-1100 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 18100,
+        "hpRange": "310-370",
+        "blades": 49
+      },
+      {
+        "sku": "I-1100 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 21900,
+        "hpRange": "360-430",
+        "blades": 57
+      },
+      {
+        "sku": "I-1100 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 23300,
+        "hpRange": "410-490",
+        "blades": 65
+      },
+      {
+        "sku": "I-1100 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 225,
+        "weightLbWithHarrows": 28700,
+        "hpRange": "410-490",
+        "blades": 65
+      },
+      {
+        "sku": "I-1100 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 33600,
+        "hpRange": "500-600+",
+        "blades": 79
+      },
+      {
+        "sku": "I-1100 60' (5-section, bi-fold)",
+        "nominalWidthFt": 60,
+        "frameSections": 5,
+        "transportHeightIn": 188,
+        "transportWidthIn": 262,
+        "weightLbWithHarrows": 39200,
+        "hpRange": "600+",
+        "blades": 97
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i1200-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-1200",
+    "displayName": "Salford I-1200 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "20in x 4.5mm, Coil-Tech Coulter I",
+      "bladeSpacingIn": 5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-1200 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 8400,
+        "hpRange": "120-140",
+        "blades": 29
+      },
+      {
+        "sku": "I-1200 16' (3-section, flat fold)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 11400,
+        "hpRange": "160-190",
+        "blades": 37
+      },
+      {
+        "sku": "I-1200 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 13400,
+        "hpRange": "200-240",
+        "blades": 49
+      },
+      {
+        "sku": "I-1200 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 16000,
+        "hpRange": "240-290",
+        "blades": 57
+      },
+      {
+        "sku": "I-1200 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 19200,
+        "hpRange": "280-340",
+        "blades": 69
+      },
+      {
+        "sku": "I-1200 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 19900,
+        "hpRange": "310-370",
+        "blades": 73
+      },
+      {
+        "sku": "I-1200 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 24300,
+        "hpRange": "360-430",
+        "blades": 85
+      },
+      {
+        "sku": "I-1200 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 31000,
+        "hpRange": "410-490",
+        "blades": 97
+      },
+      {
+        "sku": "I-1200 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 26100,
+        "hpRange": "410-490",
+        "blades": 97
+      },
+      {
+        "sku": "I-1200 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 36700,
+        "hpRange": "500-600+",
+        "blades": 119
+      },
+      {
+        "sku": "I-1200 60' (5-section, bi-fold)",
+        "nominalWidthFt": 60,
+        "frameSections": 5,
+        "transportHeightIn": 188,
+        "transportWidthIn": 262,
+        "weightLbWithHarrows": 43000,
+        "hpRange": "600+",
+        "blades": 145
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i2100-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-2100",
+    "displayName": "Salford I-2100 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. The 41ft bi-fold transport width is printed as 19\" in the source (typo for 19 ft); recorded as 19 ft. The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "22in x 5mm, Coil-Tech Coulter II",
+      "bladeSpacingIn": 7.5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-2100 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 8000,
+        "hpRange": "140-170",
+        "blades": 19,
+        "switchbladeShanks15in": 9,
+        "switchbladeShanks30in": 5
+      },
+      {
+        "sku": "I-2100 16' (3-section, flat fold)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 11400,
+        "hpRange": "190-220",
+        "blades": 25,
+        "switchbladeShanks15in": 11,
+        "switchbladeShanks30in": 6
+      },
+      {
+        "sku": "I-2100 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 15700,
+        "hpRange": "240-280",
+        "blades": 33,
+        "switchbladeShanks15in": 15,
+        "switchbladeShanks30in": 8
+      },
+      {
+        "sku": "I-2100 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 16200,
+        "hpRange": "290-340",
+        "blades": 37,
+        "switchbladeShanks15in": 17,
+        "switchbladeShanks30in": 9
+      },
+      {
+        "sku": "I-2100 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 19700,
+        "hpRange": "340-390",
+        "blades": 45,
+        "switchbladeShanks15in": 21,
+        "switchbladeShanks30in": 11
+      },
+      {
+        "sku": "I-2100 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 20500,
+        "hpRange": "370-430",
+        "blades": 49,
+        "switchbladeShanks15in": 23,
+        "switchbladeShanks30in": 12
+      },
+      {
+        "sku": "I-2100 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 24700,
+        "hpRange": "430-500",
+        "blades": 57,
+        "switchbladeShanks15in": 27,
+        "switchbladeShanks30in": 14
+      },
+      {
+        "sku": "I-2100 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 26600,
+        "hpRange": "490-570",
+        "blades": 65,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-2100 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 31900,
+        "hpRange": "490-570",
+        "blades": 65,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-2100 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 37500,
+        "hpRange": "600+",
+        "blades": 79,
+        "switchbladeShanks15in": 39,
+        "switchbladeShanks30in": 19
+      },
+      {
+        "sku": "I-2100 60' (5-section, bi-fold)",
+        "nominalWidthFt": 60,
+        "frameSections": 5,
+        "transportHeightIn": 188,
+        "transportWidthIn": 262,
+        "weightLbWithHarrows": 44100,
+        "hpRange": "600+",
+        "blades": 97,
+        "switchbladeShanks15in": 47,
+        "switchbladeShanks30in": 23
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i2200-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-2200",
+    "displayName": "Salford I-2200 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. The 20 ft weight prints as \"1 7,0 0\" in the text layer (glyphs lost); recorded as 17,000 lb, the only reading consistent with the neighbouring sizes (14,000 / 19,000) - treat as approximate. The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "22in x 5mm, Coil-Tech Coulter II",
+      "bladeSpacingIn": 5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-2200 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 10200,
+        "hpRange": "140-170",
+        "blades": 29
+      },
+      {
+        "sku": "I-2200 16' (3-section)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 14000,
+        "hpRange": "190-220",
+        "blades": 37
+      },
+      {
+        "sku": "I-2200 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 17000,
+        "hpRange": "240-280",
+        "blades": 49,
+        "switchbladeShanks15in": 15,
+        "switchbladeShanks30in": 8
+      },
+      {
+        "sku": "I-2200 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 19000,
+        "hpRange": "290-340",
+        "blades": 57,
+        "switchbladeShanks15in": 17,
+        "switchbladeShanks30in": 9
+      },
+      {
+        "sku": "I-2200 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 23700,
+        "hpRange": "340-390",
+        "blades": 69,
+        "switchbladeShanks15in": 21,
+        "switchbladeShanks30in": 11
+      },
+      {
+        "sku": "I-2200 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 24400,
+        "hpRange": "370-430",
+        "blades": 73,
+        "switchbladeShanks15in": 23,
+        "switchbladeShanks30in": 12
+      },
+      {
+        "sku": "I-2200 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 30000,
+        "hpRange": "430-500",
+        "blades": 85,
+        "switchbladeShanks15in": 27,
+        "switchbladeShanks30in": 14
+      },
+      {
+        "sku": "I-2200 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 36800,
+        "hpRange": "490-570",
+        "blades": 97,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-2200 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 225,
+        "weightLbWithHarrows": 32300,
+        "hpRange": "490-570",
+        "blades": 97,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-2200 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 47170,
+        "hpRange": "600+",
+        "blades": 119,
+        "switchbladeShanks15in": 39,
+        "switchbladeShanks30in": 19
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i4100-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-4100",
+    "displayName": "Salford I-4100 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. bladesFrontRear is the source's split (front concave rows / rear coulters). The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "22in x 5mm; two front rows concave discs",
+      "bladeSpacingIn": 7.5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-4100 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 8400,
+        "hpRange": "140-170",
+        "bladesFrontRear": "9/10",
+        "blades": 19
+      },
+      {
+        "sku": "I-4100 16' (3-section, flat fold)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 12200,
+        "hpRange": "190-220",
+        "bladesFrontRear": "11/14",
+        "blades": 25,
+        "switchbladeShanks15in": 11,
+        "switchbladeShanks30in": 6
+      },
+      {
+        "sku": "I-4100 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 166,
+        "weightLbWithHarrows": 14700,
+        "hpRange": "240-280",
+        "bladesFrontRear": "15/18",
+        "blades": 33,
+        "switchbladeShanks15in": 15,
+        "switchbladeShanks30in": 8
+      },
+      {
+        "sku": "I-4100 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 166,
+        "weightLbWithHarrows": 16300,
+        "hpRange": "290-340",
+        "bladesFrontRear": "17/20",
+        "blades": 37,
+        "switchbladeShanks15in": 17,
+        "switchbladeShanks30in": 9
+      },
+      {
+        "sku": "I-4100 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 19900,
+        "hpRange": "340-390",
+        "bladesFrontRear": "21/24",
+        "blades": 45,
+        "switchbladeShanks15in": 21,
+        "switchbladeShanks30in": 11
+      },
+      {
+        "sku": "I-4100 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 20800,
+        "hpRange": "370-430",
+        "bladesFrontRear": "23/26",
+        "blades": 49,
+        "switchbladeShanks15in": 23,
+        "switchbladeShanks30in": 12
+      },
+      {
+        "sku": "I-4100 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 24900,
+        "hpRange": "430-500",
+        "bladesFrontRear": "27/30",
+        "blades": 57,
+        "switchbladeShanks15in": 27,
+        "switchbladeShanks30in": 14
+      },
+      {
+        "sku": "I-4100 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 27100,
+        "hpRange": "490-570",
+        "bladesFrontRear": "31/34",
+        "blades": 65,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-4100 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 225,
+        "weightLbWithHarrows": 32300,
+        "hpRange": "490-570",
+        "bladesFrontRear": "31/34",
+        "blades": 65,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-4100 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 37800,
+        "hpRange": "600+",
+        "bladesFrontRear": "39/40",
+        "blades": 79,
+        "switchbladeShanks15in": 39,
+        "switchbladeShanks30in": 19
+      },
+      {
+        "sku": "I-4100 60' (5-section, bi-fold)",
+        "nominalWidthFt": 60,
+        "frameSections": 5,
+        "transportHeightIn": 188,
+        "transportWidthIn": 262,
+        "weightLbWithHarrows": 44600,
+        "hpRange": "600+",
+        "bladesFrontRear": "47/50",
+        "blades": 97
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "salford-i4200-vertical-tillage",
+    "manufacturer": "Salford",
+    "modelFamily": "I-4200",
+    "displayName": "Salford I-4200 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "I-Series.pdf (Salford Independent Series literature #10016967, 2023.03), specifications tables pp.20-22. The model label for each table is printed away from the table in the text layer, so tables were matched to models by blade spacing (12 ft: 19 coulters = 7.5in spacing, 29 = 5in) and the I-4x00 front/rear split; the order (I-1100, I-1200, I-2100, I-2200, I-4100, I-4200) matches the brochure page order. Transport dimensions include harrows; weight is with harrows. switchbladeShanks15in/30in = shank count with the optional SwitchBlade 1,300 lb hydraulic shank kit at 15in / 30in spacing. bladesFrontRear is the source's split (front concave rows / rear coulters). The 12 ft rigid model shows \"No wings\" in the transport-height column, so no height is recorded for it."
+    },
+    "constants": {
+      "bladeType": "22in x 5mm; two front rows concave discs",
+      "bladeSpacingIn": 5,
+      "operatingSpeedMph": "8-12",
+      "operatingDepthIn": "0-4"
+    },
+    "variants": [
+      {
+        "sku": "I-4200 12' (1-section)",
+        "nominalWidthFt": 12,
+        "frameSections": 1,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 10500,
+        "hpRange": "140-170",
+        "bladesFrontRear": "9/20",
+        "blades": 29
+      },
+      {
+        "sku": "I-4200 16' (3-section)",
+        "nominalWidthFt": 16,
+        "frameSections": 3,
+        "transportHeightIn": 120,
+        "transportWidthIn": 120,
+        "weightLbWithHarrows": 14300,
+        "hpRange": "190-220",
+        "bladesFrontRear": "11/26",
+        "blades": 37,
+        "switchbladeShanks15in": 11,
+        "switchbladeShanks30in": 6
+      },
+      {
+        "sku": "I-4200 20' (3-section)",
+        "nominalWidthFt": 20,
+        "frameSections": 3,
+        "transportHeightIn": 134,
+        "transportWidthIn": 166,
+        "weightLbWithHarrows": 17400,
+        "hpRange": "240-280",
+        "bladesFrontRear": "15/34",
+        "blades": 49,
+        "switchbladeShanks15in": 15,
+        "switchbladeShanks30in": 8
+      },
+      {
+        "sku": "I-4200 24' (3-section)",
+        "nominalWidthFt": 24,
+        "frameSections": 3,
+        "transportHeightIn": 152,
+        "transportWidthIn": 159,
+        "weightLbWithHarrows": 19650,
+        "hpRange": "290-340",
+        "bladesFrontRear": "17/40",
+        "blades": 57,
+        "switchbladeShanks15in": 17,
+        "switchbladeShanks30in": 9
+      },
+      {
+        "sku": "I-4200 28' (3-section)",
+        "nominalWidthFt": 28,
+        "frameSections": 3,
+        "transportHeightIn": 156,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 24100,
+        "hpRange": "340-390",
+        "bladesFrontRear": "21/48",
+        "blades": 69,
+        "switchbladeShanks15in": 21,
+        "switchbladeShanks30in": 11
+      },
+      {
+        "sku": "I-4200 31' (3-section)",
+        "nominalWidthFt": 31,
+        "frameSections": 3,
+        "transportHeightIn": 174,
+        "transportWidthIn": 188,
+        "weightLbWithHarrows": 24800,
+        "hpRange": "370-430",
+        "bladesFrontRear": "23/50",
+        "blades": 73,
+        "switchbladeShanks15in": 23,
+        "switchbladeShanks30in": 12
+      },
+      {
+        "sku": "I-4200 36' (3-section)",
+        "nominalWidthFt": 36,
+        "frameSections": 3,
+        "transportHeightIn": 170,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 30500,
+        "hpRange": "430-500",
+        "bladesFrontRear": "27/58",
+        "blades": 85,
+        "switchbladeShanks15in": 27,
+        "switchbladeShanks30in": 14
+      },
+      {
+        "sku": "I-4200 41' (3-section)",
+        "nominalWidthFt": 41,
+        "frameSections": 3,
+        "transportHeightIn": 198,
+        "transportWidthIn": 252,
+        "weightLbWithHarrows": 32800,
+        "hpRange": "490-570",
+        "bladesFrontRear": "31/66",
+        "blades": 97,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-4200 41' (5-section, bi-fold)",
+        "nominalWidthFt": 41,
+        "frameSections": 5,
+        "transportHeightIn": 162,
+        "transportWidthIn": 225,
+        "weightLbWithHarrows": 37250,
+        "hpRange": "490-570",
+        "bladesFrontRear": "31/66",
+        "blades": 97,
+        "switchbladeShanks15in": 31,
+        "switchbladeShanks30in": 16
+      },
+      {
+        "sku": "I-4200 50' (5-section, bi-fold)",
+        "nominalWidthFt": 50,
+        "frameSections": 5,
+        "transportHeightIn": 171,
+        "transportWidthIn": 228,
+        "weightLbWithHarrows": 47650,
+        "hpRange": "600+",
+        "bladesFrontRear": "39/80",
+        "blades": 119,
+        "switchbladeShanks15in": 39,
+        "switchbladeShanks30in": 19
+      }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "summers-3rt-track-remover",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "3RT Track Remover",
+    "displayName": "Summers 3RT Track Remover / Track Remover Plus",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "3RT-2010-8z1075.pdf, Operator's Manual, Summers Mfg. Co. A 3-point mounted wheel-track eliminator accessory (twin-disk gang units along a toolbar, Category III/IV hitch) rather than a general-purpose disk harrow — closest category fit is Disks given the disk-gang mechanism, but its purpose is track-filling behind a primary tillage pass, not primary tillage itself. Standard vs Plus differ in how many track-removal units are packed per side (Plus has more, denser spacing). Sizing is described by C-C (center-to-center) toolbar width, not a shank/blade count — no reliable unit count was given in the source, so none is included here."
+    },
+    "constants": {
+      "hitch": "3-point, Category III or IV (adapter sleeves provided for Cat IV)",
+      "leveling": "Front-to-rear via top-link adjustment; shorten in 1/4-turn increments for more soil movement",
+      "gangAdjustment": "5deg, 8deg, or 12deg gang angle positions"
+    },
+    "variants": [
+      {
+        "sku": "3RT Track Remover 90in C-C",
+        "productLine": "Standard",
+        "ccWidthIn": 90,
+        "dimensionChainA": "0, 31, 59 (mirrored both sides)",
+        "dimensionChainB": "0, 25.25, 64.75 (mirrored both sides)"
+      },
+      {
+        "sku": "3RT Track Remover 120in C-C",
+        "productLine": "Standard",
+        "ccWidthIn": 120,
+        "dimensionChainA": "0, 43, 77.25 (mirrored)",
+        "dimensionChainB": "0, 46, 74 (mirrored)"
+      },
+      {
+        "sku": "3RT Track Remover 132in C-C",
+        "productLine": "Standard",
+        "ccWidthIn": 132,
+        "dimensionChainA": "0, 49, 83.25 (mirrored)",
+        "dimensionChainB": "0, 52, 80 (mirrored)"
+      },
+      {
+        "sku": "3RT Track Remover 150in C-C",
+        "productLine": "Standard (no PLUS label on source page, tentative)",
+        "ccWidthIn": 150,
+        "dimensionChainA": "0, 61, 89 (mirrored)",
+        "dimensionChainB": "0, 58.25, 92.75 (mirrored)"
+      },
+      {
+        "sku": "3RT Track Remover Plus 90in C-C",
+        "productLine": "Plus",
+        "ccWidthIn": 90,
+        "dimensionChainA": "0, 5.25, 25.25, 64.75, 84.75 (mirrored)",
+        "dimensionChainB": "0, 24, 46, 74 (mirrored)"
+      },
+      {
+        "sku": "3RT Track Remover Plus 120in C-C",
+        "productLine": "Plus",
+        "ccWidthIn": 120,
+        "dimensionChainA": "0, 24, 46, 74 (mirrored)",
+        "dimensionChainB": "0, 5, 24, 43, 77.25 (mirrored)"
+      },
+      {
+        "sku": "3RT Track Remover Plus 132in C-C",
+        "productLine": "Plus",
+        "ccWidthIn": 132,
+        "dimensionChainA": "0, 24, 52, 80 (mirrored)",
+        "dimensionChainB": "0, 9, 29, 49, 83.25 (mirrored)"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-vrt-renegade",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "VRT Renegade",
+    "displayName": "Summers VRT Renegade",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "vrt-renegade_brochure.pdf. Clean per-model spec table (4 sizes), p.11. Hydraulically adjustable Samurai-blade disk tool that ranges from true vertical tillage (0deg) to conventional tillage (up to 19deg) via the iControl system."
+    },
+    "constants": {
+      "bladeType": "Summers exclusive Osmundson Mfg. Co. patented Samurai disk blades, sawtooth design, heat treated",
+      "bladeAngleRangeDeg": "0-19, front and rear independently hydraulically adjustable via iControl iPad system",
+      "bladeSpacingIn": 10,
+      "effectiveBladeSpacingIn": 5,
+      "cushionAssembly": "1,200lb urethane spring cushion assemblies, in-line mounted",
+      "harrowOptional": "MH1104 3-bar mounted harrow",
+      "rollingBasketsOptional": "Hydraulic down pressure, internal mud scraper",
+      "hitchControl": "Hydraulic hitch for front/rear weight shift, float mode available"
+    },
+    "variants": [
+      {
+        "sku": "9B2500",
+        "workingWidth": "25'",
+        "transportWidth": "15'-6\"",
+        "transportHeight": "12'-4\"",
+        "lengthWithAttachment": "29'-10\"",
+        "diskBladesCenter": 26,
+        "diskBladesWings": 16,
+        "blades": 58,
+        "weightLb": 25700,
+        "engineHpRange": "260-390"
+      },
+      {
+        "sku": "9B3000",
+        "workingWidth": "30'",
+        "transportWidth": "15'-6\"",
+        "transportHeight": "14'-9\"",
+        "lengthWithAttachment": "29'-10\"",
+        "diskBladesCenter": 26,
+        "diskBladesWings": 24,
+        "blades": 74,
+        "weightLb": 27000,
+        "engineHpRange": "300-450"
+      },
+      {
+        "sku": "9B3500",
+        "workingWidth": "35'",
+        "transportWidth": "20'-7\"",
+        "transportHeight": "14'-7\"",
+        "lengthWithAttachment": "32'-3\"",
+        "diskBladesCenter": 38,
+        "diskBladesWings": 20,
+        "blades": 78,
+        "weightLb": 29380,
+        "engineHpRange": "350-525"
+      },
+      {
+        "sku": "9B4000",
+        "workingWidth": "40'",
+        "transportWidth": "20'-7\"",
+        "transportHeight": "17'-1\"",
+        "lengthWithAttachment": "32'-3\"",
+        "diskBladesCenter": 38,
+        "diskBladesWings": 28,
+        "blades": 94,
+        "weightLb": 32100,
+        "engineHpRange": "400-600"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-supercoulter-samurai",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Supercoulter Samurai",
+    "displayName": "Summers Supercoulter Samurai",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "supercoulter-samurai-singlesheet-090820.pdf (description, no spec table) + samurai_flyernew2024.pdf (spec table: 'THREE NEW OPTIONS 10, 13 & 23 working width', no product name printed on that page). The flyer's dimensions are inferred to belong to the Supercoulter Samurai since no other Summers product line matches an unnamed 3-width table of this size; blade/disk counts were not given in either source, so omitted."
+    },
+    "constants": {
+      "bladeType": "Samurai disk blades, slightly concave, sawtooth design",
+      "bladeAngle": "Front gang 3deg, rear gang 5deg",
+      "bladeSpacingIn": 10,
+      "effectiveBladeSpacingIn": 5,
+      "hitch": "Patented hydraulic hitch, front/rear weight transfer",
+      "gangMount": "Super-Flex C-Shanks, toggle-mounted 7-lip sealed ball bearings, self-aligning",
+      "finishingAttachments": "Harrow + rolling basket combo recommended, baskets have internal mud scrapers and hydraulic down pressure"
+    },
+    "variants": [
+      {
+        "sku": "10' Working Width",
+        "workingWidth": "10'",
+        "weightWithHarrowBasketLb": 9500,
+        "transportWidth": "11'5\"",
+        "transportHeight": "6'8\""
+      },
+      {
+        "sku": "13' Working Width",
+        "workingWidth": "13'",
+        "weightWithHarrowBasketLb": 11200,
+        "transportWidth": "15'6\"",
+        "transportHeight": "6'8\""
+      },
+      {
+        "sku": "23' Working Width",
+        "workingWidth": "23'",
+        "weightWithHarrowBasketLb": 18000,
+        "transportWidth": "14'7\"",
+        "transportHeight": "10'5\""
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-hydraulic-fold-rolling-chopper",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Hydraulic Fold Rolling Chopper",
+    "displayName": "Summers Hydraulic Fold Rolling Chopper",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "hyd-fold-rolling-choppers.pdf. Clean per-model specifications table (14 size options). A bladed rolling chopper (residue-chopping roller), not a smooth/notched land roller — filed under Land Rollers as the closest category fit, but no drum count is given in the source (sizing is by machine width only), so the categories.json 'drums' countField is omitted rather than guessed. The two smallest models ('12'-15\"' and '17'-19\"') are each a single rigid model offered across a width range, not two separate SKUs, per the source table."
+    },
+    "constants": {
+      "shankMount": "Patented (6,505,688) Superflex C-Shank Mounting Springs, each chopper independently oscillates to conform to ground contours",
+      "bearings": "Triple lip sealed, relubricable",
+      "blades": "Induction hardened, replaceable",
+      "harrowOptional": "Summers M105 3-bar mounted harrow"
+    },
+    "variants": [
+      {
+        "sku": "12'-15' (rigid)",
+        "weightLb": 3846,
+        "centerSectionWidth": "14'8\"",
+        "wingSize": "N/A (rigid, no wings)",
+        "hitchLength": "15'",
+        "transportWidth": "15'6\"",
+        "transportHeight": "6'10\"",
+        "engineHpRange": "24-60"
+      },
+      {
+        "sku": "17'-19' (rigid)",
+        "weightLb": 4660,
+        "centerSectionWidth": "19'3\"",
+        "wingSize": "N/A (rigid, no wings)",
+        "hitchLength": "17'",
+        "transportWidth": "19'11\"",
+        "transportHeight": "6'10\"",
+        "engineHpRange": "34-76"
+      },
+      {
+        "sku": "21'",
+        "weightLb": 5590,
+        "centerSectionWidth": "12'6\"",
+        "wingSize": "4'2\"",
+        "hitchLength": "15'",
+        "transportWidth": "14'10\"",
+        "transportHeight": "9'8\"",
+        "engineHpRange": "42-84"
+      },
+      {
+        "sku": "23'",
+        "weightLb": 5756,
+        "centerSectionWidth": "12'6\"",
+        "wingSize": "5'3\"",
+        "hitchLength": "15'",
+        "transportWidth": "14'10\"",
+        "transportHeight": "10'7\"",
+        "engineHpRange": "42-92"
+      },
+      {
+        "sku": "26.5'",
+        "weightLb": 6164,
+        "centerSectionWidth": "12'6\"",
+        "wingSize": "7'",
+        "hitchLength": "15'",
+        "transportWidth": "14'10\"",
+        "transportHeight": "12'5\"",
+        "engineHpRange": "53-106"
+      },
+      {
+        "sku": "30'",
+        "weightLb": 6830,
+        "centerSectionWidth": "12'6\"",
+        "wingSize": "8'4\"",
+        "hitchLength": "20'",
+        "transportWidth": "14'10\"",
+        "transportHeight": "14'",
+        "engineHpRange": "60-120"
+      },
+      {
+        "sku": "32'",
+        "weightLb": 6850,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "7'",
+        "hitchLength": "20'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "12'",
+        "engineHpRange": "64-128"
+      },
+      {
+        "sku": "34.5'",
+        "weightLb": 7956,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "8'4\"",
+        "hitchLength": "25'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "13'2\"",
+        "engineHpRange": "69-138"
+      },
+      {
+        "sku": "36.5'",
+        "weightLb": 8122,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "9'5\"",
+        "hitchLength": "25'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "14'2\"",
+        "engineHpRange": "73-146"
+      },
+      {
+        "sku": "40'",
+        "weightLb": 8370,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "10'6\"",
+        "hitchLength": "25'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "15'11\"",
+        "engineHpRange": "80-160"
+      },
+      {
+        "sku": "42.5'",
+        "weightLb": 8512,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "12'3\"",
+        "hitchLength": "25'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "17'",
+        "engineHpRange": "85-170"
+      },
+      {
+        "sku": "47.5'",
+        "weightLb": 10852,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "9'6\"/5'3\"",
+        "hitchLength": "26'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "14'11\"",
+        "engineHpRange": "95-190"
+      },
+      {
+        "sku": "51'",
+        "weightLb": 12980,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "12'6\"/4'2\"",
+        "hitchLength": "27'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "16'8\"",
+        "engineHpRange": "104-208"
+      },
+      {
+        "sku": "53.5'",
+        "weightLb": 13302,
+        "centerSectionWidth": "18'2\"",
+        "wingSize": "12'6\"/5'3\"",
+        "hitchLength": "33'",
+        "transportWidth": "20'10\"",
+        "transportHeight": "16'8\"",
+        "engineHpRange": "107-214"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-superharrow",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Superharrow (SH3960 / SH3580 / SH3568)",
+    "displayName": "Summers Superharrow",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "harrows-cultivators_brochure.pdf, p.4. Clean per-model options table (3 model lines, 13 widths total). A standalone tine harrow (residue leveling / seedbed finishing), not a listed category in categories.json; filed under Mulch Finishers as the closest fit (secondary finishing tool). countField 'shanks' does not cleanly apply to a tine harrow, so it is omitted; number of harrow sections is recorded instead."
+    },
+    "constants": {
+      "toothSpacingEffectiveIn": 2.4,
+      "barSpacingIn": 16,
+      "hitchConstruction": "4in x 8in tubing",
+      "drawbarConstruction": "8in x 8in tubing",
+      "hitchLength": "22'"
+    },
+    "variants": [
+      {
+        "sku": "SH3960-36",
+        "modelLine": "SH3960",
+        "bars": 5,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 9/16in diameter",
+        "workingWidth": "36'",
+        "sections": 6,
+        "weightLb": 9500,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "110-176"
+      },
+      {
+        "sku": "SH3960-48",
+        "modelLine": "SH3960",
+        "bars": 5,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 9/16in diameter",
+        "workingWidth": "48'",
+        "sections": 8,
+        "weightLb": 11000,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "147-235"
+      },
+      {
+        "sku": "SH3960-60",
+        "modelLine": "SH3960",
+        "bars": 5,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 9/16in diameter",
+        "workingWidth": "60'",
+        "sections": 10,
+        "weightLb": 12500,
+        "transportWidth": "13'2\"/14'2\" (split hinged wing option)",
+        "engineHpRange": "184-294"
+      },
+      {
+        "sku": "SH3960-72",
+        "modelLine": "SH3960",
+        "bars": 5,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 9/16in diameter",
+        "workingWidth": "72'",
+        "sections": 12,
+        "weightLb": 14200,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "220-353"
+      },
+      {
+        "sku": "SH3960-84",
+        "modelLine": "SH3960",
+        "bars": 5,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 9/16in diameter",
+        "workingWidth": "84'",
+        "sections": 14,
+        "weightLb": 16150,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "257-412"
+      },
+      {
+        "sku": "SH3580-56",
+        "modelLine": "SH3580",
+        "bars": 5,
+        "sectionWidth": "8'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "56'",
+        "sections": 7,
+        "weightLb": 11050,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "155-275"
+      },
+      {
+        "sku": "SH3580-72",
+        "modelLine": "SH3580",
+        "bars": 5,
+        "sectionWidth": "8'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "72'",
+        "sections": 9,
+        "weightLb": 12950,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "200-350"
+      },
+      {
+        "sku": "SH3580-88",
+        "modelLine": "SH3580",
+        "bars": 5,
+        "sectionWidth": "8'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "88'",
+        "sections": 11,
+        "weightLb": 15250,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "245-425"
+      },
+      {
+        "sku": "SH3568-36",
+        "modelLine": "SH3568",
+        "bars": 8,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "36'",
+        "sections": 6,
+        "weightLb": 10820,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "146-230"
+      },
+      {
+        "sku": "SH3568-48",
+        "modelLine": "SH3568",
+        "bars": 8,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "48'",
+        "sections": 8,
+        "weightLb": 12760,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "195-307"
+      },
+      {
+        "sku": "SH3568-60",
+        "modelLine": "SH3568",
+        "bars": 8,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "60'",
+        "sections": 10,
+        "weightLb": 14700,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "244-384"
+      },
+      {
+        "sku": "SH3568-72",
+        "modelLine": "SH3568",
+        "bars": 8,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "72'",
+        "sections": 12,
+        "weightLb": 16840,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "292-461"
+      },
+      {
+        "sku": "SH3568-84",
+        "modelLine": "SH3568",
+        "bars": 8,
+        "sectionWidth": "6'",
+        "toothSize": "26in long, 1/2in diameter",
+        "workingWidth": "84'",
+        "sections": 14,
+        "weightLb": 19230,
+        "transportWidth": "13'2\"",
+        "engineHpRange": "341-538"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-superweeder-sw4350",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Superweeder SW4350",
+    "displayName": "Summers Superweeder SW4350",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "harrows-cultivators_brochure.pdf, p.6. Clean per-model table (5 widths). Combines 4 ranks of Vibra S-Tines with a 5-bar culti-harrow."
+    },
+    "constants": {
+      "sTineSpacingIn": 5,
+      "rankSpacingIn": 16,
+      "sTineType": "Vibra S-Tines, hydraulically depth-adjustable, can be fully raised for harrow-only operation",
+      "harrowType": "5-bar culti-harrow, 3/8in x 14in bent tooth",
+      "hitchConstruction": "4in x 8in tubing",
+      "drawbarConstruction": "8in x 8in tubing",
+      "hitchLength": "22'"
+    },
+    "variants": [
+      {
+        "sku": "SW4350-30",
+        "workingWidth": "30'",
+        "shanks": 72,
+        "harrowSections": 6,
+        "weightLb": 10150,
+        "transportWidth": "14'4\"",
+        "transportHeight": "12'8\"",
+        "centerSectionWidth": "10'",
+        "wingWidth": "10'",
+        "engineHpRange": "184-245"
+      },
+      {
+        "sku": "SW4350-40",
+        "workingWidth": "40'",
+        "shanks": 96,
+        "harrowSections": 8,
+        "weightLb": 11850,
+        "transportWidth": "14'4\"",
+        "transportHeight": "12'8\"",
+        "centerSectionWidth": "10'",
+        "wingWidth": "15'",
+        "engineHpRange": "245-327"
+      },
+      {
+        "sku": "SW4350-50",
+        "workingWidth": "50'",
+        "shanks": 120,
+        "harrowSections": 10,
+        "weightLb": 13800,
+        "transportWidth": "14'4\"",
+        "transportHeight": "12'8\"",
+        "centerSectionWidth": "10'",
+        "wingWidth": "20'",
+        "engineHpRange": "306-408"
+      },
+      {
+        "sku": "SW4350-60",
+        "workingWidth": "60'",
+        "shanks": 144,
+        "harrowSections": 12,
+        "weightLb": 16500,
+        "transportWidth": "14'4\"",
+        "transportHeight": "12'8\"",
+        "centerSectionWidth": "10'",
+        "wingWidth": "25'",
+        "engineHpRange": "367-490"
+      },
+      {
+        "sku": "SW4350-70",
+        "workingWidth": "70'",
+        "shanks": 168,
+        "harrowSections": 14,
+        "weightLb": 18300,
+        "transportWidth": "14'4\"",
+        "transportHeight": "12'8\"",
+        "centerSectionWidth": "10'",
+        "wingWidth": "30'",
+        "engineHpRange": "429-572"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-harrow-packer",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Harrow Packer (SH7960 / SH6350)",
+    "displayName": "Summers Harrow Packer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "harrows-cultivators_brochure.pdf, p.8. Clean per-model table (2 model lines, 7 widths total). Harrow + packing-coil roller combination; filed under Land Rollers since the rear packer/roller is the differentiating element vs. the plain Superharrow line. No drum count given (sized by width and harrow/packer section count instead)."
+    },
+    "constants": {
+      "packingCoils": "1-3/4in coils, 130lb/ft pressure, herringbone soil pattern",
+      "sh7960Note": "Summers heavy harrow frame with heavy-duty adjustable teeth, 26in long x 9/16in diameter",
+      "sh6350Note": "5-bar culti-harrow, 3/8in x 14in bent tooth, down-pressure springs standard",
+      "hitchConstruction": "4in x 8in tubing",
+      "drawbarConstruction": "8in x 8in tubing",
+      "hitchLength": "22'"
+    },
+    "variants": [
+      {
+        "sku": "SH7960-36",
+        "modelLine": "SH7960",
+        "workingWidth": "36'",
+        "harrowSections": 6,
+        "packerSections": 6,
+        "weightLb": 14700,
+        "transportWidth": "13'2\"",
+        "transportHeight": "12'",
+        "centerSectionWidth": "12'",
+        "wingWidth": "12'",
+        "engineHpRange": "143-232"
+      },
+      {
+        "sku": "SH7960-48",
+        "modelLine": "SH7960",
+        "workingWidth": "48'",
+        "harrowSections": 8,
+        "packerSections": 8,
+        "weightLb": 18200,
+        "transportWidth": "13'2\"",
+        "transportHeight": "12'",
+        "centerSectionWidth": "12'",
+        "wingWidth": "18'",
+        "engineHpRange": "191-309"
+      },
+      {
+        "sku": "SH7960-60",
+        "modelLine": "SH7960",
+        "workingWidth": "60'",
+        "harrowSections": 10,
+        "packerSections": 10,
+        "weightLb": 21300,
+        "transportWidth": "13'2\"",
+        "transportHeight": "12'",
+        "centerSectionWidth": "12'",
+        "wingWidth": "24'",
+        "engineHpRange": "239-386"
+      },
+      {
+        "sku": "SH6350-40",
+        "modelLine": "SH6350",
+        "workingWidth": "40'",
+        "harrowSections": 8,
+        "packerSections": 8,
+        "weightLb": 13460,
+        "transportWidth": "14'4\"",
+        "transportHeight": "11'",
+        "centerSectionWidth": "10'",
+        "wingWidth": "15'",
+        "engineHpRange": "122-147"
+      },
+      {
+        "sku": "SH6350-50",
+        "modelLine": "SH6350",
+        "workingWidth": "50'",
+        "harrowSections": 10,
+        "packerSections": 10,
+        "weightLb": 15925,
+        "transportWidth": "14'4\"",
+        "transportHeight": "11'",
+        "centerSectionWidth": "10'",
+        "wingWidth": "20'",
+        "engineHpRange": "153-184"
+      },
+      {
+        "sku": "SH6350-60",
+        "modelLine": "SH6350",
+        "workingWidth": "60'",
+        "harrowSections": 12,
+        "packerSections": 12,
+        "weightLb": 18300,
+        "transportWidth": "14'4\"",
+        "transportHeight": "11'",
+        "centerSectionWidth": "10'",
+        "wingWidth": "25'",
+        "engineHpRange": "184-220"
+      },
+      {
+        "sku": "SH6350-70",
+        "modelLine": "SH6350",
+        "workingWidth": "70'",
+        "harrowSections": 14,
+        "packerSections": 14,
+        "weightLb": 20740,
+        "transportWidth": "14'4\"",
+        "transportHeight": "11'",
+        "centerSectionWidth": "10'",
+        "wingWidth": "30'",
+        "engineHpRange": "214-257"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-diamond-disk",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Diamond Disk (DK/DT Series)",
+    "displayName": "Summers Diamond Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage_brochure071620.pdf, p.4. Clean per-model table (12 widths across 3 series pairs). DK and DT are the same chassis with/without a specific option; DK2610/DT2510 (Standard Configuration) additionally has a center disk blade that the narrow-transport DK9610/DT9510 and DK9630/DT9530 series lack. Tire fitment rows had fewer values than columns (grouped by series) and were not mapped per-variant."
+    },
+    "constants": {
+      "bladeSpacingIn": 10,
+      "shankMount": "Super-Flex C-Shanks with ductile cast spools, toggle-mounted triple-seal ball bearings",
+      "depthControl": "Single-point hydraulic depth control",
+      "centerDiskBlade": "DK2610/DT2510 series only"
+    },
+    "variants": [
+      {
+        "sku": "DK9610/DT9510-16",
+        "modelLine": "DK9610/DT9510 (Narrow-Transport)",
+        "workingWidth": "16'",
+        "blades": 35,
+        "transportWidth": "16'",
+        "transportHeight": "NA",
+        "weightLb": 13400,
+        "weightPerBladeLb": 383,
+        "weightPerFootLb": 838,
+        "engineHpRange": "120-160"
+      },
+      {
+        "sku": "DK9610/DT9510-21",
+        "modelLine": "DK9610/DT9510 (Narrow-Transport)",
+        "workingWidth": "21'",
+        "blades": 47,
+        "transportWidth": "16'",
+        "transportHeight": "10'",
+        "weightLb": 18000,
+        "weightPerBladeLb": 383,
+        "weightPerFootLb": 857,
+        "engineHpRange": "157-210"
+      },
+      {
+        "sku": "DK9610/DT9510-25",
+        "modelLine": "DK9610/DT9510 (Narrow-Transport)",
+        "workingWidth": "25'",
+        "blades": 59,
+        "transportWidth": "16'-10\"",
+        "transportHeight": "10'-8\"",
+        "weightLb": 22100,
+        "weightPerBladeLb": 375,
+        "weightPerFootLb": 884,
+        "engineHpRange": "188-250"
+      },
+      {
+        "sku": "DK9610/DT9510-28.5",
+        "modelLine": "DK9610/DT9510 (Narrow-Transport)",
+        "workingWidth": "28-1/2'",
+        "blades": 67,
+        "transportWidth": "16'-10\"",
+        "transportHeight": "13'-9\"",
+        "weightLb": 23300,
+        "weightPerBladeLb": 348,
+        "weightPerFootLb": 818,
+        "engineHpRange": "214-285"
+      },
+      {
+        "sku": "DK9630/DT9530-18.5",
+        "modelLine": "DK9630/DT9530 (Narrow-Transport)",
+        "workingWidth": "18-1/2'",
+        "blades": 42,
+        "transportWidth": "19'-2\"",
+        "transportHeight": "6'",
+        "weightLb": 12900,
+        "weightPerBladeLb": 307,
+        "weightPerFootLb": 697,
+        "engineHpRange": "136-181"
+      },
+      {
+        "sku": "DK9630/DT9530-21.5",
+        "modelLine": "DK9630/DT9530 (Narrow-Transport)",
+        "workingWidth": "21-1/2'",
+        "blades": 50,
+        "transportWidth": "22'-4\"",
+        "transportHeight": "6'",
+        "weightLb": 14110,
+        "weightPerBladeLb": 282,
+        "weightPerFootLb": 656,
+        "engineHpRange": "158-211"
+      },
+      {
+        "sku": "DK9630/DT9530-24.5",
+        "modelLine": "DK9630/DT9530 (Narrow-Transport)",
+        "workingWidth": "24-1/2'",
+        "blades": 58,
+        "transportWidth": "20'-6\"",
+        "transportHeight": "9'",
+        "weightLb": 18700,
+        "weightPerBladeLb": 322,
+        "weightPerFootLb": 763,
+        "engineHpRange": "180-240"
+      },
+      {
+        "sku": "DK9630/DT9530-28",
+        "modelLine": "DK9630/DT9530 (Narrow-Transport)",
+        "workingWidth": "28'",
+        "blades": 66,
+        "transportWidth": "20'-6\"",
+        "transportHeight": "10'-9\"",
+        "weightLb": 20900,
+        "weightPerBladeLb": 317,
+        "weightPerFootLb": 746,
+        "engineHpRange": "206-274"
+      },
+      {
+        "sku": "DK2610/DT2510-32.5",
+        "modelLine": "DK2610/DT2510 (Standard Configuration)",
+        "workingWidth": "32-1/2'",
+        "blades": 78,
+        "transportWidth": "20'-6\"",
+        "transportHeight": "13'",
+        "weightLb": 22900,
+        "weightPerBladeLb": 294,
+        "weightPerFootLb": 705,
+        "engineHpRange": "239-318"
+      },
+      {
+        "sku": "DK2610/DT2510-38.5",
+        "modelLine": "DK2610/DT2510 (Standard Configuration)",
+        "workingWidth": "38-1/2'",
+        "blades": 94,
+        "transportWidth": "22'",
+        "transportHeight": "15'-10\"",
+        "weightLb": 27250,
+        "weightPerBladeLb": 290,
+        "weightPerFootLb": 708,
+        "engineHpRange": "283-377"
+      },
+      {
+        "sku": "DK2610/DT2510-44.5",
+        "modelLine": "DK2610/DT2510 (Standard Configuration)",
+        "workingWidth": "44-1/2'",
+        "blades": 110,
+        "transportWidth": "22'",
+        "transportHeight": "18'-10\"",
+        "weightLb": 28900,
+        "weightPerBladeLb": 263,
+        "weightPerFootLb": 649,
+        "engineHpRange": "327-436"
+      },
+      {
+        "sku": "DK2610/DT2510-47",
+        "modelLine": "DK2610/DT2510 (Standard Configuration)",
+        "workingWidth": "47'",
+        "blades": 114,
+        "transportWidth": "22'",
+        "transportHeight": "14'-7\"",
+        "weightLb": 30700,
+        "weightPerBladeLb": 269,
+        "weightPerFootLb": 653,
+        "engineHpRange": "348-460"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-vrt-series",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "VRT Series (VRT2530 / VRT3530)",
+    "displayName": "Summers VRT Series Variable Rate Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage_brochure071620.pdf, p.8. Clean per-model table (2 series x 4 widths = 8 models). Distinct from the newer VRT Renegade line (vrt-renegade_brochure.pdf), which offers wider 0-19deg blade angle adjustment via iControl; this VRT Series uses manual 5/8/12deg adjustment."
+    },
+    "constants": {
+      "frontBladeDiameterIn": 22,
+      "rearBladeDiameterIn": 22,
+      "bladeAngleManualOptionsDeg": "5, 8, 12",
+      "wingDownPressure": "Hydraulic (VRT2530/VRT3530), replaces wing weights",
+      "shankMount": "C-shank mounting, toggle-mounted triple-seal ball bearings, ductile cast spools"
+    },
+    "variants": [
+      {
+        "sku": "VRT2530-26",
+        "modelLine": "VRT2530",
+        "workingWidth": "26'",
+        "frontBladeAngle": "12deg (manual 5/8/12)",
+        "rearBladeAngle": "0deg fixed (true vertical, coulter blades)",
+        "transportWidth": "15'",
+        "transportHeight": "13'-4\"",
+        "weightLb": 25280,
+        "engineHpRange": "260-390"
+      },
+      {
+        "sku": "VRT2530-30",
+        "modelLine": "VRT2530",
+        "workingWidth": "30'",
+        "frontBladeAngle": "12deg (manual 5/8/12)",
+        "rearBladeAngle": "0deg fixed",
+        "transportWidth": "15'",
+        "transportHeight": "15'-1\"",
+        "weightLb": 26560,
+        "engineHpRange": "300-450"
+      },
+      {
+        "sku": "VRT2530-35",
+        "modelLine": "VRT2530",
+        "workingWidth": "35'",
+        "frontBladeAngle": "12deg (manual 5/8/12)",
+        "rearBladeAngle": "0deg fixed",
+        "transportWidth": "19'-8\"",
+        "transportHeight": "17'",
+        "weightLb": 29280,
+        "engineHpRange": "350-525"
+      },
+      {
+        "sku": "VRT2530-40",
+        "modelLine": "VRT2530",
+        "workingWidth": "40'",
+        "frontBladeAngle": "12deg (manual 5/8/12)",
+        "rearBladeAngle": "0deg fixed",
+        "transportWidth": "19'-8\"",
+        "transportHeight": "17'",
+        "weightLb": 31980,
+        "engineHpRange": "400-600"
+      },
+      {
+        "sku": "VRT3530-26",
+        "modelLine": "VRT3530",
+        "workingWidth": "26'",
+        "frontBladeAngle": "8deg (manual 5/8/12)",
+        "rearBladeAngle": "12deg (manual 5/8/12)",
+        "transportWidth": "15'",
+        "transportHeight": "13'-4\"",
+        "weightLb": 24535,
+        "engineHpRange": "286-416"
+      },
+      {
+        "sku": "VRT3530-30",
+        "modelLine": "VRT3530",
+        "workingWidth": "30'",
+        "frontBladeAngle": "8deg (manual 5/8/12)",
+        "rearBladeAngle": "12deg (manual 5/8/12)",
+        "transportWidth": "15'",
+        "transportHeight": "15'-1\"",
+        "weightLb": 25850,
+        "engineHpRange": "330-480"
+      },
+      {
+        "sku": "VRT3530-35",
+        "modelLine": "VRT3530",
+        "workingWidth": "35'",
+        "frontBladeAngle": "8deg (manual 5/8/12)",
+        "rearBladeAngle": "12deg (manual 5/8/12)",
+        "transportWidth": "19'-8\"",
+        "transportHeight": "14'-3\"",
+        "weightLb": 28707,
+        "engineHpRange": "385-560"
+      },
+      {
+        "sku": "VRT3530-40",
+        "modelLine": "VRT3530",
+        "workingWidth": "40'",
+        "frontBladeAngle": "8deg (manual 5/8/12)",
+        "rearBladeAngle": "12deg (manual 5/8/12)",
+        "transportWidth": "19'-8\"",
+        "transportHeight": "17'",
+        "weightLb": 31135,
+        "engineHpRange": "440-640"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-superchisel",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "Superchisel (CP2515 / CP2535 / CP2030 / CP2530 / CP2050)",
+    "displayName": "Summers Superchisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage_brochure071620.pdf, p.10. Clean per-model table across 2 pages (19 widths total, 4 model lines). Transport Width row had fewer values than columns (grouped, not per-width) and was omitted; Transport Height parsed cleanly per column and is included. CP2030/CP2530 and CP2050/CP2530 are the '1,050-pound trip heavy-duty (HD) series' per source footnote. Transport width/height added from the Superchisel operator manuals 8Z1096 (3-section, p.83) and 8Z1098 (5-section, 12-2016, p.57). Weights there differ slightly for some sizes (CP2515-16 8205 vs manual 8737; CP2515-20 9225 vs manual 9601; CP2535-30 15250 vs manual 15280; CP2030/CP2530 HD-38 16867 vs manual 15004; CP2050/CP2530 HD-56 26378 vs manual 26302; CP2050/CP2530 HD-58 26912 vs manual 26836; CP2050/CP2530 HD-60 27478 vs manual 27401); brochure weights kept."
+    },
+    "constants": {
+      "shankSpacingIn": 12,
+      "hitchSmall": "16-30ft models: hydraulic hitch",
+      "hitchLarge": "Larger models: floating hitch with dual-front walking wheels or optional caster wheels",
+      "extendedShanksOptional": "3 additional inches of tillage depth (max 12in)",
+      "wingExtensionsOptional": "Increase working width in 2/4/6ft increments"
+    },
+    "variants": [
+      {
+        "sku": "CP2515-16",
+        "modelLine": "CP2515",
+        "workingWidth": "16'",
+        "shanks": 16,
+        "transportHeight": "7'",
+        "weightLb": 8205,
+        "engineHpRange": "150-250",
+        "transportWidthIn": 189,
+        "transportHeightIn": 96
+      },
+      {
+        "sku": "CP2515-20",
+        "modelLine": "CP2515",
+        "workingWidth": "20'",
+        "shanks": 20,
+        "transportHeight": "7'",
+        "weightLb": 9225,
+        "engineHpRange": "175-275",
+        "transportWidthIn": 240,
+        "transportHeightIn": 96
+      },
+      {
+        "sku": "CP2535-24",
+        "modelLine": "CP2535",
+        "workingWidth": "24'",
+        "shanks": 24,
+        "transportHeight": "11'-4\"",
+        "weightLb": 14200,
+        "engineHpRange": "192-364",
+        "transportWidthIn": 190,
+        "transportHeightIn": 136
+      },
+      {
+        "sku": "CP2535-26",
+        "modelLine": "CP2535",
+        "workingWidth": "26'",
+        "shanks": 26,
+        "transportHeight": "11'-11\"",
+        "weightLb": 14500,
+        "engineHpRange": "208-286",
+        "transportWidthIn": 190,
+        "transportHeightIn": 143
+      },
+      {
+        "sku": "CP2535-28",
+        "modelLine": "CP2535",
+        "workingWidth": "28'",
+        "shanks": 28,
+        "transportHeight": "12'-11\"",
+        "weightLb": 14900,
+        "engineHpRange": "224-308",
+        "transportWidthIn": 190,
+        "transportHeightIn": 155
+      },
+      {
+        "sku": "CP2535-30",
+        "modelLine": "CP2535",
+        "workingWidth": "30'",
+        "shanks": 30,
+        "transportHeight": "13'-10\"",
+        "weightLb": 15250,
+        "engineHpRange": "240-330",
+        "transportWidthIn": 190,
+        "transportHeightIn": 160
+      },
+      {
+        "sku": "CP2030/CP2530 HD-32",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "32'",
+        "shanks": 32,
+        "transportHeight": "12'-6\"",
+        "weightLb": 13909,
+        "engineHpRange": "256-352",
+        "transportWidthIn": 234,
+        "transportHeightIn": 150
+      },
+      {
+        "sku": "CP2030/CP2530 HD-34",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "34'",
+        "shanks": 34,
+        "transportHeight": "13'-5\"",
+        "weightLb": 14203,
+        "engineHpRange": "272-375",
+        "transportWidthIn": 234,
+        "transportHeightIn": 161
+      },
+      {
+        "sku": "CP2030/CP2530 HD-36",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "36'",
+        "shanks": 36,
+        "transportHeight": "14'-4\"",
+        "weightLb": 14639,
+        "engineHpRange": "288-396",
+        "transportWidthIn": 234,
+        "transportHeightIn": 172
+      },
+      {
+        "sku": "CP2030/CP2530 HD-38",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "38'",
+        "shanks": 38,
+        "transportHeight": "15'-3\"",
+        "weightLb": 16867,
+        "note": "Weight includes standard mounted harrows",
+        "engineHpRange": "330-463",
+        "transportWidthIn": 234,
+        "transportHeightIn": 183
+      },
+      {
+        "sku": "CP2030/CP2530 HD-40",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "40'",
+        "shanks": 40,
+        "transportHeight": "16'-2\"",
+        "weightLb": 15974,
+        "engineHpRange": "344-488",
+        "transportWidthIn": 234,
+        "transportHeightIn": 194
+      },
+      {
+        "sku": "CP2030/CP2530 HD-42",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "42'",
+        "shanks": 42,
+        "transportHeight": "17'-1\"",
+        "weightLb": 16268,
+        "engineHpRange": "361-512",
+        "transportWidthIn": 234,
+        "transportHeightIn": 205
+      },
+      {
+        "sku": "CP2030/CP2530 HD-44",
+        "modelLine": "CP2030/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "44'",
+        "shanks": 44,
+        "transportHeight": "18'",
+        "weightLb": 16704,
+        "engineHpRange": "378-537",
+        "transportWidthIn": 234,
+        "transportHeightIn": 216
+      },
+      {
+        "sku": "CP2050/CP2530 HD-50",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "50'",
+        "shanks": 50,
+        "transportHeight": "15'-8\"",
+        "weightLb": 21896,
+        "engineHpRange": "400-550",
+        "transportWidthIn": 230,
+        "transportHeightIn": 188
+      },
+      {
+        "sku": "CP2050/CP2530 HD-52",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "52'",
+        "shanks": 52,
+        "transportHeight": "15'-8\"",
+        "weightLb": 22190,
+        "engineHpRange": "416-570",
+        "transportWidthIn": 230,
+        "transportHeightIn": 188
+      },
+      {
+        "sku": "CP2050/CP2530 HD-54",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "54'",
+        "shanks": 54,
+        "transportHeight": "15'-8\"",
+        "weightLb": 22670,
+        "engineHpRange": "432-590",
+        "transportWidthIn": 230,
+        "transportHeightIn": 188
+      },
+      {
+        "sku": "CP2050/CP2530 HD-56",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "56'",
+        "shanks": 56,
+        "transportHeight": "17'-8\"",
+        "weightLb": 26378,
+        "note": "Weight includes standard mounted harrows",
+        "engineHpRange": "482-683",
+        "transportWidthIn": 230,
+        "transportHeightIn": 212
+      },
+      {
+        "sku": "CP2050/CP2530 HD-58",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "58'",
+        "shanks": 58,
+        "transportHeight": "17'-8\"",
+        "weightLb": 26912,
+        "note": "Weight includes standard mounted harrows",
+        "engineHpRange": "499-708",
+        "transportWidthIn": 230,
+        "transportHeightIn": 212
+      },
+      {
+        "sku": "CP2050/CP2530 HD-60",
+        "modelLine": "CP2050/CP2530 (HD, 1050lb trip)",
+        "workingWidth": "60'",
+        "shanks": 60,
+        "transportHeight": "17'-8\"",
+        "weightLb": 27478,
+        "note": "Weight includes standard mounted harrows",
+        "engineHpRange": "516-732",
+        "transportWidthIn": 230,
+        "transportHeightIn": 212
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "summers-diskchisel-coulterchisel",
+    "manufacturer": "Summers Mfg",
+    "modelFamily": "DiskChisel / CoulterChisel (DC2815-2830 / CC2815-2830)",
+    "displayName": "Summers DiskChisel / CoulterChisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage_brochure071620.pdf, p.12. Clean per-width table (8 widths across 3 series). DiskChisel (DC, hub-mounted disk blades, 20in spacing) and CoulterChisel (CC, gang-mounted coulter blades, 12in spacing) share the same chisel-shank chassis and width/shank/weight/HP specs per series; they differ only in blade type and spacing. Transport Width row had fewer values than columns (grouped, not per-width) and was omitted. Transport width/height added from CC/DC operator manual 8Z1095 (post-2009, p.102); weights there match the brochure except 32/36/40 ft (20,520 / 22,200 / 26,100 lb in the manual)."
+    },
+    "constants": {
+      "shankSpacingIn": 12,
+      "coulterSpacingIn": 12,
+      "diskSpacingIn": 20,
+      "shankTripPressureLb": 1000,
+      "hitchSmall": "16-28ft models: hydraulic hitch standard",
+      "hitchLarge": "32-40ft models: floating hitch with front caster wheels, rear hitch standard",
+      "bladeOptions": "Flat, wavy (8-wave, 13-wave, 8-wave notched), or turbo designs; Duracoat WEAR-TUFF lining optional"
+    },
+    "variants": [
+      {
+        "sku": "DC2815/CC2815-16",
+        "modelLine": "DC2815/CC2815",
+        "workingWidth": "16'",
+        "shanks": 16,
+        "transportHeight": "8'-6\"",
+        "weightLb": 12200,
+        "engineHpRange": "160-240",
+        "rearHitch": "Optional",
+        "transportWidthIn": 225,
+        "transportHeightIn": 102
+      },
+      {
+        "sku": "DC2815/CC2815-20",
+        "modelLine": "DC2815/CC2815",
+        "workingWidth": "20'",
+        "shanks": 20,
+        "transportHeight": "8'-6\"",
+        "weightLb": 13840,
+        "engineHpRange": "200-300",
+        "rearHitch": "Optional",
+        "transportWidthIn": 246,
+        "transportHeightIn": 102
+      },
+      {
+        "sku": "DC2835/CC2835-24",
+        "modelLine": "DC2835/CC2835",
+        "workingWidth": "24'",
+        "shanks": 24,
+        "transportHeight": "11'-6\"",
+        "weightLb": 20070,
+        "engineHpRange": "240-360",
+        "rearHitch": "Optional",
+        "transportWidthIn": 210,
+        "transportHeightIn": 138
+      },
+      {
+        "sku": "DC2835/CC2835-26",
+        "modelLine": "DC2835/CC2835",
+        "workingWidth": "26'",
+        "shanks": 26,
+        "transportHeight": "12'",
+        "weightLb": 20660,
+        "engineHpRange": "260-390",
+        "rearHitch": "Optional",
+        "transportWidthIn": 210,
+        "transportHeightIn": 144
+      },
+      {
+        "sku": "DC2835/CC2835-28",
+        "modelLine": "DC2835/CC2835",
+        "workingWidth": "28'",
+        "shanks": 28,
+        "transportHeight": "13'-3\"",
+        "weightLb": 21380,
+        "engineHpRange": "280-420",
+        "rearHitch": "Optional",
+        "transportWidthIn": 210,
+        "transportHeightIn": 159
+      },
+      {
+        "sku": "DC2830/CC2830-32",
+        "modelLine": "DC2830/CC2830",
+        "workingWidth": "32'",
+        "shanks": 32,
+        "transportHeight": "12'-8\"",
+        "weightLb": 20628,
+        "engineHpRange": "350-450",
+        "rearHitch": "Standard",
+        "transportWidthIn": 234,
+        "transportHeightIn": 152
+      },
+      {
+        "sku": "DC2830/CC2830-36",
+        "modelLine": "DC2830/CC2830",
+        "workingWidth": "36'",
+        "shanks": 36,
+        "transportHeight": "14'-6\"",
+        "weightLb": 22334,
+        "engineHpRange": "350-500",
+        "rearHitch": "Standard",
+        "transportWidthIn": 234,
+        "transportHeightIn": 174
+      },
+      {
+        "sku": "DC2830/CC2830-40",
+        "modelLine": "DC2830/CC2830",
+        "workingWidth": "40'",
+        "shanks": 40,
+        "transportHeight": "16'-3\"",
+        "weightLb": 26101,
+        "engineHpRange": "400-550",
+        "rearHitch": "Standard",
+        "transportWidthIn": 234,
+        "transportHeightIn": 195
+      }
+    ],
+    "referencePhotos": []
+  }
+]

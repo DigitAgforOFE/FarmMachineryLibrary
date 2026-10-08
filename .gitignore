@@ -1,0 +1,6 @@
+# Brochure / spec-sheet collection: large and copyrighted -- tracked by hash in
+# library/sources.csv instead (see CONTRIBUTING.md)
+Brochures/
+*.pdf
+.DS_Store
+__pycache__/

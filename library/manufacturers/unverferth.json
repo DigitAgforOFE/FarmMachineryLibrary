@@ -1,0 +1,217 @@
+[
+  {
+    "id": "unverferth-blujet-subtiller-ii-4",
+    "manufacturer": "Unverferth",
+    "modelFamily": "Blu-Jet SubTiller II / SubTiller 4",
+    "displayName": "Unverferth Blu-Jet SubTiller II / SubTiller 4 In-Line Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "blu-jet-tillage-subtiller-in-line-rippers-mar.-2022.pdf. Blu-Jet is Unverferth Mfg. Co.'s tillage/applicator brand. Feature-comparison table gives shank-count and frame options but no per-width weight or working-width table, so recorded as a range-only family. The dedicated Subtiller2/Subtiller4 operator's manuals (Subtiller2 A66840100 and Higher.pdf, Subtiller4 A66840100 and Higher.pdf) were checked and contain no additional dimensional data."
+    },
+    "constants": {
+      "coulterSystem": "Super 1200 lead coulter, 20in fluted blades, 4-bolt hubs, 1200lb down force, 30deg swivel",
+      "shankSize": "1-1/4in wide x 6in deep x 44in tall, high-carbon steel",
+      "workingDepthIn": "14-18",
+      "rowWidthIn": 30,
+      "hpPerShank": "30-50",
+      "point": "3in wide CADI reversible fall point"
+    },
+    "variants": [
+      {
+        "sku": "SubTiller II",
+        "shankCountOptions": "3, 5, or 7",
+        "spacingOptions": "30in or 38in",
+        "frame": "Double 4in x 6in, 1/2in tubing",
+        "underframeClearanceIn": 32,
+        "tripMechanism": "Shear bolt (9000lb)",
+        "hitch": "3-point, CAT 2 or 3"
+      },
+      {
+        "sku": "SubTiller 4",
+        "shankCountOptions": "3, 5, 7, 9, or 11",
+        "spacingOptions": "30in or 38in (5-shank only)",
+        "frame": "Double 7in x 7in, 3/8in tubing",
+        "underframeClearanceIn": 39,
+        "tripMechanism": "Auto-reset spring (3000lb) or shear bolt (9000lb)",
+        "hitch": "3-point or pull-type (varies by size), CAT 2 or 3"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "unverferth-blujet-trackmaster-ii-trenchmaster",
+    "manufacturer": "Unverferth",
+    "modelFamily": "Blu-Jet TrackMaster II / TrenchMaster",
+    "displayName": "Unverferth Blu-Jet TrackMaster II / TrenchMaster Track Closers",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "blu-jet-tillage-track-closers.pdf (doc code BJTRENCH02512005M4, (c) 2020 Unverferth Manufacturing Co.). Clean spec table on p.4 for both models. For pivot-irrigation tire-track and drainage-tile-trench repair/closing, not general tillage - filed under Disks per this library's countField (discs) convention, matching the Summers 3RT Track Remover precedent."
+    },
+    "constants": {
+      "discs": "22in concave discs, self-cleaning teardrop cutouts, mounted on heavy-duty 6-bolt hubs",
+      "hitchStyle": "CAT 2 & 3, three-point",
+      "finish": "Powder-coated frame and discs",
+      "guideConeOption": "Manual-adjust or hydraulically controlled, keeps implement on track",
+      "levelProOptionWeightLb": 300
+    },
+    "variants": [
+      {
+        "sku": "TrackMaster II",
+        "workingWidthIn": 60,
+        "transportWidth": "6ft 2in",
+        "overallLength": "5ft 10in",
+        "approxHp": "40-50",
+        "frame": "3-Bar",
+        "blades": 6,
+        "guideCone": "Standard",
+        "packerProOption": true,
+        "weightLb": 1075,
+        "weightWithGuideConeLb": 1180,
+        "note": "4-bar conversion kit available, extends working width to 72in by adding a pair of concave discs to the rear bar"
+      },
+      {
+        "sku": "TrenchMaster",
+        "workingWidthIn": 90,
+        "transportWidth": "10ft 9in",
+        "overallLength": "7ft 6in",
+        "approxHp": "50-70",
+        "frame": "4-Bar",
+        "blades": 8,
+        "guideCone": "Optional",
+        "packerProOption": false,
+        "weightLb": 1430,
+        "weightWithGuideConeLb": 1885
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "unverferth-blujet-legacy",
+    "manufacturer": "Unverferth",
+    "modelFamily": "Blu-Jet Legacy",
+    "displayName": "Unverferth Blu-Jet Legacy All-Terrain Injection Toolbar",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "LEGACY.pdf, Assembly and Operators Manual, manual no. 0605010, Rev. 2-19-18, published by Thurston Manufacturing Company (Thurston, NE) - Blu-Jet's original maker before Unverferth acquired the brand in 2019 (see manufacturer-lineage/blu-jet). General specs on p.143 give a model range (40-52ft) but no per-width weight table; the actual row-count breakdown (15/16/17/18/19/20/21 rows at 30in spacing, plus a 24-row/20in-spacing variant) was cross-referenced from parts-catalog pages (pp.112-119) listing meter-assembly part numbers per row count, and working widths were derived from rows x spacing - not stated directly as a dimensions table. No weight figure exists anywhere in this 261-page manual for any configuration. Categorized under Strip Till (row-spaced injection toolbar with coulters) rather than Disks, unlike the disc-based TrackMaster II/TrenchMaster in this same file - function differs (liquid/anhydrous injection, not disc tillage)."
+    },
+    "constants": {
+      "mainFrame": "Heavy Duty 6in x 6in constant-level main frame",
+      "wheelsAndTires": "295/75R22.5 or 385/65R22.5 tires (95 psi), or singles 385/85R34 MPT ply main frame tires (51 psi)",
+      "transportWidth": "17ft 4in (odd row spacing) or 17ft 10in (even row spacing)",
+      "transportHeight": "13ft 6in",
+      "rowSpacingIn": 30,
+      "rankIn": 54,
+      "coulters": "Super 1200 Coulters with 20in fluted blades (same coulter system as the SubTiller II/4 rippers in this file)",
+      "hitchStandard": "Category IV pintle and clevis tractor hitch",
+      "options": "Emergency water tank/toolbox, 9000lb parking jack, 60,000lb transport chain, lighting kit",
+      "warranty": "5-year frame warranty",
+      "rowUnitOptions": "MaxPac, SCS, or Sealpro II sealer row units (accessory choice, not separate base models)"
+    },
+    "variants": [
+      {
+        "sku": "15-row",
+        "rows": 15,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 37.5,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000129), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "16-row",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 40,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000148), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "17-row",
+        "rows": 17,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 42.5,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000149), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "18-row",
+        "rows": 18,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 45,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000121), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "19-row",
+        "rows": 19,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 47.5,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (55000151), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "20-row",
+        "rows": 20,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 50,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000132), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "21-row",
+        "rows": 21,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 52.5,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000153), not an explicit manufacturer dimensions table"
+      },
+      {
+        "sku": "24-row (20in spacing)",
+        "rows": 24,
+        "rowSpacingIn": 20,
+        "workingWidthFt": 40,
+        "note": "row count and width derived from parts-catalog meter-assembly part number (66000118), not an explicit manufacturer dimensions table"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "unverferth-maximus-100-disk",
+    "manufacturer": "Unverferth",
+    "modelFamily": "Maximus 100",
+    "displayName": "Unverferth Maximus 100 Bedding Disk",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": false,
+      "note": "Maximus Disc.pdf (Unverferth Maximus 100 operator manual), Operation p.27 (manual 3-5). No model/weight table; only the adjustable working-width ranges for 4-blade and 5-blade gang units and the gang-angle settings are stated."
+    },
+    "constants": {
+      "gangAngleSettingsDeg": [
+        0,
+        6,
+        14,
+        19,
+        24,
+        29
+      ]
+    },
+    "variants": [
+      {
+        "sku": "Maximus 100 (4-blade gangs)",
+        "bladesPerGang": 4,
+        "workingWidthRangeIn": [
+          63,
+          87
+        ]
+      },
+      {
+        "sku": "Maximus 100 (5-blade gangs)",
+        "bladesPerGang": 5,
+        "workingWidthRangeIn": [
+          80,
+          104
+        ]
+      }
+    ],
+    "referencePhotos": []
+  }
+]

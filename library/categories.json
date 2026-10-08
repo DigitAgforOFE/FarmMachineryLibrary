@@ -1,0 +1,13 @@
+{
+  "Chisel Plows": { "countField": "shanks" },
+  "Rippers": { "countField": "shanks" },
+  "Field Cultivators": { "countField": "shanks" },
+  "Strip Till": { "countField": "rows" },
+  "Plows": { "countField": "bottoms" },
+  "Row Crop Cultivators": { "countField": "rows" },
+  "Disks": { "countField": "blades" },
+  "Vertical Tillage": { "countField": "blades" },
+  "Rotary Tillage": { "countField": null },
+  "Land Rollers": { "countField": "drums" },
+  "Mulch Finishers": { "countField": "shanks" }
+}

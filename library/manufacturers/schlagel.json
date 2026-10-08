@@ -1,0 +1,307 @@
+[
+  {
+    "id": "schlagel-rapid-till",
+    "manufacturer": "Schlagel",
+    "modelFamily": "Rapid Till",
+    "displayName": "Schlagel Rapid Till Strip-Till System",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "schlagel_may2026_catalogupdate_forweb_singlepages.pdf (Schlagel catalog, May 2026) pp.6-7 and schlagel_rapid_till_salesheet-2025. The catalog lists standard (rigid) and folding configurations with part numbers (RT-50xx), but the text layer does not keep each part number aligned with its configuration, so part numbers are not recorded. No widths or weights are published; configurations only. Custom builds up to 24 rows / 20in spacing."
+    },
+    "constants": {
+      "hpPerRow": 20,
+      "runningDepthIn": "2-11",
+      "standardEquipment": "row cleaners, 20in flat coulter, 3/4 x 4in shank, two 17in wavy coulters, 16in dual-wheel packer",
+      "maxSpeedMph": 10
+    },
+    "variants": [
+      {
+        "sku": "Rapid Till 4R22",
+        "rows": 4,
+        "rowSpacingIn": "22"
+      },
+      {
+        "sku": "Rapid Till 4R30",
+        "rows": 4,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 4R36",
+        "rows": 4,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 6R22",
+        "rows": 6,
+        "rowSpacingIn": "22"
+      },
+      {
+        "sku": "Rapid Till 6R30",
+        "rows": 6,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 6R36",
+        "rows": 6,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 6R48",
+        "rows": 6,
+        "rowSpacingIn": "48"
+      },
+      {
+        "sku": "Rapid Till 8R30 folding",
+        "rows": 8,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 8R36 folding",
+        "rows": 8,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 8R40 folding",
+        "rows": 8,
+        "rowSpacingIn": "40"
+      },
+      {
+        "sku": "Rapid Till 12R22 folding",
+        "rows": 12,
+        "rowSpacingIn": "22"
+      },
+      {
+        "sku": "Rapid Till 12R30 folding",
+        "rows": 12,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 12R36 folding",
+        "rows": 12,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 12R38 folding",
+        "rows": 12,
+        "rowSpacingIn": "38"
+      },
+      {
+        "sku": "Rapid Till 12R40 folding",
+        "rows": 12,
+        "rowSpacingIn": "40"
+      },
+      {
+        "sku": "Rapid Till 16R20 folding",
+        "rows": 16,
+        "rowSpacingIn": "20"
+      },
+      {
+        "sku": "Rapid Till 16R22 folding",
+        "rows": 16,
+        "rowSpacingIn": "22"
+      },
+      {
+        "sku": "Rapid Till 16R30 folding",
+        "rows": 16,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 16R36 folding",
+        "rows": 16,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 16R30-50 folding",
+        "rows": 16,
+        "rowSpacingIn": "30-50"
+      },
+      {
+        "sku": "Rapid Till 18R30 folding",
+        "rows": 18,
+        "rowSpacingIn": "30"
+      },
+      {
+        "sku": "Rapid Till 18R32 folding",
+        "rows": 18,
+        "rowSpacingIn": "32"
+      },
+      {
+        "sku": "Rapid Till 18R36 folding",
+        "rows": 18,
+        "rowSpacingIn": "36"
+      },
+      {
+        "sku": "Rapid Till 24R20 folding",
+        "rows": 24,
+        "rowSpacingIn": "20"
+      },
+      {
+        "sku": "Rapid Till 24R22 folding",
+        "rows": 24,
+        "rowSpacingIn": "22"
+      },
+      {
+        "sku": "Rapid Till 24R30 folding (planter caddy)",
+        "rows": 24,
+        "rowSpacingIn": "30"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "schlagel-rapid-till-ar",
+    "manufacturer": "Schlagel",
+    "modelFamily": "Rapid Till AR",
+    "displayName": "Schlagel Rapid Till AR (Automatic Reset) Strip-Till System",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "schlagel_may2026_catalogupdate_forweb_singlepages.pdf pp.8-10. Configuration list as in the catalog (AR-50xx part numbers not reliably aligned in the text layer, not recorded). Each row unit weighs 500 lb."
+    },
+    "constants": {
+      "rowUnitWeightLb": 500,
+      "hpPerRow": 25,
+      "runningDepthIn": "up to 16",
+      "leadingCoulterIn": 24,
+      "maxSpeedMph": 10
+    },
+    "variants": [
+      {
+        "sku": "Rapid Till AR 4R22",
+        "rows": 4,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 4R30",
+        "rows": 4,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 6R22",
+        "rows": 6,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 6R30",
+        "rows": 6,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 6R36",
+        "rows": 6,
+        "rowSpacingIn": 36
+      },
+      {
+        "sku": "Rapid Till AR 8R22",
+        "rows": 8,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 8R30",
+        "rows": 8,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 8R36",
+        "rows": 8,
+        "rowSpacingIn": 36
+      },
+      {
+        "sku": "Rapid Till AR 12R22",
+        "rows": 12,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 12R22 folding",
+        "rows": 12,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 12R30 folding",
+        "rows": 12,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 12R36 folding",
+        "rows": 12,
+        "rowSpacingIn": 36
+      },
+      {
+        "sku": "Rapid Till AR 12R38 folding",
+        "rows": 12,
+        "rowSpacingIn": 38
+      },
+      {
+        "sku": "Rapid Till AR 12R40 folding",
+        "rows": 12,
+        "rowSpacingIn": 40
+      },
+      {
+        "sku": "Rapid Till AR 8R30 folding",
+        "rows": 8,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 8R36 folding",
+        "rows": 8,
+        "rowSpacingIn": 36
+      },
+      {
+        "sku": "Rapid Till AR 8R40 folding",
+        "rows": 8,
+        "rowSpacingIn": 40
+      },
+      {
+        "sku": "Rapid Till AR 16R20 folding",
+        "rows": 16,
+        "rowSpacingIn": 20
+      },
+      {
+        "sku": "Rapid Till AR 16R22 folding",
+        "rows": 16,
+        "rowSpacingIn": 22
+      },
+      {
+        "sku": "Rapid Till AR 16R30 folding",
+        "rows": 16,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "Rapid Till AR 18R30 folding",
+        "rows": 18,
+        "rowSpacingIn": 30
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "schlagel-rapid-till-hd",
+    "manufacturer": "Schlagel",
+    "modelFamily": "Rapid Till HD",
+    "displayName": "Schlagel Rapid Till HD Strip-Till System",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "schlagel_rapid_till_hd_salesheet-2025-update-digital.pdf p.3: family specs only (4-16 row machines, 20-40in row spacing); no per-model table."
+    },
+    "constants": {
+      "rowsRange": [
+        4,
+        16
+      ],
+      "rowSpacingRangeIn": [
+        20,
+        40
+      ],
+      "hpPerRow": 25,
+      "shankDepthIn": "6-16",
+      "standardEquipment": "24in flat coulter, built-in row cleaners, 3/4in semi-parabolic shank, two 20in wavy coulters, 16in dual-wheel packer"
+    },
+    "variants": [],
+    "referencePhotos": []
+  }
+]

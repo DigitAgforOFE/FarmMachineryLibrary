@@ -1,0 +1,68 @@
+[
+  {
+    "id": "degelman-pro-till",
+    "manufacturer": "Degelman",
+    "modelFamily": "Pro-Till",
+    "displayName": "Degelman Pro-Till High-Speed Disc",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage-brochure-72125-web.pdf, Degelman Industries. Several sub-series (PTL/PT/NT/3-point) with slightly different fields reported per model — included as given, not forced into uniform columns. Some fields (e.g. PT20's center disc count) weren't given in the source, omitted rather than guessed."
+    },
+    "constants": {
+      "discArmMounting": "Rubber Torsion - 4 Elements per Arm",
+      "discSpacing": "5 in overall spacing (10 in spacing per row)",
+      "hitchFrame": "6 x 10 x 3/8 in",
+      "centerFrame": "6 x 10 x 3/8 in",
+      "wingFrame": "6 x 6 x 3/8 in",
+      "rockProtection": "Rubber suspension system, discs roll/compress on impact and auto-reset",
+      "avgWeightPerFootLb": 1000
+    },
+    "variants": [
+      { "sku": "Pro-Till PTL41", "workingWidthFt": 41, "weightLb": 37800, "hitchWeightLb": 10500, "transportLengthFt": 25.75, "fieldLengthFt": 31.25, "wheelBaseFt": 13.5, "transportWidthHighFt": 16, "transportWidthLowFt": 17.67, "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PTL45", "workingWidthFt": 45, "weightLb": 39500, "hitchWeightLb": 11400, "transportLengthFt": 27.5, "fieldLengthFt": 33, "wheelBaseFt": 13.5, "transportWidthHighFt": 16, "transportWidthLowFt": 17.67, "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT40", "workingWidthFt": 40, "weightLb": 34560, "hitchWeightLb": 8500, "discsCenter": 32, "discsPerWing": 31, "tiresCenter": "Alliance 600/50R22.5 FLOTRUCK", "tiresWing": "BKT 600/50R22.5 FL630 Ultra", "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PTL25", "workingWidthFt": 25, "weightLb": 25500, "hitchWeightLb": 6000, "discsCenter": 20, "discsPerWing": 19, "transportLengthFt": 20.92, "fieldLengthFt": 26.33, "wheelBaseFt": 11.33, "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT20", "workingWidthFt": 20, "weightLb": 20080, "hitchWeightLb": 5200, "discsPerWing": 23, "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT14NT", "workingWidthFt": 14, "weightLb": 13160, "hitchWeightLb": 3505, "discsPerWing": 15, "seriesNote": "Narrow Transport", "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT17NT", "workingWidthFt": 17, "weightLb": 14740, "hitchWeightLb": 4315, "discsPerWing": 19, "seriesNote": "Narrow Transport", "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT20NT", "workingWidthFt": 20, "weightLb": 16320, "hitchWeightLb": 5020, "discsPerWing": 23, "seriesNote": "Narrow Transport", "hpPerFootRange": [12, 20] },
+      { "sku": "Pro-Till PT10", "workingWidthFt": 10, "transportWidthFt": 11.67, "overallHeightFt": 5.33, "overallLengthFt": 8.17, "discs": 24, "seriesNote": "3-Point Hitch", "hpPerFootRange": [20, 30], "weightNote": "varies by roller type: rubber+scrapers 5350 lb, cage 9-bar 5060 lb, cage 12-bar 5250 lb" },
+      { "sku": "Pro-Till PT13", "workingWidthFt": 14, "transportWidthFt": 15, "overallHeightFt": 5.33, "overallLengthFt": 8.17, "discs": 32, "seriesNote": "3-Point Hitch, labeled PT13 in source despite 14ft actual width", "hpPerFootRange": [20, 30], "weightNote": "varies by roller type: rubber+scrapers 7050 lb, cage 9-bar 6340 lb, cage 12-bar 6580 lb" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "degelman-hdsr",
+    "manufacturer": "Degelman",
+    "modelFamily": "HDSR",
+    "displayName": "Degelman HDSR Heavy Duty Staggered Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "tillage-brochure-72125-web.pdf, Degelman Industries. Clean row-per-model table, no ambiguity."
+    },
+    "constants": {
+      "underFrameClearanceIn": 44,
+      "maxRippingDepthIn": 24,
+      "shankConstruction": "AR400 Steel",
+      "tireSizeCenter": "500/60R22.5",
+      "tireSizeWing": "400/60R15.5",
+      "tripOptions": "Hydraulic Trip (3000-5000 lb trip force/point load); Shear Bolt Trip (9000 lb); Auto-Reset Spring Trip (2800 lb, standard)",
+      "shankOptions": "1.25 in Straight; 1.25 in Parabolic; 0.75 in Min-Till",
+      "pointOptions": "Cast Ripper Points (abrasive soils, few rocks); Fabricated Ripper Points (rocky soils)",
+      "hpPerShankRange": [40, 50],
+      "standardEquipment": "Auto-Level Technology, Hydraulic Park Jack, Safety Lights, Hose/Manual Holder, Compaction Depth Probe",
+      "designNote": "Staggered two-row layout for better trash flow/lower draft than in-line, shorter contour length and better compaction shattering than a V-ripper"
+    },
+    "variants": [
+      { "sku": "HDSR 930", "workingWidthFt": 22.5, "shanks": 9, "shankSpacingIn": 30, "transportHeightNoChopperFt": 11.92, "transportHeightWithChopperFt": 13.92, "transportWidthFt": 11.92, "transportLengthFt": 17.67, "weightNoChopperLb": 18000, "weightWithChopperLb": 20300, "hitchWeightNoChopperLb": 2800, "hitchWeightWithChopperLb": 3200 },
+      { "sku": "HDSR 1320", "workingWidthFt": 21.67, "shanks": 13, "shankSpacingIn": 20, "transportHeightNoChopperFt": 11.92, "transportHeightWithChopperFt": 13.92, "transportWidthFt": 11.92, "transportLengthFt": 17.67, "weightNoChopperLb": 20500, "weightWithChopperLb": 22800, "hitchWeightNoChopperLb": 3200, "hitchWeightWithChopperLb": 3600 },
+      { "sku": "HDSR 1130", "workingWidthFt": 27.5, "shanks": 11, "shankSpacingIn": 30, "transportHeightNoChopperFt": 11.92, "transportHeightWithChopperFt": 14.08, "transportWidthFt": 11.92, "transportLengthFt": 20, "weightNoChopperLb": 20000, "weightWithChopperLb": 22500, "hitchWeightNoChopperLb": 4000, "hitchWeightWithChopperLb": 4600 },
+      { "sku": "HDSR 1520", "workingWidthFt": 25, "shanks": 15, "shankSpacingIn": 20, "transportHeightNoChopperFt": 11.92, "transportHeightWithChopperFt": 14.08, "transportWidthFt": 11.92, "transportLengthFt": 20, "weightNoChopperLb": 22500, "weightWithChopperLb": 25000, "hitchWeightNoChopperLb": 4600, "hitchWeightWithChopperLb": 5100 }
+    ],
+    "referencePhotos": []
+  }
+]

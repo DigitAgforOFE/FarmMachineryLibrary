@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "wil-rich-483-chisel-pro",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "483 Chisel Pro",
+    "displayName": "Wil-Rich 483 Chisel Pro",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "483-Chisel-Pro-Lit1.pdf, p.4. Clean per-model table (5 widths). Disc-gang + chisel-shank combination tool (AGCO-Amity JV, LLC)."
+    },
+    "constants": {
+      "underframeClearanceIn": 32,
+      "hitch": "Floating hitch, pull type, CAT IV & V",
+      "discDiameterIn": 24,
+      "discSpacingIn": 7.5,
+      "discAngleDeg": 18,
+      "shankType": "Heavy-duty 1400lb spring cushion C-shanks, 44deg approach",
+      "shankSpacingIn": 15,
+      "workingDepthDiscsIn": 6,
+      "workingDepthShanksIn": 10,
+      "hpPerShank": "20-30"
+    },
+    "variants": [
+      {
+        "sku": "483-16",
+        "workingWidth": "16ft3in",
+        "transportWidth": "17ft6in",
+        "transportHeight": "6ft",
+        "disks": 24,
+        "shanks": 13,
+        "hpRange": "240-360",
+        "weightLb": 15469
+      },
+      {
+        "sku": "483-19",
+        "workingWidth": "18ft9in",
+        "transportWidth": "20ft",
+        "transportHeight": "6ft",
+        "disks": 32,
+        "shanks": 15,
+        "hpRange": "300-450",
+        "weightLb": 16981
+      },
+      {
+        "sku": "483-24",
+        "workingWidth": "23ft9in",
+        "transportWidth": "20ft",
+        "transportHeight": "12ft",
+        "disks": 40,
+        "shanks": 19,
+        "hpRange": "380-570",
+        "weightLb": 27157
+      },
+      {
+        "sku": "483-29",
+        "workingWidth": "28ft9in",
+        "transportWidth": "20ft",
+        "transportHeight": "13ft",
+        "disks": 48,
+        "shanks": 23,
+        "hpRange": "460-620+",
+        "weightLb": 29879
+      },
+      {
+        "sku": "483-34",
+        "workingWidth": "33ft9in",
+        "transportWidth": "20ft",
+        "transportHeight": "15ft",
+        "disks": 56,
+        "shanks": 27,
+        "hpRange": "540-620+",
+        "weightLb": 33103
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-2510-2530-chisel-plow",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "2510 / 2530 Chisel Plow",
+    "displayName": "Wil-Rich 2500 Series Chisel Plow (2510 / 2530 / 2550)",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "9971422WR.pdf (Assembly and Operator's Manual), p.69, Section 6.1 Specifications. Clean per-model table; 2510 is rigid with tandem axle, 2530 is folding (3ft or 6ft wings) with tandem axle. Each model offers two shank-spacing options (12in or 15in) giving different working widths/shank counts on the same frame. 2530 31-47 ft models and 2550 55/59 ft models added from 2025 2500 Series Chisel Plow Operator Manual 30012174 (Vaderstad, 16.12.2024), Technical Data Sheet pp.10-11; weight given for level-lift and floating hitch. Shank counts are for 12in / 15in spacing. The 2530-31-37 metric weight (7,199 kg) duplicates the line above in the source; the lb value is used. 2550 models from the 2550 parts/assembly/ops manual are covered by the same table."
+    },
+    "constants": {
+      "hitch": "Level lift hitch, tandem axle"
+    },
+    "variants": [
+      {
+        "sku": "2510-13",
+        "modelLine": "2510 Rigid",
+        "shankSpacing12in": {
+          "workingWidth": "13ft",
+          "shanks": 13
+        },
+        "shankSpacing15in": {
+          "workingWidth": "12.5ft",
+          "shanks": 10
+        },
+        "weightLb": 6610
+      },
+      {
+        "sku": "2510-13-15",
+        "modelLine": "2510 Rigid",
+        "shankSpacing12in": {
+          "workingWidth": "15ft",
+          "shanks": 15
+        },
+        "weightLb": 6932
+      },
+      {
+        "sku": "2510-13-17",
+        "modelLine": "2510 Rigid",
+        "shankSpacing12in": {
+          "workingWidth": "17ft",
+          "shanks": 17
+        },
+        "shankSpacing15in": {
+          "workingWidth": "17.5ft",
+          "shanks": 12
+        },
+        "weightLb": 7356
+      },
+      {
+        "sku": "2530-19",
+        "modelLine": "2530 Folding (3ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "19ft",
+          "shanks": 19
+        },
+        "innerWing": "3ft",
+        "weightLb": 8566
+      },
+      {
+        "sku": "2530-19-21",
+        "modelLine": "2530 Folding (3ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "21ft",
+          "shanks": 21
+        },
+        "shankSpacing15in": {
+          "workingWidth": "20ft",
+          "shanks": 16
+        },
+        "innerWing": "3ft",
+        "weightLb": 8888
+      },
+      {
+        "sku": "2530-19-23",
+        "modelLine": "2530 Folding (3ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "23ft",
+          "shanks": 23
+        },
+        "shankSpacing15in": {
+          "workingWidth": "22.5ft",
+          "shanks": 18
+        },
+        "innerWing": "3ft",
+        "weightLb": 9313
+      },
+      {
+        "sku": "2530-25",
+        "modelLine": "2530 Folding (6ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "25ft",
+          "shanks": 25
+        },
+        "innerWing": "6ft",
+        "weightLb": 11271
+      },
+      {
+        "sku": "2530-25-27",
+        "modelLine": "2530 Folding (6ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "27ft",
+          "shanks": 27
+        },
+        "shankSpacing15in": {
+          "workingWidth": "27.6ft",
+          "shanks": 20
+        },
+        "innerWing": "6ft",
+        "weightLb": 11593
+      },
+      {
+        "sku": "2530-25-29",
+        "modelLine": "2530 Folding (6ft wings)",
+        "shankSpacing12in": {
+          "workingWidth": "29ft",
+          "shanks": 29
+        },
+        "shankSpacing15in": {
+          "workingWidth": "30ft",
+          "shanks": 22
+        },
+        "innerWing": "6ft",
+        "weightLb": 12017
+      },
+      {
+        "sku": "2530-31",
+        "workingWidthIn12inSpacing": 372,
+        "workingWidthIn15inSpacing": 360,
+        "shanks12in15in": "31/24",
+        "wings": "9'/0'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 150,
+        "weightLb": 15016,
+        "weightLbFloatingHitch": 16390,
+        "shanks": 31
+      },
+      {
+        "sku": "2530-31-35",
+        "workingWidthIn12inSpacing": 420,
+        "workingWidthIn15inSpacing": 420,
+        "shanks12in15in": "35/28",
+        "wings": "9'/0'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 174,
+        "weightLb": 15872,
+        "weightLbFloatingHitch": 17246,
+        "shanks": 35
+      },
+      {
+        "sku": "2530-31-37",
+        "workingWidthIn12inSpacing": 444,
+        "workingWidthIn15inSpacing": 450,
+        "shanks12in15in": "37/30",
+        "wings": "9'/3'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 150,
+        "weightLb": 17178,
+        "weightLbFloatingHitch": 18552,
+        "shanks": 37
+      },
+      {
+        "sku": "2530-31-41",
+        "workingWidthIn12inSpacing": 492,
+        "workingWidthIn15inSpacing": 510,
+        "shanks12in15in": "41/34",
+        "wings": "9'/3'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 150,
+        "weightLb": 17940,
+        "weightLbFloatingHitch": 19314,
+        "shanks": 41
+      },
+      {
+        "sku": "2530-37",
+        "workingWidthIn12inSpacing": 444,
+        "workingWidthIn15inSpacing": 450,
+        "shanks12in15in": "37/30",
+        "wings": "12'/0'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 186,
+        "weightLb": 16550,
+        "weightLbFloatingHitch": 17924,
+        "shanks": 37
+      },
+      {
+        "sku": "2530-37-43",
+        "workingWidthIn12inSpacing": 516,
+        "workingWidthIn15inSpacing": 510,
+        "shanks12in15in": "43/34",
+        "wings": "12'/3'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 198,
+        "weightLb": 18668,
+        "weightLbFloatingHitch": 20042,
+        "shanks": 43
+      },
+      {
+        "sku": "2530-37-47",
+        "workingWidthIn12inSpacing": 564,
+        "workingWidthIn15inSpacing": 570,
+        "shanks12in15in": "47/38",
+        "wings": "12'/0' (sic)",
+        "transportWidthIn": 230,
+        "transportHeightIn": 198,
+        "weightLb": 19431,
+        "weightLbFloatingHitch": 20805,
+        "shanks": 47
+      },
+      {
+        "sku": "2550-55",
+        "workingWidthIn12inSpacing": 660,
+        "workingWidthIn15inSpacing": 660,
+        "shanks12in15in": "55/44",
+        "shanks": 55,
+        "wings": "12'/9'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 208,
+        "weightLb": 29055,
+        "hitch": "floating"
+      },
+      {
+        "sku": "2550-55-59",
+        "workingWidthIn12inSpacing": 708,
+        "workingWidthIn15inSpacing": 708,
+        "shanks12in15in": "59/48",
+        "shanks": 59,
+        "wings": "12'/9'",
+        "transportWidthIn": 230,
+        "transportHeightIn": 208,
+        "weightLb": 29804,
+        "hitch": "floating"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-qx2-field-cultivator",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "QX2",
+    "displayName": "Wil-Rich QX² Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2025 QX-XL-2 Operator Manual.pdf (Vaderstad/Wil-Rich, 4000361195-en-us, 25.07.2024), Technical Data Sheets pp.10-11 and Specifications pp.43-44 (identical). The 2024_QX2-XL2 Operator's Manual (same document number) carries the same tables. Feet recorded as printed (decimal ft). Several metric conversions in the source are wrong (e.g. 32.1 ft printed as 6.4 m); the foot values are used. Model naming: leading 11/13 = center-frame width in ft; second number = working width; hyphenated suffix = wing-extended width."
+    },
+    "constants": {
+      "hitch": "Level lift hitch"
+    },
+    "variants": [
+      {
+        "sku": "13 QX2 32",
+        "shanks": 55,
+        "workingWidthFt": 32.1,
+        "innerWingFt": 9.3,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 12.75,
+        "weightLb": 13500,
+        "hpRange": "225-290"
+      },
+      {
+        "sku": "13 QX2 32-34",
+        "shanks": 59,
+        "workingWidthFt": 34.4,
+        "innerWingFt": 9.3,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.8,
+        "weightLb": 13700,
+        "hpRange": "235-300"
+      },
+      {
+        "sku": "13 QX2 32-42",
+        "shanks": 73,
+        "workingWidthFt": 42.6,
+        "innerWingFt": 9.3,
+        "outerWingFt": 5,
+        "tires": 14,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.4,
+        "weightLb": 16300,
+        "hpRange": "245-375"
+      },
+      {
+        "sku": "13 QX2 32-45",
+        "shanks": 77,
+        "workingWidthFt": 44.9,
+        "innerWingFt": 9.3,
+        "outerWingFt": 6,
+        "tires": 14,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.4,
+        "weightLb": 16500,
+        "hpRange": "315-405"
+      },
+      {
+        "sku": "13 QX2 37",
+        "shanks": 63,
+        "workingWidthFt": 36.75,
+        "innerWingFt": 11.7,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 14.9,
+        "weightLb": 14300,
+        "hpRange": "260-335"
+      },
+      {
+        "sku": "13 QX2 37-39",
+        "shanks": 67,
+        "workingWidthFt": 39.1,
+        "innerWingFt": 11.6,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.9,
+        "weightLb": 14500,
+        "hpRange": "270-345"
+      },
+      {
+        "sku": "13 QX2 37-42",
+        "shanks": 73,
+        "workingWidthFt": 42.6,
+        "innerWingFt": 11.7,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 16500,
+        "hpRange": "295-375"
+      },
+      {
+        "sku": "13 QX2 37-50",
+        "shanks": 85,
+        "workingWidthFt": 49.6,
+        "innerWingFt": 11.7,
+        "outerWingFt": 6,
+        "tires": 14,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 17300,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "13 QX2 46-60",
+        "shanks": 87,
+        "workingWidthFt": 50.75,
+        "innerWingFt": 9.3,
+        "outerWingFt": 7,
+        "tires": 18,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.5,
+        "weightLb": 20500,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "13 QX2 55",
+        "shanks": 95,
+        "workingWidthFt": 55.4,
+        "innerWingFt": 11.7,
+        "outerWingFt": 9.3,
+        "tires": 18,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 21600,
+        "hpRange": "385-495"
+      },
+      {
+        "sku": "13 QX2 55-60",
+        "shanks": 103,
+        "workingWidthFt": 60.1,
+        "innerWingFt": 11.7,
+        "outerWingFt": 9.3,
+        "tires": 18,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 22000,
+        "hpRange": "425-540"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-xl2-field-cultivator",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "XL2",
+    "displayName": "Wil-Rich XL² Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2025 QX-XL-2 Operator Manual.pdf (Vaderstad/Wil-Rich, 4000361195-en-us, 25.07.2024), Technical Data Sheets pp.10-11 and Specifications pp.43-44 (identical). The 2024_QX2-XL2 Operator's Manual (same document number) carries the same tables. Feet recorded as printed (decimal ft). Several metric conversions in the source are wrong (e.g. 32.1 ft printed as 6.4 m); the foot values are used. Model naming: leading 11/13 = center-frame width in ft; second number = working width; hyphenated suffix = wing-extended width."
+    },
+    "constants": {
+      "hitch": "Level lift hitch"
+    },
+    "variants": [
+      {
+        "sku": "11 XL2 25",
+        "shanks": 43,
+        "workingWidthFt": 25.1,
+        "innerWingFt": 7,
+        "outerWingFt": 7,
+        "tires": 8,
+        "transportWidthFt": 16.1,
+        "transportHeightFt": 10.4,
+        "weightLb": 8800,
+        "hpRange": "225-290"
+      },
+      {
+        "sku": "11 XL2 25-27",
+        "shanks": 47,
+        "workingWidthFt": 27.4,
+        "innerWingFt": 7,
+        "outerWingFt": 7,
+        "tires": 8,
+        "transportWidthFt": 16.1,
+        "transportHeightFt": 11.6,
+        "weightLb": 9000,
+        "hpRange": "193-245"
+      },
+      {
+        "sku": "11 XL2 30-32",
+        "shanks": 55,
+        "workingWidthFt": 32.1,
+        "innerWingFt": 9.3,
+        "outerWingFt": 9.3,
+        "tires": 10,
+        "transportWidthFt": 16.1,
+        "transportHeightFt": 13.8,
+        "weightLb": 11500,
+        "hpRange": "225-290"
+      },
+      {
+        "sku": "11 XL2 30-39",
+        "shanks": 67,
+        "workingWidthFt": 39.1,
+        "innerWingFt": 9.3,
+        "outerWingFt": 9.3,
+        "tires": 12,
+        "transportWidthFt": 16.1,
+        "transportHeightFt": 12.75,
+        "weightLb": 13500,
+        "hpRange": "275-350"
+      },
+      {
+        "sku": "11 XL2 32",
+        "shanks": 55,
+        "workingWidthFt": 32.1,
+        "innerWingFt": 9.3,
+        "tires": 10,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 12.75,
+        "weightLb": 12500,
+        "hpRange": "225-290"
+      },
+      {
+        "sku": "11 XL2 32-34",
+        "shanks": 59,
+        "workingWidthFt": 34.4,
+        "innerWingFt": 9.3,
+        "tires": 10,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.8,
+        "weightLb": 12700,
+        "hpRange": "235-300"
+      },
+      {
+        "sku": "11 XL2 32-42",
+        "shanks": 73,
+        "workingWidthFt": 42.6,
+        "innerWingFt": 9.3,
+        "outerWingFt": 5,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.4,
+        "weightLb": 15200,
+        "hpRange": "245-375"
+      },
+      {
+        "sku": "13 XL2 32-45",
+        "shanks": 77,
+        "workingWidthFt": 44.9,
+        "innerWingFt": 9.3,
+        "outerWingFt": 6,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.4,
+        "weightLb": 15400,
+        "hpRange": "315-405"
+      },
+      {
+        "sku": "13 XL2 37",
+        "shanks": 63,
+        "workingWidthFt": 36.75,
+        "innerWingFt": 11.7,
+        "tires": 10,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 14.9,
+        "weightLb": 13200,
+        "hpRange": "260-335"
+      },
+      {
+        "sku": "13 XL2 37-39",
+        "shanks": 67,
+        "workingWidthFt": 39.1,
+        "innerWingFt": 11.6,
+        "tires": 10,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.9,
+        "weightLb": 13400,
+        "hpRange": "270-345"
+      },
+      {
+        "sku": "13 XL2 37-42",
+        "shanks": 73,
+        "workingWidthFt": 42.6,
+        "innerWingFt": 11.7,
+        "tires": 10,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 15500,
+        "hpRange": "295-375"
+      },
+      {
+        "sku": "13 XL2 37-50",
+        "shanks": 85,
+        "workingWidthFt": 49.6,
+        "innerWingFt": 11.7,
+        "outerWingFt": 6,
+        "tires": 12,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 16200,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "13 XL2 46-50",
+        "shanks": 87,
+        "workingWidthFt": 50.75,
+        "innerWingFt": 9.3,
+        "outerWingFt": 7,
+        "tires": 16,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 13.5,
+        "weightLb": 19800,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "13 XL2 55",
+        "shanks": 95,
+        "workingWidthFt": 55.4,
+        "innerWingFt": 11.7,
+        "outerWingFt": 9.3,
+        "tires": 16,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 20800,
+        "hpRange": "385-495"
+      },
+      {
+        "sku": "13 XL2 55-60",
+        "shanks": 103,
+        "workingWidthFt": 60.1,
+        "innerWingFt": 11.7,
+        "outerWingFt": 9.3,
+        "tires": 16,
+        "transportWidthFt": 18.4,
+        "transportHeightFt": 15.5,
+        "weightLb": 21300,
+        "hpRange": "425-540"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-357-inline-ripper",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "357",
+    "displayName": "Wil-Rich 357 Inline Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2025 357 Inline Ripper Operator Manual 30026871 (Vaderstad, 03.10.2024), Technical Data Sheet p.11. Hyphenated sizes (e.g. \"3-5 shank\") are frames built for the larger count. The 5-shank model weighs 1,190 lb, less than the 3-5 shank frame (1,222 lb), as printed. Weights are low for an inline ripper and may exclude shanks - recorded as given. Frame widths (and confirming cutting widths 120-360in) from the 2012 357 IR operator manual 74189, Specifications p.10; that edition lists no 3-5 shank frame."
+    },
+    "constants": {
+      "shankSpacingIn": 30
+    },
+    "variants": [
+      {
+        "sku": "357 3-5 shank 3-pt (rigid)",
+        "shanks": 5,
+        "workingWidthFt": 12.5,
+        "transportWidthFt": 10.8,
+        "weightLb": 1222,
+        "hpRange": "175-250"
+      },
+      {
+        "sku": "357 5 shank 3-pt (rigid)",
+        "shanks": 5,
+        "workingWidthFt": 12.5,
+        "transportWidthFt": 10.8,
+        "weightLb": 1190,
+        "hpRange": "175-250",
+        "frameWidthIn": 129.56
+      },
+      {
+        "sku": "357 5-7 shank 3-pt (rigid)",
+        "shanks": 7,
+        "workingWidthFt": 17.5,
+        "transportWidthFt": 16.2,
+        "weightLb": 1875,
+        "hpRange": "245-350",
+        "frameWidthIn": 193.56
+      },
+      {
+        "sku": "357 4 shank 3-pt (rigid)",
+        "shanks": 4,
+        "workingWidthFt": 10,
+        "transportWidthFt": 10.8,
+        "weightLb": 1190,
+        "hpRange": "140-200",
+        "frameWidthIn": 129.56
+      },
+      {
+        "sku": "357 4-6 shank 3-pt (rigid)",
+        "shanks": 6,
+        "workingWidthFt": 15,
+        "transportWidthFt": 14.3,
+        "weightLb": 1529,
+        "hpRange": "210-300",
+        "frameWidthIn": 171.56
+      },
+      {
+        "sku": "357 8 shank 3-pt (rigid)",
+        "shanks": 8,
+        "workingWidthFt": 20,
+        "transportWidthFt": 20.2,
+        "weightLb": 1840,
+        "hpRange": "280-400",
+        "frameWidthIn": 231.31
+      },
+      {
+        "sku": "357 8 shank 3-pt (flat fold)",
+        "shanks": 8,
+        "workingWidthFt": 20,
+        "transportWidthFt": 12,
+        "transportHeightFt": 11,
+        "weightLb": 2607,
+        "hpRange": "280-400",
+        "frameWidthIn": 229
+      },
+      {
+        "sku": "357 12 shank pull (fold over)",
+        "shanks": 12,
+        "workingWidthFt": 30,
+        "transportWidthFt": 16.4,
+        "transportHeightFt": 15,
+        "weightLb": 6909,
+        "hpRange": "420-600",
+        "frameWidthIn": 348.75
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-soil-pro-513",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "Soil Pro 513",
+    "displayName": "Wil-Rich Soil Pro 513 Disc Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2025 Soil Pro 513 Operator Manual 30026872 (Vaderstad, 03.10.2024), Technical Data Sheet p.11. Weight = base weight + tire group. The 13-24 folding model's transport width (15.75 ft) and height (19.25 ft) look transposed relative to the 11-24 model; recorded as printed."
+    },
+    "constants": {
+      "transportLengthFt": 33.4
+    },
+    "variants": [
+      {
+        "sku": "5-30 SP 513 (rigid)",
+        "shanks": 5,
+        "shankSpacingIn": 30,
+        "workingWidthFt": 12.5,
+        "transportWidthFt": 16.2,
+        "transportHeightFt": 7,
+        "weightLb": 17180,
+        "blades": 18,
+        "hpRange": "300-400"
+      },
+      {
+        "sku": "7-24 SP 513 (rigid)",
+        "shanks": 7,
+        "shankSpacingIn": 24,
+        "workingWidthFt": 14,
+        "transportWidthFt": 16.2,
+        "transportHeightFt": 7,
+        "weightLb": 18061,
+        "blades": 18,
+        "hpRange": "300-450"
+      },
+      {
+        "sku": "9-24 SP 513 (rigid)",
+        "shanks": 9,
+        "shankSpacingIn": 24,
+        "workingWidthFt": 18,
+        "transportWidthFt": 21.25,
+        "transportHeightFt": 7,
+        "weightLb": 21143,
+        "blades": 24,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "9-24 SP 513 (folding)",
+        "shanks": 9,
+        "shankSpacingIn": 24,
+        "workingWidthFt": 18,
+        "transportWidthFt": 15.75,
+        "transportHeightFt": 11.8,
+        "weightLb": 22567,
+        "blades": 24,
+        "hpRange": "350-450"
+      },
+      {
+        "sku": "11-24 SP 513 (folding)",
+        "shanks": 11,
+        "shankSpacingIn": 24,
+        "workingWidthFt": 22,
+        "transportWidthFt": 19.25,
+        "transportHeightFt": 13.7,
+        "weightLb": 32280,
+        "blades": 30,
+        "hpRange": "450-550"
+      },
+      {
+        "sku": "13-24 SP 513 (folding)",
+        "shanks": 13,
+        "shankSpacingIn": 24,
+        "workingWidthFt": 26,
+        "transportWidthFt": 15.75,
+        "transportHeightFt": 19.25,
+        "weightLb": 33688,
+        "blades": 34,
+        "hpRange": "500+"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-1500-bedder-finisher",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "1500 Series",
+    "displayName": "Wil-Rich 1500 Series Bedder Finisher",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "1500-Series-Bedder-Finisher.pdf (AGCO-Amity JV brochure, 6/2020), specifications table p.3. The column headings are not in the text layer: the first dimension (27'0\" / 39'2\" / 40'0\") matches rows x spacing and is recorded as overall width; the other four dimensions (two \"(2)\" section values, then two more - probably wing sizes, transport width and transport height) are kept unlabeled. Folding frame; Cat 3/3N/4N hitch."
+    },
+    "constants": {
+      "cutterReel": "5-bar spiral, 3/8 x 4-1/8in plowshare steel"
+    },
+    "variants": [
+      {
+        "sku": "1500/8R",
+        "rows": 8,
+        "rowSpacingIn": "36, 38 or 40",
+        "overallWidthIn": 324,
+        "weightLb": 8364,
+        "hpMin": 200,
+        "unlabeledDims": [
+          "6'5\" (2)",
+          "6'5\" (2)",
+          "14'3\"",
+          "7'0\""
+        ]
+      },
+      {
+        "sku": "1500/12R (36/38in)",
+        "rows": 12,
+        "rowSpacingIn": "36 or 38",
+        "overallWidthIn": 470,
+        "weightLb": 10300,
+        "hpMin": 300,
+        "unlabeledDims": [
+          "9'6\" (2)",
+          "9'6\" (2)",
+          "20'6\"",
+          "8'6\""
+        ]
+      },
+      {
+        "sku": "1500/12R (40in)",
+        "rows": 12,
+        "rowSpacingIn": 40,
+        "overallWidthIn": 480,
+        "weightLb": 10300,
+        "hpMin": 300,
+        "unlabeledDims": [
+          "9'6\" (2)",
+          "9'6\" (2)",
+          "20'6\"",
+          "8'6\""
+        ]
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-10k-strip-till-toolbar",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "10K Strip Till",
+    "displayName": "Wil-Rich 10K Folding Toolbar - Strip Till (60 ft, 24R30)",
+    "category": "Strip Till",
+    "source": {
+      "type": "manual",
+      "verified": false,
+      "note": "74283D.pdf (Wil-Rich 10K Folding Toolbar Strip Till assembly/operator manual), Specifications pp.104-105. Machine-dimension labels are missing from the text layer: values listed are 24 (rows), 30in, 15 ft, 38 ft, 12 ft 8in, 28 ft, 60 ft. Rows x spacing = 60 ft = working width; the remaining dimensions are kept unlabeled. Weight is approximate shipping weight; 600 hp tractor requirement; ballasted tractor 46,667 lb."
+    },
+    "constants": {
+      "frame": "10x10in main bar, 7x7in",
+      "tires": "four 16.5 x 12, 12 ply"
+    },
+    "variants": [
+      {
+        "sku": "10K 60ft 24R30 strip till",
+        "rows": 24,
+        "rowSpacingIn": 30,
+        "workingWidthFt": 60,
+        "weightLbShipping": 30000,
+        "hpMin": 600,
+        "unlabeledDimsFt": [
+          15,
+          38,
+          "12 ft 8 in",
+          28
+        ]
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-7620-double-offset-tandem-disk",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "7620 DOT",
+    "displayName": "Wil-Rich 7620 Double Offset Tandem Disk (DOT)",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2005-2009 7620 Double Offset Tandem Operation Manual (Wil-Rich 74250, scanned), Specifications p.9 read from the rendered page. Flexible wing-type disk; R/F suffix pairs differ only in weight (likely rigid vs flex/floating hitch configuration - not stated)."
+    },
+    "constants": {
+      "bladeDiameter": "24 x 1/4in",
+      "bladeSpacingIn": 9,
+      "gangBolt": "1-1/2in square"
+    },
+    "variants": [
+      {
+        "sku": "T25-2499R-H22",
+        "workingWidthIn": 300,
+        "bearings": 26,
+        "blades": 70,
+        "weightLb": 13260,
+        "transportHeightIn": 141,
+        "transportWidthIn": 180,
+        "overallWidthIn": 328
+      },
+      {
+        "sku": "T25-2499F-HSS",
+        "workingWidthIn": 300,
+        "bearings": 26,
+        "blades": 70,
+        "weightLb": 14283,
+        "transportHeightIn": 141,
+        "transportWidthIn": 180,
+        "overallWidthIn": 328
+      },
+      {
+        "sku": "T28-2499R-HSS",
+        "workingWidthIn": 336,
+        "bearings": 26,
+        "blades": 78,
+        "weightLb": 13700,
+        "transportHeightIn": 156,
+        "transportWidthIn": 180,
+        "overallWidthIn": 362
+      },
+      {
+        "sku": "T28-2499F-HSS",
+        "workingWidthIn": 336,
+        "bearings": 26,
+        "blades": 78,
+        "weightLb": 14847,
+        "transportHeightIn": 156,
+        "transportWidthIn": 180,
+        "overallWidthIn": 362
+      },
+      {
+        "sku": "T31-2499R-6SS",
+        "workingWidthIn": 372,
+        "bearings": 28,
+        "blades": 86,
+        "weightLb": 14540,
+        "transportHeightIn": 171,
+        "transportWidthIn": 180,
+        "overallWidthIn": 399
+      },
+      {
+        "sku": "T31-2499F-6SS",
+        "workingWidthIn": 372,
+        "bearings": 28,
+        "blades": 86,
+        "weightLb": 15806,
+        "transportHeightIn": 171,
+        "transportWidthIn": 180,
+        "overallWidthIn": 399
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-7650-double-offset-tandem-disk",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "7650 DOT",
+    "displayName": "Wil-Rich 7650 Double Offset Tandem Disk (DOT)",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "2005-2009 7650 Double Offset Tandem Assembly and Operation Manual (Wil-Rich 74255, 6/08, scanned), Specifications p.15 read from the rendered page."
+    },
+    "constants": {
+      "bladeDiameter": "24 x 1/4in"
+    },
+    "variants": [
+      {
+        "sku": "T19-2499F-HSS",
+        "workingWidthIn": 228,
+        "bearings": 18,
+        "blades": 54,
+        "weightLb": 10600,
+        "transportHeightIn": 105,
+        "transportWidthIn": 180,
+        "overallWidthIn": 263
+      },
+      {
+        "sku": "T22-2499F-HSS",
+        "workingWidthIn": 264,
+        "bearings": 22,
+        "blades": 62,
+        "weightLb": 12240,
+        "transportHeightIn": 123,
+        "transportWidthIn": 180,
+        "overallWidthIn": 298
+      },
+      {
+        "sku": "T25-2499F-HSS",
+        "workingWidthIn": 300,
+        "bearings": 26,
+        "blades": 70,
+        "weightLb": 13528,
+        "transportHeightIn": 141,
+        "transportWidthIn": 180,
+        "overallWidthIn": 333
+      },
+      {
+        "sku": "T28-2499F-HSS",
+        "workingWidthIn": 336,
+        "bearings": 26,
+        "blades": 78,
+        "weightLb": 14248,
+        "transportHeightIn": 159,
+        "transportWidthIn": 180,
+        "overallWidthIn": 368
+      },
+      {
+        "sku": "T31-2499F-HSS",
+        "workingWidthIn": 372,
+        "bearings": 28,
+        "blades": 86,
+        "weightLb": 15142,
+        "transportHeightIn": 177,
+        "transportWidthIn": 180,
+        "overallWidthIn": 403
+      },
+      {
+        "sku": "T34-2499F-HSS",
+        "workingWidthIn": 408,
+        "bearings": 36,
+        "blades": 94,
+        "weightLb": 17356,
+        "transportHeightIn": 177,
+        "transportWidthIn": 216,
+        "overallWidthIn": 436
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-rp-s20-rolling-plow",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "RP-S20",
+    "displayName": "Wil-Rich RP-S20 Rolling Plow (offset disk)",
+    "category": "Disks",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "\"Standard Rolling Plow Disk.pdf\" (Wil-Rich / Lear Siegler RP-S20 Series operator manual, scanned), Specifications manual p.6 (PDF p.7) read from the rendered page. Model code: S<width>-<blade dia><front/rear spacing code>. For the S14/S16 26xx models the source prints \"24in dia.\" although the model code (26xx) and the S10/S12 rows indicate 26in blades; recorded as printed with (sic). The S14-2690/2600 width (16 ft 5in) is as printed."
+    },
+    "constants": {
+      "mainFrame": "4x8x1/4in tubing",
+      "gangShaft": "1-1/2in square",
+      "bladeOptions": [
+        "24 x 6 ga",
+        "24 x 1/4in",
+        "26 x 1/4in"
+      ]
+    },
+    "variants": [
+      {
+        "sku": "S10-2499R-6SS",
+        "workingWidthIn": 125,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x6ga",
+        "bearings": 6,
+        "blades": 27,
+        "weightLb": 4435
+      },
+      {
+        "sku": "S10-2490R-6SS",
+        "workingWidthIn": 126,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x6ga",
+        "bearings": 6,
+        "blades": 25,
+        "weightLb": 4380
+      },
+      {
+        "sku": "S10-2499R-HSS",
+        "workingWidthIn": 125,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x1/4",
+        "bearings": 6,
+        "blades": 27,
+        "weightLb": 4610
+      },
+      {
+        "sku": "S10-2490R-HSS",
+        "workingWidthIn": 126,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4",
+        "bearings": 6,
+        "blades": 25,
+        "weightLb": 4545
+      },
+      {
+        "sku": "S10-2690R-HSS",
+        "workingWidthIn": 127,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "26x1/4",
+        "bearings": 6,
+        "blades": 25,
+        "weightLb": 4570
+      },
+      {
+        "sku": "S10-2600R-HSS",
+        "workingWidthIn": 127,
+        "bladeSpacingFrontIn": 10.5,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "26x1/4",
+        "bearings": 6,
+        "blades": 23,
+        "weightLb": 4400
+      },
+      {
+        "sku": "S12-2499R-6SS",
+        "workingWidthIn": 151,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x6ga",
+        "bearings": 8,
+        "blades": 33,
+        "weightLb": 5465
+      },
+      {
+        "sku": "S12-2490R-6SS",
+        "workingWidthIn": 154,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x6ga",
+        "bearings": 8,
+        "blades": 31,
+        "weightLb": 5408
+      },
+      {
+        "sku": "S12-2499R-HSS",
+        "workingWidthIn": 151,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x1/4",
+        "bearings": 8,
+        "blades": 33,
+        "weightLb": 5685
+      },
+      {
+        "sku": "S12-2490R-HSS",
+        "workingWidthIn": 154,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4",
+        "bearings": 8,
+        "blades": 31,
+        "weightLb": 5627
+      },
+      {
+        "sku": "S12-2690R-HSS",
+        "workingWidthIn": 154,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "26x1/4",
+        "bearings": 8,
+        "blades": 31,
+        "weightLb": 5655
+      },
+      {
+        "sku": "S12-2600R-HSS",
+        "workingWidthIn": 154,
+        "bladeSpacingFrontIn": 10.5,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "26x1/4",
+        "bearings": 8,
+        "blades": 29,
+        "weightLb": 5375
+      },
+      {
+        "sku": "S14-2499R-6SS",
+        "workingWidthIn": 169,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x6ga",
+        "bearings": 8,
+        "blades": 37,
+        "weightLb": 5910
+      },
+      {
+        "sku": "S14-2490R-6SS",
+        "workingWidthIn": 174,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x6ga",
+        "bearings": 8,
+        "blades": 35,
+        "weightLb": 5745
+      },
+      {
+        "sku": "S14-2499R-HSS",
+        "workingWidthIn": 169,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x1/4",
+        "bearings": 8,
+        "blades": 37,
+        "weightLb": 6358
+      },
+      {
+        "sku": "S14-2490R-HSS",
+        "workingWidthIn": 174,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4",
+        "bearings": 8,
+        "blades": 35,
+        "weightLb": 6195
+      },
+      {
+        "sku": "S14-2690R-HSS",
+        "workingWidthIn": 197,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4(sic)",
+        "bearings": 8,
+        "blades": 35,
+        "weightLb": 6215
+      },
+      {
+        "sku": "S14-2600R-HSS",
+        "workingWidthIn": 197,
+        "bladeSpacingFrontIn": 10.5,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4(sic)",
+        "bearings": 8,
+        "blades": 33,
+        "weightLb": 5845
+      },
+      {
+        "sku": "S16-2499R-6SS",
+        "workingWidthIn": 193,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x6ga",
+        "bearings": 12,
+        "blades": 41,
+        "weightLb": 6630
+      },
+      {
+        "sku": "S16-2490R-6SS",
+        "workingWidthIn": 196,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x6ga",
+        "bearings": 12,
+        "blades": 39,
+        "weightLb": 6555
+      },
+      {
+        "sku": "S16-2499R-HSS",
+        "workingWidthIn": 193,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 9.0,
+        "bladeSize": "24x1/4",
+        "bearings": 12,
+        "blades": 41,
+        "weightLb": 6910
+      },
+      {
+        "sku": "S16-2490R-HSS",
+        "workingWidthIn": 196,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4",
+        "bearings": 12,
+        "blades": 39,
+        "weightLb": 6835
+      },
+      {
+        "sku": "S16-2690R-HSS",
+        "workingWidthIn": 197,
+        "bladeSpacingFrontIn": 9.0,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4(sic)",
+        "bearings": 12,
+        "blades": 39,
+        "weightLb": 7075
+      },
+      {
+        "sku": "S16-2600R-HSS",
+        "workingWidthIn": 197,
+        "bladeSpacingFrontIn": 10.5,
+        "bladeSpacingRearIn": 10.5,
+        "bladeSize": "24x1/4(sic)",
+        "bearings": 12,
+        "blades": 37,
+        "weightLb": 6645
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "wil-rich-pt-7722-row-crop-cultivator",
+    "manufacturer": "Wil-Rich",
+    "modelFamily": "PT-7722",
+    "displayName": "Wil-Rich PT-7722 Mounted Row Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": false,
+      "note": "PT-7722 Mounted Row Crop Cultivator Operation Manual (Wil-Rich 74286, 3/07, export edition, scanned), Specifications p.4 read from the rendered page. The weight column is headed \"Kg\", but 4,171 kg for an 8-row rigid mounted cultivator is implausible and the values look like pounds; recorded as weightAsPrinted with the unit unresolved."
+    },
+    "constants": {
+      "mount": "3-point (or 2-point with lift-assist wheels, semi-mounted)"
+    },
+    "variants": [
+      {
+        "sku": "PT-7722 8Row70cm R",
+        "rows": 8,
+        "rowSpacing": "70cm",
+        "toolbar": "rigid toolbar",
+        "transportWidthM": 5.9,
+        "weightAsPrinted": 4171
+      },
+      {
+        "sku": "PT-7722 12Row45cm R",
+        "rows": 12,
+        "rowSpacing": "45cm",
+        "toolbar": "rigid toolbar",
+        "transportWidthM": 5.7,
+        "weightAsPrinted": 5714
+      },
+      {
+        "sku": "PT-7722 12Row22in R",
+        "rows": 12,
+        "rowSpacing": "22in",
+        "toolbar": "rigid toolbar",
+        "transportWidthM": 7.0,
+        "weightAsPrinted": 5762
+      },
+      {
+        "sku": "PT-7722 8Row70cm F",
+        "rows": 8,
+        "rowSpacing": "70cm",
+        "toolbar": "180° fold",
+        "transportWidthM": 3.4,
+        "weightAsPrinted": 7927
+      },
+      {
+        "sku": "PT-7722 12Row45cm F",
+        "rows": 12,
+        "rowSpacing": "45cm",
+        "toolbar": "180° fold",
+        "transportWidthM": 3.4,
+        "weightAsPrinted": 9259
+      },
+      {
+        "sku": "PT-7722 12Row22in F",
+        "rows": 12,
+        "rowSpacing": "22in",
+        "toolbar": "180° fold",
+        "transportWidthM": 3.9,
+        "weightAsPrinted": 8782
+      },
+      {
+        "sku": "PT-7722 12Row70cm FR",
+        "rows": 12,
+        "rowSpacing": "70cm",
+        "toolbar": "180° fold, reinforced double bar",
+        "transportWidthM": 5.1,
+        "weightAsPrinted": 10969
+      },
+      {
+        "sku": "PT-7722 18Row45cm FR",
+        "rows": 18,
+        "rowSpacing": "45cm",
+        "toolbar": "180° fold, reinforced double bar",
+        "transportWidthM": 5.1,
+        "weightAsPrinted": 12967
+      }
+    ],
+    "referencePhotos": []
+  }
+]

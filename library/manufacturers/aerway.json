@@ -1,0 +1,65 @@
+[
+  {
+    "id": "aerway-awf400",
+    "manufacturer": "AerWay",
+    "modelFamily": "AWF400",
+    "displayName": "AerWay AWF400 Folding Frame (40 ft)",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "10114266 - MANUAL, OP & AP, AWF400, AERWAY, 230001+.pdf (Salford Group, 2023-01-10), Specifications p.30, part-number logic p.6, ballasting p.29; the earlier manual 10048738 (XL-AW-A-75581-A Rev G, 12-2015) has the identical table. 'xx' in the model number is the tine-type code. The text extraction of p.30 places a 'C-Flex (5.00in effective spacing)' heading next to the xxX3-CCT row; per the p.6 part-number logic (X = 10in roller tine spacing, CCT = tandem rollers) that row is the CCT 10in configuration, recorded as such. Travel width 19ft 8in converted to inches."
+    },
+    "constants": {
+      "workingWidthFt": 40,
+      "sectionsFt": "20 center + 2 x 10 wings",
+      "transportWidthIn": 236,
+      "ballastBlockLb": 750,
+      "ballastBlocksMax": 12,
+      "bearings": "50 mm trunnion",
+      "tineTypes": "AG (agricultural shattertines) or LE (leaf shattertines); AL = AG leading / leaf trailing (CCT only)",
+      "wingDownForcePsi": "1200-1800 (factory 1200)"
+    },
+    "variants": [
+      {
+        "sku": "AWFT400-xx-4",
+        "frame": "C-Flex",
+        "tinesPerRow": 4,
+        "tineSpacingOnRollerIn": 7.5,
+        "effectiveTineSpacingIn": 7.5,
+        "tines": 256,
+        "weightLb": 20000,
+        "grossWeightWithBallastLb": 29000
+      },
+      {
+        "sku": "AWFT400-xxX4",
+        "frame": "C-Flex",
+        "tinesPerRow": 4,
+        "tineSpacingOnRollerIn": 10,
+        "effectiveTineSpacingIn": 10,
+        "tines": 192,
+        "weightLb": 19000
+      },
+      {
+        "sku": "AWFT400-xx-3-CCT",
+        "frame": "Close Coupled Tandem",
+        "tinesPerRow": 3,
+        "tineSpacingOnRollerIn": 7.5,
+        "effectiveTineSpacingIn": 3.75,
+        "tines": 384,
+        "weightLb": 24000,
+        "grossWeightWithBallastLb": 33000
+      },
+      {
+        "sku": "AWFT400-xxX3-CCT",
+        "frame": "Close Coupled Tandem",
+        "tinesPerRow": 3,
+        "tineSpacingOnRollerIn": 10,
+        "effectiveTineSpacingIn": 5,
+        "tines": 288,
+        "weightLb": 23000
+      }
+    ],
+    "referencePhotos": []
+  }
+]

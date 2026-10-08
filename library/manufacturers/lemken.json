@@ -1,0 +1,353 @@
+[
+  {
+    "id": "lemken-diamant-16-18",
+    "manufacturer": "Lemken",
+    "modelFamily": "Diamant 16 / 18",
+    "displayName": "Lemken Diamant 16 / 18 Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Diamant_16u18_en.pdf, p.5 (Diamant 16) and p.7 (Diamant 18). Clean per-configuration tables. Diamant/Diamant V/Diamant U/Diamant VU are frame/underbeam-clearance variants of the same bottom count."
+    },
+    "constants": {
+      "interbodyClearanceOptions": "100cm or 120cm",
+      "workingWidthPerBodyOptions100cm": "33, 38, 44, 50cm",
+      "workingWidthPerBodyOptions120cm": "40, 45, 53, 60cm",
+      "steering": "Automatic transport-wheel steering angle adaptation, 90deg steering angle on plough headstock"
+    },
+    "variants": [
+      { "sku": "Diamant 16 - 5/100cm", "bottoms": 5, "interbodyClearance": "100cm", "weightDiamantKg": 2584, "weightDiamantVKg": 2759, "weightDiamantUKg": 2844, "weightDiamantVUKg": 3019 },
+      { "sku": "Diamant 16 - 5+1/100cm", "bottoms": 6, "interbodyClearance": "100cm", "weightDiamantKg": 2834, "weightDiamantVKg": 3069, "weightDiamantUKg": 3151, "weightDiamantVUKg": 3386 },
+      { "sku": "Diamant 16 - 6/100cm", "bottoms": 6, "interbodyClearance": "100cm", "weightDiamantKg": 2830, "weightDiamantVKg": 3040, "weightDiamantUKg": 3142, "weightDiamantVUKg": 3352 },
+      { "sku": "Diamant 16 - 6+1/100cm", "bottoms": 7, "interbodyClearance": "100cm", "weightDiamantKg": 3080, "weightDiamantVKg": 3350, "weightDiamantUKg": 3449, "weightDiamantVUKg": 3719 },
+      { "sku": "Diamant 16 - 7/100cm", "bottoms": 7, "interbodyClearance": "100cm", "weightDiamantKg": 3076, "weightDiamantVKg": 3321, "weightDiamantUKg": 3440, "weightDiamantVUKg": 3685 },
+      { "sku": "Diamant 16 - 7+1/100cm", "bottoms": 8, "interbodyClearance": "100cm", "weightDiamantKg": 3326, "weightDiamantVKg": 3631, "weightDiamantUKg": 3747, "weightDiamantVUKg": 4052 },
+      { "sku": "Diamant 16 - 8/100cm", "bottoms": 8, "interbodyClearance": "100cm", "weightDiamantKg": 3322, "weightDiamantVKg": 3602 },
+      { "sku": "Diamant 16 - 8+1/100cm", "bottoms": 9, "interbodyClearance": "100cm", "weightDiamantKg": 3572, "weightDiamantVKg": 3912 },
+      { "sku": "Diamant 16 - 5/120cm", "bottoms": 5, "interbodyClearance": "120cm", "weightDiamantKg": 2634, "weightDiamantVKg": 2829, "weightDiamantVUKg": 3089 },
+      { "sku": "Diamant 16 - 6/120cm", "bottoms": 6, "interbodyClearance": "120cm", "weightDiamantKg": 2892, "weightDiamantVKg": 3124, "weightDiamantVUKg": 3436 },
+      { "sku": "Diamant 16 - 6+1/120cm", "bottoms": 7, "interbodyClearance": "120cm", "weightDiamantKg": 3154, "weightDiamantVKg": 3448, "weightDiamantVUKg": 3817 },
+      { "sku": "Diamant 18 - 6/100cm", "bottoms": 6, "interbodyClearance": "100cm", "weightDiamantKg": 3055, "weightDiamantVKg": 3315, "weightDiamantVUKg": 3632 },
+      { "sku": "Diamant 18 - 7/100cm", "bottoms": 7, "interbodyClearance": "100cm", "weightDiamantKg": 3321, "weightDiamantVKg": 3616, "weightDiamantVUKg": 3985 },
+      { "sku": "Diamant 18 - 8/100cm", "bottoms": 8, "interbodyClearance": "100cm", "weightDiamantKg": 3587, "weightDiamantVKg": 3917, "weightDiamantVUKg": 4372 },
+      { "sku": "Diamant 18 - 6/120cm", "bottoms": 6, "interbodyClearance": "120cm", "weightDiamantKg": 3117, "weightDiamantVKg": 3399, "weightDiamantVUKg": 3716 },
+      { "sku": "Diamant 18 - 7/120cm", "bottoms": 7, "interbodyClearance": "120cm", "weightDiamantKg": 3395, "weightDiamantVKg": 3714, "weightDiamantVUKg": 4083 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-juwel",
+    "manufacturer": "Lemken",
+    "modelFamily": "Juwel 6/7/8/10",
+    "displayName": "Lemken Juwel Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Juwel_en.pdf, p.22-23. Very large clean table family (8 base model lines x multiple furrow-count/spacing/version combinations). Recorded at the model-line summary level (min-max working width and weight range per furrow-count config) rather than every single body-spacing/U-version/X-version permutation, to keep the entry legible; full per-row detail is in the source PDF."
+    },
+    "constants": {
+      "workingWidthPerFurrow100cm": "33, 38, 44, 50cm",
+      "workingWidthPerFurrow90cm": "30, 35, 40, 45cm",
+      "workingWidthPerFurrow120cm": "40, 45, 53, 60cm",
+      "overloadProtectionOptions": "U-version: hydraulic OptiStone; X-version: mechanical"
+    },
+    "variants": [
+      { "sku": "Juwel 6 M", "furrowOptions": "3, 3+1, 4, 4+1", "bodySpacingOptions": "90cm or 100cm", "workingWidthRange": "90-250cm", "weightRangeKg": "707-1090", "tractorPowerRangeHp": "50-130" },
+      { "sku": "Juwel 6 MV", "furrowOptions": "3, 3+1, 4, 4+1", "bodySpacingCm": 100, "workingWidthRange": "75-250cm", "weightRangeKg": "739-1305", "tractorPowerRangeHp": "50-130" },
+      { "sku": "Juwel 7 M", "furrowOptions": "3, 3+1, 4, 4+1, 5, 6", "bodySpacingOptions": "90cm or 100cm", "workingWidthRange": "90-270cm", "weightRangeKg": "801-1476", "tractorPowerRangeHp": "70-200" },
+      { "sku": "Juwel 7 MV", "furrowOptions": "3, 3+1, 4, 4+1, 5, 6", "bodySpacingOptions": "90cm, 100cm, or 120cm", "workingWidthRange": "90-330cm", "weightRangeKg": "912-1754", "tractorPowerRangeHp": "70-200" },
+      { "sku": "Juwel 8 M", "furrowOptions": "3, 3+1, 4, 4+1, 5, 5+1, 6, 6+1", "bodySpacingOptions": "90cm, 100cm, or 120cm", "workingWidthRange": "90-350cm", "weightRangeKg": "1058-2220", "tractorPowerRangeHp": "90-315" },
+      { "sku": "Juwel 8 MV", "furrowOptions": "3, 3+1, 4, 4+1, 5, 5+1, 6, 6+1", "bodySpacingOptions": "90cm, 100cm, or 120cm", "workingWidthRange": "90-350cm", "weightRangeKg": "1172-2506", "tractorPowerRangeHp": "90-315" },
+      { "sku": "Juwel 10 M", "furrowOptions": "4, 4+1, 5, 5+1, 6, 6+1", "bodySpacingOptions": "90cm, 100cm, or 120cm", "workingWidthRange": "120-360cm", "weightRangeKg": "1432-2434", "tractorPowerRangeHp": "150-400", "note": "Reinforced leg bracket option available" },
+      { "sku": "Juwel 10 MV", "furrowOptions": "3, 3+1, 4, 4+1, 5, 5+1, 6, 6+1", "bodySpacingOptions": "90cm, 100cm, or 120cm", "workingWidthRange": "108-385cm", "weightRangeKg": "1433-2871", "tractorPowerRangeHp": "120-400", "note": "Reinforced leg bracket option available" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-karat-10-12",
+    "manufacturer": "Lemken",
+    "modelFamily": "Karat 10 / 12",
+    "displayName": "Lemken Karat 10 / 12 Intensive Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Karat_10u12_en.pdf, p.11. Clean per-model table (9 configurations). Karat10_en.pdf (older/shorter edition, no spec table found) treated as a duplicate/superseded source, not separately processed."
+    },
+    "constants": {
+      "depthControl": "Optional iQblue connect: hydraulic working depth adjustment via ISOBUS TIM"
+    },
+    "variants": [
+      { "sku": "Karat 10/300 (U)", "tines": 10, "lineSpacingCm": 30, "beamSpacing": "70/70cm", "workingWidthCm": 300, "weightLb": 1275, "hpRange": "77-105 kW / 132-180 hp" },
+      { "sku": "Karat 10/350 (U)", "tines": 11, "lineSpacingCm": 30, "beamSpacing": "70/70cm", "workingWidthCm": 350, "weightKg": 1370, "hpRange": "90-122 kW / 154-210 hp" },
+      { "sku": "Karat 10/400 (U)", "tines": 13, "lineSpacingCm": 30, "beamSpacing": "70/70cm", "workingWidthCm": 400, "weightKg": 1570, "hpRange": "103-140 kW / 176-240 hp" },
+      { "sku": "Karat 10/400 K(U)", "tines": 13, "lineSpacingCm": 30, "beamSpacing": "70/70cm", "workingWidthCm": 400, "weightKg": 1880, "hpRange": "103-140 kW / 176-240 hp" },
+      { "sku": "Karat 10/500 K(U)", "tines": 16, "lineSpacingCm": 30, "beamSpacing": "70/70cm", "workingWidthCm": 500, "weightKg": 2490, "hpRange": "129-175 kW / 220-300 hp" },
+      { "sku": "Karat 10/400 K(U)A", "tines": 13, "lineSpacingCm": 31, "beamSpacing": "100/100cm", "workingWidthCm": 400, "weightKg": 4200, "hpRange": "103-140 kW / 206-280 hp" },
+      { "sku": "Karat 10/500 K(U)A", "tines": 16, "lineSpacingCm": 31, "beamSpacing": "100/100cm", "workingWidthCm": 500, "weightKg": 4730, "hpRange": "129-175 kW / 257-350 hp" },
+      { "sku": "Karat 10/600 K(U)A", "tines": 19, "lineSpacingCm": 31, "beamSpacing": "100/100cm", "workingWidthCm": 600, "weightKg": 5120, "hpRange": "154-245 kW / 304-420 hp" },
+      { "sku": "Karat 10/700 K(U)A", "tines": 22, "lineSpacingCm": 31, "beamSpacing": "100/100cm", "workingWidthCm": 700, "weightKg": 5600, "hpRange": "180-245 kW / 360-490 hp" },
+      { "sku": "Karat 12/400 KUA", "tines": 17, "lineSpacingCm": 23.5, "beamSpacing": "90/80/90cm", "workingWidthCm": 400, "weightKg": 5330, "hpRange": "132-252 kW / 180-340 hp" },
+      { "sku": "Karat 12/500 KUA", "tines": 21, "lineSpacingCm": 23.5, "beamSpacing": "90/80/90cm", "workingWidthCm": 493, "weightKg": 5590, "hpRange": "165-315 kW / 224-425 hp" },
+      { "sku": "Karat 12/600 KUA", "tines": 25, "lineSpacingCm": 23.5, "beamSpacing": "90/80/90cm", "workingWidthCm": 587, "weightKg": 6520, "hpRange": "198-378 kW / 270-510 hp" },
+      { "sku": "Karat 12/700 KUA", "tines": 29, "lineSpacingCm": 23.5, "beamSpacing": "90/80/90cm", "workingWidthCm": 680, "weightKg": 7270, "hpRange": "231-441 kW / 314-595 hp" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-koralin-9",
+    "manufacturer": "Lemken",
+    "modelFamily": "Koralin 9",
+    "displayName": "Lemken Koralin 9 Disc/Tine Combination Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Koralin_en.pdf, p.15. Clean 3-model table. Combination disc-gang + tine cultivator."
+    },
+    "constants": {
+      "discDiameterMm": 510,
+      "beamSpacingDiscsCm": 90,
+      "lineSpacingDiscsCm": 15,
+      "shareWidthMm": 380,
+      "beamSpacingTinesCm": 100,
+      "lineSpacingTinesCm": 30,
+      "frameHeightTinesCm": 57,
+      "transportWidthM": 3.0
+    },
+    "variants": [
+      { "sku": "Koralin 9 660 KUA", "workingWidthCm": 660, "discs": 43, "tines": 22, "transportHeightM": 3.4, "weightKg": 7029, "hpRange": "170-243 kW / 231-330 hp" },
+      { "sku": "Koralin 9 660 K(U)", "workingWidthCm": 660, "tines": 22, "transportHeightM": 4.0, "weightKg": 2109, "hpRange": "121-243 kW / 165-330 hp" },
+      { "sku": "Koralin 9 840 KUA", "workingWidthCm": 840, "discs": 55, "tines": 28, "transportHeightM": 4.0, "weightKg": 8495, "hpRange": "216-309 kW / 294-420 hp" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-korund-system-korund",
+    "manufacturer": "Lemken",
+    "modelFamily": "System-Korund 300-900",
+    "displayName": "Lemken System-Korund Stubble Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Korund_en.pdf, p.10. Clean table, 15 configs across 3 tine types (Marathon, Gamma, GARE) x 5 widths."
+    },
+    "constants": {
+      "tineTypeOptions": "Marathon tines with point, Gamma tines with point, or small spring tines (straight) with point (GARE)"
+    },
+    "variants": [
+      { "sku": "System-Korund 300 L", "workingWidthCm": 300, "hpRange": "75-105 hp / 55-77 kW", "tinesMara": 32, "tinesGamma": 32, "tinesGare": 50, "weightMaraGammaKg": 872, "weightGareKg": 848 },
+      { "sku": "System-Korund 450 L", "workingWidthCm": 450, "hpRange": "110-155 hp / 81-114 kW", "tinesMara": 48, "tinesGamma": 48, "tinesGare": 75, "weightMaraGammaKg": 1410, "weightGareKg": 1374 },
+      { "sku": "System-Korund 600 L", "workingWidthCm": 600, "hpRange": "150-210 hp / 110-154 kW", "tinesMara": 64, "tinesGamma": 64, "tinesGare": 100, "weightMaraGammaKg": 1952, "weightGareKg": 1904 },
+      { "sku": "System-Korund 750 L", "workingWidthCm": 750, "hpRange": "185-265 hp / 136-195 kW", "tinesMara": 80, "tinesGamma": 80, "tinesGare": 125, "weightMaraGammaKg": 2860, "weightGareKg": 2800 },
+      { "sku": "System-Korund 900 L", "workingWidthCm": 900, "hpRange": "225-315 hp / 165-232 kW", "tinesMara": 96, "tinesGamma": 96, "tinesGare": 150, "weightMaraGammaKg": 3268, "weightGareKg": 3196 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-kristall",
+    "manufacturer": "Lemken",
+    "modelFamily": "Kristall 9",
+    "displayName": "Lemken Kristall 9 Compact Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Kristall_en.pdf, p.10. Clean table across 5 frame types (rigid, rigid+overload, hydraulic folding, hydraulic folding+overload, semi-mounted)."
+    },
+    "constants": {
+      "toolChange": "Quick-change system with interchangeable share foot, tool-free",
+      "depthAdjustmentCm": "5-25, tool-free",
+      "autoResetForceN": 5500,
+      "autoResetForceKg": 550
+    },
+    "variants": [
+      { "sku": "Kristall 9/300", "modelLine": "Attached, rigid", "tines": 7, "lineSpacingCm": 43, "workingWidthM": 3, "transportWidthM": 3, "weightKg": 772, "hpRange": "66-99 kW / 90-135 hp" },
+      { "sku": "Kristall 9/350", "modelLine": "Attached, rigid", "tines": 7, "lineSpacingCm": 50, "workingWidthM": 3.5, "transportWidthM": 3.5, "weightKg": 871, "hpRange": "77-116 kW / 105-158 hp" },
+      { "sku": "Kristall 9/400", "modelLine": "Attached, rigid", "tines": 9, "lineSpacingCm": 44, "workingWidthM": 4, "transportWidthM": 4, "weightKg": 990, "hpRange": "88-132 kW / 120-180 hp" },
+      { "sku": "Kristall 9/300 U", "modelLine": "Attached, rigid, overload protection", "tines": 7, "workingWidthM": 3, "weightKg": 1015, "hpRange": "66-99 kW / 90-135 hp" },
+      { "sku": "Kristall 9/350 U", "modelLine": "Attached, rigid, overload protection", "tines": 7, "workingWidthM": 3.5, "weightKg": 1181, "hpRange": "77-116 kW / 105-158 hp" },
+      { "sku": "Kristall 9/400 U", "modelLine": "Attached, rigid, overload protection", "tines": 9, "workingWidthM": 4, "weightKg": 1478, "hpRange": "88-132 kW / 120-180 hp" },
+      { "sku": "Kristall 9/400 K", "modelLine": "Attached, hydraulic folding", "tines": 9, "workingWidthM": 4, "transportWidthM": 3, "weightKg": 1445, "hpRange": "88-132 kW / 120-180 hp" },
+      { "sku": "Kristall 9/500 K", "modelLine": "Attached, hydraulic folding", "tines": 11, "workingWidthM": 5, "transportWidthM": 3, "weightKg": 1543, "hpRange": "110-165 kW / 150-225 hp" },
+      { "sku": "Kristall 9/600 K", "modelLine": "Attached, hydraulic folding", "tines": 13, "workingWidthM": 6, "transportWidthM": 3, "weightKg": 1861, "hpRange": "132-199 kW / 180-270 hp" },
+      { "sku": "Kristall 9/400 KU", "modelLine": "Attached, hydraulic folding, overload protection", "tines": 9, "workingWidthM": 4, "weightKg": 1776, "hpRange": "88-132 kW / 120-180 hp" },
+      { "sku": "Kristall 9/500 KU", "modelLine": "Attached, hydraulic folding, overload protection", "tines": 11, "workingWidthM": 5, "weightKg": 1901, "hpRange": "110-165 kW / 150-225 hp" },
+      { "sku": "Kristall 9/600 KU", "modelLine": "Attached, hydraulic folding, overload protection", "tines": 13, "workingWidthM": 6, "weightKg": 2328, "hpRange": "132-199 kW / 180-270 hp" },
+      { "sku": "Kristall 9/400 KA", "modelLine": "Semi-mounted, hydraulic folding", "tines": 9, "workingWidthM": 4, "weightKg": 3030, "hpRange": "88-132 kW / 120-180 hp" },
+      { "sku": "Kristall 9/500 KA", "modelLine": "Semi-mounted, hydraulic folding", "tines": 11, "workingWidthM": 5, "weightKg": 3128, "hpRange": "110-165 kW / 150-225 hp" },
+      { "sku": "Kristall 9/600 KA", "modelLine": "Semi-mounted, hydraulic folding", "tines": 13, "workingWidthM": 6, "weightKg": 3446, "hpRange": "132-199 kW / 180-270 hp" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-packer",
+    "manufacturer": "Lemken",
+    "modelFamily": "VarioPack / FlexPack Packer Rollers",
+    "displayName": "Lemken VarioPack / FlexPack Packer Rollers",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Packer_en.pdf, p.13-14. Very large clean tables (WD 70, WD 90, WEP 90 packers; FE front presses; FlexPack integrated presses; Crosskill/Nockenring crumbling rollers). Recorded as ring-count-to-width/weight ranges per sub-line rather than every individual row, given the extreme number of size steps (5cm increments); full detail in source."
+    },
+    "constants": {
+      "ringDiameterOptionsMm": "600, 700, or 900 depending on line"
+    },
+    "variants": [
+      { "sku": "VarioPack WD 70", "widthRangeCm": "100-440", "ringCountRange": "10-44", "weightRangeKg": "590-2040" },
+      { "sku": "VarioPack WD 90", "widthRangeCm": "162-400", "ringCountRange": "13-32", "weightRangeKg": "1390-3005" },
+      { "sku": "VarioPack 110 WEP 90", "widthRangeCm": "100-400", "ringCountRange": "5-20", "weightRangeKg": "572-1847" },
+      { "sku": "VarioPack FE (front furrow press, rigid)", "widthRangeCm": "250-400", "ringDiameterMm": 900, "weightRangeKg": "1330-2010" },
+      { "sku": "VarioPack FE (front furrow press, foldable)", "widthRangeCm": "400-600", "ringDiameterOptionsMm": "700 or 900", "weightRangeKg": "950-3200" },
+      { "sku": "FlexPack JR (integrated furrow press)", "widthRangeCm": "220-330", "ringDiameterMm": 600, "weightRangeKg": "430-590" },
+      { "sku": "FlexPack TR (integrated furrow press)", "widthRangeCm": "550-660", "ringDiameterMm": 600, "weightRangeKg": "1250-1465" },
+      { "sku": "Crosskill/Nockenring crumbling roller (for WDP/WEP presses)", "widthRangeCm": "130-460", "weightRangeKg": "254-992" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-rubin",
+    "manufacturer": "Lemken",
+    "modelFamily": "Rubin 10",
+    "displayName": "Lemken Rubin 10 Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Rubin_10-1000_en.pdf p.10 (single flagship model) and Rubin_10_MR___TF_en.pdf p.11 (MR rigid-mount and TF folding-mount sub-lines). Clean tables."
+    },
+    "constants": {
+      "discDiameterCm": 64.5,
+      "lineDistanceCm": 12.5
+    },
+    "variants": [
+      { "sku": "Rubin 10/1000 KUA", "workingWidth": "10m", "disks": 72, "lineDistanceCm": 14, "beamSpacingCm": 120, "weightKg": 9500, "hpRange": "275-441 kW / 350-600 hp" },
+      { "sku": "Rubin 10 MR/300", "modelLine": "MR (rigid mount)", "disks": 24, "workingWidthCm": 300, "transportWidthCm": 300, "weightKg": 1644, "hpRange": "77-180 kW / 105-240 hp" },
+      { "sku": "Rubin 10 MR/350", "modelLine": "MR (rigid mount)", "disks": 28, "workingWidthCm": 350, "transportWidthCm": 350, "weightKg": 1876, "hpRange": "90-210 kW / 122-286 hp" },
+      { "sku": "Rubin 10 MR/400", "modelLine": "MR (rigid mount)", "disks": 32, "workingWidthCm": 400, "transportWidthCm": 400, "weightKg": 2106, "hpRange": "103-240 kW / 140-326 hp" },
+      { "sku": "Rubin 10 TF/400", "modelLine": "TF (folding mount)", "disks": 32, "workingWidthCm": 400, "transportWidthCm": 296, "weightKg": 4540, "hpRange": "103-240 kW / 140-326 hp" },
+      { "sku": "Rubin 10 TF/500", "modelLine": "TF (folding mount)", "disks": 40, "workingWidthCm": 500, "transportWidthCm": 296, "weightKg": 4729, "hpRange": "129-300 kW / 175-410 hp" },
+      { "sku": "Rubin 10 TF/600", "modelLine": "TF (folding mount)", "disks": 48, "workingWidthCm": 600, "transportWidthCm": 296, "weightKg": 5190, "hpRange": "154-360 kW / 210-493 hp" },
+      { "sku": "Rubin 10 TF/700", "modelLine": "TF (folding mount)", "disks": 56, "workingWidthCm": 700, "transportWidthCm": 296, "weightKg": 6361, "hpRange": "180-420 kW / 245-576 hp" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-system-kompaktor",
+    "manufacturer": "Lemken",
+    "modelFamily": "System-Kompaktor",
+    "displayName": "Lemken System-Kompaktor Compact Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "System-Kompaktor_en.pdf, p.10. Clean table across S/K/K-A frame sizes x 3 tine types (duck-foot GFS, duck-foot with overload GFSU, Gamma), plus System Trac Gigant carrier-frame combinations up to 12/1600."
+    },
+    "constants": {
+      "tineTypeOptions": "Duck-foot shares (GFS), duck-foot with automatic overload safety (GFSU), or Gamma tines with point"
+    },
+    "variants": [
+      { "sku": "System-Kompaktor S 300", "workingWidthCm": 300, "hpRange": "66-88 kW / 90-120 hp", "weightRangeKg": "1430-1535" },
+      { "sku": "System-Kompaktor S 400", "workingWidthCm": 400, "hpRange": "88-118 kW / 120-160 hp", "weightRangeKg": "1650-1805" },
+      { "sku": "System-Kompaktor K 400", "workingWidthCm": 400, "hpRange": "88-118 kW / 120-160 hp", "weightRangeKg": "1850-2005" },
+      { "sku": "System-Kompaktor K 500", "workingWidthCm": 500, "hpRange": "110-147 kW / 150-200 hp", "weightRangeKg": "2103-2283" },
+      { "sku": "System-Kompaktor K 600", "workingWidthCm": 600, "hpRange": "132-177 kW / 180-240 hp", "weightRangeKg": "2703-2872" },
+      { "sku": "System-Kompaktor K 500 A", "workingWidthCm": 500, "hpRange": "110-147 kW / 150-200 hp", "weightRangeKg": "3670-3850", "note": "Semi-mounted (A = Anbau/hitched wing frame)" },
+      { "sku": "System-Kompaktor K 600 A", "workingWidthCm": 600, "hpRange": "132-177 kW / 180-240 hp", "weightRangeKg": "4270-4439", "note": "Semi-mounted" },
+      { "sku": "System Trac Gigant 10/800", "workingWidthCm": 800, "hpRange": "177-235 kW / 240-320 hp", "weightKg": 2630, "note": "Carrier frame only, weight excludes working sections" },
+      { "sku": "System Trac Gigant 10/1000", "workingWidthCm": 1000, "hpRange": "221-294 kW / 300-400 hp", "weightKg": 2830, "note": "Carrier frame only" },
+      { "sku": "System Trac Gigant 10/1200", "workingWidthCm": 1200, "hpRange": "246-404 kW / 335-550 hp", "weightKg": 3080, "note": "Carrier frame only" },
+      { "sku": "System Trac Gigant 12 S/1600", "workingWidthCm": 1600, "hpRange": "328-539 kW / 446-732 hp", "weightKg": 5490, "note": "Carrier frame only" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-titan-18",
+    "manufacturer": "Lemken",
+    "modelFamily": "Titan 18",
+    "displayName": "Lemken Titan 18 Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Titan-18_en.pdf, p.18. Clean table, 28 configurations across 4 frame variants (Titan 18, Titan 18 U, Titan 18 V, Titan 18 V U)."
+    },
+    "constants": {
+      "interbodyClearanceOptions": "100cm fixed, or 30-55cm variable (V-versions)",
+      "workingWidthPerFurrow": "33, 38, 44, 50cm"
+    },
+    "variants": [
+      { "sku": "Titan 18 6+3/100", "bottoms": 9, "interbodyClearance": "100cm", "weightKg": 5220 },
+      { "sku": "Titan 18 6+3+1/100", "bottoms": 10, "interbodyClearance": "100cm", "weightKg": 5665 },
+      { "sku": "Titan 18 6+4/100", "bottoms": 10, "interbodyClearance": "100cm", "weightKg": 5665 },
+      { "sku": "Titan 18 6+4+1/100", "bottoms": 11, "interbodyClearance": "100cm", "weightKg": 6110 },
+      { "sku": "Titan 18 7+4/100", "bottoms": 11, "interbodyClearance": "100cm", "weightKg": 6110 },
+      { "sku": "Titan 18 7+4+1/100", "bottoms": 12, "interbodyClearance": "100cm", "weightKg": 6556 },
+      { "sku": "Titan 18 8+4/100", "bottoms": 12, "interbodyClearance": "100cm", "weightKg": 6556 },
+      { "sku": "Titan 18 U 6+3/100", "bottoms": 9, "interbodyClearance": "100cm", "weightKg": 5823 },
+      { "sku": "Titan 18 U 6+3+1/100", "bottoms": 10, "interbodyClearance": "100cm", "weightKg": 6335 },
+      { "sku": "Titan 18 U 7+3/100", "bottoms": 10, "interbodyClearance": "100cm", "weightKg": 6335 },
+      { "sku": "Titan 18 U 7+3+1/100", "bottoms": 11, "interbodyClearance": "100cm", "weightKg": 6847 },
+      { "sku": "Titan 18 U 8+3/100", "bottoms": 11, "interbodyClearance": "100cm", "weightKg": 6847 },
+      { "sku": "Titan 18 U 8+3+1/100", "bottoms": 12, "interbodyClearance": "100cm", "weightKg": 7293 },
+      { "sku": "Titan 18 V 6+3/100", "bottoms": 9, "interbodyClearance": "30-55cm", "weightKg": 5440 },
+      { "sku": "Titan 18 V 6+3+1/100", "bottoms": 10, "interbodyClearance": "30-55cm", "weightKg": 5910 },
+      { "sku": "Titan 18 V 6+4/100", "bottoms": 10, "interbodyClearance": "30-55cm", "weightKg": 5910 },
+      { "sku": "Titan 18 V 6+4+1/100", "bottoms": 11, "interbodyClearance": "30-55cm", "weightKg": 6380 },
+      { "sku": "Titan 18 V 7+4/100", "bottoms": 11, "interbodyClearance": "30-55cm", "weightKg": 6380 },
+      { "sku": "Titan 18 V 7+4+1/100", "bottoms": 12, "interbodyClearance": "30-55cm", "weightKg": 6850 },
+      { "sku": "Titan 18 V 8+4/100", "bottoms": 12, "interbodyClearance": "30-55cm", "weightKg": 6850 },
+      { "sku": "Titan 18 V 8+4+1/100", "bottoms": 13, "interbodyClearance": "30-55cm", "weightKg": 7320 },
+      { "sku": "Titan 18 V U 6+3/100", "bottoms": 9, "interbodyClearance": "30-55cm", "weightKg": 6043 },
+      { "sku": "Titan 18 V U 6+3+1/100", "bottoms": 10, "interbodyClearance": "30-55cm", "weightKg": 6580 },
+      { "sku": "Titan 18 V U 7+3/100", "bottoms": 10, "interbodyClearance": "30-55cm", "weightKg": 6580 },
+      { "sku": "Titan 18 V U 7+3+1/100", "bottoms": 11, "interbodyClearance": "30-55cm", "weightKg": 7117 },
+      { "sku": "Titan 18 V U 8+3/100", "bottoms": 11, "interbodyClearance": "30-55cm", "weightKg": 7117 },
+      { "sku": "Titan 18 V U 8+3+1/100", "bottoms": 12, "interbodyClearance": "30-55cm", "weightKg": 7654 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "lemken-zirkon",
+    "manufacturer": "Lemken",
+    "modelFamily": "Zirkon 8 / 12 (incl. EMR/XMR)",
+    "displayName": "Lemken Zirkon Power Harrow",
+    "category": "Rotary Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Zirkon_en.pdf p.18 (standard Zirkon 8/12 WG/SG/K/KA line) and Zirkon_EMR-XMR_en.pdf p.1 (EMR/XMR rotor variant, marked 'New' in source). PTO-driven rotor power harrow; categories.json has no resolved countField for Rotary Tillage, so rotor count is recorded as a plain field rather than forced into a shank/blade slot."
+    },
+    "constants": {
+      "gearboxOptions": "Change gear box, angular gearbox, or two-speed manual gearbox depending on model"
+    },
+    "variants": [
+      { "sku": "Zirkon 8/250 WG/SG", "workingWidthCm": 250, "rotors": 10, "weightKg": 701, "hpRange": "44-103 kW / 60-140 hp" },
+      { "sku": "Zirkon 8/300 WG/SG", "workingWidthCm": 300, "rotors": 12, "weightKg": 785, "hpRange": "55-118 kW / 75-160 hp" },
+      { "sku": "Zirkon 8/350 WG/SG", "workingWidthCm": 350, "rotors": 14, "weightKg": 946, "hpRange": "62-125 kW / 85-170 hp" },
+      { "sku": "Zirkon 8/400 WG/SG", "workingWidthCm": 400, "rotors": 16, "weightKg": 1015, "hpRange": "66-129 kW / 90-175 hp" },
+      { "sku": "Zirkon 12/300", "workingWidthCm": 300, "rotors": 12, "weightKg": 922, "hpRange": "66-154 kW / 90-210 hp" },
+      { "sku": "Zirkon 12/350", "workingWidthCm": 350, "rotors": 14, "weightKg": 1035, "hpRange": "77-165 kW / 105-225 hp" },
+      { "sku": "Zirkon 12/400", "workingWidthCm": 400, "rotors": 16, "weightKg": 1149, "hpRange": "88-176 kW / 120-240 hp" },
+      { "sku": "Zirkon 12/400 K", "modelLine": "Mounted, hydraulic folding", "workingWidthCm": 400, "rotors": 16, "weightKg": 1762, "hpRange": "88-265 kW / 120-360 hp" },
+      { "sku": "Zirkon 12/450 K", "modelLine": "Mounted, hydraulic folding", "workingWidthCm": 450, "rotors": 18, "weightKg": 1896, "hpRange": "99-265 kW / 135-360 hp" },
+      { "sku": "Zirkon 12/500 K", "modelLine": "Mounted, hydraulic folding", "workingWidthCm": 500, "rotors": 20, "weightKg": 2066, "hpRange": "121-287 kW / 165-390 hp" },
+      { "sku": "Zirkon 12/600 K", "modelLine": "Mounted, hydraulic folding", "workingWidthCm": 600, "rotors": 24, "weightKg": 2452, "hpRange": "132-300 kW / 180-408 hp" },
+      { "sku": "Zirkon 12/400 KA", "modelLine": "Semi-mounted, hydraulic folding", "workingWidthCm": 400, "rotors": 16, "weightKg": 3531, "hpRange": "88-265 kW / 120-360 hp" },
+      { "sku": "Zirkon 12/450 KA", "modelLine": "Semi-mounted, hydraulic folding", "workingWidthCm": 450, "rotors": 18, "weightKg": 3734, "hpRange": "99-265 kW / 135-360 hp" },
+      { "sku": "Zirkon 12/500 KA", "modelLine": "Semi-mounted, hydraulic folding", "workingWidthCm": 500, "rotors": 20, "weightKg": 3923, "hpRange": "121-287 kW / 165-390 hp" },
+      { "sku": "Zirkon 12/600 KA", "modelLine": "Semi-mounted, hydraulic folding", "workingWidthCm": 600, "rotors": 24, "weightKg": 4447, "hpRange": "132-300 kW / 180-408 hp" },
+      { "sku": "Zirkon EMR/300", "modelLine": "EMR rotor variant", "workingWidthCm": 300, "rotors": 12, "weightKg": 785, "hpMax": "118 kW / 160 hp" },
+      { "sku": "Zirkon EMR/350", "modelLine": "EMR rotor variant", "workingWidthCm": 350, "rotors": 14, "weightKg": 946, "hpMax": "125 kW / 170 hp" },
+      { "sku": "Zirkon EMR/400", "modelLine": "EMR rotor variant", "workingWidthCm": 400, "rotors": 16, "weightKg": 1015, "hpMax": "129 kW / 175 hp" },
+      { "sku": "Zirkon XMR/300", "modelLine": "XMR rotor variant", "workingWidthCm": 300, "rotors": 12, "weightKg": 922, "hpMax": "154 kW / 210 hp" },
+      { "sku": "Zirkon XMR/350", "modelLine": "XMR rotor variant", "workingWidthCm": 350, "rotors": 14, "weightKg": 1035, "hpMax": "165 kW / 225 hp" },
+      { "sku": "Zirkon XMR/400", "modelLine": "XMR rotor variant", "workingWidthCm": 400, "rotors": 16, "weightKg": 1149, "hpMax": "177 kW / 240 hp" }
+    ],
+    "referencePhotos": []
+  }
+]

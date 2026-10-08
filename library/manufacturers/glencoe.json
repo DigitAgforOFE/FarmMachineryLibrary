@@ -1,0 +1,45 @@
+[
+  {
+    "id": "glencoe-cc4450",
+    "manufacturer": "Glencoe",
+    "modelFamily": "CC4450",
+    "displayName": "Glencoe CC4450 Combination Chisel Plow",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Form No. 1PD654399, Operator's Manual, April 1999, S/N 3676 & up. This is a full operator's manual, not a brochure — the spec table (p.28-29) is a genuinely clean row-per-model table (no merged/ambiguous cells), unlike several other sources processed this session. A representative 1990s-era model, exactly the kind of older-but-still-in-service equipment the library is meant to cover, not just what's currently sold new."
+    },
+    "constants": {
+      "basicFrameLengthIn": 90,
+      "basicFrameWithDiscCuttersLengthIn": 114,
+      "hitch": "Tongue/Clevis (Swivel), 119 in length",
+      "shankClampType": "Standard: Spring Cushion; Deep-Till (optional): Auto Reset",
+      "shankSizeStandardIn": "2 x 1.75 x 29",
+      "shankSizeDeepTillIn": "3 x 1.75 x 29",
+      "shankTripHeightStandardIn": 9,
+      "shankTripHeightDeepTillIn": 13,
+      "discCutterType": "7 gauge concave plain blade (rigid models); rippled disc coulter option for conservation tillage",
+      "shankSpacingOptionsIn": [12, 15],
+      "deepTillHpAdjustment": "Add ~3 hp per total shank when deep-till shanks installed; some configurations require ~10% higher PTO hp"
+    },
+    "variants": [
+      { "sku": "CC4450 Rigid 7ft", "frameStyle": "Rigid", "workingWidthFt": 7.0, "shanksTotal": 7, "shanksRear": 3, "shankSpacingIn": 12, "discCutters": 6, "frameWidthFt": 9.5, "transportWidthFt": 9.67, "weightLb": 3111, "drawbarHpReq": 91 },
+      { "sku": "CC4450 Rigid 8ft7", "frameStyle": "Rigid", "workingWidthFt": 8.58, "shanksTotal": 7, "shanksRear": 3, "shankSpacingIn": 15, "discCutters": 8, "frameWidthFt": 9.5, "transportWidthFt": 9.67, "weightLb": 3265, "drawbarHpReq": 91 },
+      { "sku": "CC4450 Rigid 9ft", "frameStyle": "Rigid", "workingWidthFt": 9.0, "shanksTotal": 9, "shanksRear": 3, "shankSpacingIn": 12, "discCutters": 8, "frameWidthFt": 9.5, "transportWidthFt": 9.67, "weightLb": 3415, "drawbarHpReq": 117 },
+      { "sku": "CC4450 Rigid 11ft", "frameStyle": "Rigid", "workingWidthFt": 11.0, "shanksTotal": 11, "shanksRear": 3, "shankSpacingIn": 12, "discCutters": 10, "frameWidthFt": 9.5, "transportWidthFt": 10.75, "weightLb": 4059, "drawbarHpReq": 143 },
+      { "sku": "CC4450 Rigid 11ft1", "frameStyle": "Rigid", "workingWidthFt": 11.08, "shanksTotal": 9, "shanksRear": 5, "shankSpacingIn": 15, "discCutters": 10, "frameWidthFt": 9.5, "transportWidthFt": 10.75, "weightLb": 3769, "drawbarHpReq": 117, "note": "rear assembly allows 5 standard shanks but only 3 deep-till" },
+      { "sku": "CC4450 Rigid 13ft (9.5ft frame)", "frameStyle": "Rigid", "workingWidthFt": 13.0, "shanksTotal": 13, "shanksRear": 5, "shankSpacingIn": 12, "discCutters": 12, "frameWidthFt": 9.5, "transportWidthFt": 12.75, "weightLb": 4188, "drawbarHpReq": 169, "note": "rear assembly allows 5 standard shanks but only 3 deep-till" },
+      { "sku": "CC4450 Rigid 13ft (10.83ft frame)", "frameStyle": "Rigid", "workingWidthFt": 13.0, "shanksTotal": 13, "shanksRear": 5, "shankSpacingIn": 12, "discCutters": 12, "frameWidthFt": 10.83, "transportWidthFt": 15.58, "weightLb": 4892, "drawbarHpReq": 169 },
+      { "sku": "CC4450 Rigid 13ft9", "frameStyle": "Rigid", "workingWidthFt": 13.75, "shanksTotal": 11, "shanksRear": 6, "shankSpacingIn": 15, "discCutters": 14, "frameWidthFt": 10.83, "transportWidthFt": 15.58, "weightLb": 4894, "drawbarHpReq": 143 },
+      { "sku": "CC4450 Rigid 15ft", "frameStyle": "Rigid", "workingWidthFt": 15.0, "shanksTotal": 15, "shanksRear": 5, "shankSpacingIn": 12, "discCutters": 14, "frameWidthFt": 10.83, "transportWidthFt": 15.58, "weightLb": 5216, "drawbarHpReq": 195 },
+      { "sku": "CC4450 Rigid 16ft3", "frameStyle": "Rigid", "workingWidthFt": 16.25, "shanksTotal": 13, "shanksRear": 6, "shankSpacingIn": 15, "discCutters": 16, "frameWidthFt": 10.83, "transportWidthFt": 15.58, "weightLb": 5200, "drawbarHpReq": 169 },
+      { "sku": "CC4450 Rigid 17ft", "frameStyle": "Rigid", "workingWidthFt": 17.0, "shanksTotal": 17, "shanksRear": 5, "shankSpacingIn": 12, "discCutters": 16, "frameWidthFt": 10.83, "transportWidthFt": 16.83, "weightLb": 5570, "drawbarHpReq": 221 },
+      { "sku": "CC4450 Rigid 18ft6", "frameStyle": "Rigid", "workingWidthFt": 18.5, "shanksTotal": 15, "shanksRear": 8, "shankSpacingIn": 15, "discCutters": 18, "frameWidthFt": 10.83, "transportWidthFt": 17.58, "weightLb": 5649, "drawbarHpReq": 195, "note": "rear assembly allows 8 standard shanks but only 6 deep-till" },
+      { "sku": "CC4450 Folding 19ft", "frameStyle": "Folding", "workingWidthFt": 19.0, "shanksTotal": 19, "shanksRear": 7, "shankSpacingIn": 12, "discCutters": 18, "frameWidthFt": 10.83, "transportWidthFt": 13.92, "transportHeightFt": 9.0, "weightLb": 8750, "drawbarHpReq": 247 },
+      { "sku": "CC4450 Folding 21ft", "frameStyle": "Folding", "workingWidthFt": 21.0, "shanksTotal": 21, "shanksRear": 7, "shankSpacingIn": 12, "discCutters": 20, "frameWidthFt": 10.83, "transportWidthFt": 13.92, "transportHeightFt": 9.0, "weightLb": 10267, "drawbarHpReq": 273 },
+      { "sku": "CC4450 Folding 23ft", "frameStyle": "Folding", "workingWidthFt": 23.0, "shanksTotal": 23, "shanksRear": 7, "shankSpacingIn": 12, "discCutters": 22, "frameWidthFt": 10.83, "transportWidthFt": 13.92, "transportHeightFt": 9.0, "weightLb": 10674, "drawbarHpReq": 299 }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "vulcan-zonemaster-strip-till",
+    "manufacturer": "Vulcan Equipment",
+    "modelFamily": "ZoneMaster",
+    "displayName": "Vulcan Equipment ZoneMaster Strip-Till Toolbar",
+    "category": "Strip Till",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "ZoneMaster_manual_series2_12-19-22.pdf and ZoneMaster_manual12.pdf (Vulcan Equipment ZoneMaster 3-point mounted strip-till toolbar operator manuals), specification table p.6 in each. The two generations list different transport dimensions and weights for the 12- and 16-row folding toolbars, so both are recorded. Transport height is N/A for rigid toolbars; the 24-row dimensions are printed as \"0 0\" (not given). Weight includes row units, no tank."
+    },
+    "constants": {
+      "mount": "3-point",
+      "rowSpacingOptions": "30 or 36in adjustable (per parts page)"
+    },
+    "variants": [
+      {
+        "sku": "ZoneMaster 6R30 Rigid - Series 1",
+        "generation": "Series 1",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "toolbar": "Rigid",
+        "weightLbWithRowUnits": 2230,
+        "transportWidthIn": 180
+      },
+      {
+        "sku": "ZoneMaster 8R30 Rigid - Series 1",
+        "generation": "Series 1",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "toolbar": "Rigid",
+        "weightLbWithRowUnits": 2700,
+        "transportWidthIn": 240
+      },
+      {
+        "sku": "ZoneMaster 12R30 Fold - Series 1",
+        "generation": "Series 1",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 5130,
+        "transportWidthIn": 216,
+        "transportHeightIn": 120
+      },
+      {
+        "sku": "ZoneMaster 16R30 Fold - Series 1",
+        "generation": "Series 1",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 6420,
+        "transportWidthIn": 276,
+        "transportHeightIn": 162
+      },
+      {
+        "sku": "ZoneMaster 24R30 Fold - Series 1",
+        "generation": "Series 1",
+        "rows": 24,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 11020
+      },
+      {
+        "sku": "ZoneMaster 6R30 Rigid - Series 2",
+        "generation": "Series 2",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "toolbar": "Rigid",
+        "weightLbWithRowUnits": 2230,
+        "transportWidthIn": 180
+      },
+      {
+        "sku": "ZoneMaster 8R30 Rigid - Series 2",
+        "generation": "Series 2",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "toolbar": "Rigid",
+        "weightLbWithRowUnits": 2700,
+        "transportWidthIn": 240
+      },
+      {
+        "sku": "ZoneMaster 12R30 Fold - Series 2",
+        "generation": "Series 2",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 7200,
+        "transportWidthIn": 204,
+        "transportHeightIn": 96
+      },
+      {
+        "sku": "ZoneMaster 16R30 Fold - Series 2",
+        "generation": "Series 2",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 9000,
+        "transportWidthIn": 264,
+        "transportHeightIn": 138
+      },
+      {
+        "sku": "ZoneMaster 24R30 Fold - Series 2",
+        "generation": "Series 2",
+        "rows": 24,
+        "rowSpacingIn": 30,
+        "toolbar": "Fold",
+        "weightLbWithRowUnits": 11020
+      }
+    ],
+    "referencePhotos": []
+  }
+]

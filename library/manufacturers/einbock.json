@@ -1,0 +1,2439 @@
+[
+  {
+    "id": "einbock-extrem-seedbed-combination",
+    "manufacturer": "Einbock",
+    "modelFamily": "EXTREM Seedbed Combination",
+    "displayName": "Einbock EXTREM Seedbed Combination",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.7. Clean per-model table (6 models). Austrian manufacturer (Einbock). Tine section + crumbler roller finishing combination; filed under Mulch Finishers."
+    },
+    "constants": {
+      "frame": "Closed, compact steel-tube frame with rubber-suspended sections/crumblers",
+      "depthControl": "Adjustable in parallel via perforated rail",
+      "crumblerOptions": "2E harrow section, 2ZW serrated crumbler 320mm+280mm, or 2FZ flat rod 380mm + serrated 320mm"
+    },
+    "variants": [
+      {
+        "sku": "EXTREM 500 E",
+        "workingWidth": "480cm / 15.70ft",
+        "sections": 4,
+        "tineSpacing": "48mm",
+        "tines": 98,
+        "hpFrom": 110,
+        "weightRangeKg": "1950-2020",
+        "weightRangeLb": "4299-4454"
+      },
+      {
+        "sku": "EXTREM 500 G",
+        "workingWidth": "480cm / 15.70ft",
+        "sections": 4,
+        "tineSpacing": "64mm",
+        "tines": 76,
+        "hpFrom": 110,
+        "weightRangeKg": "1940-2020",
+        "weightRangeLb": "4277-4454"
+      },
+      {
+        "sku": "EXTREM 500 2E",
+        "workingWidth": "480cm / 15.70ft",
+        "sections": 8,
+        "tineSpacing": "48mm",
+        "tines": 196,
+        "hpFrom": 110,
+        "weightKg": 1780,
+        "weightLb": 3924
+      },
+      {
+        "sku": "EXTREM 600 E",
+        "workingWidth": "580cm / 19.00ft",
+        "sections": 4,
+        "tineSpacing": "48mm",
+        "tines": 120,
+        "hpFrom": 140,
+        "weightRangeKg": "2090-2180",
+        "weightRangeLb": "4608-4807"
+      },
+      {
+        "sku": "EXTREM 600 G",
+        "workingWidth": "580cm / 19.00ft",
+        "sections": 4,
+        "tineSpacing": "64mm",
+        "tines": 92,
+        "hpFrom": 140,
+        "weightRangeKg": "2100-2200",
+        "weightRangeLb": "4630-4851"
+      },
+      {
+        "sku": "EXTREM 600 2E",
+        "workingWidth": "580cm / 19.00ft",
+        "sections": 8,
+        "tineSpacing": "48mm",
+        "tines": 240,
+        "hpFrom": 140,
+        "weightKg": 1980,
+        "weightLb": 4366
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-vibrostar-seedbed-cultivator",
+    "manufacturer": "Einbock",
+    "modelFamily": "VIBROSTAR Seedbed Cultivator",
+    "displayName": "Einbock VIBROSTAR Seedbed Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.17. Clean per-model table (14 models across 4-row, 5-row and 4-row+FR variants)."
+    },
+    "constants": {
+      "lineSpacingMm": 100,
+      "shankType": "Standard S-tine with reversible share (4F- models: heavy S-tine)"
+    },
+    "variants": [
+      {
+        "sku": "VIBROSTAR 4-390",
+        "modelLine": "4 rows",
+        "workingWidth": "390cm / 12.80ft",
+        "shanks": 39,
+        "hpFrom": 85,
+        "weightKg": 1290,
+        "weightLb": 2844
+      },
+      {
+        "sku": "VIBROSTAR 4-450",
+        "modelLine": "4 rows",
+        "workingWidth": "450cm / 14.80ft",
+        "shanks": 45,
+        "hpFrom": 90,
+        "weightKg": 1370,
+        "weightLb": 3020
+      },
+      {
+        "sku": "VIBROSTAR 4-490",
+        "modelLine": "4 rows",
+        "workingWidth": "490cm / 16.10ft",
+        "shanks": 49,
+        "hpFrom": 100,
+        "weightKg": 1430,
+        "weightLb": 3153
+      },
+      {
+        "sku": "VIBROSTAR 4-550",
+        "modelLine": "4 rows",
+        "workingWidth": "550cm / 18.00ft",
+        "shanks": 55,
+        "hpFrom": 120,
+        "weightKg": 1650,
+        "weightLb": 3638
+      },
+      {
+        "sku": "VIBROSTAR 4-610",
+        "modelLine": "4 rows",
+        "workingWidth": "610cm / 20.00ft",
+        "shanks": 61,
+        "hpFrom": 140,
+        "weightKg": 1780,
+        "weightLb": 3925
+      },
+      {
+        "sku": "VIBROSTAR 4-810",
+        "modelLine": "4 rows",
+        "workingWidth": "810cm / 26.60ft",
+        "shanks": 81,
+        "hpFrom": 180,
+        "weightKg": 3440,
+        "weightLb": 7584,
+        "note": "2 rubber support wheels on side-wing"
+      },
+      {
+        "sku": "VIBROSTAR 4-1210",
+        "modelLine": "4 rows (XXL)",
+        "workingWidth": "1210cm / 39.70ft",
+        "shanks": 121,
+        "hpFrom": 240,
+        "weightKg": 7500,
+        "weightLb": 16535,
+        "note": "Double folding frame, semi-mounted, 4 rubber support wheels"
+      },
+      {
+        "sku": "VIBROSTAR 5-400",
+        "modelLine": "5 rows",
+        "workingWidth": "400cm / 13.10ft",
+        "shanks": 40,
+        "hpFrom": 90,
+        "weightKg": 1470,
+        "weightLb": 3241
+      },
+      {
+        "sku": "VIBROSTAR 5-500",
+        "modelLine": "5 rows",
+        "workingWidth": "500cm / 16.40ft",
+        "shanks": 50,
+        "hpFrom": 120,
+        "weightKg": 1930,
+        "weightLb": 4255
+      },
+      {
+        "sku": "VIBROSTAR 5-600",
+        "modelLine": "5 rows",
+        "workingWidth": "600cm / 19.70ft",
+        "shanks": 60,
+        "hpFrom": 150,
+        "weightKg": 2340,
+        "weightLb": 5159
+      },
+      {
+        "sku": "VIBROSTAR F-4-450",
+        "modelLine": "4 rows + Front Roller",
+        "workingWidth": "450cm / 14.80ft",
+        "shanks": 45,
+        "hpFrom": 110,
+        "weightKg": 2250,
+        "weightLb": 4961
+      },
+      {
+        "sku": "VIBROSTAR F-4-490",
+        "modelLine": "4 rows + Front Roller",
+        "workingWidth": "490cm / 16.00ft",
+        "shanks": 49,
+        "hpFrom": 120,
+        "weightKg": 2360,
+        "weightLb": 5203
+      },
+      {
+        "sku": "VIBROSTAR F-4-550",
+        "modelLine": "4 rows + Front Roller",
+        "workingWidth": "550cm / 18.00ft",
+        "shanks": 55,
+        "hpFrom": 140,
+        "weightKg": 2680,
+        "weightLb": 5909
+      },
+      {
+        "sku": "VIBROSTAR F-4-610",
+        "modelLine": "4 rows + Front Roller",
+        "workingWidth": "610cm / 20.00ft",
+        "shanks": 61,
+        "hpFrom": 160,
+        "weightKg": 2840,
+        "weightLb": 6262
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-taifun-blade-cultivator",
+    "manufacturer": "Einbock",
+    "modelFamily": "TAIFUN Blade Cultivator",
+    "displayName": "Einbock TAIFUN Blade Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.27. Clean per-model table (6 models). Full-surface shallow cutting cultivator with double drag tines."
+    },
+    "constants": {
+      "tineType": "Large spring tine Vulcanus 50x13 with reversible share",
+      "tineRows": 4,
+      "lineSpacingCm": 15
+    },
+    "variants": [
+      {
+        "sku": "TAIFUN 250",
+        "workingWidth": "250cm / 8.20ft",
+        "beams": 4,
+        "tines": 17,
+        "doubleDragTines": 4,
+        "hpFrom": 70,
+        "weightRangeKg": "850-1130",
+        "weightRangeLb": "1874-2492",
+        "note": "Rigid frame"
+      },
+      {
+        "sku": "TAIFUN 300",
+        "workingWidth": "300cm / 9.80ft",
+        "beams": 4,
+        "tines": 20,
+        "doubleDragTines": 5,
+        "hpFrom": 90,
+        "weightRangeKg": "960-1250",
+        "weightRangeLb": "2117-2756",
+        "note": "Rigid frame"
+      },
+      {
+        "sku": "TAIFUN 400",
+        "workingWidth": "400cm / 13.10ft",
+        "beams": 4,
+        "tines": 26,
+        "doubleDragTines": 6,
+        "hpFrom": 110,
+        "weightRangeKg": "1530-1960",
+        "weightRangeLb": "3374-4322"
+      },
+      {
+        "sku": "TAIFUN 500",
+        "workingWidth": "500cm / 16.40ft",
+        "beams": 4,
+        "tines": 34,
+        "doubleDragTines": 8,
+        "hpFrom": 130,
+        "weightRangeKg": "1740-2260",
+        "weightRangeLb": "3837-4983"
+      },
+      {
+        "sku": "TAIFUN 600",
+        "workingWidth": "600cm / 19.70ft",
+        "beams": 4,
+        "tines": 40,
+        "doubleDragTines": 10,
+        "hpFrom": 160,
+        "weightRangeKg": "1880-2450",
+        "weightRangeLb": "4145-5402"
+      },
+      {
+        "sku": "TAIFUN 700",
+        "workingWidth": "700cm / 23.00ft",
+        "beams": 4,
+        "tines": 46,
+        "doubleDragTines": 12,
+        "hpFrom": 190,
+        "weightRangeKg": "2260-3000",
+        "weightRangeLb": "4983-6614"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-taifun-xxl-blade-cultivator",
+    "manufacturer": "Einbock",
+    "modelFamily": "TAIFUN XXL Blade Cultivator",
+    "displayName": "Einbock TAIFUN XXL Blade Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.37. Clean per-model table (6 models). Heavy-duty semi-trailed version of TAIFUN with big wheels."
+    },
+    "constants": {
+      "tineType": "Heavy spring-tine HERKULES 70x12 with standard sweep 53mm",
+      "tineRows": 4,
+      "lineSpacingCm": 15,
+      "frame": "Semi-trailed with big wheels, braking axle for pneumatic trailer brake system"
+    },
+    "variants": [
+      {
+        "sku": "TAIFUN XXL 800 RP58",
+        "workingWidth": "800cm / 26.20ft",
+        "beams": 4,
+        "tines": 54,
+        "doubleDragTines": 13,
+        "hpFrom": 200,
+        "weightKg": 7540,
+        "weightLb": 16623,
+        "note": "Ring packer roller 575mm"
+      },
+      {
+        "sku": "TAIFUN XXL 800 DN",
+        "workingWidth": "800cm / 26.20ft",
+        "beams": 4,
+        "tines": 54,
+        "doubleDragTines": 13,
+        "hpFrom": 200,
+        "weightKg": 7820,
+        "weightLb": 17240,
+        "note": "Double Nova roller 575mm"
+      },
+      {
+        "sku": "TAIFUN XXL 900 RP58",
+        "workingWidth": "900cm / 29.50ft",
+        "beams": 4,
+        "tines": 60,
+        "doubleDragTines": 15,
+        "hpFrom": 240,
+        "weightKg": 7870,
+        "weightLb": 17350
+      },
+      {
+        "sku": "TAIFUN XXL 900 DN",
+        "workingWidth": "900cm / 29.50ft",
+        "beams": 4,
+        "tines": 60,
+        "doubleDragTines": 15,
+        "hpFrom": 240,
+        "weightKg": 8180,
+        "weightLb": 18034
+      },
+      {
+        "sku": "TAIFUN XXL 1200 RP58",
+        "workingWidth": "1200cm / 39.40ft",
+        "beams": 4,
+        "tines": 80,
+        "doubleDragTines": 20,
+        "hpFrom": 340,
+        "weightKg": 9620,
+        "weightLb": 21209
+      },
+      {
+        "sku": "TAIFUN XXL 1200 DN",
+        "workingWidth": "1200cm / 39.40ft",
+        "beams": 4,
+        "tines": 80,
+        "doubleDragTines": 20,
+        "hpFrom": 340,
+        "weightKg": 9950,
+        "weightLb": 21936
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-razor-flat-cultivator",
+    "manufacturer": "Einbock",
+    "modelFamily": "RAZOR Flat Cultivator",
+    "displayName": "Einbock RAZOR Flat Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.41. Clean per-model table (3 models)."
+    },
+    "constants": {
+      "tineType": "HERKULES tine 70x12mm",
+      "tineRows": 5,
+      "rowDistanceMm": 500,
+      "lineSpacingMm": 150,
+      "folding": "Hydraulic H-folding"
+    },
+    "variants": [
+      {
+        "sku": "RAZOR 400",
+        "workingWidth": "3.90m / 12.80ft",
+        "transportWidth": "2.93m / 9.60ft",
+        "tines": 26,
+        "hpFrom": 120,
+        "weightMinKg": 1420,
+        "weightMinLb": 3100,
+        "weightMaxKg": 2160,
+        "weightMaxLb": 4800
+      },
+      {
+        "sku": "RAZOR 500",
+        "workingWidth": "5.10m / 16.70ft",
+        "transportWidth": "2.93m / 9.60ft",
+        "tines": 34,
+        "hpFrom": 160,
+        "weightMinKg": 1630,
+        "weightMinLb": 3600,
+        "weightMaxKg": 2490,
+        "weightMaxLb": 5500
+      },
+      {
+        "sku": "RAZOR 600",
+        "workingWidth": "6.00m / 19.70ft",
+        "transportWidth": "2.93m / 9.60ft",
+        "tines": 40,
+        "hpFrom": 200,
+        "weightMinKg": 1850,
+        "weightMinLb": 4100,
+        "weightMaxKg": 2780,
+        "weightMaxLb": 6100
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-hurricane-universal-cultivator",
+    "manufacturer": "Einbock",
+    "modelFamily": "HURRICANE Universal Cultivator",
+    "displayName": "Einbock HURRICANE Universal Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-tillage-en.pdf, p.51. Clean per-model table (4 models)."
+    },
+    "constants": {
+      "tineType": "Rigid standard tines with shear-bolt stone protection, double diamond sweep 130mm",
+      "lineSpacingMm": 200,
+      "tineRows": 4,
+      "foldingNote": "From 4.2m working width, hydraulically folding frame"
+    },
+    "variants": [
+      {
+        "sku": "HURRICANE 260",
+        "workingWidth": "260cm / 8.50ft",
+        "beams": 4,
+        "tines": 13,
+        "hpFrom": 100,
+        "weightRangeKg": "950-1515",
+        "weightRangeLb": "2094-3340"
+      },
+      {
+        "sku": "HURRICANE 300",
+        "workingWidth": "300cm / 9.80ft",
+        "beams": 4,
+        "tines": 15,
+        "hpFrom": 120,
+        "weightRangeKg": "1010-1595",
+        "weightRangeLb": "2227-3517"
+      },
+      {
+        "sku": "HURRICANE 420",
+        "workingWidth": "420cm / 13.80ft",
+        "beams": 4,
+        "tines": 21,
+        "hpFrom": 150,
+        "weightRangeKg": "1840-2700",
+        "weightRangeLb": "4057-5953"
+      },
+      {
+        "sku": "HURRICANE 460",
+        "workingWidth": "460cm / 15.10ft",
+        "beams": 4,
+        "tines": 23,
+        "hpFrom": 180,
+        "weightRangeKg": "1950-2890",
+        "weightRangeLb": "4300-6372"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-rotarystar-rotary-hoe",
+    "manufacturer": "Einböck",
+    "modelFamily": "ROTARYSTAR",
+    "displayName": "Einböck ROTARYSTAR Rotary Hoe",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-rotarystar-en.pdf (Einböck ROTARYSTAR rotary hoe brochure), technical table p.5. The text layer has 9 data columns but only 7 type labels (300 340 500 600 640 900 1200); the columns were assigned by star count x 9.38 cm line spacing (32 stars = 3.0 m, 36 = 3.4 m, 54 = 5.0 m, 64 = 6.0 m, 68 = 6.4 m, 96 = 9.0 m, 128 = 12.0 m), which gives two transport-width versions each of the 900 and 1200. The 1200 (3.0 m) version is double-folding with electro-hydraulic sequence control. Working width (cm) equals the type number. The brochure states \"Line spacing 9,38 cm / 36.93\\\"\" (inch figure is a typo for 3.69\\\")."
+    },
+    "constants": {
+      "starDiameterCm": 52,
+      "spoonsPerStar": 16,
+      "lineSpacingCm": 9.38,
+      "rotorRows": 2,
+      "downPressureMaxKg": 35,
+      "supportWheels": "18x8.50"
+    },
+    "variants": [
+      {
+        "sku": "300",
+        "transportWidthCm": 300,
+        "folding": "rigid",
+        "stars": 32,
+        "spoonTips": 512,
+        "starSections": 2,
+        "weightKg": 990,
+        "hpKwMin": "70/51",
+        "feelerWheels": 2,
+        "hydraulicValvesDoubleActing": 1
+      },
+      {
+        "sku": "340",
+        "transportWidthCm": 342,
+        "folding": "rigid",
+        "stars": 36,
+        "spoonTips": 576,
+        "starSections": 2,
+        "weightKg": 1080,
+        "hpKwMin": "70/51",
+        "feelerWheels": 2,
+        "hydraulicValvesDoubleActing": 1
+      },
+      {
+        "sku": "500",
+        "transportWidthCm": 275,
+        "folding": "triple frame",
+        "stars": 54,
+        "spoonTips": 864,
+        "starSections": 3,
+        "weightKg": 1600,
+        "hpKwMin": "80/59",
+        "feelerWheels": 2,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "600",
+        "transportWidthCm": 300,
+        "folding": "triple frame",
+        "stars": 64,
+        "spoonTips": 1024,
+        "starSections": 4,
+        "weightKg": 1820,
+        "hpKwMin": "90/66",
+        "feelerWheels": 2,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "640",
+        "transportWidthCm": 300,
+        "folding": "triple frame",
+        "stars": 68,
+        "spoonTips": 1088,
+        "starSections": 4,
+        "weightKg": 1910,
+        "hpKwMin": "90/66",
+        "feelerWheels": 2,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "900 (6.75 m transport)",
+        "transportWidthCm": 675,
+        "folding": "triple frame",
+        "stars": 96,
+        "spoonTips": 1536,
+        "starSections": 6,
+        "weightKg": 3600,
+        "hpKwMin": "160/118",
+        "feelerWheels": 4,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "900 (3.0 m transport)",
+        "transportWidthCm": 300,
+        "folding": "triple frame",
+        "stars": 96,
+        "spoonTips": 1536,
+        "starSections": 6,
+        "weightKg": 3100,
+        "hpKwMin": "160/118",
+        "feelerWheels": 4,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "1200 (6.75 m transport)",
+        "transportWidthCm": 675,
+        "folding": "triple frame",
+        "stars": 128,
+        "spoonTips": 2048,
+        "starSections": 8,
+        "weightKg": 4400,
+        "hpKwMin": "200/147",
+        "feelerWheels": 4,
+        "hydraulicValvesDoubleActing": 2
+      },
+      {
+        "sku": "1200 (3.0 m transport)",
+        "transportWidthCm": 300,
+        "folding": "double folding",
+        "stars": 128,
+        "spoonTips": 2048,
+        "starSections": 8,
+        "weightKg": 3915,
+        "hpKwMin": "200/147",
+        "feelerWheels": 4,
+        "hydraulicValvesDoubleActing": 1
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-aerostar-evo-tine-weeder",
+    "manufacturer": "Einböck",
+    "modelFamily": "AEROSTAR-EVO",
+    "displayName": "Einböck AEROSTAR-EVO Precision Tined Weeder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "einboeck-aerostar-evo-en.pdf (Einböck AEROSTAR-EVO precision tined weeder brochure, version 07/2026). The technical-data table on p.3 is empty in this file (headers only, no values in the text layer or the rendered page), so only family-level data are recorded: tine/section geometry, the model numbers named in the equipment list, and the stated ~1,700 kg weight of the 12 m machine. Model numbers appear to be working width in cm (the 12 m machine = 1200) but this is not stated, so no per-model variants are created."
+    },
+    "constants": {
+      "tineDiameterMm": 7,
+      "tineLengthMm": 500,
+      "tineLineSpacingCm": 3.125,
+      "tinesPerSection": 48,
+      "sectionWidthM": 1.5,
+      "tineRowsPerSection": 6,
+      "downPressureMaxKg": 4.5,
+      "frameClearanceMm": 490,
+      "modelsMentioned": [
+        150,
+        300,
+        450,
+        750,
+        900,
+        1200
+      ],
+      "folding": "standard folding up to model 750, scissor folding from 900",
+      "weightKgApprox12m": 1700
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-aerostar-classic-tine-weeder",
+    "manufacturer": "Einböck",
+    "modelFamily": "AEROSTAR-CLASSIC",
+    "displayName": "Einböck AEROSTAR-CLASSIC Tine Weeder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-weeding-technology-en.pdf (Einböck weeding technology catalog), AEROSTAR-CLASSIC table p.11 and AEROSTAR-CLASSIC XXL table p.19. Footnote markers 1, 3 and 4 are attached to some rows but their text is not in the PDF text layer; recorded as markers only. The 510 and 810 rows wrap over several lines in the source; section layout read as mixed 2.1 m + 1.5 m sections."
+    },
+    "constants": {
+      "tineLineSpacingCm": 2.5,
+      "tinesPer1_5mSection": 60,
+      "footnoteMeanings": {
+        "2": "transport height approx. 4.6 m, hydraulic transport lock",
+        "5": "transport width 6 m"
+      }
+    },
+    "variants": [
+      {
+        "sku": "AEROSTAR-CLASSIC 150",
+        "workingWidthCm": 150,
+        "sectionsM": "1x1.5",
+        "wheels": 2,
+        "tines": 60,
+        "hpKwMin": "15/11",
+        "weightKg": 190
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 210",
+        "workingWidthCm": 210,
+        "sectionsM": "1x2.1",
+        "wheels": 2,
+        "tines": 84,
+        "hpKwMin": "20/15",
+        "weightKg": 200
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 300",
+        "workingWidthCm": 300,
+        "sectionsM": "2x1.5",
+        "wheels": 2,
+        "tines": 120,
+        "hpKwMin": "30/22",
+        "weightKg": 280
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 450",
+        "workingWidthCm": 450,
+        "sectionsM": "3x1.5",
+        "wheels": 2,
+        "tines": 180,
+        "hpKwMin": "40/29",
+        "weightKg": 500
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 510",
+        "workingWidthCm": 510,
+        "sectionsM": "1x2.1 + 2x1.5",
+        "wheels": 2,
+        "tines": 204,
+        "hpKwMin": "50/37",
+        "weightKg": 520
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 600",
+        "workingWidthCm": 600,
+        "sectionsM": "4x1.5",
+        "wheels": 2,
+        "tines": 240,
+        "hpKwMin": "60/44",
+        "weightKg": 620
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 600 (4 wheels)",
+        "workingWidthCm": 600,
+        "sectionsM": "4x1.5",
+        "wheels": 4,
+        "tines": 240,
+        "hpKwMin": "60/44",
+        "weightKg": 740,
+        "footnotes": "3"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 750",
+        "workingWidthCm": 750,
+        "sectionsM": "5x1.5",
+        "wheels": 4,
+        "tines": 300,
+        "hpKwMin": "65/48",
+        "weightKg": 850
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 810",
+        "workingWidthCm": 810,
+        "sectionsM": "4x1.5 + 1x2.1",
+        "wheels": 4,
+        "tines": 324,
+        "hpKwMin": "70/51",
+        "weightKg": 870
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 900 N",
+        "workingWidthCm": 900,
+        "sectionsM": "6x1.5",
+        "wheels": 4,
+        "tines": 360,
+        "hpKwMin": "70/51",
+        "weightKg": 980,
+        "footnotes": "4"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 900",
+        "workingWidthCm": 900,
+        "sectionsM": "6x1.5",
+        "wheels": 4,
+        "tines": 360,
+        "hpKwMin": "80/59",
+        "weightKg": 1170,
+        "footnotes": "1"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 1200",
+        "workingWidthCm": 1200,
+        "sectionsM": "8x1.5",
+        "wheels": 4,
+        "tines": 480,
+        "hpKwMin": "90/66",
+        "weightKg": 1310,
+        "footnotes": "1"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 1350",
+        "workingWidthCm": 1350,
+        "sectionsM": "9x1.5",
+        "wheels": 4,
+        "tines": 540,
+        "hpKwMin": "110/81",
+        "weightKg": 1350,
+        "footnotes": "1,2"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 1500",
+        "workingWidthCm": 1500,
+        "sectionsM": "10x1.5",
+        "wheels": 4,
+        "tines": 600,
+        "hpKwMin": "130/95",
+        "weightKg": 1600,
+        "footnotes": "1,2"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC 1800",
+        "workingWidthCm": 1800,
+        "sectionsM": "12x1.5",
+        "wheels": 6,
+        "tines": 720,
+        "hpKwMin": "180/133",
+        "weightKg": 2490,
+        "footnotes": "1,2,5"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC XXL 1800",
+        "workingWidthCm": 1800,
+        "sectionsM": "3x1.8 + 6x2.1",
+        "wheels": 4,
+        "tines": 720,
+        "hpKwMin": "180/133",
+        "weightKg": 3950,
+        "productLine": "XXL"
+      },
+      {
+        "sku": "AEROSTAR-CLASSIC XXL 2400",
+        "workingWidthCm": 2400,
+        "sectionsM": "3x1.8 + 6x2.1 + 4x1.5",
+        "wheels": 6,
+        "tines": 960,
+        "hpKwMin": "200/147",
+        "weightKg": 5460,
+        "productLine": "XXL"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-aerostar-exact-tine-weeder",
+    "manufacturer": "Einböck",
+    "modelFamily": "AEROSTAR-EXACT",
+    "displayName": "Einböck AEROSTAR-EXACT Tine Weeder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-weeding-technology-en.pdf (Einböck weeding technology catalog), AEROSTAR-EXACT table p.25."
+    },
+    "constants": {
+      "footnoteMeanings": {
+        "1": "shear retraction + hydraulic transport lock",
+        "2": "transport height approx. 4.5 m",
+        "3": "transport width 6 m"
+      }
+    },
+    "variants": [
+      {
+        "sku": "AEROSTAR-EXACT 300",
+        "workingWidthCm": 300,
+        "sectionsM": "2x1.5",
+        "wheels": 4,
+        "tines": 120,
+        "hpKwMin": "40/29",
+        "weightKg": 540
+      },
+      {
+        "sku": "AEROSTAR-EXACT 600",
+        "workingWidthCm": 600,
+        "sectionsM": "4x1.5",
+        "wheels": 6,
+        "tines": 240,
+        "hpKwMin": "70/51",
+        "weightKg": 940
+      },
+      {
+        "sku": "AEROSTAR-EXACT 750",
+        "workingWidthCm": 750,
+        "sectionsM": "5x1.5",
+        "wheels": 6,
+        "tines": 300,
+        "hpKwMin": "80/59",
+        "weightKg": 1200
+      },
+      {
+        "sku": "AEROSTAR-EXACT 900",
+        "workingWidthCm": 900,
+        "sectionsM": "6x1.5",
+        "wheels": 6,
+        "tines": 360,
+        "hpKwMin": "90/66",
+        "weightKg": 1600,
+        "footnotes": "1"
+      },
+      {
+        "sku": "AEROSTAR-EXACT 1200",
+        "workingWidthCm": 1200,
+        "sectionsM": "8x1.5",
+        "wheels": 6,
+        "tines": 480,
+        "hpKwMin": "100/74",
+        "weightKg": 1880,
+        "footnotes": "1"
+      },
+      {
+        "sku": "AEROSTAR-EXACT 1500",
+        "workingWidthCm": 1500,
+        "sectionsM": "10x1.5",
+        "wheels": 6,
+        "tines": 600,
+        "hpKwMin": "150/110",
+        "weightKg": 2280,
+        "footnotes": "1,2"
+      },
+      {
+        "sku": "AEROSTAR-EXACT 1800",
+        "workingWidthCm": 1800,
+        "sectionsM": "12x1.5",
+        "wheels": 10,
+        "tines": 720,
+        "hpKwMin": "200/147",
+        "weightKg": 3220,
+        "footnotes": "1,2,3"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-aerostar-rotation-rotary-weeder",
+    "manufacturer": "Einböck",
+    "modelFamily": "AEROSTAR-ROTATION",
+    "displayName": "Einböck AEROSTAR-ROTATION Rotary Weeder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-weeding-technology-en.pdf (Einböck weeding technology catalog), AEROSTAR-ROTATION table p.47."
+    },
+    "constants": {
+      "footnoteMeanings": {
+        "1": "shear retraction: no quick coupling bar, 2 central support wheels 18x8.50",
+        "2": "transport height 4.4 m",
+        "3": "transport width 6 m"
+      }
+    },
+    "variants": [
+      {
+        "sku": "AEROSTAR-ROTATION 150",
+        "workingWidthCm": 150,
+        "sectionsM": "1x1.5",
+        "wheels": 2,
+        "hpKwMin": "20/15",
+        "weightKg": 280,
+        "starWheels": 10
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 300",
+        "workingWidthCm": 300,
+        "sectionsM": "2x1.5",
+        "wheels": 2,
+        "hpKwMin": "35/26",
+        "weightKg": 420,
+        "starWheels": 20
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 450",
+        "workingWidthCm": 450,
+        "sectionsM": "3x1.5",
+        "wheels": 2,
+        "hpKwMin": "50/37",
+        "weightKg": 650,
+        "starWheels": 30
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 600",
+        "workingWidthCm": 600,
+        "sectionsM": "4x1.5",
+        "wheels": 4,
+        "hpKwMin": "65/48",
+        "weightKg": 810,
+        "starWheels": 40
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 900",
+        "workingWidthCm": 900,
+        "sectionsM": "6x1.5",
+        "wheels": 4,
+        "hpKwMin": "90/66",
+        "weightKg": 1560,
+        "footnotes": "1",
+        "starWheels": 60
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 1200",
+        "workingWidthCm": 1200,
+        "sectionsM": "8x1.5",
+        "wheels": 4,
+        "hpKwMin": "100/74",
+        "weightKg": 1890,
+        "footnotes": "1",
+        "starWheels": 80
+      },
+      {
+        "sku": "AEROSTAR-ROTATION 1800",
+        "workingWidthCm": 1800,
+        "sectionsM": "12x1.5",
+        "wheels": 6,
+        "hpKwMin": "150/110",
+        "weightKg": 3300,
+        "footnotes": "2,3",
+        "starWheels": 120
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-aerostar-fusion-tine-weeder",
+    "manufacturer": "Einböck",
+    "modelFamily": "AEROSTAR-FUSION",
+    "displayName": "Einböck AEROSTAR-FUSION Tine Weeder",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-weeding-technology-en.pdf (Einböck weeding technology catalog), AEROSTAR-FUSION table p.33. The weight row label is missing from the text layer; the kg/lbs row between parking height and HP was read as basic weight (consistent with the other AEROSTAR tables). Wheel counts are front+rear."
+    },
+    "constants": {
+      "maxTineDownPressureKg": 7
+    },
+    "variants": [
+      {
+        "sku": "AEROSTAR-FUSION 200",
+        "workingWidthM": 2.02,
+        "transportWidthM": 2.05,
+        "parkingHeightM": 1.3,
+        "weightKg": 460,
+        "hpKwMin": "40/29",
+        "tines": 72,
+        "sections": 1,
+        "folding": "-",
+        "wheelsFrontRear": "2+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 300",
+        "workingWidthM": 2.97,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 1.3,
+        "weightKg": 575,
+        "hpKwMin": "50/37",
+        "tines": 106,
+        "sections": 1,
+        "folding": "-",
+        "wheelsFrontRear": "2+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 470",
+        "workingWidthM": 4.7,
+        "transportWidthM": 2.35,
+        "parkingHeightM": 2.4,
+        "weightKg": 990,
+        "hpKwMin": "60/44",
+        "tines": 168,
+        "sections": 3,
+        "folding": "1x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 530",
+        "workingWidthM": 5.38,
+        "transportWidthM": 2.35,
+        "parkingHeightM": 2.74,
+        "weightKg": 1060,
+        "hpKwMin": "70/52",
+        "tines": 192,
+        "sections": 3,
+        "folding": "1x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 600",
+        "workingWidthM": 6.22,
+        "transportWidthM": 2.8,
+        "parkingHeightM": 3.16,
+        "weightKg": 1170,
+        "hpKwMin": "80/59",
+        "tines": 222,
+        "sections": 3,
+        "folding": "1x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 750",
+        "workingWidthM": 7.56,
+        "transportWidthM": 2.8,
+        "parkingHeightM": 3.84,
+        "weightKg": 1310,
+        "hpKwMin": "90/66",
+        "tines": 270,
+        "sections": 3,
+        "folding": "1x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 900H",
+        "workingWidthM": 9.24,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 3.84,
+        "weightKg": 1730,
+        "hpKwMin": "100/74",
+        "tines": 330,
+        "sections": 3,
+        "folding": "1x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 900",
+        "workingWidthM": 9.24,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 3.55,
+        "weightKg": 1980,
+        "hpKwMin": "100/74",
+        "tines": 330,
+        "sections": 5,
+        "folding": "2x",
+        "wheelsFrontRear": "4+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 1200",
+        "workingWidthM": 12.26,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 3.55,
+        "weightKg": 2420,
+        "hpKwMin": "120/88",
+        "tines": 438,
+        "sections": 5,
+        "folding": "2x",
+        "wheelsFrontRear": "6+2"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 1350",
+        "workingWidthM": 13.6,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 3.9,
+        "weightKg": 3130,
+        "hpKwMin": "140/103",
+        "tines": 486,
+        "sections": 5,
+        "folding": "2x",
+        "wheelsFrontRear": "6+4"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 1500",
+        "workingWidthM": 15.29,
+        "transportWidthM": 3.0,
+        "parkingHeightM": 3.9,
+        "weightKg": 3340,
+        "hpKwMin": "160/118",
+        "tines": 546,
+        "sections": 5,
+        "folding": "2x",
+        "wheelsFrontRear": "6+4"
+      },
+      {
+        "sku": "AEROSTAR-FUSION 1800",
+        "workingWidthM": 18.3,
+        "transportWidthM": 7.3,
+        "parkingHeightM": 4.0,
+        "weightKg": 4750,
+        "hpKwMin": "240/177",
+        "tines": 654,
+        "sections": 7,
+        "folding": "2x",
+        "wheelsFrontRear": "8+6"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-one-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-ONE",
+    "displayName": "Einböck CHOPSTAR-ONE Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-ONE table p.21. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-ONE 4x50 S",
+        "rows": 4,
+        "rowSpacingCm": 50,
+        "frame": "rigid",
+        "transportWidthM": 2.0,
+        "frameWidthM": 2.0,
+        "tines": 13,
+        "hoeingBodies": 5,
+        "hpKwMin": "30/22",
+        "weightKg": 450
+      },
+      {
+        "sku": "CHOPSTAR-ONE 6x50 S",
+        "rows": 6,
+        "rowSpacingCm": 50,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 19,
+        "hoeingBodies": 7,
+        "hpKwMin": "40/30",
+        "weightKg": 580
+      },
+      {
+        "sku": "CHOPSTAR-ONE 8x50 K",
+        "rows": 8,
+        "rowSpacingCm": 50,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.8,
+        "tines": 25,
+        "hoeingBodies": 9,
+        "hpKwMin": "60/44",
+        "weightKg": 880
+      },
+      {
+        "sku": "CHOPSTAR-ONE 12x50 K",
+        "rows": 12,
+        "rowSpacingCm": 50,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.6,
+        "tines": 37,
+        "hoeingBodies": 13,
+        "hpKwMin": "70/51",
+        "weightKg": 1210
+      },
+      {
+        "sku": "CHOPSTAR-ONE 15x50 K",
+        "rows": 15,
+        "rowSpacingCm": 50,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 6.95,
+        "tines": 46,
+        "hoeingBodies": 16,
+        "hpKwMin": "90/66",
+        "weightKg": 1570
+      },
+      {
+        "sku": "CHOPSTAR-ONE 18x50 P",
+        "rows": 18,
+        "rowSpacingCm": 50,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 8.3,
+        "tines": 55,
+        "hoeingBodies": 19,
+        "hpKwMin": "130/96",
+        "weightKg": 2060
+      },
+      {
+        "sku": "CHOPSTAR-ONE 24x50 P",
+        "rows": 24,
+        "rowSpacingCm": 50,
+        "frame": "double folding",
+        "transportWidthM": 4.0,
+        "frameWidthM": 11.0,
+        "tines": 73,
+        "hoeingBodies": 25,
+        "hpKwMin": "160/118",
+        "weightKg": 2570
+      },
+      {
+        "sku": "CHOPSTAR-ONE 4x75 S",
+        "rows": 4,
+        "rowSpacingCm": 75,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 560
+      },
+      {
+        "sku": "CHOPSTAR-ONE 4x75 K",
+        "rows": 4,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 840
+      },
+      {
+        "sku": "CHOPSTAR-ONE 6x75 S",
+        "rows": 6,
+        "rowSpacingCm": 75,
+        "frame": "rigid",
+        "transportWidthM": 4.4,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 820
+      },
+      {
+        "sku": "CHOPSTAR-ONE 6x75 K",
+        "rows": 6,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 1010
+      },
+      {
+        "sku": "CHOPSTAR-ONE 7x75 K",
+        "rows": 7,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.1,
+        "tines": 36,
+        "hoeingBodies": 8,
+        "hpKwMin": "70/51",
+        "weightKg": 1090
+      },
+      {
+        "sku": "CHOPSTAR-ONE 8x75 S",
+        "rows": 8,
+        "rowSpacingCm": 75,
+        "frame": "rigid",
+        "transportWidthM": 5.8,
+        "frameWidthM": 5.8,
+        "tines": 41,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 990
+      },
+      {
+        "sku": "CHOPSTAR-ONE 8x75 K",
+        "rows": 8,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 41,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1170
+      },
+      {
+        "sku": "CHOPSTAR-ONE 12x75 K",
+        "rows": 12,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 4.8,
+        "frameWidthM": 8.6,
+        "tines": 61,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 1810
+      },
+      {
+        "sku": "CHOPSTAR-ONE 12x75 P",
+        "rows": 12,
+        "rowSpacingCm": 75,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 8.6,
+        "tines": 61,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 2040
+      },
+      {
+        "sku": "CHOPSTAR-ONE 16x75 K",
+        "rows": 16,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 6.9,
+        "frameWidthM": 11.4,
+        "tines": 81,
+        "hoeingBodies": 17,
+        "hpKwMin": "160/118",
+        "weightKg": 2250
+      },
+      {
+        "sku": "CHOPSTAR-ONE 16x75 P",
+        "rows": 16,
+        "rowSpacingCm": 75,
+        "frame": "double folding",
+        "transportWidthM": 4.0,
+        "frameWidthM": 11.4,
+        "tines": 81,
+        "hoeingBodies": 17,
+        "hpKwMin": "160/118",
+        "weightKg": 2500
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-prime-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-PRIME",
+    "displayName": "Einböck CHOPSTAR-PRIME Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-PRIME table p.27. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-PRIME 4x45 S",
+        "rows": 4,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 2.0,
+        "frameWidthM": 2.0,
+        "tines": 13,
+        "hoeingBodies": 5,
+        "hpKwMin": "30/22",
+        "weightKg": 514
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 6x45 S",
+        "rows": 6,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 2.9,
+        "tines": 19,
+        "hoeingBodies": 7,
+        "hpKwMin": "40/30",
+        "weightKg": 670
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 8x45 K",
+        "rows": 8,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.8,
+        "tines": 25,
+        "hoeingBodies": 9,
+        "hpKwMin": "60/44",
+        "weightKg": 990
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 12x45 K",
+        "rows": 12,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.6,
+        "tines": 37,
+        "hoeingBodies": 13,
+        "hpKwMin": "70/51",
+        "weightKg": 1370
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 15x45 K",
+        "rows": 15,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 6.95,
+        "tines": 46,
+        "hoeingBodies": 16,
+        "hpKwMin": "90/66",
+        "weightKg": 1770
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 18x45 K",
+        "rows": 18,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 4.8,
+        "frameWidthM": 8.3,
+        "tines": 55,
+        "hoeingBodies": 19,
+        "hpKwMin": "130/96",
+        "weightKg": 2110
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 18x45 P",
+        "rows": 18,
+        "rowSpacingCm": 45,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 8.3,
+        "tines": 55,
+        "hoeingBodies": 19,
+        "hpKwMin": "130/96",
+        "weightKg": 2300
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 24x45 K",
+        "rows": 24,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 6.7,
+        "frameWidthM": 11.0,
+        "tines": 73,
+        "hoeingBodies": 25,
+        "hpKwMin": "160/118",
+        "weightKg": 2670
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 24x45 P",
+        "rows": 24,
+        "rowSpacingCm": 45,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 11.0,
+        "tines": 73,
+        "hoeingBodies": 25,
+        "hpKwMin": "160/118",
+        "weightKg": 2880
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 4x70 S",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 575
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 4x70 K",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 870
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 6x70 S",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 4.4,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 870
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 6x70 K",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 1060
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 7x70 K",
+        "rows": 7,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.1,
+        "tines": 36,
+        "hoeingBodies": 8,
+        "hpKwMin": "70/51",
+        "weightKg": 1140
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 8x70 S",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 5.8,
+        "frameWidthM": 5.8,
+        "tines": 41,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1050
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 8x70 K",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 41,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1230
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 12x70 K",
+        "rows": 12,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 4.8,
+        "frameWidthM": 8.6,
+        "tines": 61,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 1900
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 12x70 P",
+        "rows": 12,
+        "rowSpacingCm": 70,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 8.6,
+        "tines": 61,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 2130
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 16x70 K",
+        "rows": 16,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 6.9,
+        "frameWidthM": 11.4,
+        "tines": 81,
+        "hoeingBodies": 17,
+        "hpKwMin": "160/118",
+        "weightKg": 2370
+      },
+      {
+        "sku": "CHOPSTAR-PRIME 16x70 P",
+        "rows": 16,
+        "rowSpacingCm": 70,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 11.4,
+        "tines": 81,
+        "hoeingBodies": 17,
+        "hpKwMin": "160/118",
+        "weightKg": 2620
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-twin-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-TWIN",
+    "displayName": "Einböck CHOPSTAR-TWIN Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-TWIN table p.33. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-TWIN 5x45 S",
+        "rows": 5,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 2.3,
+        "frameWidthM": 2.0,
+        "tines": 10,
+        "hoeingBodies": 5,
+        "hpKwMin": "30/22",
+        "weightKg": 580
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 6x45 S",
+        "rows": 6,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 2.75,
+        "frameWidthM": 2.45,
+        "tines": 12,
+        "hoeingBodies": 6,
+        "hpKwMin": "40/30",
+        "weightKg": 610
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 8x45 K",
+        "rows": 8,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.35,
+        "tines": 16,
+        "hoeingBodies": 8,
+        "hpKwMin": "60/44",
+        "weightKg": 940
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 12x45 K",
+        "rows": 12,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.15,
+        "tines": 24,
+        "hoeingBodies": 12,
+        "hpKwMin": "70/51",
+        "weightKg": 1330
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 15x45 K",
+        "rows": 15,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 6.5,
+        "tines": 30,
+        "hoeingBodies": 15,
+        "hpKwMin": "90/66",
+        "weightKg": 1730
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 24x45 K",
+        "rows": 24,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 6.7,
+        "frameWidthM": 10.55,
+        "tines": 48,
+        "hoeingBodies": 24,
+        "hpKwMin": "160/118",
+        "weightKg": 2650
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 24x45 P",
+        "rows": 24,
+        "rowSpacingCm": 45,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 10.55,
+        "tines": 48,
+        "hoeingBodies": 24,
+        "hpKwMin": "160/118",
+        "weightKg": 2860
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 18x45 K",
+        "rows": 18,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 4.8,
+        "frameWidthM": 7.85,
+        "tines": 36,
+        "hoeingBodies": 18,
+        "hpKwMin": "130/96",
+        "weightKg": 2070
+      },
+      {
+        "sku": "CHOPSTAR-TWIN 18x45 P",
+        "rows": 18,
+        "rowSpacingCm": 45,
+        "frame": "double folding",
+        "transportWidthM": 3.0,
+        "frameWidthM": 7.85,
+        "tines": 36,
+        "hoeingBodies": 18,
+        "hpKwMin": "130/96",
+        "weightKg": 2260
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-titan-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-TITAN",
+    "displayName": "Einböck CHOPSTAR-TITAN Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-TITAN table p.37. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-TITAN 6x50 S",
+        "rows": 6,
+        "rowSpacingCm": 50,
+        "frame": "rigid",
+        "transportWidthM": 3.2,
+        "frameWidthM": 3.2,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 680
+      },
+      {
+        "sku": "CHOPSTAR-TITAN 4x75 S",
+        "rows": 4,
+        "rowSpacingCm": 75,
+        "frame": "rigid",
+        "transportWidthM": 3.2,
+        "frameWidthM": 3.2,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "60/44",
+        "weightKg": 570
+      },
+      {
+        "sku": "CHOPSTAR-TITAN 8x50 K",
+        "rows": 8,
+        "rowSpacingCm": 50,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.2,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "90/66",
+        "weightKg": 1060
+      },
+      {
+        "sku": "CHOPSTAR-TITAN 6x75 K",
+        "rows": 6,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.7,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "90/66",
+        "weightKg": 950
+      },
+      {
+        "sku": "CHOPSTAR-TITAN 12x50 K",
+        "rows": 12,
+        "rowSpacingCm": 50,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 6.2,
+        "tines": 13,
+        "hoeingBodies": 13,
+        "hpKwMin": "130/96",
+        "weightKg": 1350
+      },
+      {
+        "sku": "CHOPSTAR-TITAN 8x75 K",
+        "rows": 8,
+        "rowSpacingCm": 75,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 6.2,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "130/96",
+        "weightKg": 1120
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-mini-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-MINI",
+    "displayName": "Einböck CHOPSTAR-MINI Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-MINI table p.41. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-MINI 12x25 S",
+        "rows": 12,
+        "rowSpacingCm": 25,
+        "frame": "rigid",
+        "transportWidthM": 3.2,
+        "frameWidthM": 3.2,
+        "tines": 13,
+        "hoeingBodies": 13,
+        "hpKwMin": "40/30",
+        "weightKg": 700
+      },
+      {
+        "sku": "CHOPSTAR-MINI 16x25 K",
+        "rows": 16,
+        "rowSpacingCm": 25,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.2,
+        "tines": 17,
+        "hoeingBodies": 17,
+        "hpKwMin": "70/51",
+        "weightKg": 1200
+      },
+      {
+        "sku": "CHOPSTAR-MINI 24x25 K",
+        "rows": 24,
+        "rowSpacingCm": 25,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 6.2,
+        "tines": 25,
+        "hoeingBodies": 25,
+        "hpKwMin": "80/59",
+        "weightKg": 1560
+      },
+      {
+        "sku": "CHOPSTAR-MINI 32x25 K",
+        "rows": 32,
+        "rowSpacingCm": 25,
+        "frame": "foldable",
+        "transportWidthM": 3.3,
+        "frameWidthM": 8.2,
+        "tines": 33,
+        "hoeingBodies": 33,
+        "hpKwMin": "90/66",
+        "weightKg": 2120
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-front-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-FRONT",
+    "displayName": "Einböck CHOPSTAR-FRONT Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-FRONT table p.45. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-FRONT 2x150 S",
+        "rows": 2,
+        "rowSpacingCm": 150,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.2,
+        "tines": 20,
+        "hoeingBodies": 3,
+        "hpKwMin": "40/30",
+        "weightKg": 440
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 3x150 K",
+        "rows": 3,
+        "rowSpacingCm": 150,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.7,
+        "tines": 30,
+        "hoeingBodies": 4,
+        "hpKwMin": "60/44",
+        "weightKg": 900
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 3x45 S",
+        "rows": 3,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 1.6,
+        "frameWidthM": 1.55,
+        "tines": 10,
+        "hoeingBodies": 4,
+        "hpKwMin": "30/22",
+        "weightKg": 335
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 4x45 S",
+        "rows": 4,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 2.0,
+        "frameWidthM": 2.0,
+        "tines": 13,
+        "hoeingBodies": 5,
+        "hpKwMin": "30/22",
+        "weightKg": 400
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 6x45 S",
+        "rows": 6,
+        "rowSpacingCm": 45,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 2.9,
+        "tines": 19,
+        "hoeingBodies": 7,
+        "hpKwMin": "40/30",
+        "weightKg": 530
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 8x45 K",
+        "rows": 8,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.8,
+        "tines": 25,
+        "hoeingBodies": 9,
+        "hpKwMin": "60/44",
+        "weightKg": 830
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 12x45 K",
+        "rows": 12,
+        "rowSpacingCm": 45,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.6,
+        "tines": 37,
+        "hoeingBodies": 13,
+        "hpKwMin": "70/51",
+        "weightKg": 1160
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 2x70 S",
+        "rows": 2,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 1.6,
+        "frameWidthM": 1.6,
+        "tines": 11,
+        "hoeingBodies": 3,
+        "hpKwMin": "20/15",
+        "weightKg": 340
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 4x70 S",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 430
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 4x70 K",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 21,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 570
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 6x70 S",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 4.4,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 560
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 6x70 K",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 31,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 860
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 7x70 K",
+        "rows": 7,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 5.1,
+        "tines": 36,
+        "hoeingBodies": 8,
+        "hpKwMin": "70/51",
+        "weightKg": 940
+      },
+      {
+        "sku": "CHOPSTAR-FRONT 8x70 K",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 41,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1020
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-roll-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-ROLL",
+    "displayName": "Einböck CHOPSTAR-ROLL Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-ROLL table p.49. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-ROLL 2x70 S",
+        "rows": 2,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 1.9,
+        "frameWidthM": 1.6,
+        "tines": 3,
+        "hoeingBodies": 3,
+        "hpKwMin": "20/15",
+        "weightKg": 550
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 4x70 S",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 3.3,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 820
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 4x70 K",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 1190
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 6x70 S",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 4.7,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 920
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 6x70 K",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 1180
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 8x70 K",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1450
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 2x70 S",
+        "rows": 2,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 1.8,
+        "frameWidthM": 1.6,
+        "tines": 3,
+        "hoeingBodies": 3,
+        "hpKwMin": "20/15",
+        "weightKg": 520
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 4x70 S",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 3.2,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 750
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 4x70 K",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 1010
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 6x70 S",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 4.7,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 800
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 6x70 K",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 1060
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 8x70 K",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1450
+      },
+      {
+        "sku": "CHOPSTAR-ROLL 12x70 P",
+        "rows": 12,
+        "rowSpacingCm": 70,
+        "frame": "double folding",
+        "transportWidthM": 3.2,
+        "frameWidthM": 8.6,
+        "tines": 13,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 2000
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "einbock-chopstar-hill-row-crop-cultivator",
+    "manufacturer": "Einböck",
+    "modelFamily": "CHOPSTAR-HILL",
+    "displayName": "Einböck CHOPSTAR-HILL Row-Crop Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "einboeck-hoeing-technology-en.pdf (Einböck hoeing technology catalog), CHOPSTAR-HILL table p.53. CHOPSTAR cultivators are configured to order from a modular system; the table lists example configurations (rows x row spacing x frame type: S = rigid, K = foldable, P = double folding frame), each recorded as a variant. Metric figures recorded (the source also gives ft/lbs)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "CHOPSTAR-HILL 2x70 S",
+        "rows": 2,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 1.65,
+        "frameWidthM": 1.6,
+        "tines": 3,
+        "hoeingBodies": 3,
+        "hpKwMin": "20/15",
+        "weightKg": 360
+      },
+      {
+        "sku": "CHOPSTAR-HILL 4x70 S",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 3.05,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "40/30",
+        "weightKg": 600
+      },
+      {
+        "sku": "CHOPSTAR-HILL 4x70 K",
+        "rows": 4,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 2.8,
+        "frameWidthM": 3.0,
+        "tines": 5,
+        "hoeingBodies": 5,
+        "hpKwMin": "50/37",
+        "weightKg": 720
+      },
+      {
+        "sku": "CHOPSTAR-HILL 6x70 S",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 4.4,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 850
+      },
+      {
+        "sku": "CHOPSTAR-HILL 6x70 K",
+        "rows": 6,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.0,
+        "frameWidthM": 4.4,
+        "tines": 7,
+        "hoeingBodies": 7,
+        "hpKwMin": "60/44",
+        "weightKg": 980
+      },
+      {
+        "sku": "CHOPSTAR-HILL 8x70 S",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "rigid",
+        "transportWidthM": 5.8,
+        "frameWidthM": 5.8,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1040
+      },
+      {
+        "sku": "CHOPSTAR-HILL 8x70 K",
+        "rows": 8,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 3.2,
+        "frameWidthM": 5.8,
+        "tines": 9,
+        "hoeingBodies": 9,
+        "hpKwMin": "80/59",
+        "weightKg": 1350
+      },
+      {
+        "sku": "CHOPSTAR-HILL 12x70 K",
+        "rows": 12,
+        "rowSpacingCm": 70,
+        "frame": "foldable",
+        "transportWidthM": 4.8,
+        "frameWidthM": 8.6,
+        "tines": 13,
+        "hoeingBodies": 13,
+        "hpKwMin": "120/88",
+        "weightKg": 1580
+      },
+      {
+        "sku": "CHOPSTAR-HILL 12x70 P",
+        "rows": 12,
+        "rowSpacingCm": 70,
+        "frame": "double folding",
+        "transportWidthM": 3.2,
+        "frameWidthM": 8.6,
+        "tines": 13,
+        "hoeingBodies": 13,
+        "hpKwMin": "140/103",
+        "weightKg": 2100
+      }
+    ],
+    "referencePhotos": []
+  }
+]

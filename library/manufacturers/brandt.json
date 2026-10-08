@@ -1,0 +1,119 @@
+[
+  {
+    "id": "brandt-a-series-land-roller",
+    "manufacturer": "Brandt",
+    "modelFamily": "A-Series",
+    "displayName": "Brandt A-Series Land Roller",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "BAP-ProductSheet-LandRoller.pdf (Brandt A-Series Land Roller product sheet, revised 10/2025), Specifications table p.2. drums = number of frame sections listed (each section carries its own drum). Transport dimensions converted from ft-in to inches."
+    },
+    "constants": {
+      "drumDiameterOptionsIn": [
+        36,
+        42
+      ],
+      "drumWallThicknessIn": ">=0.46 (up to 5/8)",
+      "sectionOverlapIn": 4,
+      "transportHeightFt": 7,
+      "standardHitch": "CAT 4 (optional CAT 4/5 ball-socket, crossover)",
+      "drumShaftDiameterIn": 3,
+      "pivotPinDiameterIn": 2.5
+    },
+    "variants": [
+      {
+        "sku": "351A",
+        "workingWidthFt": 51,
+        "hpMin": 150,
+        "frameSectionsFt": "19.5-12.5-19.5",
+        "drums": 3,
+        "weightLbByDrum": {
+          "36in": 19504,
+          "42in": 21375
+        },
+        "weightPerFootLbByDrum": {
+          "36in": 382,
+          "42in": 419
+        },
+        "transportWidthIn": 166,
+        "transportLengthIn": 590,
+        "hydraulicPressurePsi": 2000
+      },
+      {
+        "sku": "561A",
+        "workingWidthFt": 61,
+        "hpMin": 200,
+        "frameSectionsFt": "11-12.5-15-12.5-11",
+        "drums": 5,
+        "weightLbByDrum": {
+          "36in": 27946,
+          "42in": 30365
+        },
+        "weightPerFootLbByDrum": {
+          "36in": 458,
+          "42in": 498
+        },
+        "transportWidthIn": 196,
+        "transportLengthIn": 594,
+        "hydraulicPressurePsi": 1400
+      },
+      {
+        "sku": "564A",
+        "workingWidthFt": 64,
+        "hpMin": 200,
+        "frameSectionsFt": "12.5-12.5-15-12.5-12.5",
+        "drums": 5,
+        "weightLbByDrum": {
+          "36in": 28659,
+          "42in": 31174
+        },
+        "weightPerFootLbByDrum": {
+          "36in": 448,
+          "42in": 487
+        },
+        "transportWidthIn": 196,
+        "transportLengthIn": 609,
+        "hydraulicPressurePsi": 1500
+      },
+      {
+        "sku": "582A",
+        "workingWidthFt": 82,
+        "hpMin": 250,
+        "frameSectionsFt": "17-17-15-17-17",
+        "drums": 5,
+        "weightLbByDrum": {
+          "36in": 32707,
+          "42in": 35744
+        },
+        "weightPerFootLbByDrum": {
+          "36in": 399,
+          "42in": 436
+        },
+        "transportWidthIn": 196,
+        "transportLengthIn": 717,
+        "hydraulicPressurePsi": 2000
+      },
+      {
+        "sku": "591A",
+        "workingWidthFt": 91,
+        "hpMin": 275,
+        "frameSectionsFt": "19.5-19.5-15-19.5-19.5",
+        "drums": 5,
+        "weightLbByDrum": {
+          "36in": 35525,
+          "42in": 38893
+        },
+        "weightPerFootLbByDrum": {
+          "36in": 390,
+          "42in": 427
+        },
+        "transportWidthIn": 196,
+        "transportLengthIn": 771,
+        "hydraulicPressurePsi": 1600
+      }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "land-pride-fc15-s-tine-field-cultivator",
+    "manufacturer": "Land Pride",
+    "modelFamily": "FC15 S-Tine Field Cultivator",
+    "displayName": "Land Pride FC15 S-Tine Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "307-224M.pdf, Operator's Manual, p.20 (Specifications & Capacities). Single base model with an optional wing-extension accessory; no shank count given in the source, so it is omitted rather than guessed."
+    },
+    "constants": {
+      "hp": "Maximum 50 hp",
+      "hitch": "3-Point Cat I & Cat I Quick Hitch compatible",
+      "frame": "2in x 2in x 1/4in square tubing",
+      "shankMount": "1/4in formed plate Danish tine clamp holds S-tines straight",
+      "shankSize": "1/2in x 1-1/4in heat-treated S-tine",
+      "pointWidthIn": 1.5
+    },
+    "variants": [
+      { "sku": "FC15 (base)", "weightLb": 290, "workingWidth": "unspecified base width" },
+      { "sku": "FC15 with wing extensions (optional)", "weightLb": 357, "note": "290lb base + 67lb wing extension kit, increases working width to 96in", "workingWidth": "96in" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "land-pride-fc10-c-tine-field-cultivator",
+    "manufacturer": "Land Pride",
+    "modelFamily": "FC10 C-Tine Field Cultivator",
+    "displayName": "Land Pride FC10 C-Tine Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "335-043M.pdf, Operator's Manual, p.15/21 (Specifications & Capacities). Single model, no weight or shank count given in the source."
+    },
+    "constants": {
+      "hp": "Maximum 45 hp",
+      "hitch": "Cat I 3-point & Cat I Quick Hitch compatible",
+      "frame": "Formed steel angle",
+      "shankType": "Heat treated 3/8in spring steel C-tine shanks, adjustable 4-1/4in horizontally in 2-1/8in increments",
+      "bladeAdjustment": "Adjustable up to 7/8in along shank curvature, reversible"
+    },
+    "variants": [
+      { "sku": "FC10", "workingWidth": "60in" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "land-pride-rs-ripper-shanks",
+    "manufacturer": "Land Pride",
+    "modelFamily": "RS15 & RS20 Ripper Shanks",
+    "displayName": "Land Pride RS15 & RS20 Ripper Shanks",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "307-232M.pdf, Operator's Manual, p.19 (Specifications & Capacities). Clean 2-model table."
+    },
+    "constants": {
+      "hitch": "Cat I & II 3-point, Quick Hitch compatible",
+      "rippingDepth": "24in-27in",
+      "parkStand": "Standard"
+    },
+    "variants": [
+      { "sku": "RS15", "shanks": 12, "rippperShankWidth": "40-5/8in", "workingWidth": "42in", "weightLb": 210, "hpRange": "35-85" },
+      { "sku": "RS20", "shanks": 12, "rippperShankWidth": "49in", "workingWidth": "42in", "weightLb": 332, "hpRange": "70-110" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "land-pride-mp-moldboard-plows",
+    "manufacturer": "Land Pride",
+    "modelFamily": "MP10 & MP20 Moldboard Plows",
+    "displayName": "Land Pride MP10 & MP20 Moldboard Plows",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "307-244M.pdf, Operator's Manual, p.24 (Specifications & Capacities). Clean 2-model table."
+    },
+    "constants": {
+      "hitch": "3-point Cat I",
+      "frame": "1in x 4in bolted steel frame",
+      "workingDepthMaxIn": 7,
+      "shearBolt": "7/16in-14 x 3in GR8 share bolt",
+      "shareMaterial": "Forged steel"
+    },
+    "variants": [
+      { "sku": "MP10", "bottoms": 1, "cuttingWidthIn": 14, "weightWithCoultersLb": 342, "weightWithoutCoultersLb": 300, "hpRange": "2WD: 20-60; 4WD: 20-50", "parkJack": true },
+      { "sku": "MP20", "bottoms": 2, "cuttingWidthIn": 27.5, "weightWithCoultersLb": 582, "weightWithoutCoultersLb": 498, "hpRange": "2WD: 30-60; 4WD: 30-50", "parkJack": false }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "land-pride-7000-series-disc-harrow",
+    "manufacturer": "Land Pride",
+    "modelFamily": "7000 Series Disc Harrow",
+    "displayName": "Land Pride 7000 Series Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "556-433M.pdf, Operator's Manual, p.28 (Appendix A - Reference Information). Clean 3-model table; one-section primary/secondary tillage tool."
+    },
+    "constants": {
+      "hitch": "Pull-type, standard clevis single tang; convertible to Cat III/IV/V with accessory parts",
+      "bladeSpacingOptions": "7.5in or 9in spacing (blade count given for both)"
+    },
+    "variants": [
+      { "sku": "DH7110", "blades7_5in": 38, "blades9in": 34, "transportTires": "(2) 11L X 15 Load F", "weightLb": 5650, "ptoHpMin": 70, "tillageWidth7_5in": "9'11\"", "tillageWidth9in": "10'4\"", "transportWidth": "11'" },
+      { "sku": "DH7112", "blades7_5in": 46, "blades9in": 38, "transportTires": "(2) 11L X 15 Load F", "weightLb": 6100, "ptoHpMin": 84, "tillageWidth7_5in": "12'3\"", "tillageWidth9in": "11'9\"", "transportWidth": "13'" },
+      { "sku": "DH7115", "blades7_5in": 54, "blades9in": 46, "transportTires": "(4) 11L X 15 Load F", "weightLb": 7100, "ptoHpMin": 105, "tillageWidth7_5in": "14'7\"", "tillageWidth9in": "14'7\"", "transportWidth": "16'" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "land-pride-vrc30-vrs30-vibratory-roller",
+    "manufacturer": "Land Pride",
+    "modelFamily": "VRC30 / VRS30 Series Vibratory Roller",
+    "displayName": "Land Pride (Kubota) VRC30 / VRS30 Series Vibratory Roller",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "350-470MK.pdf, Operator's Manual (Kubota co-branded, manual states 'please see your Kubota dealer'), p.29 (dimension diagram only). Skid-steer/track-loader mounted compaction roller, not a towed cultipacker; no weight or HP table found in the manual (only diagram dimensions and a 16-25gpm hydraulic flow rate), so weight is omitted rather than guessed. Single drum per unit (VRC=smooth cleated-spiral, VRS=smooth), so drums=1 for all variants."
+    },
+    "constants": {
+      "drums": 1,
+      "oscillationDeg": 15,
+      "hydraulicFlowRateGpm": "16-25",
+      "hitch": "Skid steer / track loader quick-attach",
+      "drumTypeVRC": "Cleated, spiral configuration",
+      "drumTypeVRS": "Smooth"
+    },
+    "variants": [
+      { "sku": "AP-VRC3072", "workingWidth": "72in (1.8m)", "drumDiameter": "24in" },
+      { "sku": "AP-VRC3084", "workingWidth": "84in (2.1m)", "drumDiameter": "24in" },
+      { "sku": "AP-VRS3072", "workingWidth": "72in (1.8m)", "drumDiameter": "20in" },
+      { "sku": "AP-VRS3084", "workingWidth": "84in (2.1m)", "drumDiameter": "20in" }
+    ],
+    "referencePhotos": []
+  }
+]

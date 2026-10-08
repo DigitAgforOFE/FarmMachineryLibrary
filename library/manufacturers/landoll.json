@@ -1,0 +1,2885 @@
+[
+  {
+    "id": "landoll-2700-vertistrip",
+    "manufacturer": "Landoll",
+    "modelFamily": "2700 VertiSTRIP",
+    "displayName": "Landoll 2700 VertiSTRIP",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Landoll-Ag-2700-Vertistrip-0526.pdf. Pull-type models list rows/spacing only — source gives N/A for their transport dims and weight. 2710-8x30 model and the 2730-16x30 unit height (10ft 8in, less 3-point lift height) added from 2700-VertiSTRIP_9.2026.xlsx; other figures there match."
+    },
+    "constants": {
+      "leadCoulterDepthOptionsIn": [
+        2,
+        3,
+        4
+      ],
+      "coulterSpacingIn": 3.5,
+      "knifeOption": "FlexBerm system, Mole or Mini-Mole knife choices, deep-bands dry/liquid/NH3 fertilizer",
+      "coulterOption": "Up to 5 in tillage depth, dry incorporation, precision liquid injection",
+      "operatingSpeedMphRange": [
+        6,
+        10
+      ],
+      "rowCleaners": "Trailblazer pneumatic, auto-adjust to contours, dual sealed bearings",
+      "monitorSystem": "Loup Monitor System, pressure sensors for row unit/row cleaners/finishing reel"
+    },
+    "variants": [
+      {
+        "sku": "2710-8x30 Mounted",
+        "mountType": "Mounted",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "hitch": "Cat III/IV",
+        "note": "weight and transport dimensions \"TBD\" in the source"
+      },
+      {
+        "sku": "2730-12x30 Mounted",
+        "mountType": "Mounted",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthFt": 17.25,
+        "transportHeightFt": 9.17,
+        "weightLb": 11700
+      },
+      {
+        "sku": "2730-16x22 Mounted",
+        "mountType": "Mounted",
+        "rows": 16,
+        "rowSpacingIn": 22,
+        "transportWidthFt": 17.25,
+        "transportHeightFt": 9.17,
+        "weightLb": 14300
+      },
+      {
+        "sku": "2730-16x30 Mounted",
+        "mountType": "Mounted",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthFt": 19.75,
+        "weightLb": 15500,
+        "transportHeightFt": 10.67
+      },
+      {
+        "sku": "2730-12x30 Pull-type",
+        "mountType": "Pull-type",
+        "rows": 12,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "2730-16x30 Pull-type",
+        "mountType": "Pull-type",
+        "rows": 16,
+        "rowSpacingIn": 30
+      },
+      {
+        "sku": "2730-24x30 Pull-type",
+        "mountType": "Pull-type",
+        "rows": 24,
+        "rowSpacingIn": 30
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-877-tilloll",
+    "manufacturer": "Landoll",
+    "modelFamily": "877 Tilloll",
+    "displayName": "Landoll 877 Tilloll",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Landoll-Ag-877Tilloll-8-5x11-0625.pdf. Combination disc-gang + shank + chopper-reel + spike-drag finishing tool."
+    },
+    "constants": {
+      "gangs": "Trunnion bearings, triple lip seal, C-cushion standards, 1.5 in round gang shaft",
+      "discBlades": "20 in concave, 7.5 in spacing, 10deg angle",
+      "hitch": "Single lip Cat III w/ ball (10-15ft models); Single lip Cat IV w/ ball (30-40ft models)",
+      "shankType": "Spring clamp, 170 lb point load, edge bent 9/16 x 1.75 in",
+      "underframeClearanceIn": 25.5,
+      "shankSpacingIn": 9,
+      "sweepSizeIn": 10,
+      "leveling": "16 in 5-blade chopper reel at 10deg angle + 3-bar Tilloll spike drag",
+      "depthControl": "Single point",
+      "warrantyYears": 3
+    },
+    "variants": [
+      {
+        "sku": "877-10",
+        "widthOfCutFt": 10.5,
+        "transportWidthFt": 12,
+        "shanks": 14,
+        "discs": 16,
+        "weightLb": 5460
+      },
+      {
+        "sku": "877-13",
+        "widthOfCutFt": 13.5,
+        "transportWidthFt": 15,
+        "shanks": 18,
+        "discs": 22,
+        "weightLb": 7420
+      },
+      {
+        "sku": "877-15",
+        "widthOfCutFt": 15,
+        "transportWidthFt": 16.5,
+        "shanks": 20,
+        "discs": 24,
+        "weightLb": 8920
+      },
+      {
+        "sku": "877-30",
+        "widthOfCutFt": 30,
+        "transportWidthFt": 16.5,
+        "transportHeightFt": 8.5,
+        "shanks": 40,
+        "discs": 46,
+        "weightLb": 17430,
+        "foldType": "180deg fold"
+      },
+      {
+        "sku": "877-35",
+        "widthOfCutFt": 34.5,
+        "transportWidthFt": 17.75,
+        "transportHeightFt": 13,
+        "shanks": 46,
+        "discs": 54,
+        "weightLb": 19580,
+        "foldType": "Stack fold"
+      },
+      {
+        "sku": "877-40",
+        "widthOfCutFt": 40,
+        "transportWidthFt": 17.75,
+        "transportHeightFt": 13.75,
+        "shanks": 52,
+        "discs": 60,
+        "weightLb": 22240,
+        "foldType": "Stack fold"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-7800-hsl",
+    "manufacturer": "Landoll",
+    "modelFamily": "7800 High Speed Landoll (HSL)",
+    "displayName": "Landoll 7800 HSL High Speed Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-7800-HSL-8-5x11-0224.pdf. Blade counts given as Front/Rear pairs."
+    },
+    "constants": {
+      "bladeType": "Individual torsion mounted, 24 in, 17deg cutting angle, 10 in spacing",
+      "hitch": "Floating hitch w/ polyurethane spring on 3-section models",
+      "rearAttachmentOptions": "Rubber rollers, spring tine reel, or chevron",
+      "depthControl": "Front-mounted 3-step: tire depth, front-to-rear leveling, rear roller pressure"
+    },
+    "variants": [
+      {
+        "sku": "7812-13",
+        "workingWidthFt": 13.33,
+        "transportWidthFt": 16,
+        "bladesFrontRear": "17/16",
+        "weightLb": 7948
+      },
+      {
+        "sku": "7822-17",
+        "workingWidthFt": 16.67,
+        "transportWidthFt": 13.17,
+        "transportHeightFt": 13.33,
+        "bladesFrontRear": "21/20",
+        "hitchWeightLb": 6000,
+        "weightLb": 21661
+      },
+      {
+        "sku": "7822-20",
+        "workingWidthFt": 20,
+        "transportWidthFt": 13.17,
+        "transportHeightFt": 13.33,
+        "bladesFrontRear": "25/24",
+        "hitchWeightLb": 7020,
+        "weightLb": 23583
+      },
+      {
+        "sku": "7822-23",
+        "workingWidthFt": 23.33,
+        "transportWidthFt": 13.17,
+        "transportHeightFt": 13.33,
+        "bladesFrontRear": "29/28",
+        "hitchWeightLb": 7658,
+        "weightLb": 24896
+      },
+      {
+        "sku": "7833-25",
+        "workingWidthFt": 25,
+        "transportWidthFt": 13.17,
+        "transportHeightRangeFt": [
+          13.17,
+          13.75
+        ],
+        "bladesFrontRear": "31/30",
+        "hitchWeightLb": 4980,
+        "weightLb": 27869
+      },
+      {
+        "sku": "7833-30",
+        "workingWidthFt": 30,
+        "transportWidthFt": 13.17,
+        "transportHeightRangeFt": [
+          13.17,
+          13.75
+        ],
+        "bladesFrontRear": "37/36",
+        "hitchWeightLb": 5400,
+        "weightLb": 31287
+      },
+      {
+        "sku": "7833-35",
+        "workingWidthFt": 35,
+        "transportWidthFt": 13.83,
+        "transportHeightRangeFt": [
+          13.17,
+          13.75
+        ],
+        "bladesFrontRear": "43/42",
+        "hitchWeightLb": 7860,
+        "weightLb": 36513
+      },
+      {
+        "sku": "7833-40",
+        "workingWidthFt": 40,
+        "transportWidthFt": 13.83,
+        "transportHeightRangeFt": [
+          13.17,
+          13.75
+        ],
+        "bladesFrontRear": "49/48",
+        "hitchWeightLb": 8270,
+        "weightLb": 38963
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-2400-weatherproofer-i",
+    "manufacturer": "Landoll",
+    "modelFamily": "2400 Weatherproofer I",
+    "displayName": "Landoll 2400 Weatherproofer I",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2400-Series-WP1_rv2.2024.pdf (dated main spec sheet, revised 2/26/2024), superseding Printable-Landoll-AG-2400-Weatherproofer-0124.pdf which gave the same 5 SKUs and matching blade/transport-width data but meaningfully different weights (e.g. 2411-6-24: 20,348 lb old vs 17,175 lb here; every SKU's weight differs by roughly 3,000-5,500 lb between the two sheets). The newer, dated, more detailed sheet is treated as authoritative; the discrepancy is flagged here rather than silently dropped. Rear-attachment weights (attachmentWeightLb, added to the base machine) from the Landoll per-attachment spec spreadsheets: 2400-Series-WP1-Chopper-and-Chevron-Reel-Combo-Attachment_rv5.2023.xlsx; 2400-Series-WP1-Combo-Tine-and-Chopper-Attachment_rv2.2024.xlsx; 2400-Series-WP1-Disc-Leveler-and-Hydraulic-Flat-Reel-Combo-Attachment_rv2.2024.xlsx;"
+    },
+    "constants": {
+      "shankType": "Auto-Reset Parabolic, 1.25in x 4in, 24in spacing, 3000lb point load, 14in trip height, 14in max working depth",
+      "shankStandardPoint": "2.5in CADI point, V-shaped CADI wear guard",
+      "discBladeSpacingIn": 10.5,
+      "discBladeSize": "24in x 0.25in rollable, 24in x 0.25in, or 26in x 0.25in/0.3125in",
+      "discBladeConcavityIn": 3,
+      "discGangAngleDeg": "15, non-adjustable (front and rear)",
+      "discGangShaftIn": 1.75,
+      "discGangHeightAdjustabilityIn": 12,
+      "frame": "8in x 4in x 0.375in and 6in x 4in x 0.375in, laser cut/matchcut, robotically welded",
+      "hitch": "Self-leveling with manual adjustment, Cast Single Lip Cat IV with ball standard; Cat III or Cat V single-lip optional",
+      "depthControl": "Single point, front mounted",
+      "hpPerShank": "50 and up",
+      "warrantyNote": "Powder coat paint (Blue Sapphire) standard"
+    },
+    "variants": [
+      {
+        "sku": "2411-6-24",
+        "shanks": 6,
+        "shankSpacingIn": 24,
+        "workingWidth": "12ft",
+        "bladesFront": 16,
+        "bladesRear": 18,
+        "transportWidth": "15ft4in",
+        "spindleSizeIn": 2.25,
+        "tireSize": "(4) 340/60Rx18",
+        "weightLb": 17175,
+        "attachmentWeightLb": {
+          "chopper and chevron reel combo": 3456,
+          "combo tine and chopper": 3173,
+          "disc leveler and hydraulic flat reel combo": 1197
+        }
+      },
+      {
+        "sku": "2411AFG-7-24",
+        "shanks": 7,
+        "shankSpacingIn": 24,
+        "workingWidth": "14ft",
+        "bladesFront": 18,
+        "bladesRear": 20,
+        "transportWidth": "15ft6in",
+        "transportHeight": "12ft4in",
+        "spindleSizeIn": 4,
+        "tireSize": "(4) 445/50Rx22.5",
+        "weightLb": 26850,
+        "attachmentWeightLb": {
+          "chopper and chevron reel combo": 4617,
+          "combo tine and chopper": 4319,
+          "disc leveler and hydraulic flat reel combo": 5249
+        }
+      },
+      {
+        "sku": "2411AFG-9-24",
+        "shanks": 9,
+        "shankSpacingIn": 24,
+        "workingWidth": "18ft",
+        "bladesFront": 24,
+        "bladesRear": 24,
+        "transportWidth": "15ft6in",
+        "transportHeight": "13ft6in",
+        "spindleSizeIn": 4,
+        "tireSize": "(4) 445/50Rx22.5",
+        "weightLb": 28996,
+        "attachmentWeightLb": {
+          "chopper and chevron reel combo": 4901,
+          "combo tine and chopper": 4674,
+          "disc leveler and hydraulic flat reel combo": 5834
+        }
+      },
+      {
+        "sku": "2431-11-24",
+        "shanks": 11,
+        "shankSpacingIn": 24,
+        "workingWidth": "22ft",
+        "bladesFront": 28,
+        "bladesRear": 30,
+        "transportWidth": "18ft1in",
+        "transportHeight": "12ft9in",
+        "spindleSizeIn": 4,
+        "tireSize": "(4) 445/50Rx22.5 main + (4) 295/75Rx22.5 wing",
+        "weightLb": 38775,
+        "attachmentWeightLb": {
+          "chopper and chevron reel combo": 5296,
+          "combo tine and chopper": 5005,
+          "disc leveler and hydraulic flat reel combo": 6975
+        }
+      },
+      {
+        "sku": "2431-13-24",
+        "shanks": 13,
+        "shankSpacingIn": 24,
+        "workingWidth": "26ft",
+        "bladesFront": 32,
+        "bladesRear": 34,
+        "transportWidth": "18ft1in",
+        "transportHeight": "14ft0in",
+        "spindleSizeIn": 4,
+        "tireSize": "(4) 445/50Rx22.5 main + (4) 295/75Rx22.5 wing",
+        "weightLb": 40800,
+        "attachmentWeightLb": {
+          "chopper and chevron reel combo": 5960,
+          "combo tine and chopper": 5450,
+          "disc leveler and hydraulic flat reel combo": 7560
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-2500-in-line-ripper",
+    "manufacturer": "Landoll",
+    "modelFamily": "2500 In-Line Ripper",
+    "displayName": "Landoll 2500 In-Line Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-AG-2500-InLineRipper-0124.pdf. Clean row-per-model table, 16 configurations. Base weightLb is the 3,000 lb spring auto-reset version (matches the rv2.2021 spring-shank spreadsheets); weightLbHydraulicAutoReset and weightLbRigidShearBolt from the matching hydraulic and rigid shear-bolt spreadsheets (2500-Series-In-Row-Ripper-*_rv2.2021.xlsx). shanksPerSection (wing-center-wing) from the folding-unit sheets."
+    },
+    "constants": {
+      "shankOptions": "Straight leg (1.25x5x36in) w/ 2.375in V-cast point; Parabolic (1.25x5x36in) w/ 2.375in V-cap point; Minimal disturbance (0.75x5x32in) w/ 2in cast point",
+      "tripOptions": "3000 lb spring or 4000 lb hydraulic auto-reset; rigid shear bolt available",
+      "coulter": "22 in spring-cushioned coulter blade ahead of shank",
+      "gaugeWheels": "2x HD 280/70R15 radial, 6-bolt, turnbuckle adjustment",
+      "frame": "6x4 in front tube, 6 in square rear tube, 0.5 in wall",
+      "hitch": "Cat III & IV Narrow (rigid, up to 8 shanks); Cat IV Narrow only (folding)"
+    },
+    "variants": [
+      {
+        "sku": "2511N-3-30",
+        "shanks": 3,
+        "shankSpacingIn": 30,
+        "extensions": "None",
+        "transportWidthFt": 9.17,
+        "weightLb": 3357,
+        "folding": false,
+        "weightLbRigidShearBolt": 2410
+      },
+      {
+        "sku": "2511N-4-30",
+        "shanks": 4,
+        "shankSpacingIn": 30,
+        "extensions": "None",
+        "transportWidthFt": 9.17,
+        "weightLb": 3849,
+        "folding": false,
+        "weightLbRigidShearBolt": 2735
+      },
+      {
+        "sku": "2511N-5-30",
+        "shanks": 5,
+        "shankSpacingIn": 30,
+        "extensions": "12in bolt-on",
+        "transportWidthFt": 11.67,
+        "weightLb": 4725,
+        "folding": false,
+        "weightLbRigidShearBolt": 3345
+      },
+      {
+        "sku": "2512-5-30",
+        "shanks": 5,
+        "shankSpacingIn": 30,
+        "extensions": "None",
+        "transportWidthFt": 11.33,
+        "weightLb": 6398,
+        "folding": false,
+        "weightLbHydraulicAutoReset": 6338,
+        "weightLbRigidShearBolt": 5573
+      },
+      {
+        "sku": "2512-6-30",
+        "shanks": 6,
+        "shankSpacingIn": 30,
+        "extensions": "12in bolt-on",
+        "transportWidthFt": 13.42,
+        "weightLb": 8209,
+        "folding": false,
+        "weightLbHydraulicAutoReset": 8120,
+        "weightLbRigidShearBolt": 7219
+      },
+      {
+        "sku": "2512-7-30",
+        "shanks": 7,
+        "shankSpacingIn": 30,
+        "extensions": "27in bolt-on",
+        "transportWidthFt": 15.83,
+        "weightLb": 9406,
+        "folding": false,
+        "weightLbHydraulicAutoReset": 9386,
+        "weightLbRigidShearBolt": 8251
+      },
+      {
+        "sku": "2512F-7-30",
+        "shanks": 7,
+        "shankPattern": "1-5-1",
+        "shankSpacingIn": 30,
+        "extensions": "24in wing",
+        "transportWidthFt": 13.92,
+        "weightLb": 10422,
+        "folding": true,
+        "weightLbHydraulicAutoReset": 10302,
+        "shanksPerSection": "1-5-1",
+        "weightLbRigidShearBolt": 9267
+      },
+      {
+        "sku": "2512F-8-30",
+        "shanks": 8,
+        "shankPattern": "1-6-1",
+        "shankSpacingIn": 30,
+        "extensions": "24in wing",
+        "transportWidthFt": 16.42,
+        "weightLb": 11559,
+        "folding": true,
+        "weightLbHydraulicAutoReset": 11409,
+        "shanksPerSection": "1-6-1",
+        "weightLbRigidShearBolt": 10239
+      },
+      {
+        "sku": "2512F-9-30",
+        "shanks": 9,
+        "shankPattern": "2-5-2",
+        "shankSpacingIn": 30,
+        "extensions": "24in wing",
+        "transportWidthFt": 13.92,
+        "weightLb": 12721,
+        "folding": true,
+        "weightLbHydraulicAutoReset": 12541,
+        "shanksPerSection": "2-5-2",
+        "weightLbRigidShearBolt": 11236
+      },
+      {
+        "sku": "2512F-10-30",
+        "shanks": 10,
+        "shankPattern": "2-6-2",
+        "shankSpacingIn": 30,
+        "extensions": "52in wing",
+        "transportWidthFt": 16.42,
+        "weightLb": 21686,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbHydraulicAutoReset": 21476,
+        "shanksPerSection": "2-6-2",
+        "weightLbRigidShearBolt": 20036
+      },
+      {
+        "sku": "2512F-11-30",
+        "shanks": 11,
+        "shankPattern": "2-7-2",
+        "shankSpacingIn": 30,
+        "extensions": "52in wing",
+        "transportWidthFt": 18.92,
+        "weightLb": 22738,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbHydraulicAutoReset": 22540,
+        "shanksPerSection": "2-7-2",
+        "weightLbRigidShearBolt": 20923
+      },
+      {
+        "sku": "2512F-12-30",
+        "shanks": 12,
+        "shankPattern": "3-6-3",
+        "shankSpacingIn": 30,
+        "extensions": "82in wing",
+        "transportWidthFt": 16.42,
+        "weightLb": 23859,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbHydraulicAutoReset": 23589,
+        "shanksPerSection": "3-6-3",
+        "weightLbRigidShearBolt": 21879
+      },
+      {
+        "sku": "2512F-13-30",
+        "shanks": 13,
+        "shankPattern": "3-7-3",
+        "shankSpacingIn": 30,
+        "extensions": "82in wing",
+        "transportWidthFt": 18.92,
+        "weightLb": 24911,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbRigidShearBolt": 22766,
+        "shanksPerSection": "3-7-3"
+      },
+      {
+        "sku": "2512F-14-30",
+        "shanks": 14,
+        "shankPattern": "3-8-3",
+        "shankSpacingIn": 30,
+        "extensions": "82in wing",
+        "transportWidthFt": 21.42,
+        "weightLb": 26244,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbRigidShearBolt": 23934,
+        "shanksPerSection": "3-8-3"
+      },
+      {
+        "sku": "2512F-15-30",
+        "shanks": 15,
+        "shankPattern": "4-7-4",
+        "shankSpacingIn": 30,
+        "extensions": "112in wing",
+        "transportWidthFt": 18.92,
+        "weightLb": 27113,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbRigidShearBolt": 24638,
+        "shanksPerSection": "4-7-4"
+      },
+      {
+        "sku": "2512F-16-30",
+        "shanks": 16,
+        "shankPattern": "4-8-4",
+        "shankSpacingIn": 30,
+        "extensions": "112in wing",
+        "transportWidthFt": 21.42,
+        "weightLb": 28545,
+        "folding": true,
+        "caddyIncluded": true,
+        "weightLbRigidShearBolt": 25905,
+        "shanksPerSection": "4-8-4"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-6200-disc",
+    "manufacturer": "Landoll",
+    "modelFamily": "6200 Landoll Disc",
+    "displayName": "Landoll 6200 Tandem Disc",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-Ag-6200-TandemDisc-1118.pdf. 6231/6250 working width given as a Front/Rear pair (gang-angle range); blade counts given for both 7in and 8.75in spacing options, width/weight figures are based on 8.75in spacing per source note. Rear-attachment weights (attachmentWeightLb, added to the base machine) from the Landoll per-attachment spec spreadsheets: 6200-Series-3-Row-Coil-Tine-Harrow.xlsx; 6200-Series-Chevron-Conditioner-Reel.xlsx; 6200-Series-Double-Chevron-Conditioner-Reel.xlsx; 6231/6250 weights updated from 6231-Series-Tandem-Disc-Harrow_rv8.2022.xlsx and 6250-Series-Tandem-Disc-Harrow.xlsx (newer than the 2018 brochure; previous brochure weights: 6231-21 13650, 6231-23 14870, 6231-26 16810, 6231-29 18750, 6231-30 19395, 6231-33 21335, 6231-36 23272, 6250-40 34210, 6250-45 36715, 6250-50 37960). 6211 weights by blade size from 6211-Series-Tandem-Disc-Harrow.xlsx."
+    },
+    "constants": {
+      "gangHangers": "C-Flex hangers, trunnion bearings, self-aligning, arbor bolts torqued to 1250 lb",
+      "leveling": "Hydraulic fore/aft, spring cushioned",
+      "opticalLevelingAttachments": "3-Row Coil Tine Harrow (0.5x22in tines, 12in centers) or 14in Chevron conditioner reel",
+      "warrantyYears": 3
+    },
+    "variants": [
+      {
+        "sku": "6231-21",
+        "workingWidthRangeFt": [
+          18.25,
+          20.58
+        ],
+        "transportWidthFt": 14,
+        "transportHeightFt": 9.92,
+        "blades7in": "34/38",
+        "blades875in": "28/30",
+        "bearings": "8/8",
+        "foldCylinders": 2,
+        "weightLb": 14450,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 1785,
+          "chevron conditioner reel": 2084,
+          "double chevron conditioner reel": 2625
+        }
+      },
+      {
+        "sku": "6231-23",
+        "workingWidthRangeFt": [
+          21,
+          23.33
+        ],
+        "transportWidthFt": 14,
+        "transportHeightFt": 11.25,
+        "blades7in": "38/42",
+        "blades875in": "32/34",
+        "bearings": "10/10",
+        "foldCylinders": 2,
+        "weightLb": 15745,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 1932,
+          "chevron conditioner reel": 2201,
+          "double chevron conditioner reel": 2773
+        }
+      },
+      {
+        "sku": "6231-26",
+        "workingWidthRangeFt": [
+          23.75,
+          26.17
+        ],
+        "transportWidthFt": 14,
+        "transportHeightFt": 12.5,
+        "blades7in": "46/50",
+        "blades875in": "36/38",
+        "bearings": "10/10",
+        "foldCylinders": 2,
+        "weightLb": 17800,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 2106,
+          "chevron conditioner reel": 2324,
+          "double chevron conditioner reel": 2928
+        }
+      },
+      {
+        "sku": "6231-29",
+        "workingWidthRangeFt": [
+          26.42,
+          28.92
+        ],
+        "transportWidthFt": 14,
+        "transportHeightFt": 13.83,
+        "blades7in": "50/54",
+        "blades875in": "40/42",
+        "bearings": "12/12",
+        "foldCylinders": 4,
+        "weightLb": 19850,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 2349,
+          "chevron conditioner reel": 2470,
+          "double chevron conditioner reel": 3112
+        }
+      },
+      {
+        "sku": "6231-30",
+        "workingWidthRangeFt": [
+          27.83,
+          30.33
+        ],
+        "transportWidthFt": 17.58,
+        "transportHeightFt": 12.67,
+        "blades7in": "52/56",
+        "blades875in": "42/44",
+        "bearings": "12/12",
+        "foldCylinders": 2,
+        "weightLb": 20535,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 2352,
+          "chevron conditioner reel": 2674,
+          "double chevron conditioner reel": 3370
+        }
+      },
+      {
+        "sku": "6231-33",
+        "workingWidthRangeFt": [
+          30.58,
+          33.08
+        ],
+        "transportWidthFt": 17.58,
+        "transportHeightFt": 14,
+        "blades7in": "58/62",
+        "blades875in": "46/48",
+        "bearings": "14/14",
+        "foldCylinders": 4,
+        "weightLb": 22590,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 2587,
+          "chevron conditioner reel": 2765,
+          "double chevron conditioner reel": 3492
+        }
+      },
+      {
+        "sku": "6231-36",
+        "workingWidthRangeFt": [
+          33.33,
+          35.83
+        ],
+        "transportWidthFt": 17.58,
+        "transportHeightFt": 15.25,
+        "blades7in": "62/66",
+        "blades875in": "50/52",
+        "bearings": "14/14",
+        "foldCylinders": 4,
+        "weightLb": 24640,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 2822,
+          "chevron conditioner reel": 3265,
+          "double chevron conditioner reel": 4114
+        }
+      },
+      {
+        "sku": "6250-40",
+        "workingWidthRangeFt": [
+          38,
+          40.33
+        ],
+        "transportWidthFt": 17.5,
+        "transportHeightFt": 11.83,
+        "blades7in": "66/68",
+        "blades875in": "56/58",
+        "bearings": "18/18",
+        "foldCylinders": 4,
+        "weightLb": 36035,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 3390,
+          "chevron conditioner reel": 4296
+        }
+      },
+      {
+        "sku": "6250-45",
+        "workingWidthRangeFt": [
+          42,
+          44.33
+        ],
+        "transportWidthFt": 17.5,
+        "transportHeightFt": 12.25,
+        "blades7in": "74/76",
+        "blades875in": "62/64",
+        "bearings": "20/20",
+        "foldCylinders": 4,
+        "weightLb": 38740,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 3785,
+          "chevron conditioner reel": 4595
+        }
+      },
+      {
+        "sku": "6250-50",
+        "workingWidthRangeFt": [
+          47.5,
+          50
+        ],
+        "transportWidthFt": 17.5,
+        "transportHeightFt": 13.5,
+        "blades7in": "82/84",
+        "blades875in": "68/70",
+        "bearings": "20/20",
+        "foldCylinders": 4,
+        "weightLb": 40200,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 4170,
+          "chevron conditioner reel": 4780
+        }
+      },
+      {
+        "sku": "6211-12",
+        "bladesFrontRear": "16/18",
+        "gangWidthFrontRear": "9ft10in / 12ft3in",
+        "transportWidthFt": 13.08,
+        "bladeDiameterIn": 24,
+        "weightLb": 7472,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 1042,
+          "chevron conditioner reel": 1042
+        },
+        "weightLbByBladeSize": {
+          "22in blades": 7275,
+          "24in blades": 7472,
+          "26in blades": 8010
+        },
+        "workingWidthIn": 147,
+        "transportWidthIn": 157,
+        "numberOfBladesFrontGang": 16,
+        "numberOfBladesRearGang": 18
+      },
+      {
+        "sku": "6211-14",
+        "bladesFrontRear": "18/20",
+        "gangWidthFrontRear": "11ft2in / 13ft8in",
+        "transportWidthFt": 14.5,
+        "bladeDiameterIn": 24,
+        "weightLb": 8717,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 1673,
+          "chevron conditioner reel": 1641
+        },
+        "weightLbByBladeSize": {
+          "22in blades": 8498,
+          "24in blades": 8717,
+          "26in blades": 9317
+        },
+        "workingWidthIn": 164,
+        "transportWidthIn": 174,
+        "numberOfBladesFrontGang": 18,
+        "numberOfBladesRearGang": 20
+      },
+      {
+        "sku": "6211-15",
+        "bladesFrontRear": "20/22",
+        "gangWidthFrontRear": "12ft7in / 15ft7in",
+        "transportWidthFt": 15.92,
+        "bladeDiameterIn": 24,
+        "weightLb": 9028,
+        "attachmentWeightLb": {
+          "three-row coil tine harrow": 1673,
+          "chevron conditioner reel": 1673
+        },
+        "weightLbByBladeSize": {
+          "22in blades": 8785,
+          "24in blades": 9028,
+          "26in blades": 9692
+        },
+        "workingWidthIn": 187,
+        "transportWidthIn": 191,
+        "numberOfBladesFrontGang": 20,
+        "numberOfBladesRearGang": 22
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-7400-vt",
+    "manufacturer": "Landoll",
+    "modelFamily": "7400 Vertical Tillage Plus",
+    "displayName": "Landoll 7400 VT Plus",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-Ag-7400-VT-VerticalTillage-0124.pdf. No total shank/blade count given — only front/rear gang cut widths."
+    },
+    "constants": {
+      "bladeDiameterOptionsIn": [
+        22,
+        24
+      ],
+      "bladeSpacing": "7 in front/rear",
+      "frame": "6 in square tubular, robotically welded",
+      "warrantyYears": 3
+    },
+    "variants": [
+      {
+        "sku": "7410-14",
+        "transportWidthFt": 15.17,
+        "bladeDiameterOptionsIn": [
+          22,
+          24
+        ],
+        "rearGangCutFt": 13.83,
+        "frontGangCutFt": 11.67,
+        "weightLb": 10940
+      },
+      {
+        "sku": "7431-20",
+        "transportWidthFt": 13.58,
+        "transportHeightFt": 9.83,
+        "rearGangCutFt": 19.83,
+        "frontGangCutFt": 17.67,
+        "weightLb": 15780
+      },
+      {
+        "sku": "7431-23",
+        "transportWidthFt": 13.58,
+        "transportHeightFt": 11.5,
+        "rearGangCutFt": 23.17,
+        "frontGangCutFt": 21.08,
+        "weightLb": 18135
+      },
+      {
+        "sku": "7431-26",
+        "transportWidthFt": 13.58,
+        "transportHeightFt": 13.08,
+        "rearGangCutFt": 26.25,
+        "frontGangCutFt": 24.42,
+        "weightLb": 20500
+      },
+      {
+        "sku": "7431-29",
+        "transportWidthFt": 13.58,
+        "transportHeightFt": 13.92,
+        "rearGangCutFt": 29,
+        "frontGangCutFt": 26.83,
+        "weightLb": 22165
+      },
+      {
+        "sku": "7431-33",
+        "transportWidthFt": 17.92,
+        "transportHeightFt": 13.92,
+        "rearGangCutFt": 33.17,
+        "frontGangCutFt": 31.33,
+        "weightLb": 25120
+      },
+      {
+        "sku": "7450-39",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11,
+        "rearGangCutFt": 39.75,
+        "frontGangCutFt": 37.5,
+        "weightLb": 37170
+      },
+      {
+        "sku": "7450-44",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 12.25,
+        "rearGangCutFt": 44.75,
+        "frontGangCutFt": 42.5,
+        "weightLb": 39490
+      },
+      {
+        "sku": "7450-49",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.5,
+        "rearGangCutFt": 49.75,
+        "frontGangCutFt": 47.5,
+        "weightLb": 41810
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-7500-vt-adjustable-gang",
+    "manufacturer": "Landoll",
+    "modelFamily": "7500 VT with Adjustable Gangs",
+    "displayName": "Landoll 7500 VT Adjustable Gang",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-Ag-7500-VT-AdjustableGang-0725.pdf. Gang angle adjustable 5-15deg (13deg on 7531, 10deg on 7510/7550 per source note)."
+    },
+    "constants": {
+      "bladeDiameterIn": 24,
+      "bladeSpacing": "7 in front/rear",
+      "hitch": "Cat III (14-23ft models), Cat IV (26-35ft 3-section), Cat V available on any size",
+      "depthControl": "Single-point screw adjustment, 3/16 in per turn",
+      "conditionerReel": "14 in diameter Chevron, 7/8 in rods",
+      "tongueJackCapacityLb": 7000,
+      "warrantyYears": 3
+    },
+    "variants": [
+      {
+        "sku": "7510-14",
+        "transportWidthFt": 15.17,
+        "rearGangCutFt": 13.83,
+        "frontGangCutFt": 11.67,
+        "weightLb": 13670
+      },
+      {
+        "sku": "7531-23",
+        "transportWidthFt": 14.33,
+        "transportHeightFt": 12.67,
+        "rearGangCutFt": 23,
+        "frontGangCutFt": 20.92,
+        "weightLb": 24350
+      },
+      {
+        "sku": "7531-26",
+        "transportWidthFt": 14.33,
+        "transportHeightFt": 13.75,
+        "rearGangCutFt": 26.42,
+        "frontGangCutFt": 24.33,
+        "weightLb": 27440
+      },
+      {
+        "sku": "7531-29",
+        "transportWidthFt": 14.33,
+        "transportHeightFt": 14.33,
+        "rearGangCutFt": 28.75,
+        "frontGangCutFt": 26.67,
+        "weightLb": 28620
+      },
+      {
+        "sku": "7531-32",
+        "transportWidthFt": 17.5,
+        "transportHeightFt": 14.33,
+        "rearGangCutFt": 32.17,
+        "frontGangCutFt": 30.08,
+        "weightLb": 31580
+      },
+      {
+        "sku": "7531-35",
+        "transportWidthFt": 17.5,
+        "transportHeightFt": 15.42,
+        "rearGangCutFt": 34.58,
+        "frontGangCutFt": 32.42,
+        "weightLb": 32140
+      },
+      {
+        "sku": "7550-40",
+        "transportWidthFt": 18,
+        "transportHeightFt": 12.5,
+        "rearGangCutFt": 40.17,
+        "frontGangCutFt": 38.17,
+        "weightLb": 45500
+      },
+      {
+        "sku": "7550-45",
+        "transportWidthFt": 18,
+        "transportHeightFt": 13.83,
+        "rearGangCutFt": 44.83,
+        "frontGangCutFt": 42.83,
+        "weightLb": 48420
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-8500-finisholl",
+    "manufacturer": "Landoll",
+    "modelFamily": "8500 Finisholl",
+    "displayName": "Landoll 8500 Finisholl",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-Ag-8500-Finisholl-8-5x11-0124.pdf. Clean row-per-model table. Rear-attachment weights (attachmentWeightLb, added to the base machine) from the Landoll per-attachment spec spreadsheets: 8500-Series-Finisholl-Double-Spike-and-Double-Chevron-Reel.xlsx; 8500-Series-Finisholl-Flexible-Five-Row-Spike-Harrow.xlsx; 8500-Series-Finisholl-Four-Row-Coil-Tine-Harrow_rv3.2024.xlsx; 8500-Series-Finisholl-Three-Row-Spike-and-Reel_rv3.2024.xlsx; 8500-Series-Finisholl-Three-Row-Tine-and-Reel_rv3.2024.xlsx;"
+    },
+    "variants": [
+      {
+        "sku": "8530-19",
+        "workingWidthFt": 19.33,
+        "shanks": 29,
+        "blades": 32,
+        "transportWidthFt": 12.67,
+        "transportHeightFt": 10.25,
+        "weightLb": 13820,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 3591,
+          "flexible five-row spike harrow": 1980,
+          "four-row coil tine harrow": 1964,
+          "three-row spike and reel": 2519,
+          "three-row tine and reel": 3210
+        }
+      },
+      {
+        "sku": "8530-22",
+        "workingWidthFt": 22,
+        "shanks": 33,
+        "blades": 36,
+        "transportWidthFt": 12.67,
+        "transportHeightFt": 11.42,
+        "weightLb": 15510,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 4158,
+          "flexible five-row spike harrow": 2295,
+          "four-row coil tine harrow": 2085,
+          "three-row spike and reel": 2641,
+          "three-row tine and reel": 3350
+        }
+      },
+      {
+        "sku": "8530-25",
+        "workingWidthFt": 24.67,
+        "shanks": 37,
+        "blades": 40,
+        "transportWidthFt": 12.67,
+        "transportHeightFt": 12.58,
+        "weightLb": 17625,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 4725,
+          "flexible five-row spike harrow": 2360,
+          "four-row coil tine harrow": 2170,
+          "three-row spike and reel": 2926,
+          "three-row tine and reel": 3492
+        }
+      },
+      {
+        "sku": "8530-27",
+        "workingWidthFt": 27.33,
+        "shanks": 41,
+        "blades": 44,
+        "transportWidthFt": 15.17,
+        "transportHeightFt": 12.58,
+        "weightLb": 18765,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 5103,
+          "flexible five-row spike harrow": 2675,
+          "four-row coil tine harrow": 2659,
+          "three-row spike and reel": 3498,
+          "three-row tine and reel": 4326
+        }
+      },
+      {
+        "sku": "8530-30",
+        "workingWidthFt": 30,
+        "shanks": 45,
+        "blades": 48,
+        "transportWidthFt": 14.92,
+        "transportHeightFt": 13.75,
+        "weightLb": 20810,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 6522,
+          "flexible five-row spike harrow": 2790,
+          "four-row coil tine harrow": 2743,
+          "three-row spike and reel": 3904,
+          "three-row tine and reel": 4470
+        }
+      },
+      {
+        "sku": "8530-33",
+        "workingWidthFt": 32.67,
+        "shanks": 49,
+        "blades": 52,
+        "transportWidthFt": 17.58,
+        "transportHeightFt": 13.75,
+        "weightLb": 22010,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 5820,
+          "flexible five-row spike harrow": 2870,
+          "four-row coil tine harrow": 2865,
+          "three-row spike and reel": 4026,
+          "three-row tine and reel": 4607
+        }
+      },
+      {
+        "sku": "8530-35",
+        "workingWidthFt": 35.33,
+        "shanks": 53,
+        "blades": 56,
+        "transportWidthFt": 17.58,
+        "transportHeightFt": 14.92,
+        "weightLb": 23100,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 6215,
+          "flexible five-row spike harrow": 2990,
+          "four-row coil tine harrow": 2968,
+          "three-row spike and reel": 4821,
+          "three-row tine and reel": 4741
+        }
+      },
+      {
+        "sku": "8550-38",
+        "workingWidthFt": 38,
+        "shanks": 57,
+        "blades": 62,
+        "transportWidthFt": 17.83,
+        "transportHeightFt": 11.25,
+        "weightLb": 27956,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 7182,
+          "flexible five-row spike harrow": 3702,
+          "four-row coil tine harrow": 3825,
+          "three-row spike and reel": 5006,
+          "three-row tine and reel": 6283
+        }
+      },
+      {
+        "sku": "8550-43",
+        "workingWidthFt": 43.33,
+        "shanks": 65,
+        "blades": 70,
+        "transportWidthFt": 17.83,
+        "transportHeightFt": 12.58,
+        "weightLb": 31765,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 7483,
+          "flexible five-row spike harrow": 3880,
+          "four-row coil tine harrow": 4069,
+          "three-row spike and reel": 5215,
+          "three-row tine and reel": 6559
+        }
+      },
+      {
+        "sku": "8550-48",
+        "workingWidthFt": 48.67,
+        "shanks": 73,
+        "blades": 78,
+        "transportWidthFt": 17.83,
+        "transportHeightFt": 13.92,
+        "weightLb": 35570,
+        "attachmentWeightLb": {
+          "double spike and double chevron reel": 7799,
+          "flexible five-row spike harrow": 4180,
+          "four-row coil tine harrow": 4237,
+          "three-row spike and reel": 5516,
+          "three-row tine and reel": 6845
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-9000-field-cultivator",
+    "manufacturer": "Landoll",
+    "modelFamily": "9000 Field Cultivator",
+    "displayName": "Landoll 9000 Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-AG-9000-FieldCultivator-0124.pdf. Four sub-lines by hitch/spacing; shanksPerSection shows the per-section breakdown (e.g. 9-23-9). Rear-attachment weights (attachmentWeightLb, added to the base machine) from the Landoll per-attachment spec spreadsheets: 9600-Series-Field-Cultivator-Flexible-Five-Row-Spike-Harrow.xlsx; 9600-Series-Field-Cultivator-Four-Row-Coil-Tine-Harrow.xlsx; 9600-Series-Field-Cultivator-Three-Row-Spike-and-Double-Flat-Blade-Reel.xlsx; 9600-Series-Field-Cultivator-Three-Row-Spike-and-Reel_rv3.2024.xlsx; 9600-Series-Field-Cultivator-Three-Row-Tine-and-Reel_rv8.2022.xlsx;"
+    },
+    "variants": [
+      {
+        "sku": "9630-20",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 20.5,
+        "shanks": 41,
+        "shanksPerSection": "9-23-9",
+        "transportWidthFt": 16,
+        "transportHeightFt": 9.25,
+        "weightLb": 9600,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2042,
+          "four-row coil tine harrow": 2017,
+          "three-row spike and reel": 2777,
+          "three-row tine and reel": 3282
+        }
+      },
+      {
+        "sku": "9630-24",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 24.5,
+        "shanks": 49,
+        "shanksPerSection": "13-23-13",
+        "transportWidthFt": 15.5,
+        "transportHeightFt": 11.08,
+        "weightLb": 10165,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2160,
+          "four-row coil tine harrow": 2182,
+          "three-row spike and reel": 2943,
+          "three-row tine and reel": 3487
+        }
+      },
+      {
+        "sku": "9630-28",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 28.5,
+        "shanks": 57,
+        "shanksPerSection": "17-23-17",
+        "transportWidthFt": 15.08,
+        "transportHeightFt": 13,
+        "weightLb": 10625,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2675,
+          "four-row coil tine harrow": 2347,
+          "three-row spike and reel": 3502,
+          "three-row tine and reel": 3705
+        }
+      },
+      {
+        "sku": "9630-30nc",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 30.5,
+        "shanks": 61,
+        "shanksPerSection": "19-23-19",
+        "transportWidthFt": 15.08,
+        "transportHeightFt": 13.83,
+        "weightLb": 10885,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2789,
+          "four-row coil tine harrow": 2410,
+          "three-row spike and reel": 3539,
+          "three-row tine and reel": 3763
+        }
+      },
+      {
+        "sku": "9630-30",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 30.5,
+        "shanks": 61,
+        "shanksPerSection": "17-27-17",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13,
+        "weightLb": 11500,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2921,
+          "four-row coil tine harrow": 2430,
+          "three-row spike and double flat blade reel": 4770,
+          "three-row spike and reel": 3582,
+          "three-row tine and reel": 4377
+        }
+      },
+      {
+        "sku": "9630-32",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 32.5,
+        "shanks": 65,
+        "shanksPerSection": "19-27-19",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.83,
+        "weightLb": 11720,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2980,
+          "four-row coil tine harrow": 2520,
+          "three-row spike and double flat blade reel": 4863,
+          "three-row spike and reel": 3983,
+          "three-row tine and reel": 4538
+        }
+      },
+      {
+        "sku": "9630-34",
+        "hitchType": "3-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 34.5,
+        "shanks": 69,
+        "shanksPerSection": "21-27-21",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 14.83,
+        "weightLb": 11940,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3100,
+          "four-row coil tine harrow": 2595,
+          "three-row spike and double flat blade reel": 5545,
+          "three-row spike and reel": 4070,
+          "three-row tine and reel": 5181
+        }
+      },
+      {
+        "sku": "9650-38",
+        "hitchType": "5-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 38.5,
+        "shanks": 77,
+        "shanksPerSection": "10-15-27-15-10",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 16440,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3742,
+          "four-row coil tine harrow": 3481,
+          "three-row spike and double flat blade reel": 6754,
+          "three-row spike and reel": 4995,
+          "three-row tine and reel": 6307
+        }
+      },
+      {
+        "sku": "9650-42",
+        "hitchType": "5-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 42.5,
+        "shanks": 85,
+        "shanksPerSection": "14-15-27-15-14",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 17640,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3857,
+          "four-row coil tine harrow": 3646,
+          "three-row spike and double flat blade reel": 6493,
+          "three-row spike and reel": 5189,
+          "three-row tine and reel": 6531
+        }
+      },
+      {
+        "sku": "9650-46",
+        "hitchType": "5-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 46.5,
+        "shanks": 93,
+        "shanksPerSection": "14-19-27-19-14",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 18400,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 4034,
+          "four-row coil tine harrow": 3751,
+          "three-row spike and double flat blade reel": 7243,
+          "three-row spike and reel": 5749,
+          "three-row tine and reel": 6610
+        }
+      },
+      {
+        "sku": "9650-50",
+        "hitchType": "5-Section Self Leveling",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 50.5,
+        "shanks": 101,
+        "shanksPerSection": "18-19-27-19-18",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 18950,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 4151,
+          "three-row spike and double flat blade reel": 7408,
+          "three-row spike and reel": 5943,
+          "three-row tine and reel": 6913,
+          "four-row coil tine harrow": 3975
+        }
+      },
+      {
+        "sku": "9630FH-30",
+        "hitchType": "3-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 30.5,
+        "shanks": 61,
+        "shanksPerSection": "17-27-17",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13,
+        "weightLb": 17000,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2921,
+          "four-row coil tine harrow": 2430,
+          "three-row spike and double flat blade reel": 4770,
+          "three-row spike and reel": 3582,
+          "three-row tine and reel": 4377
+        }
+      },
+      {
+        "sku": "9630FH-32",
+        "hitchType": "3-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 32.5,
+        "shanks": 65,
+        "shanksPerSection": "19-27-19",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.83,
+        "weightLb": 17220,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 2980,
+          "four-row coil tine harrow": 2520,
+          "three-row spike and double flat blade reel": 4863,
+          "three-row spike and reel": 3983,
+          "three-row tine and reel": 4538
+        }
+      },
+      {
+        "sku": "9630FH-34",
+        "hitchType": "3-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 34.5,
+        "shanks": 69,
+        "shanksPerSection": "21-27-21",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 14.83,
+        "weightLb": 17440,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3100,
+          "four-row coil tine harrow": 2595,
+          "three-row spike and double flat blade reel": 5545,
+          "three-row spike and reel": 4070,
+          "three-row tine and reel": 5181
+        }
+      },
+      {
+        "sku": "9650FH-38",
+        "hitchType": "5-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 38.5,
+        "shanks": 77,
+        "shanksPerSection": "10-15-27-15-10",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 24710,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3742,
+          "four-row coil tine harrow": 3481,
+          "three-row spike and double flat blade reel": 6754,
+          "three-row spike and reel": 4995,
+          "three-row tine and reel": 6307
+        }
+      },
+      {
+        "sku": "9650FH-42",
+        "hitchType": "5-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 42.5,
+        "shanks": 85,
+        "shanksPerSection": "14-15-27-15-14",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 25910,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 3857,
+          "four-row coil tine harrow": 3646,
+          "three-row spike and double flat blade reel": 6493,
+          "three-row spike and reel": 5189,
+          "three-row tine and reel": 6531
+        }
+      },
+      {
+        "sku": "9650FH-46",
+        "hitchType": "5-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 46.5,
+        "shanks": 93,
+        "shanksPerSection": "14-19-27-19-14",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 26670,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 4034,
+          "four-row coil tine harrow": 3751,
+          "three-row spike and double flat blade reel": 7243,
+          "three-row spike and reel": 5749,
+          "three-row tine and reel": 6610
+        }
+      },
+      {
+        "sku": "9650FH-50",
+        "hitchType": "5-Section Floating Hitch",
+        "shankSpacingIn": 6,
+        "workingWidthFt": 50.5,
+        "shanks": 101,
+        "shanksPerSection": "18-19-27-19-18",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 27220,
+        "attachmentWeightLb": {
+          "flexible five-row spike harrow": 4151,
+          "three-row spike and double flat blade reel": 7408,
+          "three-row spike and reel": 5943,
+          "three-row tine and reel": 6913,
+          "four-row coil tine harrow": 3975
+        }
+      },
+      {
+        "sku": "9430FH-30",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 30.5,
+        "shanks": 91,
+        "shanksPerSection": "26-39-26",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13,
+        "weightLb": 16360
+      },
+      {
+        "sku": "9430FH-32",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 32.5,
+        "shanks": 97,
+        "shanksPerSection": "29-39-29",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.83,
+        "weightLb": 16547
+      },
+      {
+        "sku": "9430FH-34",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 34.5,
+        "shanks": 103,
+        "shanksPerSection": "32-39-32",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 14.83,
+        "weightLb": 16820
+      },
+      {
+        "sku": "9430FH-38",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 38.5,
+        "shanks": 115,
+        "shanksPerSection": "14-24-39-24-14",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 23105
+      },
+      {
+        "sku": "9430FH-42",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 42.5,
+        "shanks": 127,
+        "shanksPerSection": "20-24-39-24-20",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "weightLb": 23593
+      },
+      {
+        "sku": "9430FH-46",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 46.5,
+        "shanks": 139,
+        "shanksPerSection": "20-30-39-30-20",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 24585
+      },
+      {
+        "sku": "9430FH-50",
+        "hitchType": "Floating Hitch, Danish Tine",
+        "shankSpacingIn": 4,
+        "workingWidthFt": 50.5,
+        "shanks": 151,
+        "shanksPerSection": "26-30-39-30-26",
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 13.92,
+        "weightLb": 25155
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-2100-coulter-chisel",
+    "manufacturer": "Landoll",
+    "modelFamily": "2100 Coulter Chisel",
+    "displayName": "Landoll 2100 Coulter Chisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Printable-Landoll-AG-2100-CoulterChisel-0124.pdf. Clean per-model table (9 models, 2 series: 2112 and 2132). Rear-attachment weights (attachmentWeightLb, added to the base machine) from the Landoll per-attachment spec spreadsheets: 2100-Series-Coulter-Chisel-Chopper-Attachment-rev1020.xlsx; 2100-Series-Coulter-Chisel-Combo-Tine-and-Chopper-Attachment-rev1020.xlsx; 2100-Series-Coulter-Chisel-Three-Row-Coil-Tine-Harrow-Attachment-rev1020.xlsx; Base weightLb is the auto-reset-shank version (matches 2100-Series-Coulter-Chisel-with-Auto-Reset-Shanks-rev1020.xlsx); weightLbRigidShearBoltShanks from 2100-Series-Coulter-Chisel-with-Rigid-Shear-Bolt-Shanks-rev1020.xlsx."
+    },
+    "constants": {
+      "coulterSpacingIn": 7.5,
+      "coulterDiameterIn": 22,
+      "coulterThicknessIn": 0.25,
+      "shankSpacingIn": 15,
+      "shankStandard": "Auto-Reset: 1,750lb point load, 14in trip height, 32in underframe clearance, offset mounts (12in stagger on back row)",
+      "shankOptional": "Rigid Shear Bolt, 32in underframe clearance, offset mounts",
+      "pointsStandard": "4in twisted shovels",
+      "pointsOptional": "3in twisted shovels, 2in straight points, or 2in straight points with chrome cap",
+      "hitch": "Self-leveling, Cast single-lip Category IV standard (Category III or Category V on 2132 optional)",
+      "depthControl": "Single-point, front-mounted",
+      "warrantyYears": 3
+    },
+    "variants": [
+      {
+        "sku": "2112-9",
+        "modelLine": "2112",
+        "shanks": 9,
+        "blades": 19,
+        "transportWidth": "11'9\"",
+        "shankWorkingWidth": "11'3\"",
+        "weightLb": 15860,
+        "attachmentWeightLb": {
+          "chopper reel": 1394,
+          "combo tine and chopper": 2940,
+          "three-row coil tine harrow": 1197
+        },
+        "weightLbRigidShearBoltShanks": 14114
+      },
+      {
+        "sku": "2112-11",
+        "modelLine": "2112",
+        "shanks": 11,
+        "blades": 23,
+        "transportWidth": "14'4\"",
+        "shankWorkingWidth": "13'9\"",
+        "weightLb": 16710,
+        "attachmentWeightLb": {
+          "chopper reel": 1754,
+          "combo tine and chopper": 3382,
+          "three-row coil tine harrow": 1310
+        },
+        "weightLbRigidShearBoltShanks": 14576
+      },
+      {
+        "sku": "2112-13",
+        "modelLine": "2112",
+        "shanks": 13,
+        "blades": 27,
+        "transportWidth": "16'10\"",
+        "shankWorkingWidth": "16'3\"",
+        "weightLb": 18200,
+        "attachmentWeightLb": {
+          "chopper reel": 1930,
+          "combo tine and chopper": 3558,
+          "three-row coil tine harrow": 1380
+        },
+        "weightLbRigidShearBoltShanks": 15678
+      },
+      {
+        "sku": "2112-15",
+        "modelLine": "2112",
+        "shanks": 15,
+        "blades": 31,
+        "transportWidth": "19'4\"",
+        "shankWorkingWidth": "18'9\"",
+        "weightLb": 19050,
+        "attachmentWeightLb": {
+          "chopper reel": 2390,
+          "combo tine and chopper": 3624,
+          "three-row coil tine harrow": 1450
+        },
+        "weightLbRigidShearBoltShanks": 16140
+      },
+      {
+        "sku": "2132-17",
+        "modelLine": "2132",
+        "shanks": 17,
+        "blades": 35,
+        "transportWidth": "17'0\"",
+        "transportHeight": "10'11\"",
+        "shankWorkingWidth": "21'3\"",
+        "weightLb": 27820,
+        "attachmentWeightLb": {
+          "chopper reel": 2992,
+          "combo tine and chopper": 4660,
+          "three-row coil tine harrow": 1950
+        },
+        "weightLbRigidShearBoltShanks": 24522
+      },
+      {
+        "sku": "2132-19",
+        "modelLine": "2132",
+        "shanks": 19,
+        "blades": 39,
+        "transportWidth": "17'0\"",
+        "transportHeight": "12'1\"",
+        "shankWorkingWidth": "23'9\"",
+        "weightLb": 28670,
+        "attachmentWeightLb": {
+          "chopper reel": 3344,
+          "combo tine and chopper": 4862,
+          "three-row coil tine harrow": 2020
+        },
+        "weightLbRigidShearBoltShanks": 24985
+      },
+      {
+        "sku": "2132-21",
+        "modelLine": "2132",
+        "shanks": 21,
+        "blades": 43,
+        "transportWidth": "15'8\"",
+        "transportHeight": "13'4\"",
+        "shankWorkingWidth": "26'3\"",
+        "weightLb": 30485,
+        "attachmentWeightLb": {
+          "chopper reel": 3696,
+          "combo tine and chopper": 5205,
+          "three-row coil tine harrow": 2100
+        },
+        "weightLbRigidShearBoltShanks": 26410
+      },
+      {
+        "sku": "2132-23",
+        "modelLine": "2132",
+        "shanks": 23,
+        "blades": 47,
+        "transportWidth": "15'8\"",
+        "transportHeight": "14'7\"",
+        "shankWorkingWidth": "28'9\"",
+        "weightLb": 31330,
+        "attachmentWeightLb": {
+          "chopper reel": 4048,
+          "combo tine and chopper": 5520,
+          "three-row coil tine harrow": 2190
+        },
+        "weightLbRigidShearBoltShanks": 26870
+      },
+      {
+        "sku": "2132-25",
+        "modelLine": "2132",
+        "shanks": 25,
+        "blades": 51,
+        "transportWidth": "15'8\"",
+        "transportHeight": "15'10\"",
+        "shankWorkingWidth": "31'3\"",
+        "weightLb": 32290,
+        "attachmentWeightLb": {
+          "chopper reel": 4358,
+          "combo tine and chopper": 5850,
+          "three-row coil tine harrow": 2280
+        },
+        "weightLbRigidShearBoltShanks": 27440
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-2500-zone-commander",
+    "manufacturer": "Landoll",
+    "modelFamily": "2500 Zone Commander",
+    "displayName": "Landoll 2500 Series Zone Commander In-Row Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Landoll Zone Commander per-model spreadsheets (6 files: Zone-Commander-Auto-Reset-Spring-Shanks-Folding-Units_rv2.2021.xlsx; Zone-Commander-Auto-Reset-Spring-Shanks-Non-Folding-Units_rv2.2021.xlsx; Zone-Commander-Hydraulic-Auto-Reset-Shanks-Folding-Units_rv2.2021.xlsx; Zone-Commander-Hydraulic-Auto-Reset-Shanks-Non-Folding-Units_rv2.2021.xlsx; Zone-Commander-Rigid-Shear-Bolt-Shanks-Folding-Units_rv2.2021.xlsx; Zone-Commander-Rigid-Shear-Bolt-Shanks-Non-Folding-Units_rv2.2021.xlsx). Zone Commander is the 2500-series in-row ripper frame fitted with 0.75in low-disturbance shanks; ZC = 3,000 lb spring auto-reset, ZCH = hydraulic auto-reset, ZCR = rigid shear bolt; N = narrow non-folding, F = folding. Folding-unit sheets give the shank count as a wing-center-wing split (shanksPerSection); total shanks set equal to the coulter count, which the sheet gives as one number per row (one coulter per shank)."
+    },
+    "constants": {
+      "coulterProtection": "Adjustable Spring Cushion",
+      "gaugeWheelTireSize": "HD 280/70R x 15",
+      "coulterAssemblies": "Standard",
+      "parkingStands": "Standard",
+      "coulterDiameter": "22 in. (559 mm) Smooth Blade (Standard)",
+      "operatingSpeed": "3 to 5 MPH (4.8 to 8.0 km/h)",
+      "gaugeWheelHubs": "6-Bolt",
+      "shankSpacingIn": 30,
+      "22InPyramidCoulter": "Optional",
+      "wearstripsForParabolicShanks": "C.A.D.I. Wearstrip (Standard)",
+      "pointsForParabolicShanks": "10 in. (254 mm) Wing Point w/Chrome Cap (Optional)",
+      "coverboardKit": "Optional",
+      "coulterTripHeightIn": 6,
+      "frameConstruction": "Laser Cut Components; Robotically Welded",
+      "pointsForStraightLegShanks": "10 in. (254 mm) Wing Point w/Chrome Cap (Optional)",
+      "underframeClearanceIn": 40.5,
+      "coulterDownPressureLb": 600,
+      "22InRippleCoulter": "Optional",
+      "hpRequirement": "40 HP and up (30 kW) Per Shank",
+      "wearstripsForStraightLegShanks": "C.A.D.I. Wearstrip (Standard)",
+      "gaugeWheelType": "Turnbuckle Adjustable",
+      "12InOffsetShankMounts": "Optional"
+    },
+    "variants": [
+      {
+        "sku": "2511ZC-3N",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 3357,
+        "workingWidthIn": 90,
+        "transportWidthIn": 111,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 3,
+        "shanks": 3,
+        "threePointHitch": "Cat. II, IIIN"
+      },
+      {
+        "sku": "2511ZCR-3N",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 2410,
+        "workingWidthIn": 90,
+        "transportWidthIn": 111,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 3,
+        "shanks": 3,
+        "shankType": "Rigid Shear Bolt Shank",
+        "threePointHitch": "Cat. II, IIIN"
+      },
+      {
+        "sku": "2511ZC-4N",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 3849,
+        "workingWidthIn": 120,
+        "transportWidthIn": 111,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 4,
+        "shanks": 4,
+        "threePointHitch": "Cat. II, IIIN",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2511ZCR-4N",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 2735,
+        "workingWidthIn": 120,
+        "transportWidthIn": 111,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 4,
+        "shanks": 4,
+        "shankType": "Rigid Shear Bolt Shank",
+        "threePointHitch": "Cat. II, IIIN",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2511ZC-5N",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 4725,
+        "workingWidthIn": 150,
+        "transportWidthIn": 144,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "12 in. (305 mm) Bolt-On",
+        "numberOfCoulters": 5,
+        "shanks": 5,
+        "threePointHitch": "Cat. II, IIIN",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2511ZCR-5N",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 3345,
+        "workingWidthIn": 150,
+        "transportWidthIn": 144,
+        "frameType": "Narrow Non-Folding",
+        "frameStructure": "6 in. x 4 in. (152 x 102 mm) Double Bar Frame",
+        "frameExtensions": "12 in. (305 mm) Bolt-On",
+        "numberOfCoulters": 5,
+        "shanks": 5,
+        "shankType": "Rigid Shear Bolt Shank",
+        "threePointHitch": "Cat. II, IIIN",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZC-5",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 6398,
+        "workingWidthIn": 150,
+        "transportWidthIn": 138,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 5,
+        "shanks": 5,
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZCH-5",
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "gaugeWheels": "(2) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "weightLb": 6338,
+        "workingWidthIn": 150,
+        "transportWidthIn": 138,
+        "frameExtensions": "None",
+        "numberOfCoulters": 5,
+        "shanks": 5
+      },
+      {
+        "sku": "2512ZCR-5",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 5573,
+        "workingWidthIn": 150,
+        "transportWidthIn": 138,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "None",
+        "numberOfCoulters": 5,
+        "shanks": 5,
+        "shankType": "Rigid Shear Bolt Shank",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZC-6",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 8209,
+        "workingWidthIn": 180,
+        "transportWidthIn": 161,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "12 in. (305 mm) Bolt-On",
+        "numberOfCoulters": 6,
+        "shanks": 6,
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZCH-6",
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "gaugeWheels": "(2) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "weightLb": 8120,
+        "workingWidthIn": 180,
+        "transportWidthIn": 161,
+        "frameExtensions": "12 in. (305 mm) Bolt-On",
+        "numberOfCoulters": 6,
+        "shanks": 6
+      },
+      {
+        "sku": "2512ZCR-6",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 7219,
+        "workingWidthIn": 180,
+        "transportWidthIn": 161,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "12 in. (305 mm) Bolt-On",
+        "numberOfCoulters": 6,
+        "shanks": 6,
+        "shankType": "Auto-Reset Spring Shank",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZC-7",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 9406,
+        "workingWidthIn": 210,
+        "transportWidthIn": 191,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "27 in. (686 mm) Bolt-On",
+        "numberOfCoulters": 7,
+        "shanks": 7,
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZCH-7",
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "gaugeWheels": "(2) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "weightLb": 9386,
+        "workingWidthIn": 210,
+        "transportWidthIn": 191,
+        "frameExtensions": "27 in. (686 mm) Bolt-On",
+        "numberOfCoulters": 7,
+        "shanks": 7
+      },
+      {
+        "sku": "2512ZCR-7",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "gaugeWheels": "(2) Standard",
+        "weightLb": 8251,
+        "workingWidthIn": 210,
+        "transportWidthIn": 191,
+        "frameType": "Standard Non-Folding",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "frameExtensions": "27 in. (686 mm) Bolt-On",
+        "numberOfCoulters": 7,
+        "shanks": 7,
+        "shankType": "Rigid Shear Bolt Shank",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional"
+      },
+      {
+        "sku": "2512ZCF-7",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 10422,
+        "workingWidthIn": 210,
+        "transportWidthIn": 167,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 7,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-5-1",
+        "shanks": 7
+      },
+      {
+        "sku": "2512ZCHF-7",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 10302,
+        "workingWidthIn": 210,
+        "transportWidthIn": 172,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 7,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-5-1",
+        "shanks": 7
+      },
+      {
+        "sku": "2512ZCRF-7",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 9267,
+        "workingWidthIn": 210,
+        "transportWidthIn": 167,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 7,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-5-1",
+        "shanks": 7
+      },
+      {
+        "sku": "2512ZCF-8",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 11559,
+        "workingWidthIn": 240,
+        "transportWidthIn": 197,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 8,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-6-1",
+        "shanks": 8
+      },
+      {
+        "sku": "2512ZCHF-8",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 11409,
+        "workingWidthIn": 240,
+        "transportWidthIn": 193,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 8,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-6-1",
+        "shanks": 8
+      },
+      {
+        "sku": "2512ZCRF-8",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 10239,
+        "workingWidthIn": 240,
+        "transportWidthIn": 197,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 8,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "1-6-1",
+        "shanks": 8
+      },
+      {
+        "sku": "2512ZCF-9",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 12721,
+        "workingWidthIn": 270,
+        "transportWidthIn": 167,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 9,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "2-5-2",
+        "shanks": 9
+      },
+      {
+        "sku": "2512ZCHF-9",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 12541,
+        "workingWidthIn": 270,
+        "transportWidthIn": 172,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 9,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "2-5-2",
+        "shanks": 9
+      },
+      {
+        "sku": "2512ZCRF-9",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 11236,
+        "workingWidthIn": 270,
+        "transportWidthIn": 167,
+        "frameType": "Three-Point Hitch Folding",
+        "frameExtensions": "2 ft. 0 in. (0.6 m) Wing",
+        "numberOfCoulters": 9,
+        "gaugeWheels": "(4) Standard",
+        "threePointHitch": "Cat. III, IV",
+        "pullHitchCaddy": "Optional",
+        "rearHitch": "Optional",
+        "shanksPerSection": "2-5-2",
+        "shanks": 9
+      },
+      {
+        "sku": "2512ZCF-10",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 21686,
+        "workingWidthIn": 300,
+        "transportWidthIn": 197,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 10,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-6-2",
+        "shanks": 10
+      },
+      {
+        "sku": "2512ZCHF-10",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 21476,
+        "workingWidthIn": 300,
+        "transportWidthIn": 172,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 10,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-6-2",
+        "shanks": 10
+      },
+      {
+        "sku": "2512ZCRF-10",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 20036,
+        "workingWidthIn": 300,
+        "transportWidthIn": 197,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 10,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-6-2",
+        "shanks": 10
+      },
+      {
+        "sku": "2512ZCF-11",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 22738,
+        "workingWidthIn": 330,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 11,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-7-2",
+        "shanks": 11
+      },
+      {
+        "sku": "2512ZCHF-11",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 22540,
+        "workingWidthIn": 330,
+        "transportWidthIn": 193,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 11,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-7-2",
+        "shanks": 11
+      },
+      {
+        "sku": "2512ZCRF-11",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 20923,
+        "workingWidthIn": 330,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "4 ft. 4 in. (1.3 m) Wing",
+        "numberOfCoulters": 11,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "2-7-2",
+        "shanks": 11
+      },
+      {
+        "sku": "2512ZCF-12",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 23859,
+        "workingWidthIn": 360,
+        "transportWidthIn": 167,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 12,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-6-3",
+        "shanks": 12
+      },
+      {
+        "sku": "2512ZCHF-12",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "HD Hydraulic Auto-Reset Shank",
+        "shankLegType": "1.25 in. x 4 in. x 36 in. (32.8 x 102 x 914 mm) Parabolic Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "shankTripHeightIn": 28,
+        "pointLoadLb": 4000,
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 23589,
+        "workingWidthIn": 360,
+        "transportWidthIn": 172,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 12,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-6-3",
+        "shanks": 12
+      },
+      {
+        "sku": "2512ZCRF-12",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 21879,
+        "workingWidthIn": 360,
+        "transportWidthIn": 167,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 12,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-6-3",
+        "shanks": 12
+      },
+      {
+        "sku": "2512ZCF-13",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 24911,
+        "workingWidthIn": 390,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 13,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-7-3",
+        "shanks": 13
+      },
+      {
+        "sku": "2512ZCRF-13",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 22766,
+        "workingWidthIn": 390,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 13,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-7-3",
+        "shanks": 13
+      },
+      {
+        "sku": "2512ZCF-14",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 26244,
+        "workingWidthIn": 420,
+        "transportWidthIn": 257,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 14,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-8-3",
+        "shanks": 14
+      },
+      {
+        "sku": "2512ZCRF-14",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 23934,
+        "workingWidthIn": 420,
+        "transportWidthIn": 257,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "6 ft. 10 in. (2.1 m) Wing",
+        "numberOfCoulters": 14,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "3-8-3",
+        "shanks": 14
+      },
+      {
+        "sku": "2512ZCF-15",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 27113,
+        "workingWidthIn": 450,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "9 ft. 4 in. (2.8 m) Wing",
+        "numberOfCoulters": 15,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "4-7-4",
+        "shanks": 15
+      },
+      {
+        "sku": "2512ZCRF-15",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 24638,
+        "workingWidthIn": 450,
+        "transportWidthIn": 227,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "9 ft. 4 in. (2.8 m) Wing",
+        "numberOfCoulters": 15,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "4-7-4",
+        "shanks": 15
+      },
+      {
+        "sku": "2512ZCF-16",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Auto-Reset Spring Shank",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 16,
+        "shankTripHeightIn": 16,
+        "pointLoadLb": 2300,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 28545,
+        "workingWidthIn": 480,
+        "transportWidthIn": 257,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "9 ft. 4 in. (2.8 m) Wing",
+        "numberOfCoulters": 16,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "4-8-4",
+        "shanks": 16
+      },
+      {
+        "sku": "2512ZCRF-16",
+        "frameStructure": "6 in. x 6 in. x 0.5 in. (152 x 152 x 13 mm) Rear Frame 6 in. x 4 in. x 0.5 in. (152 x 102 x 13 mm) Front Frame",
+        "shankType": "Rigid Shear Bolt Shank",
+        "shearBoltSize": "0.625 in. x 3.5 in. (16 x 89 mm) Grade 8",
+        "shankLegType": "0.75 in. x 5 in. x 32 in. (19 x 127 x 813 mm) Low Disturbance Shank",
+        "maximumShankWorkingDepthIn": 20,
+        "pointsForLowDisturbanceShanks": "7 in. (178 mm) Wing Point w/ Chrome Cap (Optional)",
+        "wearstripsForLowDisturbanceShanks": "C.A.D.I. Wearstrip (Standard)",
+        "pullHitchCaddyTires": "(4) 385/65R x 22.5 Radial Tires",
+        "pullHitchCaddyHitch": "Cat. IV Ball Hitch",
+        "weightLb": 25905,
+        "workingWidthIn": 480,
+        "transportWidthIn": 257,
+        "frameType": "Folding with Pull-Type Caddy",
+        "frameExtensions": "9 ft. 4 in. (2.8 m) Wing",
+        "numberOfCoulters": 16,
+        "gaugeWheels": "(2) Standard (See Caddy Specs)",
+        "pullHitchCaddy": "Standard",
+        "shanksPerSection": "4-8-4",
+        "shanks": 16
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "landoll-9400-danish-tine-field-cultivator",
+    "manufacturer": "Landoll",
+    "modelFamily": "9400 Series",
+    "displayName": "Landoll 9400 Series Danish Tine Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "9400-Series-Danish-Tine-Field-Cultivator.xlsx (Landoll per-model spec spreadsheet). Weight is \"TBD\" in the source and is omitted. Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "transportWidthIn": 208,
+      "shankType": "Two-Piece Danish Tine",
+      "shankSizeUpper": "0.5 in. x 2.5 in. (12.7 x 63.5 mm)",
+      "shankSizeLower": "0.375 in. x 2 in. (9.5 x 50.8 mm)",
+      "shankSpacing": "4 in. (102 mm), Split the Middle Pattern",
+      "spacingBetweenShankRows": "30 in. (762 mm) Minimum",
+      "sweeps": "0.3125 in. x 2.75 in. (7.9 x 69.9 mm)",
+      "underframeClearanceIn": 26.5,
+      "foreToAftDepthIn": 165,
+      "frame": "3 in. x 4 in. x 0.25 in. (76.2 x 102 x 6.4 mm)",
+      "frameConstruction": "Laser Cut/Matchcut Components, Robotically Welded",
+      "frameType": "Truss Type with Wrapped Shank Tube Joints",
+      "transportLiftAxles": "4.5 in. (114 mm) Axle with Tower Lift System",
+      "walkingTandems": "Standard with Maintenance Free Pivot Bushings",
+      "wheelHubsMainFrame": "8-Bolt",
+      "tireSizeWingFrame": "(4) 280/70Rx15 Radial Tires",
+      "wheelHubsWingFrame": "6-Bolt",
+      "spindlesWingFrame": "2.25 in. (57.2 mm) Slip-In Spindles",
+      "hitchType": "Floating Hitch",
+      "hitchCategory": "Cat. IV Ball Hitch",
+      "machineDepthControl": "Single Point, Front Mounted",
+      "hydraulics": "10 in. (254 mm) Stroke Cylinders",
+      "gaugeWheelsMainFrame": "(2) 320/70Rx15",
+      "rearHitchWithHydraulicHoses": "Optional",
+      "spareTireAndWheel": "Optional",
+      "flexibleFiveRowSpikeHarrow": "Optional",
+      "fourRowCoilTineHarrow": "Optional",
+      "threeRowSpikeAndReel": "Optional",
+      "threeRowTineAndReel": "Optional",
+      "threeRowSpikeAndDoubleFlatBladeReel": "Optional",
+      "hpRequirement": "7 to 9 HP (5 to 7 kW) Per Foot"
+    },
+    "variants": [
+      {
+        "sku": "9430FH-30",
+        "workingWidthIn": 366,
+        "transportHeightIn": 156,
+        "shanks": 91,
+        "tireSizeMainFrame": "(4) 320/70Rx15 Radial Tires",
+        "spindlesMainFrame": "2.25 in. (57.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(2) 280/70Rx15",
+        "shanksPerSection": "26-39-26"
+      },
+      {
+        "sku": "9430FH-32",
+        "workingWidthIn": 390,
+        "transportHeightIn": 166,
+        "shanks": 97,
+        "tireSizeMainFrame": "(4) 320/70Rx15 Radial Tires",
+        "spindlesMainFrame": "2.25 in. (57.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(2) 280/70Rx15",
+        "shanksPerSection": "29-39-29"
+      },
+      {
+        "sku": "9430FH-34",
+        "workingWidthIn": 414,
+        "transportHeightIn": 178,
+        "shanks": 103,
+        "tireSizeMainFrame": "(4) 320/70Rx15 Radial Tires",
+        "spindlesMainFrame": "2.25 in. (57.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(2) 280/70Rx15",
+        "shanksPerSection": "32-39-32"
+      },
+      {
+        "sku": "9450FH-38",
+        "workingWidthIn": 462,
+        "transportHeightIn": 143,
+        "shanks": 115,
+        "tireSizeMainFrame": "(4) 340/65Rx18 Radial Tires",
+        "spindlesMainFrame": "3 in. (76.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(2) 280/70Rx15",
+        "catVBallHitch": "Optional",
+        "shanksPerSection": "14-24-39-24-14"
+      },
+      {
+        "sku": "9450FH-42",
+        "workingWidthIn": 510,
+        "transportHeightIn": 143,
+        "shanks": 127,
+        "tireSizeMainFrame": "(4) 340/65Rx18 Radial Tires",
+        "spindlesMainFrame": "3 in. (76.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(2) 280/70Rx15",
+        "catVBallHitch": "Optional",
+        "shanksPerSection": "20-24-39-24-20"
+      },
+      {
+        "sku": "9450FH-46",
+        "workingWidthIn": 558,
+        "transportHeightIn": 167,
+        "shanks": 139,
+        "tireSizeMainFrame": "(4) 340/65Rx18 Radial Tires",
+        "spindlesMainFrame": "3 in. (76.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(4) 280/70Rx15",
+        "catVBallHitch": "Optional",
+        "shanksPerSection": "20-30-39-30-20"
+      },
+      {
+        "sku": "9450FH-50",
+        "workingWidthIn": 606,
+        "transportHeightIn": 167,
+        "shanks": 151,
+        "tireSizeMainFrame": "(4) 340/65Rx18 Radial Tires",
+        "spindlesMainFrame": "3 in. (76.2 mm) Slip-In Spindles",
+        "gaugeWheelsWingFrame": "(4) 280/70Rx15",
+        "catVBallHitch": "Optional",
+        "shanksPerSection": "26-30-39-30-26"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

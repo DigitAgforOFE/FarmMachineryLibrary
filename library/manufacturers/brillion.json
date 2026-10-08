@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "brillion-chisel-plow",
+    "manufacturer": "Brillion",
+    "modelFamily": "Chisel Plow",
+    "displayName": "Brillion Chisel Plow (2-Bar / 3-Bar Mounted)",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Chisel-Plow_CP_0113_Z_0123_Print.pdf (earlier print edition of Chisel-Plow-Web-Print_CP_0113_Z_1025.pdf, which lacked a per-model table). This edition has a clean per-model SPECIFICATIONS table for all 9 models, superseding the earlier range-only entry."
+    },
+    "constants": {
+      "shankSpacingIn": 12,
+      "maxWorkingDepthIn": 12,
+      "springTripResistanceLb": "550-825",
+      "shankTripHeightIn": 5.5,
+      "pointOptions": "2in reversible point or 3in reversible twisted point",
+      "hp": "10-15 per shank",
+      "operatingSpeedMph": "4-6",
+      "hitch3Bar": "Cat II/III Free Link; Cat II/III/IIIN Quick Coupler",
+      "hitch2Bar": "Cat II Free Link; Cat II/IIIN Quick Coupler",
+      "underframeClearance3Bar": "27.5in (26in shanks) or 33.5in (32in shanks)",
+      "underframeClearance2Bar": "27.5in",
+      "frame3Bar": "4in x 4in x 0.25in tubing",
+      "frame2Bar": "4in x 4in x 0.187in tubing"
+    },
+    "variants": [
+      {
+        "sku": "CPP-7",
+        "productLine": "3-Bar Mounted",
+        "shanks": 7,
+        "shankMount": "Rigid or Dual Nested Spring",
+        "weightLb": 604,
+        "workingWidth": "7ft",
+        "transportWidth": "7ft6in",
+        "transportHeight": "4ft8in",
+        "overallLength": "8ft"
+      },
+      {
+        "sku": "CPP-9",
+        "productLine": "3-Bar Mounted",
+        "shanks": 9,
+        "shankMount": "Rigid or Dual Nested Spring",
+        "weightLb": 636,
+        "workingWidth": "9ft",
+        "transportWidth": "8ft7in",
+        "transportHeight": "4ft8in",
+        "overallLength": "8ft"
+      },
+      {
+        "sku": "CPP-10",
+        "productLine": "3-Bar Mounted",
+        "shanks": 10,
+        "shankMount": "Rigid or Dual Nested Spring",
+        "weightLb": 723,
+        "workingWidth": "10ft",
+        "transportWidth": "10ft6in",
+        "transportHeight": "4ft8in",
+        "overallLength": "8ft"
+      },
+      {
+        "sku": "CPP-11",
+        "productLine": "3-Bar Mounted",
+        "shanks": 11,
+        "shankMount": "Rigid or Dual Nested Spring",
+        "weightLb": 779,
+        "workingWidth": "11ft",
+        "transportWidth": "11ft6in",
+        "transportHeight": "4ft8in",
+        "overallLength": "8ft"
+      },
+      {
+        "sku": "CPP-12",
+        "productLine": "3-Bar Mounted",
+        "shanks": 12,
+        "shankMount": "Rigid or Dual Nested Spring",
+        "weightLb": 755,
+        "workingWidth": "12ft",
+        "transportWidth": "11ft11in",
+        "transportHeight": "4ft8in",
+        "overallLength": "8ft"
+      },
+      {
+        "sku": "CPPR2-5",
+        "productLine": "2-Bar Mounted",
+        "shanks": 5,
+        "shankMount": "Rigid",
+        "weightLb": 455,
+        "workingWidth": "5ft",
+        "transportWidth": "6ft6in",
+        "transportHeight": "4ft",
+        "overallLength": "5ft3in"
+      },
+      {
+        "sku": "CPPS21-5",
+        "productLine": "2-Bar Mounted",
+        "shanks": 5,
+        "shankMount": "Dual Nested Spring",
+        "weightLb": 590,
+        "workingWidth": "5ft",
+        "transportWidth": "6ft6in",
+        "transportHeight": "4ft",
+        "overallLength": "5ft3in"
+      },
+      {
+        "sku": "CPPR2-7",
+        "productLine": "2-Bar Mounted",
+        "shanks": 7,
+        "shankMount": "Rigid",
+        "weightLb": 533,
+        "workingWidth": "7ft",
+        "transportWidth": "8ft6in",
+        "transportHeight": "4ft",
+        "overallLength": "5ft3in"
+      },
+      {
+        "sku": "CPPS21-7",
+        "productLine": "2-Bar Mounted",
+        "shanks": 7,
+        "shankMount": "Dual Nested Spring",
+        "weightLb": 722,
+        "workingWidth": "7ft",
+        "transportWidth": "8ft6in",
+        "transportHeight": "4ft",
+        "overallLength": "5ft3in"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "Pulverizer",
+    "displayName": "Brillion Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "Pulverizer-Web-Print_PULV_0213_Z_1025.pdf. Brochure covers a 5'-52' size range across four wheel styles with a function-comparison table, but no per-model weight/dimension table was present, so only the size range and wheel options are recorded here."
+    },
+    "constants": {
+      "wheelStyles": [
+        "Notched",
+        "Optimizer",
+        "Crowfoot",
+        "V-Style"
+      ],
+      "workingWidthRangeFt": "5-52"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-pulvi-mulcher",
+    "manufacturer": "Brillion",
+    "modelFamily": "Pulvi-Mulcher",
+    "displayName": "Brillion Pulvi-Mulcher (3631 / 3620)",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Pulvi-Mulcher-Web-Print_PM_1211_Z_0226.pdf. 3631 line given for 25'/30'/36' widths; 3620 appears to be the 21' model referenced separately in the 3631 section (\"21' Model Available\") but carries its own distinct spec block (different underframe clearance, hitch category, transport dims, tires) so it is recorded as a separate model line. Per-model weight, shank count, overall length, road clearance and front/rear pulverizer wheel counts added from 3631-Series_rv4.2026.xlsx and 3620-Series_rv2.2026.xlsx (Brillion spec spreadsheets, model numbers WLB-3631-25/30/36 and WLB-3620-21); transport dimensions there match the brochure."
+    },
+    "constants": {
+      "shankRows": 3,
+      "shankSpacingOverallIn": 6,
+      "shankType": "Two-piece edge-bent S-tine field cultivator shanks",
+      "shankSpacingBetweenIn": 18,
+      "rowSpacingIn": 24,
+      "pointType": "2in reversible points",
+      "maxShankOperatingDepthIn": 5,
+      "harrow": "Two-row coil tine harrow in front of rear roller",
+      "rollerAxleIn": 8,
+      "wheelType": "24in notched ductile iron wheels",
+      "rearScrapers": "Standard",
+      "lighting": "LED",
+      "finish": "Powder coat paint"
+    },
+    "variants": [
+      {
+        "sku": "WLB-3631-25",
+        "workingWidthFt": 25,
+        "underframeClearanceIn": 23,
+        "hitch": "Cat III/IV/V",
+        "hitchFloatUpDeg": 25,
+        "hitchFloatDownDeg": 17,
+        "wingFloatDownDeg": 6,
+        "transportHeight": "9'6\"",
+        "transportWidth": "14'8\"",
+        "tires": "(4) 380/55Rx16.5",
+        "weightLb": 25002,
+        "shanks": 49,
+        "overallLengthTransportIn": 348,
+        "roadClearanceIn": 15,
+        "numberOfPulverizerWheelsFront": 77,
+        "numberOfPulverizerWheelsRear": 77,
+        "transportWidthIn": 176,
+        "transportHeightIn": 114
+      },
+      {
+        "sku": "WLB-3631-30",
+        "workingWidthFt": 30,
+        "underframeClearanceIn": 23,
+        "hitch": "Cat III/IV/V",
+        "hitchFloatUpDeg": 25,
+        "hitchFloatDownDeg": 17,
+        "wingFloatDownDeg": 6,
+        "transportHeight": "9'6\"",
+        "transportWidth": "17'",
+        "tires": "(4) 480/45Rx17",
+        "weightLb": 27870,
+        "shanks": 59,
+        "overallLengthTransportIn": 348,
+        "roadClearanceIn": 15,
+        "numberOfPulverizerWheelsFront": 92,
+        "numberOfPulverizerWheelsRear": 92,
+        "transportWidthIn": 204,
+        "transportHeightIn": 114
+      },
+      {
+        "sku": "WLB-3631-36",
+        "workingWidthFt": 36,
+        "underframeClearanceIn": 23,
+        "hitch": "Cat III/IV/V",
+        "hitchFloatUpDeg": 25,
+        "hitchFloatDownDeg": 17,
+        "wingFloatDownDeg": 6,
+        "transportHeight": "13'8\"",
+        "transportWidth": "18'10\"",
+        "tires": "(4) 480/45Rx17",
+        "weightLb": 32784,
+        "shanks": 71,
+        "overallLengthTransportIn": 348,
+        "roadClearanceIn": 15,
+        "numberOfPulverizerWheelsFront": 110,
+        "numberOfPulverizerWheelsRear": 110,
+        "transportWidthIn": 226,
+        "transportHeightIn": 164
+      },
+      {
+        "sku": "WLB-3620-21",
+        "workingWidthFt": 21,
+        "underframeClearanceIn": 25,
+        "hitch": "Cat II/III/IV",
+        "hitchFloatUpDeg": 15,
+        "hitchFloatDownDeg": 25,
+        "wingFloatDownDeg": 5,
+        "transportHeight": "13'4\"",
+        "transportWidth": "12'3\"",
+        "tires": "(4) 12.5Lx15 FI",
+        "weightLb": 21353,
+        "shanks": 42,
+        "overallLengthTransportIn": 375,
+        "roadClearanceIn": 13,
+        "numberOfPulverizerWheelsFront": 64,
+        "numberOfPulverizerWheelsRear": 65,
+        "transportWidthIn": 147,
+        "transportHeightIn": 160
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-soil-builder",
+    "manufacturer": "Brillion",
+    "modelFamily": "Soil Builder",
+    "displayName": "Brillion Soil Builder / HSB Super Soil Builder",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "Soil-Builder-Models.xlsx (Brillion per-model spec spreadsheet: 2 Soil Builder + 4 HSB Super Soil Builder models), superseding the range-only data from Soil-Builder-Web-Print_SB_0113_Z_1025.pdf (brochure gave a 5-13 shank range and feature bullets, no per-model table). Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "coulterSpacingIn": 7.5,
+      "coulterType": "20in cutting coulters",
+      "shankAssembly": "Dual nested spring reset shank assemblies",
+      "shankType": "Parabolic",
+      "frame": "Rigid frame",
+      "coulterDiameterIn": 20,
+      "coulterBladeThickness": "7 ga.",
+      "coulterBearings": "Self-Aligning Flange Type",
+      "coulterProtection": "Compression Coil Spring",
+      "coulterGangBolt": "1.5 in. (38 mm) Square",
+      "shankMount": "Dual Nested Spring",
+      "shankSpacingIn": 15,
+      "maxWorkingDepthIn": 10,
+      "springPressureTripResistance": "550 lbs. to 825 lbs. (248 kg to 371 kg)",
+      "chiselPointsAvailable": "4 in. (102 mm) Twisted Shovels",
+      "underframeClearanceIn": 29,
+      "frameStructure": "4 in. x 4 in. x .25 in. (102 x 102 x 6.35 mm)",
+      "rockshaftPivotBearings": "Two Piece Cast Iron",
+      "mainFrameCylinderControl": "External Depth Stop",
+      "hitchPinHoleDiameter": "1.563 in. (40 mm) Flip-Flop Style Hitch",
+      "hpRequirement": "15 to 20 HP (11 to 15 kW) per Shank",
+      "operatingSpeed": "5 to 6.5 MPH (8 to 10.5 km/h)"
+    },
+    "variants": [
+      {
+        "sku": "CDA53-1",
+        "weightLb": 3204,
+        "workingWidthIn": 75,
+        "transportWidthIn": 85,
+        "transportHeightIn": 62,
+        "overallLengthIn": 203,
+        "coulters": 11,
+        "shanks": 5,
+        "transportAxleType": "Single Tire",
+        "mainFrameCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinders": "N/A - Manual",
+        "tires": "(2) 9.5L x 15-8 Ply",
+        "productLine": "Soil Builder (rigid frame)"
+      },
+      {
+        "sku": "CDA73-1",
+        "weightLb": 4481,
+        "workingWidthIn": 105,
+        "transportWidthIn": 115,
+        "transportHeightIn": 62,
+        "overallLengthIn": 203,
+        "coulters": 15,
+        "shanks": 7,
+        "transportAxleType": "Single Tire",
+        "mainFrameCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinders": "N/A - Manual",
+        "tires": "(2) 11L x 15-12 Ply",
+        "productLine": "Soil Builder (rigid frame)"
+      },
+      {
+        "sku": "HSBA71-1",
+        "weightLb": 4879,
+        "workingWidthIn": 105,
+        "transportWidthIn": 111,
+        "transportHeightIn": 67,
+        "overallLengthIn": 231,
+        "coulters": 15,
+        "shanks": 7,
+        "transportAxleType": "Single Tire",
+        "mainFrameCylinders": "3.5 in. x 16 in. (89 x 406 mm)",
+        "coulterDepthCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinderControl": "Depth Control Segments",
+        "tires": "(2) 11L x 15-12 Ply",
+        "productLine": "HSB Super Soil Builder (three-rank weighted frame)"
+      },
+      {
+        "sku": "HSBAW91-1",
+        "weightLb": 5574,
+        "workingWidthIn": 135,
+        "transportWidthIn": 142,
+        "transportHeightIn": 67,
+        "overallLengthIn": 231,
+        "coulters": 19,
+        "shanks": 9,
+        "transportAxleType": "Walking Tandem",
+        "mainFrameCylinders": "3.5 in. x 16 in. (89 x 406 mm)",
+        "coulterDepthCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinderControl": "Depth Control Segments",
+        "tires": "(4) 11L x 15-12 Ply",
+        "productLine": "HSB Super Soil Builder (three-rank weighted frame)"
+      },
+      {
+        "sku": "HSBAW111-1",
+        "weightLb": 7523,
+        "workingWidthIn": 165,
+        "transportWidthIn": 172,
+        "transportHeightIn": 67,
+        "overallLengthIn": 231,
+        "coulters": 23,
+        "shanks": 11,
+        "transportAxleType": "Walking Tandem",
+        "mainFrameCylinders": "3.5 in. x 16 in. (89 x 406 mm)",
+        "coulterDepthCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinderControl": "Depth Control Segments",
+        "tires": "(4) 11L x 15-12 Ply",
+        "productLine": "HSB Super Soil Builder (three-rank weighted frame)"
+      },
+      {
+        "sku": "HSBAW131-1",
+        "weightLb": 8110,
+        "workingWidthIn": 195,
+        "transportWidthIn": 202,
+        "transportHeightIn": 67,
+        "overallLengthIn": 231,
+        "coulters": 27,
+        "shanks": 13,
+        "transportAxleType": "Walking Tandem",
+        "mainFrameCylinders": "3.5 in. x 16 in. (89 x 406 mm)",
+        "coulterDepthCylinders": "3 in. x 8 in. (76 x 203 mm)",
+        "coulterDepthCylinderControl": "Depth Control Segments",
+        "tires": "(4) 11L x 15-12 Ply",
+        "productLine": "HSB Super Soil Builder (three-rank weighted frame)"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-sub-soiler",
+    "manufacturer": "Brillion",
+    "modelFamily": "Sub-Soiler",
+    "displayName": "Brillion Sub-Soiler (SCP / SCPH Series)",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Sub-Soiler-Web-Print_SCP_0113_Z_1025.pdf. Clean per-model spec table across 3 groups (SCP-1/2, SCP-23/SCPH-23, SCP-33/SCPH-33); SCPH = high-clearance version of the corresponding SCP model."
+    },
+    "constants": {
+      "shankType": "Rigid parabolic shear-bolt shanks",
+      "shearBoltSize": "0.625in x 3.75in",
+      "pointType": "2.5in flat steel points with flat wearstrips",
+      "frame": "5x7x0.375in (single bar) or 4x6x0.25in (double frame)",
+      "hpPerShank": "20-40 HP/shank (max 40)",
+      "operatingSpeedMph": "4-6",
+      "maxWorkingDepthIn": 16
+    },
+    "variants": [
+      {
+        "sku": "SCP-1",
+        "shanks": 1,
+        "weightLb": 227,
+        "hitch": "Cat I Free Link"
+      },
+      {
+        "sku": "SCP-2",
+        "shanks": 2,
+        "weightLb": 459,
+        "workingWidth": "3'4\"",
+        "transportWidth": "4'5\"",
+        "transportHeight": "3'10\"",
+        "hitch": "Cat II Free Link"
+      },
+      {
+        "sku": "SCP-23",
+        "shanks": 2,
+        "weightLb": 688,
+        "workingWidth": "6'8\"",
+        "transportWidth": "7'6\"",
+        "underframeClearanceIn": 29,
+        "hitch": "Cat II Free Link + Cat II/IIIN Quick Coupler"
+      },
+      {
+        "sku": "SCPH-23",
+        "shanks": 2,
+        "weightLb": 708,
+        "workingWidth": "6'8\"",
+        "transportWidth": "7'6\"",
+        "underframeClearanceIn": 35,
+        "note": "High-clearance version of SCP-23",
+        "hitch": "Cat II Free Link + Cat II/IIIN Quick Coupler"
+      },
+      {
+        "sku": "SCP-33",
+        "shanks": 3,
+        "weightLb": 837,
+        "workingWidth": "6'8\"",
+        "transportWidth": "7'6\"",
+        "underframeClearanceIn": 29,
+        "hitch": "Cat II Free Link + Cat II/IIIN Quick Coupler"
+      },
+      {
+        "sku": "SCPH-33",
+        "shanks": 3,
+        "weightLb": 868,
+        "workingWidth": "6'8\"",
+        "transportWidth": "7'6\"",
+        "underframeClearanceIn": 35,
+        "note": "High-clearance version of SCP-33",
+        "hitch": "Cat II Free Link + Cat II/IIIN Quick Coupler"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-pp-series-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "PP Series",
+    "displayName": "Brillion PP Series Three-Point Hitch Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "PP-Series-Three-Point-Hitch-Models.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches. Transport height is \"dependent upon tractor\" (3-point mounted), so it is not recorded."
+    },
+    "constants": {
+      "transportHeight": "Dependent Upon Tractor",
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)",
+      "wheelOptions": {
+        "PPM": "16in Notched Gray Iron Wheels",
+        "PPD": "20in Notched Ductile Iron Wheels",
+        "PPC": "16in Crowfoot Gray Iron Wheels",
+        "PPO": "20in Optimizer Ductile Iron Wheels"
+      }
+    },
+    "variants": [
+      {
+        "sku": "PP5",
+        "workingWidthIn": 60,
+        "transportWidthIn": 68,
+        "overallLengthIn": 24,
+        "threePointHitch": "Cat. I, II Free Link; Cat. I, II Quick Coupler",
+        "pullTypeHitch": "Optional",
+        "scraperKits": "Optional for PPM & PPD Series",
+        "hpRequirement": "35 HP (26.88 kW) and up",
+        "weightLbByOption": {
+          "PPM": 709,
+          "PPD": 645,
+          "PPC": 677
+        },
+        "pulverizerWheelsByOption": {
+          "PPM": 15,
+          "PPD": 15,
+          "PPC": 10
+        },
+        "axleSizeInByOption": {
+          "PPM": 4,
+          "PPD": 4,
+          "PPC": 4
+        }
+      },
+      {
+        "sku": "PP6",
+        "workingWidthIn": 72,
+        "transportWidthIn": 80,
+        "overallLengthIn": 24,
+        "threePointHitch": "Cat. I, II Free Link; Cat. I, II Quick Coupler",
+        "pullTypeHitch": "Optional",
+        "scraperKits": "Optional for PPM & PPD Series",
+        "hpRequirement": "35 HP (26.88 kW) and up",
+        "weightLbByOption": {
+          "PPM": 826,
+          "PPD": 749,
+          "PPC": 789
+        },
+        "pulverizerWheelsByOption": {
+          "PPM": 18,
+          "PPD": 18,
+          "PPC": 12
+        },
+        "axleSizeInByOption": {
+          "PPM": 4,
+          "PPD": 4,
+          "PPC": 4
+        }
+      },
+      {
+        "sku": "PP7",
+        "workingWidthIn": 84,
+        "transportWidthIn": 92,
+        "overallLengthIn": 24,
+        "threePointHitch": "Cat. I, II Free Link; Cat. I, II Quick Coupler",
+        "pullTypeHitch": "Optional",
+        "scraperKits": "Optional for PPM & PPD Series",
+        "hpRequirement": "45 HP (33.6 kW)",
+        "weightLbByOption": {
+          "PPM": 943,
+          "PPD": 853,
+          "PPC": 900
+        },
+        "pulverizerWheelsByOption": {
+          "PPM": 21,
+          "PPD": 21,
+          "PPC": 14
+        },
+        "axleSizeInByOption": {
+          "PPM": 4,
+          "PPD": 4,
+          "PPC": 4
+        }
+      },
+      {
+        "sku": "PP8",
+        "workingWidthIn": 96,
+        "transportWidthIn": 104,
+        "overallLengthIn": 24,
+        "threePointHitch": "Cat. I, II Free Link; Cat. I, II Quick Coupler",
+        "pullTypeHitch": "Optional",
+        "scraperKits": "Optional for PPM & PPD Series",
+        "hpRequirement": "45 HP (33.6 kW)",
+        "weightLbByOption": {
+          "PPM": 1090,
+          "PPD": 987,
+          "PPC": 1041
+        },
+        "pulverizerWheelsByOption": {
+          "PPM": 24,
+          "PPD": 24,
+          "PPC": 16
+        },
+        "axleSizeInByOption": {
+          "PPM": 4,
+          "PPD": 4,
+          "PPC": 4
+        }
+      },
+      {
+        "sku": "PP10",
+        "workingWidthIn": 120,
+        "transportWidthIn": 134,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "60 HP (44.8 kW)",
+        "weightLbByOption": {
+          "PPD": 1568,
+          "PPO": 1653
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 30,
+          "PPO": 20
+        },
+        "axleSizeInByOption": {
+          "PPD": 4,
+          "PPO": 4.5
+        }
+      },
+      {
+        "sku": "PP12",
+        "workingWidthIn": 144,
+        "transportWidthIn": 158,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "60 HP (44.8 kW)",
+        "weightLbByOption": {
+          "PPD": 1792,
+          "PPO": 1997
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 36,
+          "PPO": 24
+        },
+        "axleSizeInByOption": {
+          "PPD": 4,
+          "PPO": 4.5
+        }
+      },
+      {
+        "sku": "PP14",
+        "workingWidthIn": 168,
+        "transportWidthIn": 182,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "75 HP (56 kW)",
+        "weightLbByOption": {
+          "PPD": 2016,
+          "PPO": 2253
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 42,
+          "PPO": 28
+        },
+        "axleSizeInByOption": {
+          "PPD": 4,
+          "PPO": 4.5
+        }
+      },
+      {
+        "sku": "PP16",
+        "workingWidthIn": 192,
+        "transportWidthIn": 206,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "75 HP (56 kW)",
+        "weightLbByOption": {
+          "PPD": 2386,
+          "PPO": 2607
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 48,
+          "PPO": 32
+        },
+        "axleSizeInByOption": {
+          "PPD": 4,
+          "PPO": 4.5
+        }
+      },
+      {
+        "sku": "PP18",
+        "workingWidthIn": 216,
+        "transportWidthIn": 230,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "weightLbByOption": {
+          "PPD": 2769,
+          "PPO": 2921
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 54,
+          "PPO": 36
+        },
+        "axleSizeInByOption": {
+          "PPD": 4.5,
+          "PPO": 4.5
+        }
+      },
+      {
+        "sku": "PP20",
+        "workingWidthIn": 240,
+        "transportWidthIn": 254,
+        "overallLengthIn": 51,
+        "threePointHitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "scraperKits": "Optional for PPD Series",
+        "sTineTrackRemoverKit": "Optional",
+        "rearHitch": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "weightLbByOption": {
+          "PPD": 3026,
+          "PPO": 3216
+        },
+        "pulverizerWheelsByOption": {
+          "PPD": 60,
+          "PPO": 40
+        },
+        "axleSizeInByOption": {
+          "PPD": 4.5,
+          "PPO": 4.5
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-p-series-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "P Series",
+    "displayName": "Brillion P Series Pull-Type Pulverizer (No Transport)",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "P-Series-Pull-Type-No-Transport-Models-5-ft.-to-8-ft.xlsx; P-Series-Pull-Type-No-Transport-Models-10-ft.-to-16-ft.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)",
+      "hitch": "Pull-Type/No Transport",
+      "wheelOptions": {
+        "PM": "16in Notched Gray Iron Wheels",
+        "PD": "20in Notched Ductile Iron Wheels Excluding Scrapers",
+        "PC": "20in Crowfoot Ductile Iron Wheels",
+        "PDS": "20in Notched Ductile Iron Wheels with Scrapers"
+      }
+    },
+    "variants": [
+      {
+        "sku": "P5",
+        "workingWidthIn": 60,
+        "transportWidthIn": 68,
+        "hpRequirement": "35 HP (26.88 kW) and up",
+        "weightLbByOption": {
+          "PM": 715,
+          "PD": 651,
+          "PC": 684
+        },
+        "pulverizerWheelsByOption": {
+          "PM": 15,
+          "PD": 15,
+          "PC": 10
+        },
+        "transportHeightIn": 30,
+        "overallLengthIn": 93,
+        "axleSizeIn": 4,
+        "scraperKits": "Optional for PM & PD Series"
+      },
+      {
+        "sku": "P6",
+        "workingWidthIn": 72,
+        "transportWidthIn": 80,
+        "hpRequirement": "35 HP (26.88 kW) and up",
+        "weightLbByOption": {
+          "PM": 832,
+          "PD": 755,
+          "PC": 795
+        },
+        "pulverizerWheelsByOption": {
+          "PM": 18,
+          "PD": 18,
+          "PC": 12
+        },
+        "transportHeightIn": 30,
+        "overallLengthIn": 93,
+        "axleSizeIn": 4,
+        "scraperKits": "Optional for PM & PD Series"
+      },
+      {
+        "sku": "P7",
+        "workingWidthIn": 84,
+        "transportWidthIn": 92,
+        "hpRequirement": "45 HP (33.6 kW) and up",
+        "weightLbByOption": {
+          "PM": 949,
+          "PD": 859,
+          "PC": 906
+        },
+        "pulverizerWheelsByOption": {
+          "PM": 21,
+          "PD": 21,
+          "PC": 14
+        },
+        "transportHeightIn": 30,
+        "overallLengthIn": 93,
+        "axleSizeIn": 4,
+        "scraperKits": "Optional for PM & PD Series"
+      },
+      {
+        "sku": "P8",
+        "workingWidthIn": 96,
+        "transportWidthIn": 104,
+        "hpRequirement": "45 HP (33.6 kW) and up",
+        "weightLbByOption": {
+          "PM": 1068,
+          "PD": 965,
+          "PC": 1019
+        },
+        "pulverizerWheelsByOption": {
+          "PM": 24,
+          "PD": 24,
+          "PC": 16
+        },
+        "transportHeightIn": 30,
+        "overallLengthIn": 93,
+        "axleSizeIn": 4,
+        "scraperKits": "Optional for PM & PD Series"
+      },
+      {
+        "sku": "P10",
+        "workingWidthIn": 120,
+        "transportWidthIn": 132,
+        "hpRequirement": "50 HP (40.3 kW) and up",
+        "weightLbByOption": {
+          "PDS": 2077,
+          "PD": 1952,
+          "PC": 1837
+        },
+        "pulverizerWheelsByOption": {
+          "PDS": 30,
+          "PD": 30,
+          "PC": 20
+        },
+        "transportHeightIn": 36,
+        "overallLengthIn": 180,
+        "axleSizeIn": 8,
+        "scraperKits": "Optional for PD Series",
+        "hydraulicTransportKit": "Optional"
+      },
+      {
+        "sku": "P12",
+        "workingWidthIn": 144,
+        "transportWidthIn": 158,
+        "hpRequirement": "50 HP (40.3 kW) and up",
+        "weightLbByOption": {
+          "PDS": 2371,
+          "PD": 2226,
+          "PC": 2090
+        },
+        "pulverizerWheelsByOption": {
+          "PDS": 36,
+          "PD": 36,
+          "PC": 24
+        },
+        "transportHeightIn": 36,
+        "overallLengthIn": 180,
+        "axleSizeIn": 8,
+        "scraperKits": "Optional for PD Series",
+        "hydraulicTransportKit": "Optional"
+      },
+      {
+        "sku": "P14",
+        "workingWidthIn": 168,
+        "transportWidthIn": 182,
+        "hpRequirement": "60 HP (44.8 kW) and up",
+        "weightLbByOption": {
+          "PDS": 2658,
+          "PD": 2501,
+          "PC": 2343
+        },
+        "pulverizerWheelsByOption": {
+          "PDS": 42,
+          "PD": 42,
+          "PC": 28
+        },
+        "transportHeightIn": 36,
+        "overallLengthIn": 180,
+        "axleSizeIn": 8,
+        "scraperKits": "Optional for PD Series",
+        "hydraulicTransportKit": "Optional"
+      },
+      {
+        "sku": "P16",
+        "workingWidthIn": 192,
+        "transportWidthIn": 206,
+        "hpRequirement": "60 HP (44.8 kW) and up",
+        "weightLbByOption": {
+          "PDS": 2961,
+          "PD": 2776,
+          "PC": 2596
+        },
+        "pulverizerWheelsByOption": {
+          "PDS": 48,
+          "PD": 48,
+          "PC": 32
+        },
+        "transportHeightIn": 36,
+        "overallLengthIn": 180,
+        "axleSizeIn": 8,
+        "scraperKits": "Optional for PD Series",
+        "hydraulicTransportKit": "Optional"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-pt-series-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "PT Series",
+    "displayName": "Brillion PT Series Rotating-Frame Transport Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "PT-Series-Rotating-Frame-Transport-Models.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches. The (PDTS)/(PVTS) \"with scrapers\" options have weights but no separate wheel-count row; wheel counts for them are the same as the non-scraper options per the sheet layout, but are not duplicated here."
+    },
+    "constants": {
+      "transportHeightIn": 72,
+      "overallLengthTransportIn": 150,
+      "overallLengthOperationIn": 208,
+      "drawbar": "Pull-Type with Hydraulic Transport",
+      "tireSize": "9.5L x 15-8 Ply Implement Rib",
+      "scraperKits": "Standard on Models with 'S'; Optional on PDT and PVT Models",
+      "rearHitchKit": "Optional",
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)",
+      "axleSizeInByOption": {
+        "PDT": 8,
+        "PCT": 8,
+        "POT": 8,
+        "PVT": 4.5
+      },
+      "wheelOptions": {
+        "PDTS": "20in Notched Ductile Iron Wheels with Scrapers",
+        "PDT": "20in Notched Ductile Iron Wheels",
+        "PCT": "20in Crowfoot Ductile Iron Wheels",
+        "POT": "20in Optimizer Ductile Iron Wheels",
+        "PVTS": "22in V-Style Ductile Iron Wheels with Scrapers",
+        "PVT": "22in V-Style Ductile Iron Wheels"
+      }
+    },
+    "variants": [
+      {
+        "sku": "PT10",
+        "workingWidthIn": 120,
+        "transportWidthIn": 132,
+        "dualWheelKit": "Optional",
+        "hpRequirement": "50 HP (40.3 kW)",
+        "weightLbByOption": {
+          "PDTS": 2390,
+          "PDT": 2265,
+          "PCT": 2151,
+          "POT": 2501,
+          "PVTS": 2649,
+          "PVT": 2415
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 30,
+          "PCT": 20,
+          "POT": 20,
+          "PVT": 20
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "No",
+          "PCT": "No",
+          "POT": "No",
+          "PVT": "No"
+        }
+      },
+      {
+        "sku": "PT12",
+        "workingWidthIn": 144,
+        "transportWidthIn": 158,
+        "dualWheelKit": "Optional",
+        "hpRequirement": "50 HP (40.3 kW)",
+        "weightLbByOption": {
+          "PDTS": 2680,
+          "PDT": 2535,
+          "PCT": 2403,
+          "POT": 2826,
+          "PVTS": 2993,
+          "PVT": 2723
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 36,
+          "PCT": 24,
+          "POT": 24,
+          "PVT": 24
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "No",
+          "PCT": "No",
+          "POT": "No",
+          "PVT": "No"
+        }
+      },
+      {
+        "sku": "PT14",
+        "workingWidthIn": 168,
+        "transportWidthIn": 182,
+        "dualWheelKit": "Optional",
+        "hpRequirement": "60 HP (44.8 kW)",
+        "weightLbByOption": {
+          "PDTS": 2971,
+          "PDT": 2815,
+          "PCT": 2657,
+          "POT": 3152,
+          "PVTS": 3400,
+          "PVT": 3073
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 42,
+          "PCT": 28,
+          "POT": 28,
+          "PVT": 28
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "No",
+          "PCT": "No",
+          "POT": "No",
+          "PVT": "Yes"
+        }
+      },
+      {
+        "sku": "PT15",
+        "workingWidthIn": 180,
+        "transportWidthIn": 206,
+        "dualWheelKit": "Optional",
+        "hpRequirement": "60 HP (44.8 kW)",
+        "weightLbByOption": {
+          "PDTS": 3116,
+          "PDT": 2952,
+          "PCT": 2783,
+          "POT": 3310,
+          "PVTS": 3572,
+          "PVT": 3226
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 45,
+          "PCT": 30,
+          "POT": 30,
+          "PVT": 30
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "No",
+          "PCT": "No",
+          "POT": "No",
+          "PVT": "Yes"
+        }
+      },
+      {
+        "sku": "PT16",
+        "workingWidthIn": 192,
+        "transportWidthIn": 206,
+        "dualWheelKit": "Optional",
+        "hpRequirement": "60 HP (44.8 kW)",
+        "weightLbByOption": {
+          "PDTS": 3261,
+          "PDT": 3089,
+          "PCT": 2909,
+          "POT": 3472,
+          "PVTS": 3743,
+          "PVT": 3380
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 48,
+          "PCT": 32,
+          "POT": 32,
+          "PVT": 32
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "No",
+          "PCT": "No",
+          "POT": "No",
+          "PVT": "Yes"
+        }
+      },
+      {
+        "sku": "PT18",
+        "workingWidthIn": 218,
+        "transportWidthIn": 231,
+        "dualWheelKit": "Standard",
+        "hpRequirement": "70 HP (52.2 kW)",
+        "weightLbByOption": {
+          "PDTS": 3912,
+          "PDT": 3700,
+          "PCT": 3456,
+          "POT": 4127,
+          "PVTS": 4534,
+          "PVT": 4099
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 54,
+          "PCT": 36,
+          "POT": 36,
+          "PVT": 36
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "Yes",
+          "PCT": "Yes",
+          "POT": "Yes",
+          "PVT": "Yes"
+        }
+      },
+      {
+        "sku": "PT20",
+        "workingWidthIn": 242,
+        "transportWidthIn": 255,
+        "dualWheelKit": "Standard",
+        "hpRequirement": "70 HP (52.2 kW)",
+        "weightLbByOption": {
+          "PDTS": 4206,
+          "PDT": 3979,
+          "PCT": 3709,
+          "POT": 4457,
+          "PVTS": 4901,
+          "PVT": 4430
+        },
+        "pulverizerWheelsByOption": {
+          "PDT": 60,
+          "PCT": 40,
+          "POT": 40,
+          "PVT": 40
+        },
+        "rollerCenterBearingByOption": {
+          "PDT": "Yes",
+          "PCT": "Yes",
+          "POT": "Yes",
+          "PVT": "Yes"
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-pft-series-floating-ring-roller",
+    "manufacturer": "Brillion",
+    "modelFamily": "PPF / PFT Series",
+    "displayName": "Brillion PPF / PFT Series Floating Ring Roller",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "PFT-Series-Floating-Ring-Models.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches. Sheet covers 3-point mounted PPF and pull-type PFT models; transport height for PPF models is \"dependent upon tractor\". PFT20B12/PFT22B12 weight cells were blank in the source and are omitted."
+    },
+    "constants": {
+      "mainFrameStructure": "7 in. x 7 in. (178 mm x 178 mm)",
+      "pulverizerWheels": "20 in. (500 mm) Ductile Iron Rings",
+      "axleSizeIn": 12,
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)"
+    },
+    "variants": [
+      {
+        "sku": "PPF6B12",
+        "weightLb": 1601,
+        "workingWidthIn": 72,
+        "transportWidthIn": 88,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 30,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "50 HP (37.3 kW) and up",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF8B12",
+        "weightLb": 2020,
+        "workingWidthIn": 96,
+        "transportWidthIn": 112,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 40,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "50 HP (37.3 kW) and up",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF10B12",
+        "weightLb": 2580,
+        "workingWidthIn": 120,
+        "transportWidthIn": 136,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 50,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF12B12",
+        "weightLb": 3056,
+        "workingWidthIn": 144,
+        "transportWidthIn": 160,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 60,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF14B12",
+        "weightLb": 3490,
+        "workingWidthIn": 168,
+        "transportWidthIn": 184,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 70,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF15B12",
+        "weightLb": 3729,
+        "workingWidthIn": 180,
+        "transportWidthIn": 196,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 75,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF16B12",
+        "weightLb": 3924,
+        "workingWidthIn": 192,
+        "transportWidthIn": 208,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 80,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF17B12",
+        "weightLb": 4350,
+        "workingWidthIn": 204,
+        "transportWidthIn": 232,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 85,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PPF18B12",
+        "weightLb": 4385,
+        "workingWidthIn": 216,
+        "transportWidthIn": 232,
+        "transportHeight": "Dependent Upon Tractor",
+        "overallLengthTransportIn": 51,
+        "overallLengthOperationIn": 51,
+        "numberOfWheels": 90,
+        "hitch": "Cat. II, III Free Link; Cat. II, IIIN Quick Coupler",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PPF 3-point mounted"
+      },
+      {
+        "sku": "PFT10B12",
+        "weightLb": 3205,
+        "workingWidthIn": 120,
+        "transportWidthIn": 136,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 50,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT12B12",
+        "weightLb": 3681,
+        "workingWidthIn": 144,
+        "transportWidthIn": 160,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 60,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT14B12",
+        "weightLb": 4115,
+        "workingWidthIn": 168,
+        "transportWidthIn": 196,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 70,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "75 HP (56 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT15B12",
+        "weightLb": 4354,
+        "workingWidthIn": 180,
+        "transportWidthIn": 196,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 75,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT16B12",
+        "weightLb": 4549,
+        "workingWidthIn": 192,
+        "transportWidthIn": 208,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 80,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT17B12",
+        "weightLb": 4775,
+        "workingWidthIn": 204,
+        "transportWidthIn": 232,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 85,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT18B12",
+        "weightLb": 4998,
+        "workingWidthIn": 216,
+        "transportWidthIn": 232,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 90,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "dualWheelKit": "Optional",
+        "singleWheelKit": "Optional",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT20B12",
+        "weightLb": 6120,
+        "workingWidthIn": 240,
+        "transportWidthIn": 252,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 97,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "singleWheelKit": "Standard",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      },
+      {
+        "sku": "PFT22B12",
+        "weightLb": 6599,
+        "workingWidthIn": 264,
+        "transportWidthIn": 276,
+        "transportHeight": "6 ft. 0 in. (1.8 m)",
+        "overallLengthTransportIn": 150,
+        "overallLengthOperationIn": 184,
+        "numberOfWheels": 107,
+        "tireSize": "11L x 15-12 Ply Tires",
+        "hitch": "Pull-Type with Hydraulic Transport",
+        "singleWheelKit": "Standard",
+        "hpRequirement": "90 HP (67.2 kW)",
+        "productLine": "PFT pull-type"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-wfp-series-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "WFP Series",
+    "displayName": "Brillion WFP Series Wing-Float Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "WFP-Series-Wing-Float-Pulverizer-23-ft.-to-37-ft.-Models_rv3.2022.xlsx; WFP-Series-Wing-Float-Pulverizer-38-ft.-to-46-ft.-50-ft.-52-ft.-Models_rev1.2021.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "operatingSpeed": "3 to 8 MPH (4.8 to 12.9 km/h)",
+      "hpRequirement": "3 to 5 HP per ft. (2.2 to 3.7 kW per m)",
+      "wfpFloatLockKit": "Optional",
+      "telescopingDrawbar": "Standard",
+      "electronicAcreMeterKit": "Optional",
+      "hydraulicCircuitsRequired": 1,
+      "scraperKits": "Standard on Models with \"S\"",
+      "hitch": "Pull-Type with Hydraulic Transport",
+      "horsepowerRequirementsAsCompanionTool": "1 to 3 HP per ft. (0.75 to 2.2 kW per m)",
+      "wheelOptions": {
+        "WFPDS": "20in Notched Ductile Iron Wheels with Scrapers",
+        "WFPD": "20in Notched Ductile Iron Wheels Excluding Scrapers",
+        "WFPO": "20in Optimizer Ductile Iron Wheels",
+        "WFPC": "20in Crowfoot Ductile Iron Wheels",
+        "WFPVS": "22in V-Style Ductile Iron Wheels with Scrapers",
+        "WFPV": "22in V-Syle Ductile Iron Wheels Excluding Scrapers"
+      }
+    },
+    "variants": [
+      {
+        "sku": "WFP23",
+        "workingWidthIn": 280,
+        "transportHeightIn": 100,
+        "overallLengthRigidDrawbarIn": 252,
+        "weightLbByOption": {
+          "WFPDS": 7205,
+          "WFPD": 6985,
+          "WFPO": 7270,
+          "WFPC": 6440
+        },
+        "tongueWeightByOption": {
+          "Drawbar Extended, Transport": "1,300 lbs. (590 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 72,
+          "WFPD": 72,
+          "WFPO": 47,
+          "WFPC": 47
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP25",
+        "workingWidthIn": 304,
+        "transportHeightIn": 104,
+        "overallLengthRigidDrawbarIn": 252,
+        "weightLbByOption": {
+          "WFPDS": 7494,
+          "WFPD": 7259,
+          "WFPO": 7575,
+          "WFPC": 6670
+        },
+        "tongueWeightByOption": {
+          "Drawbar Extended, Transport": "1,300 lbs. (590 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 78,
+          "WFPD": 78,
+          "WFPO": 51,
+          "WFPC": 51
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP27",
+        "workingWidthIn": 328,
+        "transportHeightIn": 108,
+        "overallLengthRigidDrawbarIn": 252,
+        "weightLbByOption": {
+          "WFPDS": 7779,
+          "WFPD": 7521,
+          "WFPO": 7866,
+          "WFPC": 6895
+        },
+        "tongueWeightByOption": {
+          "Drawbar Extended, Transport": "1,300 lbs. (590 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 84,
+          "WFPD": 84,
+          "WFPO": 55,
+          "WFPC": 55
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP29",
+        "workingWidthIn": 352,
+        "transportHeightIn": 112,
+        "overallLengthDrawbarRetractedIn": 204,
+        "overallLengthDrawbarExtendedIn": 264,
+        "weightLbByOption": {
+          "WFPDS": 8359,
+          "WFPD": 8085,
+          "WFPO": 8462,
+          "WFPC": 7435
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,800 lbs. (816 kg)",
+          "Drawbar Extended, Transport": "1,400 lbs. (635 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 90,
+          "WFPD": 90,
+          "WFPO": 59,
+          "WFPC": 59
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP31",
+        "workingWidthIn": 376,
+        "transportHeightIn": 116,
+        "overallLengthDrawbarRetractedIn": 204,
+        "overallLengthDrawbarExtendedIn": 264,
+        "weightLbByOption": {
+          "WFPDS": 8677,
+          "WFPD": 8387,
+          "WFPO": 8795,
+          "WFPC": 7733
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,800 lbs. (816 kg)",
+          "Drawbar Extended, Transport": "1,400 lbs. (635 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 96,
+          "WFPD": 96,
+          "WFPO": 63,
+          "WFPC": 63
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP33",
+        "workingWidthIn": 400,
+        "transportHeightIn": 122,
+        "overallLengthDrawbarRetractedIn": 204,
+        "overallLengthDrawbarExtendedIn": 264,
+        "weightLbByOption": {
+          "WFPDS": 9085,
+          "WFPD": 8780,
+          "WFPO": 9217,
+          "WFPC": 8045
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,850 lbs. (839 kg)",
+          "Drawbar Extended, Transport": "1,500 lbs. (680 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 102,
+          "WFPD": 102,
+          "WFPO": 67,
+          "WFPC": 67
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP35",
+        "workingWidthIn": 424,
+        "transportHeightIn": 126,
+        "overallLengthDrawbarRetractedIn": 216,
+        "overallLengthDrawbarExtendedIn": 276,
+        "weightLbByOption": {
+          "WFPDS": 9331,
+          "WFPD": 9003,
+          "WFPO": 9470,
+          "WFPC": 8325
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,850 lbs. (839 kg)",
+          "Drawbar Extended, Transport": "1,500 lbs. (680 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 108,
+          "WFPD": 108,
+          "WFPO": 71,
+          "WFPC": 71
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP37",
+        "workingWidthIn": 448,
+        "transportHeightIn": 130,
+        "overallLengthDrawbarRetractedIn": 216,
+        "overallLengthDrawbarExtendedIn": 276,
+        "weightLbByOption": {
+          "WFPDS": 9719,
+          "WFPD": 9375,
+          "WFPO": 9873,
+          "WFPC": 8550
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,850 lbs. (839 kg)",
+          "Drawbar Extended, Transport": "1,500 lbs. (680 kg)",
+          "Operation": "Under 100 lbs. (45 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 114,
+          "WFPD": 114,
+          "WFPO": 75,
+          "WFPC": 75
+        },
+        "transportWidthIn": 168,
+        "roadClearanceIn": 11.5,
+        "automaticTransportLock": "Standard",
+        "axleSizeIn": 8,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "wfpHydraulicTopLinkKit": "Optional"
+      },
+      {
+        "sku": "WFP38",
+        "workingWidthIn": 460,
+        "transportWidthIn": 209,
+        "transportHeightIn": 108,
+        "overallLengthDrawbarRetractedIn": 240,
+        "overallLengthDrawbarExtendedIn": 320,
+        "weightLbByOption": {
+          "WFPDS": 11000,
+          "WFPD": 10610,
+          "WFPO": 11190,
+          "WFPC": 9620
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,075 lbs. (488 kg)",
+          "Drawbar Extended, Transport": "780 lbs. (354 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 117,
+          "WFPD": 117,
+          "WFPO": 77,
+          "WFPC": 77
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP40",
+        "workingWidthIn": 484,
+        "transportWidthIn": 209,
+        "transportHeightIn": 108,
+        "overallLengthDrawbarRetractedIn": 240,
+        "overallLengthDrawbarExtendedIn": 320,
+        "weightLbByOption": {
+          "WFPDS": 11300,
+          "WFPD": 10896,
+          "WFPO": 11490,
+          "WFPC": 9885
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,125 lbs. (510 kg)",
+          "Drawbar Extended, Transport": "800 lbs. (363 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 123,
+          "WFPD": 123,
+          "WFPO": 81,
+          "WFPC": 81
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP42",
+        "workingWidthIn": 508,
+        "transportWidthIn": 209,
+        "transportHeightIn": 108,
+        "overallLengthDrawbarRetractedIn": 240,
+        "overallLengthDrawbarExtendedIn": 320,
+        "weightLbByOption": {
+          "WFPDS": 11900,
+          "WFPD": 11465,
+          "WFPO": 12075,
+          "WFPC": 10350
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,175 lbs. (533 kg)",
+          "Drawbar Extended, Transport": "820 lbs. (372 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 129,
+          "WFPD": 129,
+          "WFPO": 85,
+          "WFPC": 85
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP44",
+        "workingWidthIn": 532,
+        "transportWidthIn": 209,
+        "transportHeightIn": 108,
+        "overallLengthDrawbarRetractedIn": 240,
+        "overallLengthDrawbarExtendedIn": 320,
+        "weightLbByOption": {
+          "WFPDS": 12200,
+          "WFPD": 11750,
+          "WFPO": 12400,
+          "WFPC": 10575
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,200 lbs. (544 kg)",
+          "Drawbar Extended, Transport": "840 lbs. (381 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 135,
+          "WFPD": 135,
+          "WFPO": 89,
+          "WFPC": 89
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP46",
+        "workingWidthIn": 556,
+        "transportWidthIn": 209,
+        "transportHeightIn": 108,
+        "overallLengthDrawbarRetractedIn": 240,
+        "overallLengthDrawbarExtendedIn": 320,
+        "weightLbByOption": {
+          "WFPDS": 12500,
+          "WFPD": 12036,
+          "WFPO": 12720,
+          "WFPC": 10795
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,225 lbs. (556 kg)",
+          "Drawbar Extended, Transport": "860 lbs. (390 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 141,
+          "WFPD": 141,
+          "WFPO": 93,
+          "WFPC": 93
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP50",
+        "workingWidthIn": 598,
+        "transportWidthIn": 236,
+        "transportHeightIn": 120,
+        "overallLengthDrawbarRetractedIn": 295,
+        "overallLengthDrawbarExtendedIn": 375,
+        "weightLbByOption": {
+          "WFPDS": 12857,
+          "WFPD": 12380,
+          "WFPO": 13500,
+          "WFPC": 11410,
+          "WFPVS": 14317,
+          "WFPV": 14711
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,000 lbs. (454 kg)",
+          "Drawbar Extended, Transport": "750 lbs. (340 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 151,
+          "WFPD": 151,
+          "WFPO": 99,
+          "WFPC": 99,
+          "WFPVS": 100,
+          "WFPV": 100
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8,
+          "WFPVS, WFPV Models": 4.5
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      },
+      {
+        "sku": "WFP52",
+        "workingWidthIn": 622,
+        "transportWidthIn": 260,
+        "transportHeightIn": 120,
+        "overallLengthDrawbarRetractedIn": 295,
+        "overallLengthDrawbarExtendedIn": 375,
+        "weightLbByOption": {
+          "WFPDS": 13172,
+          "WFPD": 12680,
+          "WFPO": 13860,
+          "WFPC": 11635,
+          "WFPVS": 13395,
+          "WFPV": 13747
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "1,000 lbs. (454 kg)",
+          "Drawbar Extended, Transport": "750 lbs. (340 kg)",
+          "Operation": "Under 200 lbs. (91 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "WFPDS": 157,
+          "WFPD": 157,
+          "WFPO": 103,
+          "WFPC": 103,
+          "WFPVS": 104,
+          "WFPV": 104
+        },
+        "axleSizeInByOption": {
+          "WFPDS, WFPD, WFPO, WFPC Models": 8,
+          "WFPVS, WFPV Models": 4.5
+        },
+        "roadClearanceIn": 15,
+        "mechanicalTransportLock": "Standard",
+        "tireSize": "12.5 x 15 FI Tires on 8 Bolt Rims"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-x-series-folding-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "X / XL / XXL Series",
+    "displayName": "Brillion X / XL / XXL Series Folding Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "X-Series-Folding-Pulverizer-20-ft.-to-26-ft.-Models.xlsx; XL-Series-Folding-Pulverizer-28-ft.-to-36-ft.-Models.xlsx; XXL-Series-Folding-Pulverizer-38-ft.-to-46-ft.-Models.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "operatingSpeed": "3 to 8 MPH (4.8 to 12.9 km/h)",
+      "mechanicalTransportLock": "Standard",
+      "electronicAcreMeter": "Optional",
+      "hpRequirement": "3 to 5 HP per ft. (2.2 to 3.7 kW per m)",
+      "hydraulicCircuitsRequired": 1,
+      "scraperKits": "Standard on Models with 'S'",
+      "hitch": "Pull-Type with Hydraulic Transport",
+      "horsepowerRequirementsAsCompanionTool": "1 to 3 HP per ft. (0.75 to 2.2 kW per m)",
+      "wheelOptions": {
+        "XDS": "20in Notched Ductile Iron Wheels with Scrapers",
+        "XD": "20in Notched Ductile Iron Wheels Excluding Scrapers",
+        "XO": "20in Optimizer Ductile Iron Wheels",
+        "XC": "20in Crowfoot Ductile Iron Wheels",
+        "XHS": "20in Notched Ductile Iron H (Heavy) Wheels with Scrapers",
+        "XH": "20in Notched Ductile Iron H (Heavy) Wheels Excluding Scrapers",
+        "XHR": "20in Notched Ductile Iron H (Heavy) Wheels with Sprockets",
+        "XVS": "22in V-Style Ductile Iron Wheels with Scrapers (6 in. Spacing)",
+        "XV": "22in V-Style Ductile Iron Wheels Excluding Scrapers (6 in. Spacing)",
+        "XLDS": "20in Notched Ductile Iron Wheels with Scrapers",
+        "XLD": "20in Notched Ductile Iron Wheels Excluding Scrapers",
+        "XLO": "20in Optimizer Ductile Iron Wheels",
+        "XLC": "20in Crowfoot Ductile Iron Wheels",
+        "XLHS": "20in Notched Ductile Iron H (Heavy) Wheels with Scrapers",
+        "XLH": "20in Notched Ductile Iron H (Heavy) Wheels Excluding Scrapers",
+        "XLHR": "20in Notched Ductile Iron H (Heavy) Wheels with Sprockets",
+        "XLVS": "22in V-Style Ductile Iron Wheels with Scrapers (6 in. Spacing)",
+        "XLV": "22in V-Style Ductile Iron Wheels Excluding Scrapers (6 in. Spacing)",
+        "XXLDS": "20in Notched Ductile Iron Wheels with Scrapers",
+        "XXLD": "20in Notched Ductile Iron Wheels Excluding Scrapers",
+        "XXLO": "20in Optimizer Ductile Iron Wheels",
+        "XXLC": "20in Crowfoot Ductile Iron Wheels",
+        "XXLVS": "22in V-Style Ductile Iron Wheels with Scrapers (6 in. Spacing)",
+        "XXLV": "22in V-Style Ductile Iron Wheels Excluding Scrapers (6 in. Spacing)"
+      }
+    },
+    "variants": [
+      {
+        "sku": "X20",
+        "workingWidthIn": 241,
+        "transportHeightIn": 87,
+        "overallLengthIn": 266,
+        "weightLbByOption": {
+          "XDS": 5246,
+          "XD": 5023,
+          "XO": 5445,
+          "XC": 4470,
+          "XHS": 5937,
+          "XH": 5718,
+          "XHR": 6627,
+          "XVS": 5682,
+          "XV": 5248
+        },
+        "tongueWeightByOption": {
+          "Drawbar, Transport": "598 lbs. (271 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XDS": 62,
+          "XD": 62,
+          "XO": 40,
+          "XC": 40,
+          "XHS": 62,
+          "XH": 62,
+          "XHR": 62,
+          "XVS": 40,
+          "XV": 40
+        },
+        "productLine": "X",
+        "transportWidthIn": 132,
+        "tireSize": "9.5L x 15-8 Ply Tires on 6 Bolt Rims",
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 11.625,
+          "XVS, XV Models": 10.625
+        },
+        "axleSizeInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 8,
+          "XVS, XV Models": 4.5
+        }
+      },
+      {
+        "sku": "X22",
+        "workingWidthIn": 265,
+        "transportHeightIn": 90,
+        "overallLengthIn": 270,
+        "weightLbByOption": {
+          "XDS": 5509,
+          "XD": 5271,
+          "XO": 5744,
+          "XC": 4966,
+          "XHS": 6267,
+          "XH": 6034,
+          "XHR": 7035,
+          "XVS": 6020,
+          "XV": 5528
+        },
+        "tongueWeightByOption": {
+          "Drawbar, Transport": "603 lbs. (274 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XDS": 68,
+          "XD": 68,
+          "XO": 44,
+          "XC": 44,
+          "XHS": 68,
+          "XH": 68,
+          "XHR": 68,
+          "XVS": 44,
+          "XV": 44
+        },
+        "productLine": "X",
+        "transportWidthIn": 132,
+        "tireSize": "9.5L x 15-8 Ply Tires on 6 Bolt Rims",
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 11.625,
+          "XVS, XV Models": 10.625
+        },
+        "axleSizeInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 8,
+          "XVS, XV Models": 4.5
+        }
+      },
+      {
+        "sku": "X24",
+        "workingWidthIn": 289,
+        "transportHeightIn": 93,
+        "overallLengthIn": 274,
+        "weightLbByOption": {
+          "XDS": 5792,
+          "XD": 5519,
+          "XO": 6043,
+          "XC": 5192,
+          "XHS": 6617,
+          "XH": 6349,
+          "XHR": 7443,
+          "XVS": 6336,
+          "XV": 5807
+        },
+        "tongueWeightByOption": {
+          "Drawbar, Transport": "609 lbs. (276 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XDS": 74,
+          "XD": 74,
+          "XO": 48,
+          "XC": 48,
+          "XHS": 74,
+          "XH": 74,
+          "XHR": 74,
+          "XVS": 48,
+          "XV": 48
+        },
+        "productLine": "X",
+        "transportWidthIn": 132,
+        "tireSize": "9.5L x 15-8 Ply Tires on 6 Bolt Rims",
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 11.625,
+          "XVS, XV Models": 10.625
+        },
+        "axleSizeInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 8,
+          "XVS, XV Models": 4.5
+        }
+      },
+      {
+        "sku": "X26",
+        "workingWidthIn": 313,
+        "transportHeightIn": 95,
+        "overallLengthIn": 277,
+        "weightLbByOption": {
+          "XDS": 6053,
+          "XD": 5766,
+          "XO": 6334,
+          "XC": 5418,
+          "XHS": 6947,
+          "XH": 6664,
+          "XHR": 7851,
+          "XVS": 6651,
+          "XV": 6086
+        },
+        "tongueWeightByOption": {
+          "Drawbar, Transport": "615 lbs. (279 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XDS": 80,
+          "XD": 80,
+          "XO": 52,
+          "XC": 52,
+          "XHS": 80,
+          "XH": 80,
+          "XHR": 80,
+          "XVS": 52,
+          "XV": 52
+        },
+        "productLine": "X",
+        "transportWidthIn": 132,
+        "tireSize": "9.5L x 15-8 Ply Tires on 6 Bolt Rims",
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 11.625,
+          "XVS, XV Models": 10.625
+        },
+        "axleSizeInByOption": {
+          "XDS, XD, XO, XC, XHS, XH, XHR Models": 8,
+          "XVS, XV Models": 4.5
+        }
+      },
+      {
+        "sku": "XL28",
+        "workingWidthIn": 345,
+        "transportHeightIn": 91,
+        "overallLengthDrawbarRetractedIn": 272,
+        "overallLengthDrawbarExtendedIn": 350,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "weightLbByOption": {
+          "XLDS": 7536,
+          "XLD": 7218,
+          "XLO": 7884,
+          "XLC": 6843,
+          "XLHS": 8540,
+          "XLH": 8228,
+          "XLHR": 9568,
+          "XLVS": 8380,
+          "XLV": 7734
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "922 lbs. (418 kg)",
+          "Drawbar Extended, Transport": "776 lbs. (352 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XLDS": 90,
+          "XLD": 90,
+          "XLO": 59,
+          "XLC": 59,
+          "XLHS": 90,
+          "XLH": 90,
+          "XLHR": 90,
+          "XLVS": 59,
+          "XLV": 59
+        },
+        "productLine": "XL",
+        "transportWidthIn": 181,
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 12,
+          "XLVS, XLV Models": 11
+        },
+        "axleSizeInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 8,
+          "XLVS, XLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XL30",
+        "workingWidthIn": 369,
+        "transportHeightIn": 94,
+        "overallLengthDrawbarRetractedIn": 275,
+        "overallLengthDrawbarExtendedIn": 353,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "weightLbByOption": {
+          "XLDS": 7805,
+          "XLD": 7472,
+          "XLO": 8190,
+          "XLC": 7076,
+          "XLHS": 8877,
+          "XLH": 8550,
+          "XLHR": 9982,
+          "XLVS": 8702,
+          "XLV": 8020
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "928 lbs. (421 kg)",
+          "Drawbar Extended, Transport": "780 lbs. (354 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XLDS": 96,
+          "XLD": 96,
+          "XLO": 63,
+          "XLC": 63,
+          "XLHS": 96,
+          "XLH": 96,
+          "XLHR": 96,
+          "XLVS": 63,
+          "XLV": 63
+        },
+        "productLine": "XL",
+        "transportWidthIn": 181,
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 12,
+          "XLVS, XLV Models": 11
+        },
+        "axleSizeInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 8,
+          "XLVS, XLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XL32",
+        "workingWidthIn": 393,
+        "transportHeightIn": 96,
+        "overallLengthDrawbarRetractedIn": 277,
+        "overallLengthDrawbarExtendedIn": 355,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "weightLbByOption": {
+          "XLDS": 8122,
+          "XLD": 7773,
+          "XLO": 8541,
+          "XLC": 7355,
+          "XLHS": 9258,
+          "XLH": 8917,
+          "XLHR": 10443,
+          "XLVS": 9076,
+          "XLV": 8352
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "940 lbs. (426 kg)",
+          "Drawbar Extended, Transport": "789 lbs. (358 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XLDS": 102,
+          "XLD": 102,
+          "XLO": 67,
+          "XLC": 67,
+          "XLHS": 102,
+          "XLH": 102,
+          "XLHR": 102,
+          "XLVS": 67,
+          "XLV": 67
+        },
+        "productLine": "XL",
+        "transportWidthIn": 181,
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 12,
+          "XLVS, XLV Models": 11
+        },
+        "axleSizeInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 8,
+          "XLVS, XLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XL34",
+        "workingWidthIn": 417,
+        "transportHeightIn": 95,
+        "overallLengthDrawbarRetractedIn": 280,
+        "overallLengthDrawbarExtendedIn": 358,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "weightLbByOption": {
+          "XLDS": 8390,
+          "XLD": 8027,
+          "XLO": 8847,
+          "XLC": 7587,
+          "XLHS": 9594,
+          "XLH": 9239,
+          "XLVS": 9397,
+          "XLV": 8637
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "946 lbs. (429 kg)",
+          "Drawbar Extended, Transport": "793 lbs. (360 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XLDS": 108,
+          "XLD": 108,
+          "XLO": 71,
+          "XLC": 71,
+          "XLHS": 108,
+          "XLH": 108,
+          "XLVS": 71,
+          "XLV": 71
+        },
+        "productLine": "XL",
+        "transportWidthIn": 181,
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 12,
+          "XLVS, XLV Models": 11
+        },
+        "axleSizeInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 8,
+          "XLVS, XLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XL36",
+        "workingWidthIn": 441,
+        "transportHeightIn": 97,
+        "overallLengthDrawbarRetractedIn": 282,
+        "overallLengthDrawbarExtendedIn": 360,
+        "tireSize": "11L x 15 Tires on 6 Bolt Rims",
+        "weightLbByOption": {
+          "XLDS": 8519,
+          "XLD": 8141,
+          "XLO": 9013,
+          "XLC": 7679,
+          "XLHS": 9790,
+          "XLH": 9421,
+          "XLVS": 9833,
+          "XLV": 9037
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "937 lbs. (425 kg)",
+          "Drawbar Extended, Transport": "784 lbs. (356 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XLDS": 114,
+          "XLD": 114,
+          "XLO": 75,
+          "XLC": 75,
+          "XLHS": 114,
+          "XLH": 114,
+          "XLVS": 75,
+          "XLV": 75
+        },
+        "productLine": "XL",
+        "transportWidthIn": 181,
+        "weightKit": "Optional",
+        "roadClearanceInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 12,
+          "XLVS, XLV Models": 11
+        },
+        "axleSizeInByOption": {
+          "XLDS, XLD, XLO, XLC, XLHS, XLH, XLHR Models": 8,
+          "XLVS, XLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XXL38",
+        "workingWidthIn": 460,
+        "transportHeightIn": 98,
+        "overallLengthDrawbarRetractedIn": 268,
+        "overallLengthDrawbarExtendedIn": 346,
+        "weightLbByOption": {
+          "XXLDS": 9726,
+          "XXLD": 9330,
+          "XXLO": 10225,
+          "XXLC": 8860,
+          "XXLVS": 10654,
+          "XXLV": 9844
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "963 lbs. (437 kg)",
+          "Drawbar Extended, Transport": "795 lbs. (361 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XXLDS": 117,
+          "XXLD": 117,
+          "XXLO": 77,
+          "XXLC": 77,
+          "XXLVS": 76,
+          "XXLV": 76
+        },
+        "productLine": "XXL",
+        "transportWidthIn": 217,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "roadClearanceInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 15.25,
+          "XXLVS, XXLV Models": 14.25
+        },
+        "axleSizeInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 8,
+          "XXLVS, XLLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XXL40",
+        "workingWidthIn": 484,
+        "transportHeightIn": 99,
+        "overallLengthDrawbarRetractedIn": 270,
+        "overallLengthDrawbarExtendedIn": 348,
+        "weightLbByOption": {
+          "XXLDS": 9996,
+          "XXLD": 9585,
+          "XXLO": 10531,
+          "XXLC": 9092,
+          "XXLVS": 11230,
+          "XXLV": 10385
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "967 lbs. (439 kg)",
+          "Drawbar Extended, Transport": "797 lbs. (362 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XXLDS": 123,
+          "XXLD": 123,
+          "XXLO": 81,
+          "XXLC": 81,
+          "XXLVS": 80,
+          "XXLV": 80
+        },
+        "productLine": "XXL",
+        "transportWidthIn": 217,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "roadClearanceInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 15.25,
+          "XXLVS, XXLV Models": 14.25
+        },
+        "axleSizeInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 8,
+          "XXLVS, XLLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XXL42",
+        "workingWidthIn": 508,
+        "transportHeightIn": 101,
+        "overallLengthDrawbarRetractedIn": 271,
+        "overallLengthDrawbarExtendedIn": 349,
+        "weightLbByOption": {
+          "XXLDS": 10528,
+          "XXLD": 10102,
+          "XXLO": 11104,
+          "XXLC": 9592,
+          "XXLVS": 11543,
+          "XXLV": 10683
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "974 lbs. (442 kg)",
+          "Drawbar Extended, Transport": "800 lbs. (363 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XXLDS": 129,
+          "XXLD": 129,
+          "XXLO": 85,
+          "XXLC": 85,
+          "XXLVS": 82,
+          "XXLV": 82
+        },
+        "productLine": "XXL",
+        "transportWidthIn": 217,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "roadClearanceInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 15.25,
+          "XXLVS, XXLV Models": 14.25
+        },
+        "axleSizeInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 8,
+          "XXLVS, XLLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XXL44",
+        "workingWidthIn": 532,
+        "transportHeightIn": 103,
+        "overallLengthDrawbarRetractedIn": 273,
+        "overallLengthDrawbarExtendedIn": 351,
+        "weightLbByOption": {
+          "XXLDS": 10817,
+          "XXLD": 10376,
+          "XXLO": 11429,
+          "XXLC": 9844,
+          "XXLVS": 11886,
+          "XXLV": 10990
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "979 lbs. (444 kg)",
+          "Drawbar Extended, Transport": "801 lbs. (363 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XXLDS": 135,
+          "XXLD": 135,
+          "XXLO": 89,
+          "XXLC": 89,
+          "XXLVS": 86,
+          "XXLV": 86
+        },
+        "productLine": "XXL",
+        "transportWidthIn": 217,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "roadClearanceInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 15.25,
+          "XXLVS, XXLV Models": 14.25
+        },
+        "axleSizeInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 8,
+          "XXLVS, XLLV Models": 4.5
+        }
+      },
+      {
+        "sku": "XXL46",
+        "workingWidthIn": 556,
+        "transportHeightIn": 105,
+        "overallLengthDrawbarRetractedIn": 275,
+        "overallLengthDrawbarExtendedIn": 353,
+        "weightLbByOption": {
+          "XXLDS": 11106,
+          "XXLD": 10651,
+          "XXLO": 11746,
+          "XXLC": 10097,
+          "XXLVS": 12230,
+          "XXLV": 11298
+        },
+        "tongueWeightByOption": {
+          "Drawbar Retracted, Transport": "983 lbs. (446 kg)",
+          "Drawbar Extended, Transport": "804 lbs. (365 kg)",
+          "Operation": "Under 500 lbs. (227 kg)"
+        },
+        "pulverizerWheelsByOption": {
+          "XXLDS": 141,
+          "XXLD": 141,
+          "XXLO": 93,
+          "XXLC": 93,
+          "XXLVS": 90,
+          "XXLV": 90
+        },
+        "productLine": "XXL",
+        "transportWidthIn": 217,
+        "tireSize": "11L x 15-12 Ply Tires on 6 Bolt Rims",
+        "roadClearanceInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 15.25,
+          "XXLVS, XXLV Models": 14.25
+        },
+        "axleSizeInByOption": {
+          "XXLDS, XXLD, XXLO, XXLC Models": 8,
+          "XXLVS, XLLV Models": 4.5
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-sd-series-double-gang-pulverizer",
+    "manufacturer": "Brillion",
+    "modelFamily": "SD / SDP Series",
+    "displayName": "Brillion SD / SDP Series Double Gang Pulverizer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "SD-Series-Double-Gang-Models.xlsx (Brillion per-model spec spreadsheets). Weights and wheel counts depend on the wheel option, so they are recorded per option code (see wheelOptions). Feet-and-inches values converted to inches."
+    },
+    "constants": {
+      "transportHeightIn": 34,
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)"
+    },
+    "variants": [
+      {
+        "sku": "SDP-6",
+        "weightLb": 845,
+        "workingWidthIn": 72,
+        "transportWidthIn": 84,
+        "overallLengthIn": 28,
+        "pulverizerWheelsFrontGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 31,
+        "axleSizeFrontGangIn": 8.625,
+        "pulverizerWheelsRearGang": "10 in. (250 mm) Gray Iron",
+        "numberOfWheelsRearGang": 32,
+        "axleSizeRearGangIn": 1.75,
+        "hitch": "Cat. I, II Free Link; Cat. I, II Quick Coupler",
+        "hpRequirement": "35 HP (26.88 kW) and up",
+        "productLine": "SDP 3-point mounted"
+      },
+      {
+        "sku": "SD-8",
+        "weightLb": 1886,
+        "workingWidthIn": 96,
+        "transportWidthIn": 133,
+        "overallLengthIn": 158,
+        "transportTires": "7.60 x 15-6 Ply Tires",
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 40,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 41,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Pull-Type Hydraulic Transport",
+        "hpRequirement": "55 HP (42.24 kW) and up",
+        "productLine": "SD pull-type"
+      },
+      {
+        "sku": "SDP-8",
+        "weightLb": 1560,
+        "workingWidthIn": 96,
+        "transportWidthIn": 114,
+        "overallLengthIn": 66,
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 40,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 41,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "55 HP (42.24 kW) and up",
+        "productLine": "SDP 3-point mounted"
+      },
+      {
+        "sku": "SD-10",
+        "weightLb": 2188,
+        "workingWidthIn": 120,
+        "transportWidthIn": 155,
+        "overallLengthIn": 158,
+        "transportTires": "7.60 x 15-6 Ply Tires",
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 50,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 52,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Pull-Type Hydraulic Transport",
+        "hpRequirement": "65 HP (49.92 kW) and up",
+        "productLine": "SD pull-type"
+      },
+      {
+        "sku": "SDP-10",
+        "weightLb": 1851,
+        "workingWidthIn": 120,
+        "transportWidthIn": 136,
+        "overallLengthIn": 66,
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 50,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 52,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "65 HP (49.92 kW) and up",
+        "productLine": "SDP 3-point mounted"
+      },
+      {
+        "sku": "SD-12",
+        "weightLb": 2386,
+        "workingWidthIn": 144,
+        "transportWidthIn": 180,
+        "overallLengthIn": 158,
+        "transportTires": "7.60 x 15-6 Ply Tires",
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 61,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 62,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Pull-Type Hydraulic Transport",
+        "hpRequirement": "80 HP (61.44 kW) and up",
+        "productLine": "SD pull-type"
+      },
+      {
+        "sku": "SDP-12",
+        "weightLb": 2118,
+        "workingWidthIn": 144,
+        "transportWidthIn": 159,
+        "overallLengthIn": 66,
+        "pulverizerWheelsFrontGang": "16 in. (400 mm) Gray Iron",
+        "numberOfWheelsFrontGang": 61,
+        "axleSizeFrontGangIn": 12.75,
+        "pulverizerWheelsRearGang": "12 in. (300 mm) Gray Iron",
+        "numberOfWheelsRearGang": 62,
+        "axleSizeRearGangIn": 8.625,
+        "hitch": "Cat. II Free Link; Cat. II, IIIN Quick Coupler",
+        "hpRequirement": "80 HP (61.44 kW) and up",
+        "productLine": "SDP 3-point mounted"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-ml-series-seedbed-conditioner",
+    "manufacturer": "Brillion",
+    "modelFamily": "ML Series",
+    "displayName": "Brillion ML Series Seedbed Conditioner (Pulvi-Mulcher)",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "ML-Series_rv1.27.2026.xlsx (Brillion per-model spec spreadsheet). Each column of the source covers four SKUs that differ only in front/rear roller wheel type, so weights and wheel counts are recorded per SKU. Feet-and-inches values converted to inches. A few SKU labels in the source wheel-count rows contain typos (e.g. \"MLC-2253/MLC-2253\", \"MCL1483\"); recorded as given."
+    },
+    "constants": {
+      "transportHeightIn": 44,
+      "overallLengthTransportIn": 238,
+      "roadClearanceIn": 9,
+      "rollerAxleSizeIn": 4,
+      "bearingType": "1.5 in. (38 mm) Square Bore Bearing with Triple Lip Seal",
+      "shankSpacingIn": 6,
+      "maxWorkingDepthIn": 6,
+      "hitch": "Cat. II or III Pull-Type with Hydraulic Lift",
+      "tireSize": "(4) 9.5L x 15-8 Ply Tires",
+      "hydraulicCircuitsRequired": 2,
+      "rearHitch": "Optional",
+      "landLevelerKit": "Optional",
+      "vLevelerKit": "Optional",
+      "independentHydraulicToothControl": "Standard",
+      "hpRequirement": "6 to 8 HP (4.5 to 6 kW) per ft.",
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)",
+      "wheelOptions": {
+        "notched": "20in (500 mm) notched ductile iron",
+        "crowfoot": "20in (500 mm) crowfoot ductile iron"
+      },
+      "skuLetterCode": "Inferred from the sheet: in each SKU the letter after the series letter is the front roller wheel and the next is the rear (L = notched, C = crowfoot); a trailing S (e.g. MLS-1483) = 12 mm S-tine teeth instead of conventional C teeth."
+    },
+    "variants": [
+      {
+        "sku": "ML-1483 / MCL-1483 / MLC-1483 / MCC-1483",
+        "workingWidthIn": 150,
+        "transportWidthIn": 162,
+        "typeOfShanks": "Conventional \"C\" Teeth",
+        "shanks": 23,
+        "weightLbBySku": {
+          "ML-1483": 6314,
+          "MCL-1483": 6184,
+          "MLC-1483": 6151,
+          "MCC-1483": 6078
+        },
+        "pulverizerWheelsFrontBySku": {
+          "ML-1483/MLC-1483": 36,
+          "MCL-1483/MCC-1483": 24
+        },
+        "pulverizerWheelsRearBySku": {
+          "ML-1483/MCL1483": 37,
+          "MLC-1483/MCC-1483": 25
+        }
+      },
+      {
+        "sku": "MLS-1483 / MCLS-1483 / MLCS-1483 / MCCS-1483",
+        "workingWidthIn": 150,
+        "transportWidthIn": 162,
+        "typeOfShanks": "12 mm \"S-Tine\" Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 23,
+        "weightLbBySku": {
+          "MLS-1483": 6255,
+          "MCLS-1483": 6126,
+          "MLCS-1483": 6020,
+          "MCCS-1483": 5890
+        },
+        "pulverizerWheelsFrontBySku": {
+          "MLS-1483/MLCS-1483": 36,
+          "MCLS-1483/MCCS-1483": 24
+        },
+        "pulverizerWheelsRearBySku": {
+          "MLS-1483/MCLS-1483": 37,
+          "MLCS-1483/MCCS-1483": 25
+        }
+      },
+      {
+        "sku": "ML-1643 / MCL-1643 / MLC-1643 / MCC-1643",
+        "workingWidthIn": 166,
+        "transportWidthIn": 173,
+        "typeOfShanks": "Conventional \"C\" Teeth",
+        "shanks": 27,
+        "weightLbBySku": {
+          "ML-1643": 6666,
+          "MCL-1643": 6454,
+          "MLC-1643": 6382,
+          "MCC-1643": 6215
+        },
+        "pulverizerWheelsFrontBySku": {
+          "ML-1643/MLC-1643": 40,
+          "MCL-1643/MCC-1643": 26
+        },
+        "pulverizerWheelsRearBySku": {
+          "ML-1643/MCL-1643": 41,
+          "MLC-1643/MCC-1643": 27
+        }
+      },
+      {
+        "sku": "MLS-1643 / MCLS-1643 / MLCS-1643 / MCCS-1643",
+        "workingWidthIn": 166,
+        "transportWidthIn": 173,
+        "typeOfShanks": "12 mm \"S-Tine\" Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 27,
+        "weightLbBySku": {
+          "MLS-1643": 6545,
+          "MCLS-1643": 6421,
+          "MLCS-1643": 6304,
+          "MCCS-1643": 6137
+        },
+        "pulverizerWheelsFrontBySku": {
+          "MLS-1643/MLCS-1643": 40,
+          "MCLS-1643/MCCS-1643": 26
+        },
+        "pulverizerWheelsRearBySku": {
+          "MLS-1643/MCLS-1643": 41,
+          "MLCS-1643/MCCS-1643": 27
+        }
+      },
+      {
+        "sku": "ML-1803 / MCL-1803 / MLC-1803 / MCC-1803",
+        "workingWidthIn": 182,
+        "transportWidthIn": 189,
+        "typeOfShanks": "Conventional \"C\" Teeth",
+        "shanks": 29,
+        "weightLbBySku": {
+          "ML-1803": 7015,
+          "MCL-1803": 6882,
+          "MLC-1803": 6718,
+          "MCC-1803": 6586
+        },
+        "pulverizerWheelsFrontBySku": {
+          "ML-1803/MLC-1803": 44,
+          "MCL-1803/MCC-1803": 30
+        },
+        "pulverizerWheelsRearBySku": {
+          "ML-1803/MCL-1803": 45,
+          "MLC-1803/MCC-1803": 30
+        }
+      },
+      {
+        "sku": "MLS-1803 / MCLS-1803 / MLCS-1803 / MCCS-1803",
+        "workingWidthIn": 182,
+        "transportWidthIn": 189,
+        "typeOfShanks": "12 mm \"S-Tine\" Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 29,
+        "weightLbBySku": {
+          "MLS-1803": 6737,
+          "MCLS-1803": 6605,
+          "MLCS-1803": 6441,
+          "MCCS-1803": 6310
+        },
+        "pulverizerWheelsFrontBySku": {
+          "MLS-1803/MLCS-1803": 44,
+          "MCLS-1803/MCCS-1803": 30
+        },
+        "pulverizerWheelsRearBySku": {
+          "MLS-1803/MCLS-1803": 45,
+          "MLCS-1803/MCCS-1803": 30
+        }
+      },
+      {
+        "sku": "ML-2253 / MCL-2253 / MLC-2253 / MCC-2253",
+        "workingWidthIn": 225,
+        "transportWidthIn": 234,
+        "typeOfShanks": "Conventional \"C\" Teeth",
+        "shanks": 35,
+        "weightLbBySku": {
+          "ML-2253": 8313,
+          "MCL-2253": 8175,
+          "MLC-2253": 7986,
+          "MCC-2253": 7879
+        },
+        "pulverizerWheelsFrontBySku": {
+          "ML-2253/MLC-2253": 54,
+          "MCL-2253/MLC-2253": 36
+        },
+        "pulverizerWheelsRearBySku": {
+          "ML-2253/MCL-2253": 55,
+          "MLC-2253/MLC-2253": 37
+        }
+      },
+      {
+        "sku": "MLS-2253 / MCLS-2253 / MLCS-2253 / MCCS-2253",
+        "workingWidthIn": 225,
+        "transportWidthIn": 234,
+        "typeOfShanks": "12 mm \"S-Tine\" Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 35,
+        "weightLbBySku": {
+          "MLS-2253": 8223,
+          "MCLS-2253": 8086,
+          "MLCS-2253": 7896,
+          "MCCS-2253": 7789
+        },
+        "pulverizerWheelsFrontBySku": {
+          "MLS-2253/MLCS-2253": 54,
+          "MCLS-2253/MCCS-2253": 36
+        },
+        "pulverizerWheelsRearBySku": {
+          "MLS-2253/MCLS-2253": 55,
+          "MLCS-2253/MCCS-2253": 37
+        }
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "brillion-wl-series-seedbed-conditioner",
+    "manufacturer": "Brillion",
+    "modelFamily": "WL Series",
+    "displayName": "Brillion WL Series Seedbed Conditioner (Pulvi-Mulcher, Folding)",
+    "category": "Mulch Finishers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "WL-Series_rv1.27.2026.xlsx (Brillion per-model spec spreadsheet). Each column of the source covers four SKUs that differ only in front/rear roller wheel type, so weights and wheel counts are recorded per SKU. Feet-and-inches values converted to inches. Road clearance for the 2603/3003 sizes is given as \"9 in. (153 mm)\" in the source (the metric figure does not match 9 in); the inch figure is recorded."
+    },
+    "constants": {
+      "overallLengthTransportIn": 238,
+      "rollerAxleSizeIn": 4,
+      "bearingType": "1.5 in. (38 mm) Square Bore Bearing with Triple Lip Seal",
+      "shankSpacingIn": 6,
+      "maxWorkingDepthIn": 6,
+      "rearHitch": "Optional",
+      "landLevelerKit": "Optional",
+      "vLevelerKit": "Optional",
+      "independentHydraulicToothControl": "Standard",
+      "hpRequirement": "6 to 8 HP (4.5 to 6 kW) per ft.",
+      "operatingSpeed": "3 to 6 MPH (5 to 10 km/h)",
+      "wheelOptions": {
+        "notched": "20in (500 mm) notched ductile iron",
+        "crowfoot": "20in (500 mm) crowfoot ductile iron"
+      },
+      "skuLetterCode": "Inferred from the sheet: in each SKU the letter after the series letter is the front roller wheel and the next is the rear (L = notched, C = crowfoot); a trailing S (e.g. MLS-1483) = 12 mm S-tine teeth instead of conventional C teeth."
+    },
+    "variants": [
+      {
+        "sku": "WL-2603 / WLC-2603 / WCL-2603 / WCC-2603",
+        "workingWidthIn": 260,
+        "transportWidthIn": 167,
+        "transportHeightIn": 74,
+        "roadClearanceIn": 9,
+        "typeOfShanks": "Conventional C Teeth",
+        "shanks": 41,
+        "hitch": "Cat. II or III Pull-Type with Hydraulic Lift",
+        "tireSize": "(4) 11L x 15-12 Ply Tires",
+        "hydraulicCircuitsRequired": 2,
+        "weightLbBySku": {
+          "WL-2603": 10760,
+          "WLC-2603": 10406,
+          "WCL-2603": 10605,
+          "WCC-2603": 10251
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WL-2603/WLC-2603": 64,
+          "WCL-2603/WCC-2603": 42
+        },
+        "pulverizerWheelsRearBySku": {
+          "WL-2603/WCL-2603": 65,
+          "WLC-2603/WCC-2603": 43
+        }
+      },
+      {
+        "sku": "WLS-2603 / WLCS-2603 / WCLS-2603 / WCCS-2603",
+        "workingWidthIn": 260,
+        "transportWidthIn": 167,
+        "transportHeightIn": 74,
+        "roadClearanceIn": 9,
+        "typeOfShanks": "12 mm S-Tine Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 41,
+        "hitch": "Cat. II or III Pull-Type with Hydraulic Lift",
+        "tireSize": "(4) 11L x 15-12 Ply Tires",
+        "hydraulicCircuitsRequired": 2,
+        "weightLbBySku": {
+          "WLS-2603": 10684,
+          "WLCS-2603": 10330,
+          "WCLS-2603": 10530,
+          "WCCS-2603": 10176
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WLS-2603/WLCS-2603": 64,
+          "WCLS-2603/WCC-2603": 42
+        },
+        "pulverizerWheelsRearBySku": {
+          "WLS-2603/WCLS-2603": 65,
+          "WLCS-2603/WCCS-2603": 43
+        }
+      },
+      {
+        "sku": "WL-3003 / WLC-3003 / WCL-3003 / WCC-3003",
+        "workingWidthIn": 300,
+        "transportWidthIn": 167,
+        "transportHeightIn": 74,
+        "roadClearanceIn": 9,
+        "typeOfShanks": "Conventional C Teeth",
+        "shanks": 47,
+        "hitch": "Cat. II or III Pull-Type with Hydraulic Lift",
+        "tireSize": "(4) 11L x 15-12 Ply Tires",
+        "hydraulicCircuitsRequired": 2,
+        "weightLbBySku": {
+          "WL-3003": 11585,
+          "WLC-3003": 11462,
+          "WCL-3003": 11235,
+          "WCC-3003": 11112
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WL-3003/WLC-3003": 74,
+          "WCL-3003/WCC-3003": 50
+        },
+        "pulverizerWheelsRearBySku": {
+          "WL-3003/WCL-3003": 75,
+          "WLC-3003/WCC-3003": 51
+        }
+      },
+      {
+        "sku": "WLS-3003 / WLCS-3003 / WCLS-3003 / WCCS-3003",
+        "workingWidthIn": 300,
+        "transportWidthIn": 167,
+        "transportHeightIn": 74,
+        "roadClearanceIn": 9,
+        "typeOfShanks": "12 mm S-Tine Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 47,
+        "hitch": "Cat. II or III Pull-Type with Hydraulic Lift",
+        "tireSize": "(4) 11L x 15-12 Ply Tires",
+        "hydraulicCircuitsRequired": 2,
+        "weightLbBySku": {
+          "WLS-3003": 11499,
+          "WLCS-3003": 11376,
+          "WCLS-3003": 11149,
+          "WCCS-3003": 11026
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WLS-3003/WLCS-3003": 74,
+          "WCLS-3003/WCCS-3003": 50
+        },
+        "pulverizerWheelsRearBySku": {
+          "WLS-3003/WCLS-3003": 75,
+          "WLCS-3003/WCCS-3003": 51
+        }
+      },
+      {
+        "sku": "WL-360 / WLC-360 / WCL-360 / WCC-360",
+        "workingWidthIn": 360,
+        "transportWidthIn": 201,
+        "transportHeightIn": 76,
+        "roadClearanceIn": 10,
+        "typeOfShanks": "Conventional C Teeth",
+        "shanks": 59,
+        "hitch": "Cat. II, III Pull-Type with Hydraulic Lift (Cat. IV Available)",
+        "tireSize": "(4) 12.5L x 16-14 Ply Tires",
+        "hydraulicCircuitsRequired": 3,
+        "weightLbBySku": {
+          "WL-360": 15453,
+          "WLC-360": 14836,
+          "WCL-360": 15189,
+          "WCC-360": 14572
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WL-360/WLC-360": 88,
+          "WCL-360/WCC360": 60
+        },
+        "pulverizerWheelsRearBySku": {
+          "WL-360/WCL-360": 89,
+          "WLC-360/WCC-360": 60
+        }
+      },
+      {
+        "sku": "WLS-360 / WLCS-360 / WCLS-360 / WCCS-360",
+        "workingWidthIn": 360,
+        "transportWidthIn": 201,
+        "transportHeightIn": 76,
+        "roadClearanceIn": 10,
+        "typeOfShanks": "12 mm S-Tine Teeth with 1.38 in. (35 mm) Reversible Point or 2.75 in. (70 mm) Shovel",
+        "shanks": 59,
+        "hitch": "Cat. II, III Pull-Type with Hydraulic Lift (Cat. IV Available)",
+        "tireSize": "(4) 12.5L x 16-14 Ply Tires",
+        "hydraulicCircuitsRequired": 3,
+        "weightLbBySku": {
+          "WLS-360": 15377,
+          "WLCS-360": 13961,
+          "WCLS-360": 14313,
+          "WCCS-360": 13697
+        },
+        "pulverizerWheelsFrontBySku": {
+          "WLS-360/WLCS-360": 88,
+          "WCLS-360/WCCS-360": 60
+        },
+        "pulverizerWheelsRearBySku": {
+          "WLS-360/WCLS-360": 89,
+          "WLCS-360/WCCS-360": 60
+        }
+      }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,896 @@
+[
+  {
+    "id": "frontier-tm10-tm11-tandem-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "TM10/TM11",
+    "displayName": "Frontier TM10/TM11 Series Tandem Disk Harrow (compact)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.1-5). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "TM1048L",
+        "workingWidthIn": 48.0,
+        "overallWidthIn": 50.0,
+        "blades": 12,
+        "bladeDiameterIn": 16.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 437,
+        "weightPerBladeLb": 36,
+        "hpRange": "15-25"
+      },
+      {
+        "sku": "TM1062L",
+        "workingWidthIn": 62.0,
+        "overallWidthIn": 64.0,
+        "blades": 16,
+        "bladeDiameterIn": 16.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 490,
+        "weightPerBladeLb": 31,
+        "hpRange": "20-35"
+      },
+      {
+        "sku": "TM1164",
+        "workingWidthIn": 64.0,
+        "overallWidthIn": 67.0,
+        "blades": 16,
+        "bladeDiameterIn": 18.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 684,
+        "weightPerBladeLb": 43,
+        "hpRange": "25-50"
+      },
+      {
+        "sku": "TM1173",
+        "workingWidthIn": 73.0,
+        "overallWidthIn": 79.0,
+        "blades": 16,
+        "bladeDiameterIn": 18.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 721,
+        "weightPerBladeLb": 45,
+        "hpRange": "35-75"
+      },
+      {
+        "sku": "TM1179",
+        "workingWidthIn": 79.0,
+        "overallWidthIn": 82.0,
+        "blades": 20,
+        "bladeDiameterIn": 18.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 764,
+        "weightPerBladeLb": 38,
+        "hpRange": "35-75"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-tm12-tm13-tandem-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "TM12/TM13",
+    "displayName": "Frontier TM12/TM13 Series 3-Point Tandem Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.6-11). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "TM1275",
+        "workingWidthIn": 75.0,
+        "overallWidthIn": 79.5,
+        "blades": 16,
+        "bladeDiameterIn": 20.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 890,
+        "weightPerBladeLb": 55,
+        "hpRange": "40-75"
+      },
+      {
+        "sku": "TM1292",
+        "workingWidthIn": 92.0,
+        "overallWidthIn": 97.75,
+        "blades": 20,
+        "bladeDiameterIn": 20.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 968,
+        "weightPerBladeLb": 50,
+        "hpRange": "40-75"
+      },
+      {
+        "sku": "TM1395",
+        "workingWidthIn": 96.0,
+        "overallWidthIn": 98.375,
+        "blades": 20,
+        "bladeDiameterIn": 22.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 1346,
+        "weightPerBladeLb": 65,
+        "hpRange": "45-100"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-tm51-wing-fold-tandem-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "TM51",
+    "displayName": "Frontier TM51 Series Tandem Wing-Fold Ag Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.18-29). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "TM5118",
+        "workingWidthIn": 216.0,
+        "transportWidthIn": 164.0,
+        "blades": 46,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 15500,
+        "weightPerBladeLb": 369,
+        "hpRange": "160-180"
+      },
+      {
+        "sku": "TM5120",
+        "workingWidthIn": 234.0,
+        "transportWidthIn": 164.0,
+        "blades": 50,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 15850,
+        "weightPerBladeLb": 345,
+        "hpRange": "170-200"
+      },
+      {
+        "sku": "TM5121",
+        "workingWidthIn": 252.0,
+        "transportWidthIn": 164.0,
+        "blades": 54,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 16100,
+        "weightPerBladeLb": 322,
+        "hpRange": "190-210"
+      },
+      {
+        "sku": "TM5124",
+        "workingWidthIn": 282.0,
+        "transportWidthIn": 164.0,
+        "blades": 58,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 17290,
+        "weightPerBladeLb": 320,
+        "hpRecommended": "220"
+      },
+      {
+        "sku": "TM5129",
+        "workingWidthIn": 348.0,
+        "transportWidthIn": 228.0,
+        "blades": 74,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 22000,
+        "weightPerBladeLb": 314,
+        "hpRecommended": "260"
+      },
+      {
+        "sku": "TM5132",
+        "workingWidthIn": 384.0,
+        "transportWidthIn": 228.0,
+        "blades": 82,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 24100,
+        "weightPerBladeLb": 309,
+        "hpRecommended": "280"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh51-offset-disk",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH51",
+    "displayName": "Frontier DH51 Series Rigid Single Offset Ag Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.30-39). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "DH5108",
+        "workingWidthIn": 96.0,
+        "transportWidthIn": 108.0,
+        "blades": 19,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 5500,
+        "weightPerBladeLb": 323,
+        "hpRange": "80-90"
+      },
+      {
+        "sku": "DH5110",
+        "workingWidthIn": 120.0,
+        "transportWidthIn": 132.0,
+        "blades": 23,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 5925,
+        "weightPerBladeLb": 282,
+        "hpRange": "90-110"
+      },
+      {
+        "sku": "DH5112",
+        "workingWidthIn": 144.0,
+        "transportWidthIn": 156.0,
+        "blades": 27,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 6365,
+        "weightPerBladeLb": 255,
+        "hpRange": "110-135"
+      },
+      {
+        "sku": "DH5114",
+        "workingWidthIn": 168.0,
+        "transportWidthIn": 180.0,
+        "blades": 33,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 7700,
+        "weightPerBladeLb": 248,
+        "hpRange": "140-160"
+      },
+      {
+        "sku": "DH5116",
+        "workingWidthIn": 192.0,
+        "transportWidthIn": 204.0,
+        "blades": 37,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 8500,
+        "weightPerBladeLb": 242,
+        "hpRange": "160-180"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh52-offset-disk",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH52",
+    "displayName": "Frontier DH52 Series Single Offset Ag Disk (rigid and folding)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.40-59). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard). DH5224F was printed on the same pages as DH5222F (pp.58-59) and was transcribed by hand."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "DH5210",
+        "workingWidthIn": 120.0,
+        "transportWidthIn": 132.0,
+        "blades": 23,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 7170,
+        "weightPerBladeLb": 341,
+        "hpRange": "100-120"
+      },
+      {
+        "sku": "DH5212",
+        "workingWidthIn": 144.0,
+        "transportWidthIn": 156.0,
+        "blades": 27,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 7690,
+        "weightPerBladeLb": 308,
+        "hpRange": "100-135"
+      },
+      {
+        "sku": "DH5214",
+        "workingWidthIn": 168.0,
+        "transportWidthIn": 180.0,
+        "blades": 33,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 8500,
+        "weightPerBladeLb": 274,
+        "hpRange": "125-155"
+      },
+      {
+        "sku": "DH5216",
+        "workingWidthIn": 192.0,
+        "transportWidthIn": 204.0,
+        "blades": 37,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 10100,
+        "weightPerBladeLb": 288,
+        "hpRange": "150-165"
+      },
+      {
+        "sku": "DH5217",
+        "workingWidthIn": 204.0,
+        "transportWidthIn": 216.0,
+        "blades": 41,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 10550,
+        "weightPerBladeLb": 270,
+        "hpRange": "160-180"
+      },
+      {
+        "sku": "DH5219",
+        "workingWidthIn": 228.0,
+        "transportWidthIn": 240.0,
+        "blades": 45,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 11050,
+        "weightPerBladeLb": 257,
+        "hpRange": "170-200"
+      },
+      {
+        "sku": "DH5221",
+        "workingWidthIn": 252.0,
+        "transportWidthIn": 264.0,
+        "blades": 49,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 11700,
+        "weightPerBladeLb": 249,
+        "hpRange": "180-210"
+      },
+      {
+        "sku": "DH5221F",
+        "workingWidthIn": 249.0,
+        "transportWidthIn": 150.0,
+        "blades": 49,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 14100,
+        "weightPerBladeLb": 300,
+        "hpRange": "180-220",
+        "folding": true
+      },
+      {
+        "sku": "DH5222F",
+        "workingWidthIn": 268.0,
+        "transportWidthIn": 150.0,
+        "blades": 53,
+        "bladeOptions": [
+          "26in x 5/16in",
+          "28in x 5/16in"
+        ],
+        "bladeSpacingIn": 10.5,
+        "weightLb": 14550,
+        "weightPerBladeLb": 285,
+        "hpRange": "190-240",
+        "folding": true
+      },
+      {
+        "sku": "DH5224F",
+        "folding": true,
+        "workingWidthIn": 288,
+        "transportWidthIn": 150,
+        "blades": 57,
+        "bladeSpacingIn": 10.5,
+        "weightLb": 15000,
+        "weightPerBladeLb": 273,
+        "hpRange": "200-260"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh53-offset-disk",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH53",
+    "displayName": "Frontier DH53 Series Rigid Single Offset Ag Disk (heavy duty)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.60-69). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "DH5308",
+        "workingWidthIn": 96.0,
+        "transportWidthIn": 108.0,
+        "blades": 17,
+        "bladeOptions": [
+          "28in x 3/8in",
+          "30in x 3/8in",
+          "32in x 3/8in"
+        ],
+        "bladeSpacingIn": 12.0,
+        "weightLb": 8000,
+        "weightPerBladeLb": 533,
+        "hpRange": "100-130"
+      },
+      {
+        "sku": "DH5310",
+        "workingWidthIn": 120.0,
+        "transportWidthIn": 132.0,
+        "blades": 21,
+        "bladeOptions": [
+          "28in x 3/8in",
+          "30in x 3/8in",
+          "32in x 3/8in"
+        ],
+        "bladeSpacingIn": 12.0,
+        "weightLb": 8525,
+        "weightPerBladeLb": 449,
+        "hpRange": "120-150"
+      },
+      {
+        "sku": "DH5312",
+        "workingWidthIn": 144.0,
+        "transportWidthIn": 156.0,
+        "blades": 25,
+        "bladeOptions": [
+          "28in x 3/8in",
+          "30in x 3/8in",
+          "32in x 3/8in"
+        ],
+        "bladeSpacingIn": 12.0,
+        "weightLb": 9140,
+        "weightPerBladeLb": 397,
+        "hpRange": "140-170"
+      },
+      {
+        "sku": "DH5314",
+        "workingWidthIn": 168.0,
+        "transportWidthIn": 180.0,
+        "blades": 29,
+        "bladeOptions": [
+          "28in x 3/8in",
+          "30in x 3/8in",
+          "32in x 3/8in"
+        ],
+        "bladeSpacingIn": 12.0,
+        "weightLb": 10450,
+        "weightPerBladeLb": 362,
+        "hpRange": "170-200"
+      },
+      {
+        "sku": "DH5316",
+        "workingWidthIn": 192.0,
+        "transportWidthIn": 204.0,
+        "blades": 33,
+        "bladeOptions": [
+          "28in x 3/8in",
+          "30in x 3/8in",
+          "32in x 3/8in"
+        ],
+        "bladeSpacingIn": 12.0,
+        "weightLb": 11100,
+        "weightPerBladeLb": 337,
+        "hpRange": "180-210"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh10-dh12-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH10/DH11/DH12",
+    "displayName": "Frontier DH10/DH11/DH12 Series Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf (Deere & Company Frontier price-book export dated 5 February 2026; one product per 1-2 pages, here pp.73-80). Feet-and-inches converted to inches. Blade options list the sizes offered (first listed is standard). \"ALDI\" in the source titles is a Deere dealer-channel tag, not part of the model name. Operating weight given; hp is the stated tractor maximum. hpRange (engine hp) for all models, and the DH1180 / DH1280 / DH13xx widths, from \"614a224fa03932d40177a1f4_Frontier Product Guide 10.pdf\" (Frontier product guide page 10, disk table). DH1280 blade counts and operating weights from the ManualsLib copy of the DH1276 operator manual specifications page (DH1276/DH1280/DH1296 figures there match the 2026 export). DH13xx rows have width/spacing/hp only."
+    },
+    "constants": {
+      "hitch": "3-point (Cat 1 for DH10-DH12, Cat 1 and 2 for DH13)",
+      "bladeThicknessMm": 3.5
+    },
+    "variants": [
+      {
+        "sku": "DH1048",
+        "workingWidthIn": 48.0,
+        "blades": 12,
+        "bladeDiameterIn": 16.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 388,
+        "hpMax": "28",
+        "hpRange": "14-28"
+      },
+      {
+        "sku": "DH1066",
+        "workingWidthIn": 66.0,
+        "blades": 16,
+        "bladeDiameterIn": 16.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 445,
+        "hpMax": "28",
+        "hpRange": "14-28"
+      },
+      {
+        "sku": "DH1166",
+        "workingWidthIn": 66.0,
+        "blades": 16,
+        "bladeDiameterIn": 18.0,
+        "bladeSpacingIn": 7.5,
+        "weightLb": 660,
+        "hpMax": "45",
+        "hpRange": "22-45"
+      },
+      {
+        "sku": "DH1176",
+        "workingWidthIn": 76.0,
+        "blades": 16,
+        "bladeDiameterIn": 18.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 705,
+        "hpMax": "45",
+        "hpRange": "22-45"
+      },
+      {
+        "sku": "DH1276",
+        "workingWidthIn": 76.0,
+        "blades": 16,
+        "bladeDiameterIn": 20.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 890,
+        "hpMax": "55",
+        "hpRange": "30-55"
+      },
+      {
+        "sku": "DH1296",
+        "workingWidthIn": 96.0,
+        "blades": 20,
+        "bladeDiameterIn": 20.0,
+        "bladeSpacingIn": 9.0,
+        "weightLb": 968,
+        "hpMax": "55",
+        "hpRange": "30-55"
+      },
+      {
+        "sku": "DH1180",
+        "workingWidthIn": 80,
+        "bladeSpacingIn": 7.5,
+        "hpRange": "22-45",
+        "hitch": "Cat 1"
+      },
+      {
+        "sku": "DH1280 (7.5in spacing)",
+        "workingWidthIn": 80,
+        "bladeSpacingIn": 7.5,
+        "blades": 20,
+        "bladeDiameterIn": 20,
+        "weightLb": 942,
+        "hpRange": "30-55",
+        "hpMax": "55"
+      },
+      {
+        "sku": "DH1280 (9in front / 7.5in rear)",
+        "workingWidthIn": 80,
+        "bladeSpacing": "9in front, 7.5in rear",
+        "blades": 18,
+        "bladeDiameterIn": 20,
+        "weightLb": 915,
+        "hpRange": "30-55",
+        "hpMax": "55"
+      },
+      {
+        "sku": "DH1296 (7.5in spacing)",
+        "workingWidthIn": 96,
+        "bladeSpacingIn": 7.5,
+        "hpRange": "30-55"
+      },
+      {
+        "sku": "DH1376",
+        "workingWidthIn": 76,
+        "bladeSpacingIn": 9,
+        "hpRange": "40-75",
+        "hitch": "Cat 1 and 2"
+      },
+      {
+        "sku": "DH1380",
+        "workingWidthIn": 80,
+        "bladeSpacingIn": 7.5,
+        "hpRange": "40-75",
+        "hitch": "Cat 1 and 2"
+      },
+      {
+        "sku": "DH1396 (7.5in spacing)",
+        "workingWidthIn": 96,
+        "bladeSpacingIn": 7.5,
+        "hpRange": "40-75",
+        "hitch": "Cat 1 and 2"
+      },
+      {
+        "sku": "DH1396 (9in spacing)",
+        "workingWidthIn": 96,
+        "bladeSpacingIn": 9,
+        "hpRange": "40-75",
+        "hitch": "Cat 1 and 2"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-tm14-drawn-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "TM14 D",
+    "displayName": "Frontier TM14 Series Drawn Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf, pp.12-17. Width, weight and blade count are given separately for the 7.5in and 9in blade-spacing builds; the TM1412D 9in-spacing width and weights are cut off at a page break in the export and are omitted."
+    },
+    "constants": {
+      "hitch": "Drawn level lift with clevis, Cat 1 & 2",
+      "gangAxle": "1-1/8in square",
+      "frontGangAnglesDeg": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "rearGangAnglesDeg": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "workingDepthIn": "0-6"
+    },
+    "variants": [
+      {
+        "sku": "TM1411D (7.5in spacing)",
+        "workingWidthIn": 124,
+        "blades": 32,
+        "bladeSpacingIn": 7.5,
+        "bladeDiameterIn": 20,
+        "weightLb": 2800,
+        "weightPerBladeLb": 88,
+        "hpRange": "45-75"
+      },
+      {
+        "sku": "TM1411D (9in spacing)",
+        "workingWidthIn": 128,
+        "blades": 28,
+        "bladeSpacingIn": 9,
+        "bladeDiameterOptionsIn": [
+          20,
+          22
+        ],
+        "weightLbRange": [
+          2761,
+          2907
+        ],
+        "hpRange": "45-75"
+      },
+      {
+        "sku": "TM1412D (7.5in spacing)",
+        "workingWidthIn": 138,
+        "blades": 36,
+        "bladeSpacingIn": 7.5,
+        "bladeDiameterIn": 20,
+        "weightLb": 2932,
+        "weightPerBladeLb": 82,
+        "hpRange": "55-80"
+      },
+      {
+        "sku": "TM1412D (9in spacing)",
+        "blades": 32,
+        "bladeSpacingIn": 9,
+        "bladeDiameterOptionsIn": [
+          20,
+          22
+        ],
+        "hpRange": "55-80"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-cp11-cultipacker",
+    "manufacturer": "Frontier",
+    "modelFamily": "CP11",
+    "displayName": "Frontier CP11 Series Cultipacker",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf, pp.70-71. 9.5in packer wheels."
+    },
+    "constants": {
+      "wheelDiameterIn": 9.5,
+      "hpRange": "20-40"
+    },
+    "variants": [
+      {
+        "sku": "CP1148L",
+        "workingWidthFt": 4,
+        "weightLb": 310
+      },
+      {
+        "sku": "CP1172L",
+        "workingWidthFt": 6,
+        "weightLb": 412
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh32-offset-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH32",
+    "displayName": "Frontier DH3263 3-Point Offset Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "FRONTIER_TILLAGE_05FEB2026.pdf, p.72."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "DH3263",
+        "workingWidthIn": 63,
+        "blades": 14,
+        "bladeSpacingIn": 9,
+        "weightLb": 996,
+        "hpRange": "35-75"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "frontier-dh15-drawn-disk-harrow",
+    "manufacturer": "Frontier",
+    "modelFamily": "DH15",
+    "displayName": "Frontier DH15 Series Drawn Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "dh15_series_disks_lit.pdf (Frontier Equipment, \"New Frontier 15 Series Disks\", TLDSFE36964LIT, 2006), specifications table p.1; widths/hp also in Frontier Product Guide 10. Blade count is a range per model (depends on 7.5in vs 9in spacing)."
+    },
+    "constants": {
+      "bladeSpacingOptions": "9 or 7.5in, or 9in front / 7.5in rear",
+      "bladeDiameterOptionsIn": [
+        20,
+        22
+      ],
+      "bladeThickness": "20in: 3.5 mm; 22in: 4 mm",
+      "hitch": "Drawn / clevis"
+    },
+    "variants": [
+      {
+        "sku": "DH1508",
+        "workingWidthIn": 96,
+        "bladesRange": [
+          20,
+          24
+        ],
+        "weightLb": 1900,
+        "weightPerBladeLb": "80-90",
+        "hpRange": "35-55"
+      },
+      {
+        "sku": "DH1509",
+        "workingWidthIn": 114,
+        "bladesRange": [
+          24,
+          28
+        ],
+        "weightLb": 2100,
+        "weightPerBladeLb": "70-80",
+        "hpRange": "40-65"
+      },
+      {
+        "sku": "DH1510",
+        "workingWidthIn": 126,
+        "bladesRange": [
+          28,
+          32
+        ],
+        "weightLb": 2500,
+        "weightPerBladeLb": "80-90",
+        "hpRange": "45-75"
+      },
+      {
+        "sku": "DH1512",
+        "workingWidthIn": 144,
+        "bladesRange": [
+          32,
+          36
+        ],
+        "weightLb": 3100,
+        "weightPerBladeLb": "90-100",
+        "hpRange": "55-80 (Product Guide 10: 55-85)"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

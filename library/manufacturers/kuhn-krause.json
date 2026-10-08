@@ -1,0 +1,443 @@
+[
+  {
+    "id": "kuhn-krause-4000-flex-wing-chisel-plow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "4000 Flex-Wing Chisel Plow",
+    "displayName": "Kuhn Krause 4000 Flex-Wing Chisel Plow",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "QP4000US_4000_Leaflet.pdf. Clean per-model Technical Specifications table (14 models)."
+    },
+    "constants": {
+      "shankSpacingIn": 12,
+      "frameType": "3-Section",
+      "hitch": "CAT IV Cast for 2in Pin",
+      "shankOptions": "Rigid clamp (10in max working depth, 30in underframe clearance, 1-1/4x2x30in shanks) standard; shear-bolt or K2000 spring reset (600lb point load, 9in trip height) optional",
+      "pointsStandard": "2in reversible straight steel chisel point",
+      "pointsOptional": "Double K 2in reversible cast chromium carbide chisel point, or 3in twisted shovel point",
+      "recommendedOperatingSpeedMph": "4-7",
+      "workingDepthRangeIn": "6-10",
+      "recommendedTractorPowerHpPerShank": "8-12"
+    },
+    "variants": [
+      { "sku": "4000-17", "workingWidth": "17'", "shanks": 17, "transportWidth": "12'9\"", "transportHeight": "9'8\"", "weightLb": 5452 },
+      { "sku": "4000-19", "workingWidth": "19'", "shanks": 19, "transportWidth": "12'9\"", "transportHeight": "10'7\"", "weightLb": 5600 },
+      { "sku": "4000-21", "workingWidth": "21'", "shanks": 21, "transportWidth": "12'9\"", "transportHeight": "11'9\"", "weightLb": 5714 },
+      { "sku": "4000-23", "workingWidth": "23'", "shanks": 23, "transportWidth": "12'9\"", "transportHeight": "12'6\"", "weightLb": 6299 },
+      { "sku": "4000-25N", "workingWidth": "25'", "shanks": 25, "transportWidth": "12'9\"", "transportHeight": "13'6\"", "weightLb": 6447 },
+      { "sku": "4000-25W", "workingWidth": "25'", "shanks": 25, "transportWidth": "18'4\"", "transportHeight": "10'10\"", "weightLb": 7456 },
+      { "sku": "4000-27N", "workingWidth": "27'", "shanks": 27, "transportWidth": "12'9\"", "transportHeight": "14'8\"", "weightLb": 6650 },
+      { "sku": "4000-27W", "workingWidth": "27'", "shanks": 27, "transportWidth": "18'4\"", "transportHeight": "11'9\"", "weightLb": 7604 },
+      { "sku": "4000-29", "workingWidth": "29'", "shanks": 29, "transportWidth": "18'4\"", "transportHeight": "12'9\"", "weightLb": 7817 },
+      { "sku": "4000-31", "workingWidth": "31'", "shanks": 31, "transportWidth": "18'4\"", "transportHeight": "13'7\"", "weightLb": 8611 },
+      { "sku": "4000-33", "workingWidth": "33'", "shanks": 33, "transportWidth": "18'4\"", "transportHeight": "14'6\"", "weightLb": 8759 },
+      { "sku": "4000-35", "workingWidth": "35'", "shanks": 35, "transportWidth": "18'4\"", "transportHeight": "15'6\"", "weightLb": 8972 },
+      { "sku": "4000-37", "workingWidth": "37'", "shanks": 37, "transportWidth": "18'4\"", "transportHeight": "16'4\"", "weightLb": 10040 },
+      { "sku": "4000-39", "workingWidth": "39'", "shanks": 39, "transportWidth": "18'4\"", "transportHeight": "17'3\"", "weightLb": 10188 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-landsaver-4810",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Landsaver 4810",
+    "displayName": "Kuhn Krause Landsaver 4810 Coulter Chisel",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "QP4810US_4810_Leaflet.pdf. Clean per-model Technical Specifications table (10 models). A coulter-gang + chisel-shank combination tool; filed under Chisel Plows (primary tillage) since it uses shanks as the countField per categories.json."
+    },
+    "constants": {
+      "shankSpacingIn": 16,
+      "coulterBladeSpacingIn": 8,
+      "coulterBlades": "22in x 1/4in smooth coulter blades, standard",
+      "shankStandard": "K2000 spring reset, 2000lb point load, 15in trip height, 12in working depth, 32in underframe clearance, 2-1/2 x 1-1/4 x 32in parabolic shank",
+      "shankOptional": "Shear-bolt chisel shank, same dimensions",
+      "pointsStandard": "4in 1-piece twisted point",
+      "pointsOptional": "3in 1-piece twisted, 2in reversible steel chisel, Double K 2in reversible cast chromium carbide, or Double K 7in wing cast chromium carbide with shank protectors",
+      "recommendedOperatingSpeedMph": "4-7",
+      "workingDepthRangeIn": "6-12",
+      "recommendedTractorPowerHpPerShank": "20-25"
+    },
+    "variants": [
+      { "sku": "4810-7", "workingWidth": "9'4\"", "shanks": 7, "frameType": "Rigid", "transportWidth": "9'8\"", "weightLessReelLb": 7693, "weightWithReelLb": 9178 },
+      { "sku": "4810-9", "workingWidth": "12'", "shanks": 9, "frameType": "Rigid", "transportWidth": "13'", "weightLessReelLb": 9467, "weightWithReelLb": 11249 },
+      { "sku": "4810-11", "workingWidth": "14'8\"", "shanks": 11, "frameType": "Rigid", "transportWidth": "15'4\"", "weightLessReelLb": 11860, "weightWithReelLb": 14291 },
+      { "sku": "4810-13", "workingWidth": "17'4\"", "shanks": 13, "frameType": "Folding Wing", "transportWidth": "15'3\"", "transportHeight": "9'7\"", "weightLessReelLb": 14430, "weightWithReelLb": 17245 },
+      { "sku": "4810-15", "workingWidth": "20'", "shanks": 15, "frameType": "Folding Wing", "transportWidth": "15'3\"", "transportHeight": "10'9\"", "weightLessReelLb": 15303, "weightWithReelLb": 18266 },
+      { "sku": "4810-17", "workingWidth": "22'8\"", "shanks": 17, "frameType": "Folding Flex-Wing", "transportWidth": "14'11\"", "transportHeight": "11'3\"", "weightLessReelLb": 18721, "weightWithReelLb": 22180 },
+      { "sku": "4810-19", "workingWidth": "25'4\"", "shanks": 19, "frameType": "Folding Flex-Wing", "transportWidth": "14'11\"", "transportHeight": "12'5\"", "weightLessReelLb": 19714, "weightWithReelLb": 23623 },
+      { "sku": "4810-21", "workingWidth": "28'", "shanks": 21, "frameType": "Folding Flex-Wing", "transportWidth": "14'11\"", "transportHeight": "13'8\"", "weightLessReelLb": 20700, "weightWithReelLb": 24756 },
+      { "sku": "4810-23", "workingWidth": "30'8\"", "shanks": 23, "frameType": "Folding Flex-Wing", "transportWidth": "17'3\"", "transportHeight": "13'5\"", "weightLessReelLb": 23413, "weightWithReelLb": 28014 },
+      { "sku": "4810-25", "workingWidth": "33'4\"", "shanks": 25, "frameType": "Folding Flex-Wing", "transportWidth": "17'3\"", "transportHeight": "14'10\"", "weightLessReelLb": 24294, "weightWithReelLb": 29041 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-4835-in-line-ripper",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "4835 In-Line Ripper",
+    "displayName": "Kuhn Krause 4835 In-Line Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "QP4835US_4835_Leaflet.pdf. Clean per-model Technical Specifications tables across 2 pages (8 rigid + 7 folding models, 15 total)."
+    },
+    "constants": {
+      "coulterBlades": "22in x 1/4in smooth, 450lb down pressure, standard on every row",
+      "frame": "Heavy-duty 6x6in double rank toolbar",
+      "hitchTypeSmallFrame": "CAT 3N, 3 and 4N, compatible with parking stands (rigid + 730F/830F models)",
+      "hitchTypeLargeFrame": "CAT 3, 4N, and 4, compatible with parking stands (836F/838F/840F/930F/1130F)",
+      "shankMountStandard": "Spring reset, 2500lb point load, 20in trip height",
+      "shankMountOptional": "Rigid/shear-bolt protected (10,000lb shear force), or Pathfind'r pivoting spring reset (2500lb, not compatible with pull hitch)",
+      "recommendedOperatingSpeedMph": "4-7",
+      "workingDepthRangeIn": "8-16",
+      "recommendedTractorPowerHpPerShank": "35-50"
+    },
+    "variants": [
+      { "sku": "4835-430R", "workingWidth": "10'", "shanks": 4, "shankSpacingIn": 30, "frameType": "Rigid", "transportWidth": "9'2\"", "weightSpringResetLb": 3900, "weightShearBoltLb": 3100 },
+      { "sku": "4835-440R", "workingWidth": "13'4\"", "shanks": 4, "shankSpacingIn": 40, "frameType": "Rigid", "transportWidth": "11'8\"", "weightSpringResetLb": 4314, "weightShearBoltLb": 3514 },
+      { "sku": "4835-530R", "workingWidth": "12'6\"", "shanks": 5, "shankSpacingIn": 30, "frameType": "Rigid", "transportWidth": "11'8\"", "weightSpringResetLb": 4848, "weightShearBoltLb": 3848 },
+      { "sku": "4835-630R", "workingWidth": "15'", "shanks": 6, "shankSpacingIn": 30, "frameType": "Rigid", "transportWidth": "14'5\"", "weightSpringResetLb": 5563, "weightShearBoltLb": 4363 },
+      { "sku": "4835-636R", "workingWidth": "18'", "shanks": 6, "shankSpacingIn": 36, "frameType": "Rigid", "transportWidth": "16'10\"", "weightSpringResetLb": 5756, "weightShearBoltLb": 4556 },
+      { "sku": "4835-638R", "workingWidth": "19'", "shanks": 6, "shankSpacingIn": 38, "frameType": "Rigid", "transportWidth": "18'5\"", "weightSpringResetLb": 5900, "weightShearBoltLb": 4700 },
+      { "sku": "4835-640R", "workingWidth": "20'", "shanks": 6, "shankSpacingIn": 40, "frameType": "Rigid", "transportWidth": "18'5\"", "weightSpringResetLb": 5900, "weightShearBoltLb": 4700 },
+      { "sku": "4835-730R", "workingWidth": "17'6\"", "shanks": 7, "shankSpacingIn": 30, "frameType": "Rigid", "transportWidth": "16'10\"", "weightSpringResetLb": 6882, "weightShearBoltLb": 5482 },
+      { "sku": "4835-730F", "workingWidth": "17'6\"", "shanks": 7, "shankSpacingIn": 30, "frameType": "Folding", "transportWidth": "12'6\"", "weightSpringResetLb": 7300, "weightShearBoltLb": 5900 },
+      { "sku": "4835-830F", "workingWidth": "20'", "shanks": 8, "shankSpacingIn": 30, "frameType": "Folding", "transportWidth": "12'4\"", "weightSpringResetLb": 7800, "weightShearBoltLb": 6200 },
+      { "sku": "4835-836F", "workingWidth": "24'", "shanks": 8, "shankSpacingIn": 36, "frameType": "Folding", "transportWidth": "14'5\"", "weightSpringResetLb": 8464, "weightShearBoltLb": 6851 },
+      { "sku": "4835-838F", "workingWidth": "25'4\"", "shanks": 8, "shankSpacingIn": 38, "frameType": "Folding", "transportWidth": "14'5\"", "weightSpringResetLb": 8464, "weightShearBoltLb": 6851 },
+      { "sku": "4835-840F", "workingWidth": "26'8\"", "shanks": 8, "shankSpacingIn": 40, "frameType": "Folding", "transportWidth": "14'5\"", "weightSpringResetLb": 8464, "weightShearBoltLb": 6851 },
+      { "sku": "4835-930F", "workingWidth": "22'6\"", "shanks": 9, "shankSpacingIn": 30, "frameType": "Folding", "transportWidth": "14'5\"", "weightSpringResetLb": 8813, "weightShearBoltLb": 6993 },
+      { "sku": "4835-1130F", "workingWidth": "27'6\"", "shanks": 11, "shankSpacingIn": 30, "frameType": "Folding", "transportWidth": "14'5\"", "weightSpringResetLb": 10217, "weightShearBoltLb": 7992 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-dominator",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Dominator (4857 / 4861)",
+    "displayName": "Kuhn Krause Dominator 4857 / 4861 Combination Disc Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "QP4854US_Leaflet.pdf (also present as duplicate files QP4854US_Leaflet-2.pdf and -3.pdf, byte-identical, not separately processed). A combination disc-ripper: front coulter gang + subsoil/chisel shanks + rear disc conditioner + finishing reel, in one pass. Filed under Rippers since subsoil fracture via shanks is the primary function and shanks is the countField; the disc-conditioner/coulter elements are recorded as constants rather than a separate countField. Frame Type values for 4861 sub-models (Rigid/Folding/Folding/3-Section/3-Section) are read across 5 source table columns for 5 models; mapping is straightforward except that 'Folding' is not visually distinguished between 4861-9 and 4861-9F in the source layout — both are recorded as Folding since no other label is given."
+    },
+    "constants": {
+      "reel": "24/7 heavy-duty round bar (standard) or flat bar (optional) soil conditioning reel, maintenance-free bearings, optional hydraulic reel lift",
+      "rearDiscConditioner": "Reverse tandem design, hydraulically controlled with lower limit adjustment valve, maintenance-free double angular contact bearings",
+      "smartSoilTechnology": "Optional ISOBUS in-cab control of depth, coulter pressure, disc conditioner depth and reel"
+    },
+    "variants": [
+      { "sku": "4857-7", "modelLine": "4857", "workingWidth": "10'6\"", "shanks": 7, "shankSpacingIn": 18, "coulterBladeSpacingIn": 9, "frameType": "Rigid", "transportWidth": "13'1\"", "transportHeight": "8'", "weightLessReelLb": 12425, "weightWithReelLb": 13800, "shankType": "Combination of spring reset parabolic sub-soil shanks (3000lb point load, 22in trip height, 39in underframe clearance, 16in working depth) and heavy-duty chisel shanks (1200lb point load, 21in trip height, 37in underframe clearance, 12in working depth)", "hitch": "CAT IV Articulating Ball for 2in Pin", "recommendedTractorPowerHpPerShank": "39-47", "workingDepthRangeIn": "8-16", "recommendedOperatingSpeedMph": "4-7" },
+      { "sku": "4857-9", "modelLine": "4857", "workingWidth": "13'6\"", "shanks": 9, "shankSpacingIn": 18, "coulterBladeSpacingIn": 9, "frameType": "Rigid", "transportWidth": "15'11\"", "transportHeight": "8'", "weightLessReelLb": 15442, "weightWithReelLb": 16652 },
+      { "sku": "4857-11", "modelLine": "4857", "workingWidth": "16'6\"", "shanks": 11, "shankSpacingIn": 18, "coulterBladeSpacingIn": 9, "frameType": "Folding", "transportWidth": "14'1\"", "transportHeight": "11'7\"", "weightLessReelLb": 20655, "weightWithReelLb": 22213 },
+      { "sku": "4857-13", "modelLine": "4857", "workingWidth": "19'6\"", "shanks": 13, "shankSpacingIn": 18, "coulterBladeSpacingIn": 9, "frameType": "Folding", "transportWidth": "14'2\"", "transportHeight": "12'8\"", "weightLessReelLb": 22193, "weightWithReelLb": 23825 },
+      { "sku": "4861-7", "modelLine": "4861", "workingWidth": "14'", "shanks": 7, "shankSpacingIn": 24, "coulterBladeSpacingIn": 8, "frameType": "Rigid", "transportWidth": "16'1\"", "transportHeight": "8'", "weightLessReelLb": 16915, "weightWithReelLb": 18207, "shankType": "3000lb point load spring reset parabolic sub-soil shank, 1-1/4 x 4in with wear bar, 21in trip height, 39in underframe clearance, 16in working depth", "hitch": "CAT IV Articulating Ball for 2in Pin", "recommendedTractorPowerHpPerShank": "40-50", "workingDepthRangeIn": "8-16", "recommendedOperatingSpeedMph": "4-7" },
+      { "sku": "4861-9", "modelLine": "4861", "workingWidth": "18'", "shanks": 9, "shankSpacingIn": 24, "coulterBladeSpacingIn": 8, "frameType": "Folding", "transportWidth": "18'7\"", "transportHeight": "11'6\"", "weightLessReelLb": 20700, "weightWithReelLb": 22400 },
+      { "sku": "4861-9F", "modelLine": "4861", "workingWidth": "18'", "shanks": 9, "shankSpacingIn": 24, "coulterBladeSpacingIn": 8, "frameType": "Folding", "transportWidth": "15'6\"", "transportHeight": "11'6\"", "weightLessReelLb": 21516, "weightWithReelLb": 23189 },
+      { "sku": "4861-11", "modelLine": "4861", "workingWidth": "22'", "shanks": 11, "shankSpacingIn": 24, "coulterBladeSpacingIn": 8, "frameType": "3-Section", "transportWidth": "17'9\"", "transportHeight": "12'2\"", "weightLessReelLb": 28394, "weightWithReelLb": 30177 },
+      { "sku": "4861-13", "modelLine": "4861", "workingWidth": "26'", "shanks": 13, "shankSpacingIn": 24, "coulterBladeSpacingIn": 8, "frameType": "3-Section", "transportWidth": "17'9\"", "transportHeight": "13'6\"", "weightLessReelLb": 31104, "weightWithReelLb": 33321 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-interceptor-8050",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Interceptor 8050",
+    "displayName": "Kuhn Krause Interceptor 8050 High-Speed Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2021 Tillage and Seeding Hi Res.pdf (parent full-line catalog), p.7. Clean per-model table (3 models)."
+    },
+    "constants": {
+      "frame": "3-Section",
+      "bladeSpacingIn": 9,
+      "bladeType": "Excalibur CT (conservation tillage) shallow concavity blades on compound angle",
+      "maxWorkingDepthIn": 5,
+      "recommendedOperatingSpeedMph": "8-10 (6-8 in rocky conditions)",
+      "recommendedTractorPowerPtoHpPerFt": "13-17"
+    },
+    "variants": [
+      { "sku": "8050-20", "cutWidth": "20'", "blades": 54, "transportWidth": "13'5\"", "transportHeight": "11'5\"", "weightLb": 18407 },
+      { "sku": "8050-25", "cutWidth": "25'", "blades": 66, "transportWidth": "12'11\"", "transportHeight": "13'5\"", "weightLb": 21885 },
+      { "sku": "8050-30", "cutWidth": "30'", "blades": 78, "transportWidth": "16'5\"", "transportHeight": "14'1\"", "weightLb": 25200 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-8100-disc-harrow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "8100 Disc Harrow",
+    "displayName": "Kuhn Krause 8100 Disc Harrow (Class I)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.8. Clean per-model table (4 models). Class I - Seedbed Finishing."
+    },
+    "constants": {
+      "diskDiameterIn": 22,
+      "diskSpacingIn": 9.125,
+      "maxWorkingDepthIn": 5,
+      "bladeType": "Residue Razor disc blades",
+      "bearingArms": "Rock-Flex"
+    },
+    "variants": [
+      { "sku": "8100-12W", "workingWidth": "12'3\"", "blades": 34, "transportWidth": "13'11\"", "weightLb": 4343 },
+      { "sku": "8100-14W", "workingWidth": "13'9\"", "blades": 38, "transportWidth": "15'4\"", "weightLb": 4604 },
+      { "sku": "8100-15W", "workingWidth": "15'3\"", "blades": 42, "transportWidth": "16'10\"", "weightLb": 5033 },
+      { "sku": "8100-18W", "workingWidth": "18'1\"", "blades": 50, "transportWidth": "19'8\"", "weightLb": 5499 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-7305-disc-harrow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "7305 Disc Harrow",
+    "displayName": "Kuhn Krause 7305 Disc Harrow (Class I)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.9. Clean per-model table (6 models). Class I - Seedbed Finishing."
+    },
+    "constants": {
+      "frame": "3-Section Folding",
+      "diskDiameterIn": 22,
+      "diskSpacingIn": 9.125,
+      "maxWorkingDepthIn": 5,
+      "bladeType": "Residue Razor disc blades"
+    },
+    "variants": [
+      { "sku": "7305-18W", "workingWidth": "18'1\"", "blades": 50, "transportWidth": "10'11\"", "transportHeight": "10'2\"", "weightLb": 8717 },
+      { "sku": "7305-21W", "workingWidth": "21'", "blades": 58, "transportWidth": "10'11\"", "transportHeight": "11'7\"", "weightLb": 9409 },
+      { "sku": "7305-24W", "workingWidth": "23'11\"", "blades": 66, "transportWidth": "14'7\"", "transportHeight": "11'6\"", "weightLb": 10745 },
+      { "sku": "7305-27W", "workingWidth": "26'9\"", "blades": 74, "transportWidth": "14'7\"", "transportHeight": "12'10\"", "weightLb": 11172 },
+      { "sku": "7305-31W", "workingWidth": "31'1\"", "blades": 86, "transportWidth": "16'4\"", "transportHeight": "14'2\"", "weightLb": 12899 },
+      { "sku": "7305-34W", "workingWidth": "34'", "blades": 94, "transportWidth": "16'4\"", "transportHeight": "15'6\"", "weightLb": 13347 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-8220-disc-harrow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "8220 Disc Harrow",
+    "displayName": "Kuhn Krause 8220 Disc Harrow (Class II)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.10. Catalog gives 2 range groups spanning many sub-models (19W-36W and 36WQF-44WQF), not a per-model table, so only ranges are recorded. Class II - All-Purpose."
+    },
+    "constants": {
+      "diskDiameterIn": 24,
+      "diskSpacingIn": 9,
+      "maxWorkingDepthIn": 6,
+      "bladeType": "Residue Razor disc blades or rollable 24in x 1/4in disc blades"
+    },
+    "variants": [
+      { "sku": "8220 3-Section (19W-36W)", "workingWidthRange": "19'9\"-35'8\"", "diskCountRange": "54-98" },
+      { "sku": "8220 5-Section Quad-Fold (36WQF-44WQF)", "workingWidthRange": "35'8\"-44'3\"", "diskCountRange": "98-122" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-8320-disc-harrow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "8320 Disc Harrow",
+    "displayName": "Kuhn Krause 8320 Disc Harrow (Class III)",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.11. Catalog gives 2 range groups spanning many sub-models, not a per-model table. Class III - Primary Tillage."
+    },
+    "constants": {
+      "diskDiameterIn": 26,
+      "diskSpacingIn": 10,
+      "maxWorkingDepthIn": 8,
+      "bladeType": "Residue Razor disc blades"
+    },
+    "variants": [
+      { "sku": "8320 3-Section (19W-34W)", "workingWidthRange": "19'10\"-34'1\"", "diskCountRange": "50-84" },
+      { "sku": "8320 5-Section Quad-Fold (37WQF)", "workingWidth": "37'3\"", "disks": 92 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-5805-offset-disc-harrow",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "5805 Offset Disc Harrow",
+    "displayName": "Kuhn Krause 5805 Offset Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.12. Clean per-model table (6 models)."
+    },
+    "constants": {
+      "diskDiameterOptionsIn": "26 or 28",
+      "diskSpacingIn": 10,
+      "maxWorkingDepthIn": 10,
+      "gangAngleRangeDeg": "16-25"
+    },
+    "variants": [
+      { "sku": "5805-12", "workingWidth": "12'3\"", "disks": 31, "transportWidth": "13'6\"", "weightLb": 7741 },
+      { "sku": "5805-14", "workingWidth": "13'10\"", "disks": 35, "transportWidth": "15'1\"", "weightLb": 8242 },
+      { "sku": "5805-15", "workingWidth": "15'5\"", "disks": 39, "transportWidth": "16'7\"", "weightLb": 8759 },
+      { "sku": "5805-17", "workingWidth": "17'", "disks": 43, "transportWidth": "18'2\"", "weightLb": 9305 },
+      { "sku": "5805-19", "workingWidth": "18'7\"", "disks": 47, "transportWidth": "19'9\"", "weightLb": 10311 },
+      { "sku": "5805-20", "workingWidth": "20'2\"", "disks": 51, "transportWidth": "21'3\"", "weightLb": 10793 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-5635-field-cultivator",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "5635 Field Cultivator",
+    "displayName": "Kuhn Krause 5635 Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.13. Catalog gives 2 range groups (3-Section and 5-Section), not a per-model table."
+    },
+    "constants": {
+      "shankSpacingIn": 6,
+      "maxWorkingDepthIn": 6,
+      "hitchNote": "Exclusive floating hitch option and positive stop depth adjustment; optional hydraulic depth control",
+      "shankPattern": "Split-the-middle sweep pattern, 5 rows of shanks"
+    },
+    "variants": [
+      { "sku": "5635 3-Section (20-36)", "workingWidthRange": "20'6\"-36'6\"", "shankCountRange": "41-73" },
+      { "sku": "5635 5-Section (39-50)", "workingWidthRange": "39'6\"-50'6\"", "shankCountRange": "79-101" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-landsman-6205",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Landsman 6205",
+    "displayName": "Kuhn Krause Landsman 6205 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.14. Catalog gives 2 range groups (3-Section Single-Fold and 5-Section Double-Fold), not a per-model table."
+    },
+    "constants": {
+      "bladeType": "Excalibur VT 32-flute hybrid blades",
+      "shankSpacingOptionsIn": "7 or 9",
+      "workingDepthRangeIn": "1-6",
+      "gangAngleDeg": 8,
+      "features": "No daily grease maintenance gang bearings, spring shanks on deep frame"
+    },
+    "variants": [
+      { "sku": "6205 3-Section Single-Fold (18-31)", "workingWidthRange": "18'-31'6\"", "bladeCountRange": "24-40", "shankCountRange": "25-53" },
+      { "sku": "6205 5-Section Double-Fold (36-45)", "workingWidthRange": "36'-45'", "bladeCountRange": "46-62", "shankCountRange": "49-77" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-landstar-6405",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Landstar 6405",
+    "displayName": "Kuhn Krause Landstar 6405 Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.15. Catalog gives 1 range group and 1 single-value group (5-Section is a single model, not a range), so 5-Section is recorded as exact values."
+    },
+    "constants": {
+      "bladeType": "Excalibur VT blades",
+      "shankSpacingIn": 9,
+      "workingDepthRangeIn": "1-6",
+      "features": "Star Wheel treaders for clod sizing, leveling and residue distribution"
+    },
+    "variants": [
+      { "sku": "6405 3-Section Single-Fold (18-31)", "workingWidthRange": "18'-31'6\"", "bladeCountRange": "24-40", "shankCountRange": "25-43" },
+      { "sku": "6405-36 5-Section Double-Fold", "workingWidth": "36'", "blades": 46, "shanks": 49 }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-4400-packer",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "4400 Packer",
+    "displayName": "Kuhn Krause 4400 Packer",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.16. Catalog gives 2 range groups (Rigid and Folding), not a per-model table. countField for Land Rollers is 'drums' per categories.json; this product's unit count is described as 'packer wheels' rather than drums, recorded as packerWheelCountRange."
+    },
+    "constants": {
+      "wheelType": "Ductile iron, notched packer wheels with reversible scrapers; optional V packer wheels",
+      "axle": "6-5/8in pipe roller axle",
+      "frameLeveling": "Ratchet jack frame leveling"
+    },
+    "variants": [
+      { "sku": "4400 Rigid (12-18)", "workingWidthRange": "12'-18'", "packerWheelCountRange": "36-54" },
+      { "sku": "4400 Folding (20-46)", "workingWidthRange": "20'4\"-46'", "packerWheelCountRange": "61-138" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-gladiator-1205",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Gladiator 1205",
+    "displayName": "Kuhn Krause Gladiator 1205 Precision Tillage System",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.17. Catalog gives 2 configuration groups (3-Point Mounted and Pull-Type) with row-count and width options, not a per-model table. A precision fertilizer-placement tillage system with ST-PRO row units, closest category fit is Strip Till (countField rows)."
+    },
+    "constants": {
+      "rowSpacingOptionsIn": "30, 36, 38, 40",
+      "coulterSizeIn": 25,
+      "workingDepthRangeIn": "6-12",
+      "rowUnit": "ST-PRO row units, spring-reset or shearbolt"
+    },
+    "variants": [
+      { "sku": "1205M 3-Point Mounted", "rowsOptions": "4, 6, or 8", "workingWidthRange": "10'-26'8\"" },
+      { "sku": "1205 Pull-Type", "rowsOptions": "8, 12, or 16", "workingWidthRange": "20'-40'" }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "kuhn-krause-excelerator-xt-8010-8005",
+    "manufacturer": "Kuhn Krause",
+    "modelFamily": "Excelerator XT 8010 / 8005",
+    "displayName": "Kuhn Krause Excelerator XT 8010 / 8005 Vertical Tillage System",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "2021 Tillage and Seeding Hi Res.pdf, p.18. Catalog groups several sub-models per column (e.g. '8010-11 and 8010-14'), not a clean single-model table, so ranges are recorded per group rather than exact per-SKU values."
+    },
+    "constants": {
+      "bladeDiameterIn": 22,
+      "bladeType": "Excalibur VT hybrid 32-flute blade",
+      "maxWorkingDepthIn": 3.5,
+      "features": "Star Wheel treaders, optional 24/7 soil conditioning reel"
+    },
+    "variants": [
+      { "sku": "8010-11 / 8010-14 (Rigid)", "workingWidthRange": "11'-13'6\"", "bladeCountRange": "38-46" },
+      { "sku": "8010-20 / 8010-25 (3-Section)", "workingWidthRange": "20'-24'4\"", "bladeCountRange": "68-82" },
+      { "sku": "8010-30 to 8010-34 (3-Section)", "workingWidthRange": "29'6\"-33'6\"", "bladeCountRange": "98-110" },
+      { "sku": "8010-40 (5-Section)", "workingWidth": "40'", "blades": 132 },
+      { "sku": "8005-50 (5-Section)", "workingWidth": "50'", "blades": 153 }
+    ],
+    "referencePhotos": []
+  }
+]

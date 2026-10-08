@@ -1,0 +1,1387 @@
+[
+  {
+    "id": "case-ih-vt-flex-435",
+    "manufacturer": "Case IH",
+    "modelFamily": "VT-Flex 435",
+    "displayName": "Case IH VT-Flex 435 Vertical Tillage Tool",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "VT-FLEX_435_Spec_Sheet_10-21_CIH21100801, Case IH, 2021"
+    },
+    "constants": {
+      "operatingDepthRangeIn": [
+        1,
+        4
+      ],
+      "operatingSpeedMphRange": [
+        6,
+        9
+      ],
+      "depthControl": "Single-point hydraulic depth control",
+      "gangFrame": "4x6 in rectangular tube",
+      "gangAngleRangeDeg": [
+        0,
+        12
+      ],
+      "bladeSpacingIn": 7.5,
+      "bladeDiameterIn": 20,
+      "bladeThicknessIn": 0.256,
+      "bladeDesign": "Earth Metal, crimp center, shallow concavity VT wave blades",
+      "crumbler": "Standard 14 in diameter double-edge TigerPaw Crumbler, spring down pressure",
+      "mainFrameTires": "Walking tandem 340/55-16",
+      "transportWidthIn": 163
+    },
+    "variants": [
+      {
+        "sku": "VT-Flex 435 - 11ft",
+        "workingWidthFt": 11,
+        "blades": 40,
+        "numberOfBearings": 10,
+        "weightLb": 11000,
+        "engineHpMin": 80,
+        "engineHpMax": 120,
+        "transportHeightIn": 84,
+        "fold": "Rigid frame"
+      },
+      {
+        "sku": "VT-Flex 435 - 15ft",
+        "workingWidthFt": 15,
+        "blades": 56,
+        "numberOfBearings": 16,
+        "weightLb": 15700,
+        "engineHpMin": 105,
+        "engineHpMax": 165,
+        "transportHeightIn": 118,
+        "fold": "Transport single fold, field pinned rigid"
+      },
+      {
+        "sku": "VT-Flex 435 - 20ft",
+        "workingWidthFt": 20,
+        "blades": 68,
+        "numberOfBearings": 20,
+        "weightLb": 18300,
+        "engineHpMin": 140,
+        "engineHpMax": 220,
+        "transportHeightIn": 140,
+        "fold": "Single fold"
+      },
+      {
+        "sku": "VT-Flex 435 - 23ft",
+        "workingWidthFt": 23,
+        "blades": 76,
+        "numberOfBearings": 20,
+        "weightLb": 19000,
+        "engineHpMin": 160,
+        "engineHpMax": 250,
+        "transportHeightIn": 154,
+        "fold": "Single fold"
+      },
+      {
+        "sku": "VT-Flex 435 - 25ft",
+        "workingWidthFt": 25,
+        "blades": 84,
+        "numberOfBearings": 24,
+        "weightLb": 20300,
+        "engineHpMin": 175,
+        "engineHpMax": 275,
+        "transportHeightIn": 163,
+        "fold": "Single fold"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-vibra-tine-265",
+    "manufacturer": "Case IH",
+    "modelFamily": "Vibra-Tine 265",
+    "displayName": "Case IH Vibra-Tine 265 S-Tine Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Vibra-Tine-265-Field-Cultivator-Spec-Sheet-06-20-CIH20442104. Manufacturer calls the count field \"S-Tines\" \u2014 mapped to this schema's \"shanks\" field, kept alongside as \"sTines\" for the source term."
+    },
+    "constants": {
+      "transportLengthFt": 30,
+      "shankSpacingIn": 4,
+      "shankType": "Single piece Vibra-Max S-tine (110 lb force) standard; two piece Vibra-Max HD S-tine (160 lb force) optional",
+      "sweeps": "2.75 in bolt-on or quick change; 4 in bolt-on or quick change",
+      "depthControl": "Hydraulic single-point depth control",
+      "hpPerFootRange": [
+        5,
+        10
+      ],
+      "recommendedSpeedMphRange": [
+        5.5,
+        10
+      ],
+      "harrowOptions": "ACS 3-bar spike w/ flat bar crumbler; ACS 2-bar spike w/ dual independent-arm crumblers; optional rear hitch for towed conditioner"
+    },
+    "variants": [
+      {
+        "sku": "Vibra-Tine 265 - 26'6\" SF",
+        "frameType": "Single Fold",
+        "workingWidthIn": 318,
+        "shanks": 78,
+        "sTines": 78,
+        "weightLb": 12100,
+        "transportWidthIn": 196,
+        "transportHeightIn": 135,
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 28'6\" SF",
+        "frameType": "Single Fold",
+        "workingWidthIn": 342,
+        "shanks": 84,
+        "sTines": 84,
+        "weightLb": 12700,
+        "transportWidthIn": 196,
+        "transportHeightIn": 154,
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 30'6\" SF",
+        "frameType": "Single Fold",
+        "workingWidthIn": 366,
+        "shanks": 90,
+        "sTines": 90,
+        "weightLb": 13200,
+        "transportWidthIn": 196,
+        "transportHeightIn": 164,
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 32'6\" SF",
+        "frameType": "Single Fold",
+        "workingWidthIn": 390,
+        "shanks": 96,
+        "sTines": 96,
+        "weightLb": 13800,
+        "transportWidthIn": 196,
+        "transportHeightIn": 168,
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 36'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 438,
+        "shanks": 106,
+        "sTines": 106,
+        "weightLb": 14100,
+        "transportWidthIn": 223,
+        "transportHeightIn": 136,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 40'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 486,
+        "shanks": 118,
+        "sTines": 118,
+        "weightLb": 17200,
+        "transportWidthIn": 223,
+        "transportHeightIn": 161,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 42'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 510,
+        "shanks": 124,
+        "sTines": 124,
+        "weightLb": 18700,
+        "transportWidthIn": 223,
+        "transportHeightIn": 161,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 44'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 534,
+        "shanks": 130,
+        "sTines": 130,
+        "weightLb": 20200,
+        "transportWidthIn": 223,
+        "transportHeightIn": 161,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 46'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 558,
+        "shanks": 136,
+        "sTines": 136,
+        "weightLb": 21800,
+        "transportWidthIn": 223,
+        "transportHeightIn": 168,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Vibra-Tine 265 - 48'6\" DF",
+        "frameType": "Double Fold",
+        "workingWidthIn": 582,
+        "shanks": 144,
+        "sTines": 144,
+        "weightLb": 23300,
+        "transportWidthIn": 223,
+        "transportHeightIn": 168,
+        "hitchCategory": "IV"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-ecolo-til-2500",
+    "manufacturer": "Case IH",
+    "modelFamily": "Ecolo-Til 2500",
+    "displayName": "Case IH Ecolo-Til 2500 In-Line Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Ecolo-til_2500_Brochure_08-18_CIH18071801. Source tabulates row count and mainframe class, not exact working width per row count (given only as an overall 7.5-26.5 ft range) \u2014 workingWidthRangeFt in constants is the family range, not a per-variant figure."
+    },
+    "constants": {
+      "workingWidthRangeFt": [
+        7.5,
+        26.5
+      ],
+      "requiredHpPerShankRange": [
+        28,
+        38
+      ],
+      "coulters": "22 in with adjustable spring mounts",
+      "gaugeWheels": "2 per machine, 20.5x8 stubble-resistant tires, screw-adjustable with depth indicator",
+      "shankOptions": "Parabolic, MRD (Minimum Residue Disturbance), No-Till \u2014 with interchangeable Tiger Point sizes (2 in, 7 in standard, 7 in replaceable tip, 8 in No-Till)"
+    },
+    "variants": [
+      {
+        "sku": "Ecolo-Til 2500 A&B Mainframe 3-row",
+        "mainframeClass": "A & B",
+        "rows": 3,
+        "shanks": 3,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "bolt-on 17 or 27 in",
+        "bar": "4x6 in double-bar tubing",
+        "rank": "20 in",
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 A&B Mainframe 4-row",
+        "mainframeClass": "A & B",
+        "rows": 4,
+        "shanks": 4,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "bolt-on 17 or 27 in",
+        "bar": "4x6 in double-bar tubing",
+        "rank": "20 in",
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 A&B Mainframe 5-row",
+        "mainframeClass": "A & B",
+        "rows": 5,
+        "shanks": 5,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "bolt-on 17 or 27 in",
+        "bar": "4x6 in double-bar tubing",
+        "rank": "20 in",
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 A&B Mainframe 6-row",
+        "mainframeClass": "A & B",
+        "rows": 6,
+        "shanks": 6,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "bolt-on 17 or 27 in",
+        "bar": "4x6 in double-bar tubing",
+        "rank": "20 in",
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 A&B Mainframe 7-row",
+        "mainframeClass": "A & B",
+        "rows": 7,
+        "shanks": 7,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "bolt-on 17 or 27 in",
+        "bar": "4x6 in double-bar tubing",
+        "rank": "20 in",
+        "hitchCategory": "II/III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 C&D Mainframe 6-row",
+        "mainframeClass": "C & D",
+        "rows": 6,
+        "shanks": 6,
+        "rowSpacingIn": "30, 36, 38, 40 (9-row: 30in only)",
+        "wings": "hydraulic fold 28, 43 or 61 in",
+        "bar": "6x6 in double-bar tubing",
+        "rank": "22 in",
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 C&D Mainframe 7-row",
+        "mainframeClass": "C & D",
+        "rows": 7,
+        "shanks": 7,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "hydraulic fold 28, 43 or 61 in",
+        "bar": "6x6 in double-bar tubing",
+        "rank": "22 in",
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 C&D Mainframe 8-row",
+        "mainframeClass": "C & D",
+        "rows": 8,
+        "shanks": 8,
+        "rowSpacingIn": "30, 36, 38, 40",
+        "wings": "hydraulic fold 28, 43 or 61 in",
+        "bar": "6x6 in double-bar tubing",
+        "rank": "22 in",
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Ecolo-Til 2500 C&D Mainframe 9-row",
+        "mainframeClass": "C & D",
+        "rows": 9,
+        "shanks": 9,
+        "rowSpacingIn": "30 in only",
+        "wings": "hydraulic fold 28, 43 or 61 in",
+        "bar": "6x6 in double-bar tubing",
+        "rank": "22 in",
+        "hitchCategory": "III"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-p-t-crumbler",
+    "manufacturer": "Case IH",
+    "modelFamily": "P/T Crumbler",
+    "displayName": "Case IH P/T Crumbler",
+    "category": "Land Rollers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "PT Crumbler Spec Sheet, Case Corporation, 1999. Built by DMI (\"Helping Plants Thrive\") and co-branded/sold as a Case IH primary-tillage finishing attachment \u2014 DMI also appears separately in this library as its own manufacturer, worth cross-referencing."
+    },
+    "constants": {
+      "mainframeTubing": "6 in x 4 in",
+      "wingTubing": "6 in x 4 in",
+      "reelDiameterIn": 16,
+      "reelBars": "10, 1 in diameter solid bars",
+      "groundPressureLbPerFt": 160,
+      "hydraulics": "3,000 PSI cylinders and hoses with ISO couplers",
+      "tires": "9.5L x 15 8-ply tubeless rib implement tires",
+      "intendedUse": "Designed for use behind primary tillage tools (e.g. disk ripper) to break clods and level fall seedbed"
+    },
+    "variants": [
+      {
+        "sku": "P/T Crumbler 15ft",
+        "workingWidthFt": 15,
+        "frameType": "Rigid",
+        "transportWidthFt": 15,
+        "transportHeightIn": 54
+      },
+      {
+        "sku": "P/T Crumbler 20ft",
+        "workingWidthFt": 20,
+        "frameType": "Single-fold",
+        "transportWidthFt": 13,
+        "transportHeightIn": 90
+      },
+      {
+        "sku": "P/T Crumbler 25ft",
+        "workingWidthFt": 25,
+        "frameType": "Single-fold",
+        "transportWidthFt": 13,
+        "transportHeightIn": 114
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-ptx600",
+    "manufacturer": "Case IH",
+    "modelFamily": "PTX600",
+    "displayName": "Case IH PTX600 Precision Tillage",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "PTX600 Precision Tillage Brochure AE492032. Source has a full stepped table (18 shank-count steps x 2 shank-spacing options = 36 configurations) that did not transcribe reliably from PDF extraction \u2014 column counts didn't reconcile cleanly, so only the family-level range is captured here with confidence. The full per-configuration table needs manual entry via the Spec Desk tool against the source PDF directly, not this file."
+    },
+    "constants": {
+      "shankSpacingOptionsIn": [
+        9,
+        12
+      ],
+      "shankCountRange": [
+        27,
+        81
+      ],
+      "workingWidthRangeFt": [
+        26,
+        62
+      ],
+      "sectionTypes": "3-section and 5-section models",
+      "depthControl": "Single cylinder depth control, parallel lift, floating hitch",
+      "tripOptions": "550 lb (250 kg) trips on 9 in spacing; 650 lb (295 kg) trips on 12 in spacing"
+    },
+    "variants": [],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-nutri-tiller",
+    "manufacturer": "Case IH",
+    "modelFamily": "Nutri-Tiller",
+    "displayName": "Case IH Nutri-Tiller 955 & 5310 Strip-Till Applicators",
+    "category": "Strip Till",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Originally a DMI Corporation (Goodfield, IL) design; Case IH acquired DMI in 1998 and continued the product line under the Case IH brand. CIH07271603, \u00a92016 CNH Industrial. Several spec rows share one cell across 2-3 of the 4 row-configuration columns (e.g. mainframe tubing, wing flex, hitch category) \u2014 those were resolved by cross-referencing the brochure's own prose (e.g. \"the 8-, 12- and 16-row models have an A-frame hitch\"), not read as a clean one-value-per-column table, so treat non-dimensional fields as slightly lower confidence than Working Width/Transport Width/HP/Shanks, which were unambiguous. 5310 spec table itself wasn't included in this brochure beyond row-count/spacing."
+    },
+    "constants": {
+      "frameStyle": "Pull-type",
+      "depthAdjustment": "Single-point hydraulic",
+      "hingeLubrication": "Composite self-lubricating bushing",
+      "rearHitch": "Optional constant level rear hitch, 25,000 lb towing capacity",
+      "shankType": "HCS ST spring reset, adjustable 850 lb (386 kg) or 1,250 lb (567 kg)",
+      "operatingSpeedMphRange": [
+        5,
+        7
+      ],
+      "nutriTiller5310": "6- or 8-row (30 in spacing), 3-point mounted frame \u2014 same row-unit tech as the 955 on a smaller frame; brochure gives no further dimensions"
+    },
+    "variants": [
+      {
+        "sku": "Nutri-Tiller 955 - 8-row",
+        "rows": 8,
+        "shanks": 8,
+        "workingWidthFt": 20,
+        "rowSpacingIn": 30,
+        "mainframeTubing": "4x6 in double-rank",
+        "pullFrame": "A-frame, 4x10 in tubes",
+        "fold": "Single fold",
+        "transportHeightFt": 8.5,
+        "transportWidthFt": 18.5,
+        "hitchCategory": "3 clevis",
+        "wingFlex": "Rigid",
+        "engineHpMin": 150,
+        "engineHpMax": 200
+      },
+      {
+        "sku": "Nutri-Tiller 955 - 12-row",
+        "rows": 12,
+        "shanks": 12,
+        "workingWidthFt": 30,
+        "rowSpacingIn": 30,
+        "mainframeTubing": "4x6 in double-rank",
+        "pullFrame": "A-frame, 4x10 in tubes",
+        "fold": "Single fold",
+        "transportHeightFt": 8.5,
+        "transportWidthFt": 19.67,
+        "hitchCategory": "4 clevis",
+        "wingFlex": "3-section flex (7deg down, 16deg up)",
+        "engineHpMin": 225,
+        "engineHpMax": 300
+      },
+      {
+        "sku": "Nutri-Tiller 955 - 16-row",
+        "rows": 16,
+        "shanks": 16,
+        "workingWidthFt": 40,
+        "rowSpacingIn": 30,
+        "mainframeTubing": "6x6 in triple-rank",
+        "pullFrame": "A-frame, 4x10 in tubes",
+        "fold": "Double fold",
+        "transportHeightFt": 13.5,
+        "transportWidthFt": 19.67,
+        "hitchCategory": "4 clevis",
+        "wingFlex": "3-section flex (7deg down, 16deg up)",
+        "engineHpMin": 300,
+        "engineHpMax": 400
+      },
+      {
+        "sku": "Nutri-Tiller 955 - 24-row",
+        "rows": 24,
+        "shanks": 24,
+        "workingWidthFt": 60,
+        "rowSpacingIn": 30,
+        "mainframeTubing": "6x6 in triple-rank",
+        "pullFrame": "T-Bone pull hitch, 6x10x0.5 in wall",
+        "fold": "Triple fold",
+        "transportHeightFt": 13.75,
+        "transportWidthFt": 18.75,
+        "hitchCategory": "5 clevis",
+        "wingFlex": "5-section flex (inner 9deg down/20deg up, outer 7deg down/7deg up)",
+        "engineHpMin": 450,
+        "engineHpMax": 620
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-speed-tiller",
+    "manufacturer": "Case IH",
+    "modelFamily": "Speed-Tiller 465/475",
+    "displayName": "Case IH Speed-Tiller 465/475 High-Speed Disk",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "CIH19120301, \u00a92019 CNH Industrial, marked \"PRELIMINARY SPECIFICATIONS\" in the source itself. Transport Height row didn't resolve cleanly to individual SKUs (values shared across an unclear subset of columns) so it's omitted rather than guessed; all other fields matched column-for-column against Operating Width and Transport Width, which were unambiguous."
+    },
+    "constants": {
+      "bladeMounts": "Individually mounted, 1.25 in thick arm with 2 in high-density rubber torsion system; lateral front gang adjustment",
+      "bladeBearings": "Heavy duty double taper rolling bearing",
+      "bladeSpacingIn": 10,
+      "bladeEffectiveCutSpacingIn": 5,
+      "bladeThicknessIn": 0.236,
+      "bladeDesign": "Serrated front and rear blades",
+      "hydraulicPressurePsi": 2800
+    },
+    "variants": [
+      {
+        "sku": "Speed-Tiller 465 - 5.7ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 5.7,
+        "engineHpMin": 70,
+        "engineHpMax": 90,
+        "transportWidthFt": 6.9,
+        "weightLb": 3378,
+        "blades": 14
+      },
+      {
+        "sku": "Speed-Tiller 465 - 6.5ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 6.5,
+        "engineHpMin": 80,
+        "engineHpMax": 95,
+        "transportWidthFt": 7.8,
+        "weightLb": 3263,
+        "blades": 16
+      },
+      {
+        "sku": "Speed-Tiller 465 - 7.4ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 7.4,
+        "engineHpMin": 80,
+        "engineHpMax": 105,
+        "transportWidthFt": 8.1,
+        "weightLb": 3629,
+        "blades": 18
+      },
+      {
+        "sku": "Speed-Tiller 465 - 8.2ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 8.2,
+        "engineHpMin": 90,
+        "engineHpMax": 120,
+        "transportWidthFt": 9.6,
+        "weightLb": 3947,
+        "blades": 20
+      },
+      {
+        "sku": "Speed-Tiller 465 - 9.8ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 9.8,
+        "engineHpMin": 110,
+        "engineHpMax": 140,
+        "transportWidthFt": 11.2,
+        "weightLb": 4516,
+        "blades": 24
+      },
+      {
+        "sku": "Speed-Tiller 465 - 11.5ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 11.5,
+        "engineHpMin": 130,
+        "engineHpMax": 150,
+        "transportWidthFt": 12.7,
+        "weightLb": 5195,
+        "blades": 28
+      },
+      {
+        "sku": "Speed-Tiller 465 - 13.1ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 13.1,
+        "engineHpMin": 150,
+        "engineHpMax": 220,
+        "transportWidthFt": 14.2,
+        "weightLb": 6205,
+        "blades": 32
+      },
+      {
+        "sku": "Speed-Tiller 465 - 14.8ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 14.8,
+        "engineHpMin": 210,
+        "engineHpMax": 270,
+        "transportWidthFt": 15.9,
+        "weightLb": 7654,
+        "blades": 36
+      },
+      {
+        "sku": "Speed-Tiller 465 - 18ft",
+        "series": "465",
+        "mountType": "Rigid mounted",
+        "workingWidthFt": 18,
+        "engineHpMin": 260,
+        "engineHpMax": 290,
+        "transportWidthFt": 19.4,
+        "weightLb": 9233,
+        "blades": 44
+      },
+      {
+        "sku": "Speed-Tiller 475 - 20.5ft",
+        "series": "475",
+        "mountType": "Trailing",
+        "workingWidthFt": 20.5,
+        "engineHpMin": 240,
+        "engineHpMax": 340,
+        "transportWidthFt": 9.6,
+        "weightLb": 16535,
+        "blades": 50
+      },
+      {
+        "sku": "Speed-Tiller 475 - 31.2ft",
+        "series": "475",
+        "mountType": "Trailing",
+        "workingWidthFt": 31.2,
+        "engineHpMin": 350,
+        "engineHpMax": 500,
+        "transportWidthFt": 12.6,
+        "weightLb": 27250,
+        "blades": 76
+      },
+      {
+        "sku": "Speed-Tiller 475 - 41ft",
+        "series": "475",
+        "mountType": "Trailing",
+        "workingWidthFt": 41,
+        "engineHpMin": 425,
+        "engineHpMax": 600,
+        "transportWidthFt": 15.7,
+        "weightLb": 35650,
+        "blades": 100
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-heavy-offset-790",
+    "manufacturer": "Case IH",
+    "modelFamily": "Heavy-Offset 790",
+    "displayName": "Case IH Heavy-Offset 790 Disk Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "CIH19073101, \u00a92019 CNH Industrial. Source gives working width and weight as a min-max range across each configuration's size options, not a per-size table \u2014 so variants here are at the configuration level (3), each with a width/weight range, not individual per-width rows. Full per-size breakdown needs the source PDF."
+    },
+    "constants": {
+      "gangSpoolType": "Bell-shaped nodular iron, machined ends",
+      "mainframe": "Rigid: 6x8 in structural tubing; folding models add 2x 7x7 in fore-aft tubes",
+      "gangTubes": "4x10 in structural tubing",
+      "depthControl": "Mechanical depth-stop collars standard, single-point hydraulic optional",
+      "gangDiskAngleRangeDeg": [
+        34,
+        46
+      ],
+      "bladeDesign": "Earth Metal, shallow concavity, crimp center, self-sharpening"
+    },
+    "variants": [
+      {
+        "sku": "Heavy-Offset 790 Finishing Offset",
+        "bladeDiameterIn": 26,
+        "bladeSpacing": "10.5 in front, 9 in rear",
+        "workingWidthRangeFt": [
+          11.4,
+          27.2
+        ],
+        "weightRangeLb": [
+          12600,
+          14800
+        ],
+        "hpPerFtRange": [
+          11,
+          15
+        ],
+        "bearingType": "Cartridge-type triple-sealed ball bearing",
+        "gangArborBoltIn": 1.5,
+        "gangSpoolDiameterIn": 6
+      },
+      {
+        "sku": "Heavy-Offset 790 All-Purpose Offset",
+        "bladeDiameterIn": 28,
+        "bladeSpacing": "10.5 in front and rear",
+        "workingWidthRangeFt": [
+          11.08,
+          27.17
+        ],
+        "weightRangeLb": [
+          8500,
+          15500
+        ],
+        "hpPerFtRange": [
+          12,
+          17
+        ],
+        "bearingType": "Cartridge-type triple-sealed ball bearing",
+        "gangArborBoltIn": 1.5,
+        "gangSpoolDiameterIn": 6
+      },
+      {
+        "sku": "Heavy-Offset 790 Plowing Offset",
+        "bladeDiameterIn": 32,
+        "bladeSpacing": "12 in front and rear",
+        "workingWidthRangeFt": [
+          11.08,
+          21.5
+        ],
+        "weightRangeLb": [
+          9400,
+          16000
+        ],
+        "hpPerFtRange": [
+          18,
+          22
+        ],
+        "bearingType": "Trunnion-style bearing",
+        "gangArborBoltIn": 1.75,
+        "gangSpoolDiameterIn": 8
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-conser-till-690",
+    "manufacturer": "Case IH",
+    "modelFamily": "Conser-Till 690",
+    "displayName": "Case IH Conser-Till 690 Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "CIH4220806, \u00a92008 CNH America. Clean two-column table (5-shank vs 7-shank), no ambiguity."
+    },
+    "constants": {
+      "shankType": "Parabolic",
+      "shankSpacingIn": 30,
+      "shankSizeIn": "1.3 x 3",
+      "shankClearanceIn": 35.5,
+      "shankTripLoadLb": 1800,
+      "shankTripHeightIn": 12,
+      "maxOperatingDepthIn": 14,
+      "shankMountOptions": "Spring reset or shearbolt",
+      "pointOptions": "2 in straight, or 5 in / 7 in tiger winged points",
+      "frontDiskGangAngleDeg": 18,
+      "rearDiskGangAngleDeg": 16,
+      "diskOperatingDepthRangeIn": [
+        3,
+        5
+      ],
+      "hitch": "Single-strap, clevis"
+    },
+    "variants": [
+      {
+        "sku": "Conser-Till 690 - 5-shank",
+        "shanks": 5,
+        "workingWidthFt": 12.5,
+        "overallLengthFt": 30.1,
+        "transportWidthFt": 15.9,
+        "weightLb": 9680,
+        "frontDiskBlades": "10x24in + 2x22in",
+        "rearDiskBlades": "12x24in + 2x22in",
+        "drawbarHpMin": 125,
+        "drawbarHpMax": 250
+      },
+      {
+        "sku": "Conser-Till 690 - 7-shank",
+        "shanks": 7,
+        "workingWidthFt": 17.5,
+        "overallLengthFt": 31.4,
+        "transportWidthFt": 18,
+        "transportWidthNonFoldingFt": 21.8,
+        "weightLb": 11960,
+        "frontDiskBlades": "16x24in + 2x22in",
+        "rearDiskBlades": "18x24in + 2x22in",
+        "drawbarHpMin": 175,
+        "drawbarHpMax": 350
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-ecolo-tiger-875",
+    "manufacturer": "Case IH",
+    "modelFamily": "Ecolo-Tiger 875",
+    "displayName": "Case IH Ecolo-Tiger 875 Disk Ripper",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Originally a DMI Corporation (Goodfield, IL) design; Case IH acquired DMI in 1998 and continued the product line under the Case IH brand. CIH18080201, \u00a92018 CNH Industrial. Overall length and transport width rows had fewer distinct values than the 4 shank-count columns (shared across adjacent sizes) \u2014 mapped by inference from the pairing pattern, lower confidence than weight/working width/shanks, which were unambiguous."
+    },
+    "constants": {
+      "bladeProtection": "Cushion mounted blades plus spring-loaded relief frame that auto-resets",
+      "individualBladeOption": "24 in diameter, individually mounted on 15 in centers",
+      "trunnionGangOption": "26 in diameter concave gang mounted on 12 in centers, 1.5 in round spring steel",
+      "shankSizeIn": "1.25 x 4",
+      "shankPoints": "Chromium carbide capped Tiger Points",
+      "autoResetTripClearanceIn": 13,
+      "hpPerFootRange": [
+        18,
+        20
+      ],
+      "hpPerShankRange": [
+        35,
+        40
+      ],
+      "operatingSpeedMphRange": [
+        5,
+        7
+      ]
+    },
+    "variants": [
+      {
+        "sku": "Ecolo-Tiger 875 - 7-shank",
+        "shanks": 7,
+        "weightLb": 14470,
+        "overallLengthFt": 33.33,
+        "workingWidthFt": 14,
+        "transportWidthFt": 16
+      },
+      {
+        "sku": "Ecolo-Tiger 875 - 9-shank",
+        "shanks": 9,
+        "weightLb": 20000,
+        "overallLengthFt": 33.33,
+        "workingWidthFt": 18,
+        "transportWidthFt": 16
+      },
+      {
+        "sku": "Ecolo-Tiger 875 - 11-shank",
+        "shanks": 11,
+        "weightLb": 25220,
+        "overallLengthFt": 33.75,
+        "workingWidthFt": 22,
+        "transportWidthFt": 16.75
+      },
+      {
+        "sku": "Ecolo-Tiger 875 - 13-shank",
+        "shanks": 13,
+        "weightLb": 28200,
+        "overallLengthFt": 33.75,
+        "workingWidthFt": 26,
+        "transportWidthFt": 18
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-true-tandem-345-375",
+    "manufacturer": "Case IH",
+    "modelFamily": "True-Tandem 345 & 375",
+    "displayName": "Case IH True-Tandem 345 & 375 Disk Harrows",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Product profile, CNH Industrial. Working width and blade count (7.5in spacing) matched column-for-column across all 7 sizes \u2014 fully confident. Transport width/height and fold type had fewer distinct values than 7 columns (shared across size groups); mapped by inferred grouping, lower confidence. 9in spacing option only exists on the smaller 5 widths (NA on largest 2), given as an alternate blade count."
+    },
+    "constants": {
+      "gangMounts": "Durable top and bottom plates with heavy-duty bolts",
+      "arborBolt": "1.5 in round spring steel, 4.5 in diameter machined-flattened spools",
+      "bladeDesign": "Earth Metal, flattened crimped center",
+      "gangAngleDeg": 18,
+      "depthControl": "Single point hydraulic",
+      "recommendedSpeedMphRange": [
+        4.5,
+        6
+      ],
+      "operatingDepthRangeIn": [
+        2,
+        4
+      ],
+      "bladeSpacingOptionsIn": [
+        7.5,
+        9
+      ]
+    },
+    "variants": [
+      {
+        "sku": "True-Tandem 345/375 - 22ft",
+        "workingWidthFt": 22.17,
+        "blades75Spacing": 74,
+        "blades9Spacing": 62,
+        "engineHpMin": 175,
+        "engineHpMax": 265,
+        "weightPerBladeRangeLb": [
+          163,
+          181
+        ],
+        "transportWidthFt": 14.5,
+        "transportHeightFt": 10.42,
+        "fold": "Single"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 25ft",
+        "workingWidthFt": 24.58,
+        "blades75Spacing": 82,
+        "blades9Spacing": 70,
+        "engineHpMin": 200,
+        "engineHpMax": 300,
+        "weightPerBladeRangeLb": [
+          155,
+          175
+        ],
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.92,
+        "fold": "Single"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 28ft",
+        "workingWidthFt": 28.17,
+        "blades75Spacing": 94,
+        "blades9Spacing": 78,
+        "engineHpMin": 225,
+        "engineHpMax": 335,
+        "weightPerBladeRangeLb": [
+          148,
+          167
+        ],
+        "transportWidthFt": 18,
+        "transportHeightFt": 11.83,
+        "fold": "Single"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 31ft",
+        "workingWidthFt": 31.67,
+        "blades75Spacing": 106,
+        "blades9Spacing": 86,
+        "engineHpMin": 245,
+        "engineHpMax": 375,
+        "weightPerBladeRangeLb": [
+          137,
+          162
+        ],
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.5,
+        "fold": "Single"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 34ft",
+        "workingWidthFt": 34.08,
+        "blades75Spacing": 114,
+        "blades9Spacing": 94,
+        "engineHpMin": 270,
+        "engineHpMax": 410,
+        "weightPerBladeRangeLb": [
+          150,
+          169
+        ],
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.67,
+        "fold": "Single"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 42ft",
+        "workingWidthFt": 42.58,
+        "blades75Spacing": 142,
+        "blades9Spacing": null,
+        "engineHpMin": 330,
+        "engineHpMax": 510,
+        "weightPerBladeLb": 215,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.17,
+        "fold": "Double"
+      },
+      {
+        "sku": "True-Tandem 345/375 - 47ft",
+        "workingWidthFt": 47.33,
+        "blades75Spacing": 158,
+        "blades9Spacing": null,
+        "engineHpMin": 375,
+        "engineHpMax": 600,
+        "weightPerBladeLb": 226,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": null,
+        "fold": "Double"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-true-tandem-335vt-barracuda",
+    "manufacturer": "Case IH",
+    "modelFamily": "True-Tandem 335VT & Barracuda",
+    "displayName": "Case IH True-Tandem 335VT & 335 Barracuda Vertical Tillage",
+    "category": "Vertical Tillage",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Product profile, CNH Industrial. Both sub-model tables are fully clean \u2014 every row (PTO HP, blades, bearings, tillage width, transport dims, weight) matched exactly 7-for-7 against the 7 sizes, no ambiguity. 335VT and Barracuda share the same width/blade/bearing grid but differ in blade diameter, weight and required HP (Barracuda is the more aggressive, heavier-duty version)."
+    },
+    "constants": {
+      "arborBoltIn": 1.5,
+      "gangFrame": "3x5 in rectangular tube",
+      "gangAngleDeg": 18,
+      "bladeSpacingIn": 7.5,
+      "crumbler": "TigerPaw, standard, double-edge formed flat bars, active hydraulic down pressure"
+    },
+    "variants": [
+      {
+        "sku": "335VT - 22ft",
+        "subModel": "335VT",
+        "workingWidthFt": 22.17,
+        "blades": 74,
+        "bearings": 16,
+        "ptoHpMin": 110,
+        "ptoHpMax": 220,
+        "weightLb": 15345,
+        "transportWidthFt": 14.5,
+        "transportHeightFt": 10.42
+      },
+      {
+        "sku": "335VT - 25ft",
+        "subModel": "335VT",
+        "workingWidthFt": 24.58,
+        "blades": 82,
+        "bearings": 20,
+        "ptoHpMin": 125,
+        "ptoHpMax": 250,
+        "weightLb": 16208,
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.5
+      },
+      {
+        "sku": "335VT - 28ft",
+        "subModel": "335VT",
+        "workingWidthFt": 28.17,
+        "blades": 94,
+        "bearings": 22,
+        "ptoHpMin": 140,
+        "ptoHpMax": 280,
+        "weightLb": 17743,
+        "transportWidthFt": 18,
+        "transportHeightFt": 11.67
+      },
+      {
+        "sku": "335VT - 31ft",
+        "subModel": "335VT",
+        "workingWidthFt": 31.67,
+        "blades": 106,
+        "bearings": 26,
+        "ptoHpMin": 155,
+        "ptoHpMax": 310,
+        "weightLb": 19233,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.25
+      },
+      {
+        "sku": "335VT - 34ft",
+        "subModel": "335VT",
+        "workingWidthFt": 34.08,
+        "blades": 114,
+        "bearings": 28,
+        "ptoHpMin": 170,
+        "ptoHpMax": 340,
+        "weightLb": 21543,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.58
+      },
+      {
+        "sku": "335VT - 42ft",
+        "subModel": "335VT",
+        "workingWidthFt": 42.42,
+        "blades": 142,
+        "bearings": 38,
+        "ptoHpMin": 250,
+        "ptoHpMax": 420,
+        "weightLb": 28000,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.33
+      },
+      {
+        "sku": "335VT - 47ft",
+        "subModel": "335VT",
+        "workingWidthFt": 47.17,
+        "blades": 158,
+        "bearings": 44,
+        "ptoHpMin": 280,
+        "ptoHpMax": 470,
+        "weightLb": 32815,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.33
+      },
+      {
+        "sku": "335 Barracuda - 22ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 22.42,
+        "blades": 74,
+        "bearings": 16,
+        "ptoHpMin": 220,
+        "ptoHpMax": 330,
+        "weightLb": 15600,
+        "transportWidthFt": 14.5,
+        "transportHeightFt": 10.42
+      },
+      {
+        "sku": "335 Barracuda - 25ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 24.75,
+        "blades": 82,
+        "bearings": 20,
+        "ptoHpMin": 250,
+        "ptoHpMax": 375,
+        "weightLb": 16500,
+        "transportWidthFt": 17.33,
+        "transportHeightFt": 11.58
+      },
+      {
+        "sku": "335 Barracuda - 28ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 28.33,
+        "blades": 94,
+        "bearings": 22,
+        "ptoHpMin": 280,
+        "ptoHpMax": 420,
+        "weightLb": 18000,
+        "transportWidthFt": 18,
+        "transportHeightFt": 11.67
+      },
+      {
+        "sku": "335 Barracuda - 31ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 31.83,
+        "blades": 106,
+        "bearings": 26,
+        "ptoHpMin": 310,
+        "ptoHpMax": 465,
+        "weightLb": 19600,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.25
+      },
+      {
+        "sku": "335 Barracuda - 34ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 34.25,
+        "blades": 114,
+        "bearings": 28,
+        "ptoHpMin": 340,
+        "ptoHpMax": 510,
+        "weightLb": 21900,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.58
+      },
+      {
+        "sku": "335 Barracuda - 42ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 42.42,
+        "blades": 142,
+        "bearings": 38,
+        "ptoHpMin": 360,
+        "ptoHpMax": 545,
+        "weightLb": 28500,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.33
+      },
+      {
+        "sku": "335 Barracuda - 47ft",
+        "subModel": "335 Barracuda",
+        "workingWidthFt": 47.17,
+        "blades": 158,
+        "bearings": 44,
+        "ptoHpMin": 400,
+        "ptoHpMax": 600,
+        "weightLb": 33370,
+        "transportWidthFt": 18.5,
+        "transportHeightFt": 13.33
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "case-ih-tiger-mate-255",
+    "manufacturer": "Case IH",
+    "modelFamily": "Tiger-Mate 255",
+    "displayName": "Case IH Tiger-Mate 255 Field Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Originally a DMI Corporation (Goodfield, IL) design; Case IH acquired DMI in 1998 and continued the product line under the Case IH brand. Product profile, CNH Industrial. Number of Shanks and Weight rows resolved cleanly against the 17 real configurations once the two same-width \"32ft Narrow Transport\" / \"32ft Low Transport\" columns were recognized as two transport options of the SAME 59-shank machine (not separate shank counts) \u2014 confirmed by the row count matching exactly (11 constant-level configs + 6 floating-hitch configs = 17) once that pair is merged."
+    },
+    "constants": {
+      "mainFrame": "Bridge frame construction, five ranks of 3x4 in side-to-side and 2x2/2x3 in fore-aft members, 30 in minimum rank spacing, 131 in front-to-rear main bar",
+      "shankSpacingIn": 6.5,
+      "shankSizeIn": "0.6875 x 1.75",
+      "shankTripForceLb": 180,
+      "shankTripHeightIn": 14,
+      "depthControl": "Hydraulic single-point, max working depth 6 in",
+      "hydraulics": "3,000 psi welded cylinders, hoses, fittings; male ISO couplers",
+      "hpRequirement": "5-10 engine hp per foot, or 2.5-5.5 engine hp per shank",
+      "recommendedSpeedMphRange": [
+        5.5,
+        10
+      ]
+    },
+    "variants": [
+      {
+        "sku": "Tiger-Mate 255 - 22ft2 SF-CL",
+        "frameType": "Single Fold, Constant-Level Hitch",
+        "workingWidthFt": 22.17,
+        "shanks": 41,
+        "weightLb": 8440,
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 25ft6 SF-CL",
+        "frameType": "Single Fold, Constant-Level Hitch",
+        "workingWidthFt": 25.5,
+        "shanks": 47,
+        "weightLb": 8700,
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 28ft8 SF-CL",
+        "frameType": "Single Fold, Constant-Level Hitch",
+        "workingWidthFt": 28.67,
+        "shanks": 53,
+        "weightLb": 9460,
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 32ft SF-CL (narrow/low transport)",
+        "frameType": "Single Fold, Constant-Level Hitch",
+        "workingWidthFt": 32,
+        "shanks": 59,
+        "weightLb": 9920,
+        "hitchCategory": "III",
+        "note": "two transport-option variants (Narrow Transport / Low Transport) of the same 59-shank machine"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 35ft2 SF-CL",
+        "frameType": "Single Fold, Constant-Level Hitch",
+        "workingWidthFt": 35.17,
+        "shanks": 65,
+        "weightLb": 10440,
+        "hitchCategory": "III"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 37ft5 DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 37.42,
+        "shanks": 69,
+        "weightLb": 15725,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 40ft7 DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 40.58,
+        "shanks": 75,
+        "weightLb": 15850,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 46ft DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 46,
+        "shanks": 85,
+        "weightLb": 17400,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 51ft6 DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 51.5,
+        "shanks": 95,
+        "weightLb": 18320,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 55ft10 DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 55.83,
+        "shanks": 103,
+        "weightLb": 19750,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 60ft1 DF-CL",
+        "frameType": "Double Fold, Constant-Level Hitch",
+        "workingWidthFt": 60.08,
+        "shanks": 111,
+        "weightLb": 20170,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 37ft5 DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 37.42,
+        "shanks": 69,
+        "weightLb": 17950,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 40ft7 DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 40.58,
+        "shanks": 75,
+        "weightLb": 18280,
+        "hitchCategory": "IV"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 46ft DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 46,
+        "shanks": 85,
+        "weightLb": 19010,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 51ft6 DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 51.5,
+        "shanks": 95,
+        "weightLb": 19990,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 55ft10 DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 55.83,
+        "shanks": 103,
+        "weightLb": 21460,
+        "hitchCategory": "V"
+      },
+      {
+        "sku": "Tiger-Mate 255 - 60ft1 DF-FL",
+        "frameType": "Double Fold, Floating Hitch",
+        "workingWidthFt": 60.08,
+        "shanks": 111,
+        "weightLb": 21860,
+        "hitchCategory": "V"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

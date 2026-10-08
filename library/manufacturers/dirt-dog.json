@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dirtdog-app",
+    "manufacturer": "Dirt Dog",
+    "modelFamily": "APP",
+    "displayName": "Dirt Dog All Purpose Plow (APP)",
+    "category": "Chisel Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Manufacturer spec sheet, provided directly by project owner"
+    },
+    "constants": {
+      "overallDepthIn": 39.75,
+      "overallHeightIn": 40.375,
+      "holeSpacingIn": 1,
+      "hitch": "Cat 1 STD & Cat 1 Quick Hitch",
+      "tooth": "5/16\" x 2\" x 10 1/8\" Reversible 1080 High Carbon 38-44 Rockwell C",
+      "frame": "2 1/2\" x 2 1/2\" x 3/8\" angle steel, 1/2\" x 2 1/2\" A-frame",
+      "shankSpacingAdjustIn": 1,
+      "digDepthRangeIn": [10, 12],
+      "recommendedHpPerShank": 7
+    },
+    "variants": [
+      { "sku": "APP48-3", "workingWidthIn": 44, "overallWidthIn": 49.625, "shanks": 3, "weightLb": 206, "minHP": 24 },
+      { "sku": "APP60-5", "workingWidthIn": 56, "overallWidthIn": 61.625, "shanks": 5, "weightLb": 228, "minHP": 35 },
+      { "sku": "APP66-5", "workingWidthIn": 62, "overallWidthIn": 67.625, "shanks": 5, "weightLb": 284, "minHP": 35 },
+      { "sku": "APP66-7", "workingWidthIn": 62, "overallWidthIn": 67.625, "shanks": 7, "weightLb": 367, "minHP": 49 },
+      { "sku": "APP85-7", "workingWidthIn": 80, "overallWidthIn": 85.625, "shanks": 7, "weightLb": 386, "minHP": 49 },
+      { "sku": "APP85-9", "workingWidthIn": 80, "overallWidthIn": 85.625, "shanks": 9, "weightLb": 455, "minHP": 50 }
+    ],
+    "referencePhotos": [
+      { "path": "IMG_6216_Dirt-Dog-All-Purpose-Plow-1.jpg.webp", "role": "back", "sku": null },
+      { "path": "IMG_6220_Dirt-Dog-All-Purpose-Plow.jpg.webp", "role": "side", "sku": null }
+    ]
+  }
+]

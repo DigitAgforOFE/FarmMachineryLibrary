@@ -1,0 +1,941 @@
+[
+  {
+    "id": "hiniker-6000-series-row-cultivator",
+    "manufacturer": "Hiniker",
+    "modelFamily": "6000 Series Row Cultivator (Rigid & Folding Toolbar)",
+    "displayName": "Hiniker 6000 Series Row Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "81004464RevE.pdf (agriculture.hiniker.com), Specifications table p.4. Confirmed as a genuine Hiniker document via web search (matches agriculture.hiniker.com/wp-content/uploads/2020/04/81004464RevE.pdf) before extraction, since the filename alone gave no manufacturer clue. Clean text-layer table, high confidence, 16 models across 3 toolbar styles (8 rigid, 4 single-center-frame folding, 4 twin-center-frame folding). Models 6033, 6030 and 6014 added from hiniker-6000cultivator-lit-8-17-18.pdf (2018 brochure, spec table p.1), which has transport width and weight only. That brochure lists slightly lower weights than this manual for the shared models (e.g. 6002 2,233 vs 2,273 lb; 6005 3,815 vs 3,875 lb); the manual figures are kept."
+    },
+    "constants": {
+      "gaugeWheels": "Two 4 x 16in oscillating rubber gauge wheels per row unit",
+      "weightTransferMaxLbPerRow": 750,
+      "hitch": "3-point, Category II and III",
+      "recommendedDrawbarHp": {
+        "4row": 75,
+        "6row": 75,
+        "8row": 120,
+        "10row-30in": 130,
+        "12row-30in": 140,
+        "12row-36-38in": 180,
+        "16row-30in": 200,
+        "18row-28in": 200
+      }
+    },
+    "variants": [
+      {
+        "sku": "6002",
+        "toolbarStyle": "Rigid",
+        "rows": 4,
+        "rowSpacingIn": "30, 36, or 38",
+        "transportWidthIn": 168,
+        "transportHeightIn": 78,
+        "weightLb": 2273,
+        "optionalBlockWeightLb": 473
+      },
+      {
+        "sku": "6003",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 198,
+        "transportHeightIn": 78,
+        "weightLb": 2990,
+        "optionalBlockWeightLb": 563
+      },
+      {
+        "sku": "6004",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": "36 or 38",
+        "transportWidthIn": 246,
+        "transportHeightIn": 78,
+        "weightLb": 3098,
+        "optionalBlockWeightLb": 698
+      },
+      {
+        "sku": "6024",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": 40,
+        "transportWidthIn": 258,
+        "transportHeightIn": 78,
+        "weightLb": 3332,
+        "optionalBlockWeightLb": 720
+      },
+      {
+        "sku": "6005",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 258,
+        "transportHeightIn": 78,
+        "weightLb": 3875,
+        "optionalBlockWeightLb": 720
+      },
+      {
+        "sku": "6006",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": "36 or 38",
+        "transportWidthIn": 322,
+        "transportHeightIn": 78,
+        "weightLb": 4046,
+        "optionalBlockWeightLb": 923
+      },
+      {
+        "sku": "6020",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": "36, 38, or 40",
+        "transportWidthIn": 338,
+        "transportHeightIn": 78,
+        "weightLb": 4224,
+        "optionalBlockWeightLb": null
+      },
+      {
+        "sku": "6022",
+        "toolbarStyle": "Rigid",
+        "rows": 10,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 338,
+        "transportHeightIn": 78,
+        "weightLb": 4884,
+        "optionalBlockWeightLb": null
+      },
+      {
+        "sku": "6027",
+        "toolbarStyle": "Folding, single 7x7 center frame",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 148,
+        "transportHeightIn": 125,
+        "weightLb": 4416,
+        "optionalBlockWeightLb": 270
+      },
+      {
+        "sku": "6028",
+        "toolbarStyle": "Folding, single 7x7 center frame",
+        "rows": 8,
+        "rowSpacingIn": "36, 38, or 40",
+        "transportWidthIn": 188,
+        "transportHeightIn": 129,
+        "weightLb": 4641,
+        "optionalBlockWeightLb": 405
+      },
+      {
+        "sku": "6031",
+        "toolbarStyle": "Folding, single 7x7 center frame",
+        "rows": 10,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 208,
+        "transportHeightIn": 125,
+        "weightLb": 5486,
+        "optionalBlockWeightLb": 450
+      },
+      {
+        "sku": "6029",
+        "toolbarStyle": "Folding, single 7x7 center frame",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 208,
+        "transportHeightIn": 132,
+        "weightLb": 6146,
+        "optionalBlockWeightLb": 450
+      },
+      {
+        "sku": "6025",
+        "toolbarStyle": "Folding, twin 5x7 center frame",
+        "rows": 10,
+        "rowSpacingIn": "36 or 38",
+        "transportWidthIn": 253,
+        "transportHeightIn": 142,
+        "weightLb": 6483,
+        "optionalBlockWeightLb": 585
+      },
+      {
+        "sku": "6010",
+        "toolbarStyle": "Folding, twin 5x7 center frame",
+        "rows": 12,
+        "rowSpacingIn": "36 or 38",
+        "transportWidthIn": 253,
+        "transportHeightIn": 150,
+        "weightLb": 7143,
+        "optionalBlockWeightLb": 585
+      },
+      {
+        "sku": "6011",
+        "toolbarStyle": "Folding, twin 5x7 center frame",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 265,
+        "transportHeightIn": 152,
+        "weightLb": 8540,
+        "optionalBlockWeightLb": 630
+      },
+      {
+        "sku": "6034",
+        "toolbarStyle": "Folding, twin 5x7 center frame",
+        "rows": 18,
+        "rowSpacingIn": 28,
+        "transportWidthIn": 284,
+        "transportHeightIn": 156,
+        "weightLb": 9226,
+        "optionalBlockWeightLb": 675
+      },
+      {
+        "sku": "6033",
+        "toolbarStyle": "Folding",
+        "rows": 8,
+        "rowSpacingIn": "36 or 40",
+        "transportWidthIn": 188,
+        "weightLb": 4590,
+        "hitch": "Cat II & III Quick-Hitch"
+      },
+      {
+        "sku": "6030",
+        "toolbarStyle": "Folding",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 208,
+        "weightLb": 6200,
+        "hitch": "Cat 3N/3/4N/4"
+      },
+      {
+        "sku": "6014",
+        "toolbarStyle": "Folding",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 265,
+        "weightLb": 8700,
+        "hitch": "Cat 3N/3/4N/4"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "hiniker-6000-strip-till-equipment",
+    "manufacturer": "Hiniker",
+    "modelFamily": "6000 Strip-Till Equipment",
+    "displayName": "Hiniker 6000 Strip-Till Equipment",
+    "category": "Strip Till",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "81006051RevC.pdf (agriculture.hiniker.com), \"Specifications And Lubrication\" table p.4. Clean text-layer table, high confidence. Weight is blank in the source for every liquid-tank (1000 Gal.) configuration and for both 40/60-split-granular configurations — omitted rather than guessed, matches the granular-tank versions of the same toolbar which DO give a weight."
+    },
+    "constants": {
+      "note": "First 3 SKUs (810-002-235/237, 81004427) are toolbar-only, no fertilizer cart. The rest add a trail-hitch fertilizer cart in liquid, granular, or 40/60-split-granular tank form to the same toolbar dimensions."
+    },
+    "variants": [
+      {
+        "sku": "810-002-235",
+        "group": "3-Point Mounted Toolbar Only",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 198,
+        "transportHeightIn": 78,
+        "tankType": "None",
+        "weightLb": 3288
+      },
+      {
+        "sku": "810-002-237",
+        "group": "3-Point Mounted Toolbar Only",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 258,
+        "transportHeightIn": 78,
+        "tankType": "None",
+        "weightLb": 4370
+      },
+      {
+        "sku": "81004427",
+        "group": "3-Point Mounted Toolbar Only",
+        "toolbarStyle": "Fold",
+        "rows": 8,
+        "rowSpacingIn": "36 or 38",
+        "transportWidthIn": 188,
+        "transportHeightIn": 129,
+        "tankType": "None",
+        "weightLb": 5234
+      },
+      {
+        "sku": "81005603",
+        "group": "Dedicated 3-Point Toolbar Only",
+        "toolbarStyle": "Fold",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 114,
+        "transportHeightIn": 125,
+        "tankType": "None",
+        "weightLb": 5816
+      },
+      {
+        "sku": "81005604",
+        "group": "Dedicated 3-Point Toolbar Only",
+        "toolbarStyle": "Fold",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 174,
+        "transportHeightIn": 132,
+        "tankType": "None",
+        "weightLb": 6882
+      },
+      {
+        "sku": "81005339",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Rigid",
+        "rows": 12,
+        "rowSpacingIn": 22,
+        "transportWidthIn": 258,
+        "transportHeightIn": 104,
+        "tankType": "1000 Gal. Liquid",
+        "weightLb": null
+      },
+      {
+        "sku": "81006074",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Rigid",
+        "rows": 12,
+        "rowSpacingIn": 22,
+        "transportWidthIn": 258,
+        "transportHeightIn": 116,
+        "tankType": "5-Ton Granular",
+        "weightLb": 8349
+      },
+      {
+        "sku": "81005341",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 174,
+        "transportHeightIn": 138,
+        "tankType": "1000 Gal. Liquid",
+        "weightLb": null
+      },
+      {
+        "sku": "81006075",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 174,
+        "transportHeightIn": 138,
+        "tankType": "5-Ton Granular",
+        "weightLb": 9080
+      },
+      {
+        "sku": "81005356",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 16,
+        "rowSpacingIn": 22,
+        "transportWidthIn": 222,
+        "transportHeightIn": 133,
+        "tankType": "1000 Gal. Liquid",
+        "weightLb": null
+      },
+      {
+        "sku": "81006077",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 16,
+        "rowSpacingIn": 22,
+        "transportWidthIn": 222,
+        "transportHeightIn": 133,
+        "tankType": "5-Ton Granular",
+        "weightLb": 11741
+      },
+      {
+        "sku": "81005345",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 234,
+        "transportHeightIn": 146,
+        "tankType": "1000 Gal. Liquid",
+        "weightLb": null
+      },
+      {
+        "sku": "81006078",
+        "group": "Dedicated w/ Trail Hitch + Fertilizer Cart",
+        "toolbarStyle": "Fold",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 234,
+        "transportHeightIn": 146,
+        "tankType": "5-Ton Granular",
+        "weightLb": 11806
+      },
+      {
+        "sku": "81006076",
+        "group": "Dedicated w/ Trail Hitch + 40/60 Split Granular",
+        "toolbarStyle": "Fold",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 174,
+        "transportHeightIn": 138,
+        "tankType": "5-Ton Granular, 40/60 split",
+        "weightLb": null
+      },
+      {
+        "sku": "81006079",
+        "group": "Dedicated w/ Trail Hitch + 40/60 Split Granular",
+        "toolbarStyle": "Fold",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 234,
+        "transportHeightIn": 146,
+        "tankType": "5-Ton Granular, 40/60 split",
+        "weightLb": null
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "hiniker-5000-series-row-cultivator",
+    "manufacturer": "Hiniker",
+    "modelFamily": "5000 Series",
+    "displayName": "Hiniker Series 5000 Row Cultivator (Rigid and Folding Toolbar)",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "810002111RevE.pdf (Hiniker Series 5000 Row Cultivator, Rigid and Folding Toolbar, Operator's Manual, part number 810-002-111 Rev E; scanned, no text layer - identified and read from the rendered page images). Specifications table p.6 (manual page 4). Weight includes ridgers. The source labels the 5057-5061 group \"Rigid toolbar - with spring reset shank\", but their 11 ft+ transport heights and widths match the folding 5007-5032 group, so they are marked as folding with this caveat. Row spacing for 5008 (30in) and its reset-shank counterpart 5058 (36 & 38in) differ in the source; recorded as given."
+    },
+    "constants": {
+      "hpRecommendedByRows": {
+        "4": 75,
+        "6": 75,
+        "8": 100,
+        "12": 125,
+        "16": "160+"
+      },
+      "toolbar": "7x7in",
+      "weightTransferMaxLbPerRow": 750,
+      "hitch": "3-point Cat II & III"
+    },
+    "variants": [
+      {
+        "sku": "5002",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring cushion",
+        "rows": 4,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 168,
+        "transportHeightIn": 78,
+        "weightLb": 2069,
+        "optionalConcreteBlockWeightLb": 473,
+        "optionalCutawayDiscWeightLb": 312
+      },
+      {
+        "sku": "5003",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring cushion",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 198,
+        "transportHeightIn": 78,
+        "weightLb": 2745,
+        "optionalConcreteBlockWeightLb": 563,
+        "optionalCutawayDiscWeightLb": 468
+      },
+      {
+        "sku": "5004",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring cushion",
+        "rows": 6,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 246,
+        "transportHeightIn": 78,
+        "weightLb": 2835,
+        "optionalConcreteBlockWeightLb": 698,
+        "optionalCutawayDiscWeightLb": 468
+      },
+      {
+        "sku": "5005",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring cushion",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 258,
+        "transportHeightIn": 78,
+        "weightLb": 3477,
+        "optionalConcreteBlockWeightLb": 743,
+        "optionalCutawayDiscWeightLb": 624
+      },
+      {
+        "sku": "5006",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring cushion",
+        "rows": 8,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 322,
+        "transportHeightIn": 78,
+        "weightLb": 3735,
+        "optionalConcreteBlockWeightLb": 923,
+        "optionalCutawayDiscWeightLb": 624
+      },
+      {
+        "sku": "5007",
+        "toolbarStyle": "Folding",
+        "shankType": "Spring cushion",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 149,
+        "transportHeightIn": 134,
+        "weightLb": 4046,
+        "optionalConcreteBlockWeightLb": 270,
+        "optionalCutawayDiscWeightLb": 624
+      },
+      {
+        "sku": "5008",
+        "toolbarStyle": "Folding",
+        "shankType": "Spring cushion",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 185,
+        "transportHeightIn": 136,
+        "weightLb": 4216,
+        "optionalConcreteBlockWeightLb": 360,
+        "optionalCutawayDiscWeightLb": 624
+      },
+      {
+        "sku": "5009",
+        "toolbarStyle": "Folding",
+        "shankType": "Spring cushion",
+        "rows": 12,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 209,
+        "transportHeightIn": 138,
+        "weightLb": 5606,
+        "optionalConcreteBlockWeightLb": 450,
+        "optionalCutawayDiscWeightLb": 936
+      },
+      {
+        "sku": "5010",
+        "toolbarStyle": "Folding",
+        "shankType": "Spring cushion",
+        "rows": 12,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 257,
+        "transportHeightIn": 140,
+        "weightLb": 6391,
+        "optionalConcreteBlockWeightLb": 585,
+        "optionalCutawayDiscWeightLb": 936
+      },
+      {
+        "sku": "5032",
+        "toolbarStyle": "Folding",
+        "shankType": "Spring cushion",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 269,
+        "transportHeightIn": 143,
+        "weightLb": 7380,
+        "optionalConcreteBlockWeightLb": 630,
+        "optionalCutawayDiscWeightLb": 1248
+      },
+      {
+        "sku": "5052",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring reset",
+        "rows": 4,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 168,
+        "transportHeightIn": 78,
+        "weightLb": 2189,
+        "optionalConcreteBlockWeightLb": 473
+      },
+      {
+        "sku": "5053",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring reset",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 198,
+        "transportHeightIn": 78,
+        "weightLb": 2913,
+        "optionalConcreteBlockWeightLb": 563
+      },
+      {
+        "sku": "5054",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring reset",
+        "rows": 6,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 246,
+        "transportHeightIn": 78,
+        "weightLb": 3003,
+        "optionalConcreteBlockWeightLb": 698
+      },
+      {
+        "sku": "5055",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring reset",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 258,
+        "transportHeightIn": 78,
+        "weightLb": 3693,
+        "optionalConcreteBlockWeightLb": 743
+      },
+      {
+        "sku": "5056",
+        "toolbarStyle": "Rigid",
+        "shankType": "Spring reset",
+        "rows": 8,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 322,
+        "transportHeightIn": 78,
+        "weightLb": 3981,
+        "optionalConcreteBlockWeightLb": 923
+      },
+      {
+        "sku": "5057",
+        "toolbarStyle": "Folding (see note)",
+        "shankType": "Spring reset",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 149,
+        "transportHeightIn": 134,
+        "weightLb": 4262,
+        "optionalConcreteBlockWeightLb": 270
+      },
+      {
+        "sku": "5058",
+        "toolbarStyle": "Folding (see note)",
+        "shankType": "Spring reset",
+        "rows": 8,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 185,
+        "transportHeightIn": 136,
+        "weightLb": 4432,
+        "optionalConcreteBlockWeightLb": 360
+      },
+      {
+        "sku": "5059",
+        "toolbarStyle": "Folding (see note)",
+        "shankType": "Spring reset",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 209,
+        "transportHeightIn": 138,
+        "weightLb": 5918,
+        "optionalConcreteBlockWeightLb": 450
+      },
+      {
+        "sku": "5060",
+        "toolbarStyle": "Folding (see note)",
+        "shankType": "Spring reset",
+        "rows": 12,
+        "rowSpacingIn": "36 & 38",
+        "transportWidthIn": 257,
+        "transportHeightIn": 140,
+        "weightLb": 6409,
+        "optionalConcreteBlockWeightLb": 585
+      },
+      {
+        "sku": "5061",
+        "toolbarStyle": "Folding (see note)",
+        "shankType": "Spring reset",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 269,
+        "transportHeightIn": 143,
+        "weightLb": 7728,
+        "optionalConcreteBlockWeightLb": 630
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "hiniker-1000-series-row-cultivator",
+    "manufacturer": "Hiniker",
+    "modelFamily": "1000 Series",
+    "displayName": "Hiniker Series 1000 Row Cultivator (Rigid and Folding Toolbar)",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "81003152RevD.pdf (Hiniker Series 1000 Row Cultivator, Rigid and Folding Toolbar, Operator's Manual, part number 81003152 Rev D, 1/2000 per the table of contents; scanned, no text layer - identified and read from rendered page images). Specifications table p.6 (manual page 4)."
+    },
+    "constants": {
+      "hpRecommendedByRows": {
+        "4": 50,
+        "6": 60,
+        "8": 90,
+        "12 (20/22/24in)": 90,
+        "12": "140+",
+        "16": "140+",
+        "16 (20/22in)": "150+",
+        "18 (20/22in)": "150+",
+        "24 (20/22in)": "150+"
+      },
+      "shanksPerGang": 1,
+      "hitch": "3-point Cat II or III",
+      "gangGaugeWheels": "4x16in rubber",
+      "stabilizingCoulters": "two 18in spring-loaded (optional on 20/22in rows)"
+    },
+    "variants": [
+      {
+        "sku": "1002",
+        "toolbarStyle": "Rigid",
+        "rows": 4,
+        "rowSpacingIn": "36/38",
+        "transportWidthIn": 168,
+        "transportHeightIn": 78,
+        "weightLb": 1456
+      },
+      {
+        "sku": "1003",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 196,
+        "transportHeightIn": 78,
+        "weightLb": 1810
+      },
+      {
+        "sku": "1004",
+        "toolbarStyle": "Rigid",
+        "rows": 6,
+        "rowSpacingIn": "36/38",
+        "transportWidthIn": 244,
+        "transportHeightIn": 78,
+        "weightLb": 1941
+      },
+      {
+        "sku": "1005",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 256,
+        "transportHeightIn": 78,
+        "weightLb": 2355
+      },
+      {
+        "sku": "1006",
+        "toolbarStyle": "Rigid",
+        "rows": 8,
+        "rowSpacingIn": "36/38",
+        "transportWidthIn": 320,
+        "transportHeightIn": 78,
+        "weightLb": 2518
+      },
+      {
+        "sku": "1020",
+        "toolbarStyle": "Rigid",
+        "rows": 12,
+        "rowSpacingIn": "20/22",
+        "transportWidthIn": 286,
+        "transportHeightIn": 78,
+        "weightLb": 3163
+      },
+      {
+        "sku": "1014",
+        "toolbarStyle": "Rigid",
+        "rows": 12,
+        "rowSpacingIn": 24,
+        "transportWidthIn": 304,
+        "transportHeightIn": 78,
+        "weightLb": 3200
+      },
+      {
+        "sku": "1007",
+        "toolbarStyle": "Folding",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 154,
+        "transportHeightIn": 134,
+        "weightLb": 2799
+      },
+      {
+        "sku": "1008",
+        "toolbarStyle": "Folding",
+        "rows": 8,
+        "rowSpacingIn": "36/38",
+        "transportWidthIn": 190,
+        "transportHeightIn": 136,
+        "weightLb": 2954
+      },
+      {
+        "sku": "1009",
+        "toolbarStyle": "Folding",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 214,
+        "transportHeightIn": 138,
+        "weightLb": 3710
+      },
+      {
+        "sku": "1010",
+        "toolbarStyle": "Folding",
+        "rows": 12,
+        "rowSpacingIn": "36/38",
+        "transportWidthIn": 262,
+        "transportHeightIn": 143,
+        "weightLb": 3969
+      },
+      {
+        "sku": "1011",
+        "toolbarStyle": "Folding",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "transportWidthIn": 274,
+        "transportHeightIn": 143,
+        "weightLb": 5120
+      },
+      {
+        "sku": "1021",
+        "toolbarStyle": "Folding",
+        "rows": 16,
+        "rowSpacingIn": "20/22",
+        "transportWidthIn": 224,
+        "transportHeightIn": 135,
+        "weightLb": 4149
+      },
+      {
+        "sku": "1022",
+        "toolbarStyle": "Folding",
+        "rows": 18,
+        "rowSpacingIn": "20/22",
+        "transportWidthIn": 224,
+        "transportHeightIn": 143,
+        "weightLb": 4406
+      },
+      {
+        "sku": "1023",
+        "toolbarStyle": "Folding",
+        "rows": 24,
+        "rowSpacingIn": "20/22",
+        "transportWidthIn": 312,
+        "transportHeightIn": 144,
+        "weightLb": 5321
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "hiniker-culti-pro-row-cultivator",
+    "manufacturer": "Hiniker",
+    "modelFamily": "Culti-Pro (6500)",
+    "displayName": "Hiniker Culti-Pro High-Speed Row Cultivator",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "CULTIPRO-LIT-1-14-2021.pdf (Hiniker Culti-Pro brochure, 1-14-2021), specifications table p.4. The text layer lists descriptions, widths and weights as separate columns; rows were re-joined in printed order (6 rigid, 5 folding). Row spacing \"38/38\" for 6504 is as printed (likely 36/38)."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "6502",
+        "rows": 4,
+        "rowSpacingIn": "36/38",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 168,
+        "weightLb": 2258,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6503",
+        "rows": 6,
+        "rowSpacingIn": "30",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 198,
+        "weightLb": 2968,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6504",
+        "rows": 6,
+        "rowSpacingIn": "38/38 (sic)",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 246,
+        "weightLb": 3058,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6525",
+        "rows": 6,
+        "rowSpacingIn": "40",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 258,
+        "weightLb": 3192,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6505",
+        "rows": 8,
+        "rowSpacingIn": "30",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 258,
+        "weightLb": 3860,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6506",
+        "rows": 8,
+        "rowSpacingIn": "36/38",
+        "toolbarStyle": "Rigid",
+        "transportWidthIn": 322,
+        "weightLb": 4007,
+        "hitch": "Cat II & III"
+      },
+      {
+        "sku": "6527",
+        "rows": 8,
+        "rowSpacingIn": "30",
+        "toolbarStyle": "Folding",
+        "transportWidthIn": 148,
+        "weightLb": 4401,
+        "hitch": "Cat II & III Quick Hitch"
+      },
+      {
+        "sku": "6533",
+        "rows": 8,
+        "rowSpacingIn": "36/40",
+        "toolbarStyle": "Folding",
+        "transportWidthIn": 188,
+        "weightLb": 4635,
+        "hitch": "Cat II & III Quick Hitch"
+      },
+      {
+        "sku": "6530",
+        "rows": 12,
+        "rowSpacingIn": "30",
+        "toolbarStyle": "Folding",
+        "transportWidthIn": 208,
+        "weightLb": 6265,
+        "hitch": "Cat 3N/3/4N/4"
+      },
+      {
+        "sku": "6512",
+        "rows": 12,
+        "rowSpacingIn": "36/38",
+        "toolbarStyle": "Folding",
+        "transportWidthIn": 253,
+        "weightLb": 7365,
+        "hitch": "Cat 3N/3/4N/4"
+      },
+      {
+        "sku": "6514",
+        "rows": 16,
+        "rowSpacingIn": "30",
+        "toolbarStyle": "Folding",
+        "transportWidthIn": 265,
+        "weightLb": 8785,
+        "hitch": "Cat 3N/3/4N/4"
+      }
+    ],
+    "referencePhotos": []
+  }
+]

@@ -1,0 +1,2803 @@
+[
+  {
+    "id": "gregoire-besson-cover-t90-explor",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Cover T90 (Explor VSL 450)",
+    "displayName": "Gregoire-Besson Cover T90 (Explor VSL 450) Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_explor-t90-vsl-450_2019_12_english.pdf, p.10 & 14 (GB_MA_DI_EXPLOR_T90_1912_EN). Filename/doc code say 'Explor T90' but the running page header reads 'Operator's manual COVER T90' throughout - Explor is GB's model name for the largest (T90) platform within the Cover cover-crop-disc family, alongside Cover X (T70/T80) and Cover XL (T70/T80). GB_MA_DI_EXPLOR_450_1503_EN.pdf (2015 edition, titled just 'EXPLOR 450') is an older edition of this same product and was treated as superseded, not separately processed."
+    },
+    "constants": {
+      "hitch": "Forged ball ring, \u00d855mm",
+      "frame": "3 beams, 250x100x10mm, hydraulic-compensation cylinder",
+      "discSpacingMm": 500,
+      "discOptions": "Notched curved discs 12mm thk. \u00d8910 or \u00d81020, or cutting discs \u00d8910",
+      "undercarriage": "100mm square 10-hole axle, 2 wheels 18R22.5 standard or 18R19.5 optional"
+    },
+    "variants": [
+      {
+        "sku": "14-disc",
+        "blades": 14,
+        "workingWidthM": 3.3,
+        "transportWidthM": 3.3,
+        "weightKg": 6400,
+        "tractorPowerHp": 320
+      },
+      {
+        "sku": "16-disc",
+        "blades": 16,
+        "workingWidthM": 3.7,
+        "transportWidthM": 3.7,
+        "weightKg": 7035,
+        "tractorPowerHp": 340
+      },
+      {
+        "sku": "18-disc",
+        "blades": 18,
+        "workingWidthM": 4.3,
+        "transportWidthM": 4.3,
+        "weightKg": 7790,
+        "tractorPowerHp": 370
+      },
+      {
+        "sku": "20-disc",
+        "blades": 20,
+        "workingWidthM": 4.8,
+        "transportWidthM": 4.8,
+        "weightKg": 8615,
+        "tractorPowerHp": 420
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-cover-x-t70-big-pro",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Cover X T70 (Big Pro)",
+    "displayName": "Gregoire-Besson Cover X T70 (Big Pro) Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_cover-x-t70-big-pro_2018_english.pdf, p.11 (dimensions/weights) & p.17 (tractor power). Only edition found for this model."
+    },
+    "constants": {
+      "transportWidthM": 3.0
+    },
+    "variants": [
+      {
+        "sku": "195mm-40disc",
+        "blades": 40,
+        "discSpacingMm": 195,
+        "workingWidthM": 3.2,
+        "weightKg": 4100,
+        "tractorPowerHp": 130
+      },
+      {
+        "sku": "195mm-44disc",
+        "blades": 44,
+        "discSpacingMm": 195,
+        "workingWidthM": 4.2,
+        "weightKg": 4560,
+        "tractorPowerHp": 150
+      },
+      {
+        "sku": "195mm-48disc",
+        "blades": 48,
+        "discSpacingMm": 195,
+        "workingWidthM": 4.6,
+        "weightKg": 4980,
+        "tractorPowerHp": 150
+      },
+      {
+        "sku": "195mm-52disc",
+        "blades": 52,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.0,
+        "weightKg": 5170,
+        "tractorPowerHp": 170
+      },
+      {
+        "sku": "195mm-56disc",
+        "blades": 56,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.4,
+        "weightKg": 5420,
+        "tractorPowerHp": 190
+      },
+      {
+        "sku": "195mm-60disc",
+        "blades": 60,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.8,
+        "weightKg": 5550,
+        "tractorPowerHp": 210
+      },
+      {
+        "sku": "195mm-64disc",
+        "blades": 64,
+        "discSpacingMm": 195,
+        "workingWidthM": 6.2,
+        "weightKg": 5690,
+        "tractorPowerHp": 230
+      },
+      {
+        "sku": "230mm-36disc",
+        "blades": 36,
+        "discSpacingMm": 230,
+        "workingWidthM": 4.0,
+        "weightKg": 4660,
+        "tractorPowerHp": 130
+      },
+      {
+        "sku": "230mm-40disc",
+        "blades": 40,
+        "discSpacingMm": 230,
+        "workingWidthM": 4.4,
+        "weightKg": 4660,
+        "tractorPowerHp": 130
+      },
+      {
+        "sku": "230mm-44disc",
+        "blades": 44,
+        "discSpacingMm": 230,
+        "workingWidthM": 4.8,
+        "weightKg": 4870,
+        "tractorPowerHp": 170
+      },
+      {
+        "sku": "230mm-48disc",
+        "blades": 48,
+        "discSpacingMm": 230,
+        "workingWidthM": 5.3,
+        "weightKg": 5020,
+        "tractorPowerHp": 190
+      },
+      {
+        "sku": "230mm-52disc",
+        "blades": 52,
+        "discSpacingMm": 230,
+        "workingWidthM": 5.8,
+        "weightKg": 5290,
+        "tractorPowerHp": 210
+      },
+      {
+        "sku": "230mm-56disc",
+        "blades": 56,
+        "discSpacingMm": 230,
+        "workingWidthM": 6.2,
+        "weightKg": 5440,
+        "tractorPowerHp": 230
+      },
+      {
+        "sku": "270mm-36disc",
+        "blades": 36,
+        "discSpacingMm": 270,
+        "workingWidthM": 4.5,
+        "weightKg": 4720,
+        "tractorPowerHp": 170
+      },
+      {
+        "sku": "270mm-40disc",
+        "blades": 40,
+        "discSpacingMm": 270,
+        "workingWidthM": 5.0,
+        "weightKg": 4970,
+        "tractorPowerHp": 190
+      },
+      {
+        "sku": "270mm-44disc",
+        "blades": 44,
+        "discSpacingMm": 270,
+        "workingWidthM": 5.5,
+        "weightKg": 5300,
+        "tractorPowerHp": 210
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-cover-x-t80-big-chief",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Cover X T80 (Big Chief)",
+    "displayName": "Gregoire-Besson Cover X T80 (Big Chief) Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_cover-x-t80-big-chief_2018_english.pdf, p.10 (technical specifications + dimensions/weights combined on one page). Only edition found for this model."
+    },
+    "constants": {
+      "hitch": "Coupling on lift arm cat. II/III, ring with tapered bushing, optional pivoting coupling cat. IV/IVN or Scharmuller ring",
+      "frame": "Central frame 250x150x10mm, side frames 150x100x8mm, hydraulic compensating cylinder on boom, vertical hydraulic folding to 3.00m with 4 cylinders",
+      "depthControl": "Emopak rear roller",
+      "transportWidthM": 3.0
+    },
+    "variants": [
+      {
+        "sku": "230mm-56disc-660x6",
+        "blades": 56,
+        "discSpacingMm": 230,
+        "discSizeMm": "660-6",
+        "workingWidthM": 6.2,
+        "weightKg": 6750
+      },
+      {
+        "sku": "230mm-60disc-660x6",
+        "blades": 60,
+        "discSpacingMm": 230,
+        "discSizeMm": "660-6",
+        "workingWidthM": 6.6,
+        "weightKg": 7000
+      },
+      {
+        "sku": "230mm-64disc-660x6",
+        "blades": 64,
+        "discSpacingMm": 230,
+        "discSizeMm": "660-6",
+        "workingWidthM": 7.0,
+        "weightKg": 7200
+      },
+      {
+        "sku": "270mm-40disc-660x7",
+        "blades": 40,
+        "discSpacingMm": 270,
+        "discSizeMm": "660-7",
+        "workingWidthM": 5.0,
+        "weightKg": 6440
+      },
+      {
+        "sku": "270mm-44disc-660x7",
+        "blades": 44,
+        "discSpacingMm": 270,
+        "discSizeMm": "660-7",
+        "workingWidthM": 5.5,
+        "weightKg": 6750
+      },
+      {
+        "sku": "270mm-48disc-660x7",
+        "blades": 48,
+        "discSpacingMm": 270,
+        "discSizeMm": "660-7",
+        "workingWidthM": 6.0,
+        "weightKg": 7060
+      },
+      {
+        "sku": "270mm-40disc-710x7",
+        "blades": 40,
+        "discSpacingMm": 270,
+        "discSizeMm": "710-7",
+        "workingWidthM": 5.0,
+        "weightKg": 6530
+      },
+      {
+        "sku": "270mm-44disc-710x7",
+        "blades": 44,
+        "discSpacingMm": 270,
+        "discSizeMm": "710-7",
+        "workingWidthM": 5.5,
+        "weightKg": 6880
+      },
+      {
+        "sku": "270mm-40disc-760x8",
+        "blades": 40,
+        "discSpacingMm": 270,
+        "discSizeMm": "760-8",
+        "workingWidthM": 5.0,
+        "weightKg": 6970
+      },
+      {
+        "sku": "270mm-44disc-760x8",
+        "blades": 44,
+        "discSpacingMm": 270,
+        "discSizeMm": "760-8",
+        "workingWidthM": 5.5,
+        "weightKg": 7270
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-cover-xl-t70",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Cover XL T70",
+    "displayName": "Gregoire-Besson Cover XL T70 Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_cover-xl-t70-xl_2019_10_english.pdf, p.11 (dimensions/weights) & p.16 (tractor power). Only edition found for this model."
+    },
+    "constants": {
+      "transportWidthM": 3.0
+    },
+    "variants": [
+      {
+        "sku": "195mm-48disc",
+        "blades": 48,
+        "discSpacingMm": 195,
+        "workingWidthM": 4.6,
+        "weightKg": 4980,
+        "tractorPowerHp": 190
+      },
+      {
+        "sku": "195mm-52disc",
+        "blades": 52,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.0,
+        "weightKg": 5170,
+        "tractorPowerHp": 210
+      },
+      {
+        "sku": "195mm-56disc",
+        "blades": 56,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.4,
+        "weightKg": 5420,
+        "tractorPowerHp": 230
+      },
+      {
+        "sku": "195mm-60disc",
+        "blades": 60,
+        "discSpacingMm": 195,
+        "workingWidthM": 5.8,
+        "weightKg": 5550,
+        "tractorPowerHp": 250
+      },
+      {
+        "sku": "195mm-64disc",
+        "blades": 64,
+        "discSpacingMm": 195,
+        "workingWidthM": 6.2,
+        "weightKg": 5690,
+        "tractorPowerHp": 270
+      },
+      {
+        "sku": "230mm-40disc",
+        "blades": 40,
+        "discSpacingMm": 230,
+        "workingWidthM": 4.4,
+        "weightKg": 4720,
+        "tractorPowerHp": 180
+      },
+      {
+        "sku": "230mm-44disc",
+        "blades": 44,
+        "discSpacingMm": 230,
+        "workingWidthM": 4.8,
+        "weightKg": 4870,
+        "tractorPowerHp": 190
+      },
+      {
+        "sku": "230mm-48disc",
+        "blades": 48,
+        "discSpacingMm": 230,
+        "workingWidthM": 5.3,
+        "weightKg": 5020,
+        "tractorPowerHp": 210
+      },
+      {
+        "sku": "230mm-52disc",
+        "blades": 52,
+        "discSpacingMm": 230,
+        "workingWidthM": 5.8,
+        "weightKg": 5290,
+        "tractorPowerHp": 230
+      },
+      {
+        "sku": "230mm-56disc",
+        "blades": 56,
+        "discSpacingMm": 230,
+        "workingWidthM": 6.2,
+        "weightKg": 5440,
+        "tractorPowerHp": 250
+      },
+      {
+        "sku": "230mm-60disc",
+        "blades": 60,
+        "discSpacingMm": 230,
+        "workingWidthM": 6.6,
+        "weightKg": 5590,
+        "tractorPowerHp": 270
+      },
+      {
+        "sku": "230mm-64disc",
+        "blades": 64,
+        "discSpacingMm": 230,
+        "workingWidthM": 7.0,
+        "weightKg": 5740,
+        "tractorPowerHp": 290
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-cover-xl-t80",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Cover XL T80 (XXL)",
+    "displayName": "Gregoire-Besson Cover XL T80 (XXL) Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "manual_gregoire-besson_cover-xl-t80-xxl_2025_10_english.pdf, p.10 (technical specifications + dimensions/weights combined). Only edition found. Working-width section lists 6 disc-count options (66/70/74/82/90/106 discs, 7.30-12.00m) but the dimensions/weights table only shows a fully populated row for the 90-disc/10.00m configuration; recorded as a single-variant range entry since per-config weights for the other 5 sizes were not present on this page."
+    },
+    "constants": {
+      "hitch": "Ring with tapered bushing, optional 80mm dia Scharmuller ball hitch",
+      "frame": "Central frame 3 beams 250x150x8mm, tubular side frame 200x100x10mm, hydraulic compensating cylinder on drawbar, vertical hydraulic folding to 3.00m with 4 cylinders",
+      "discSpacingMm": 230,
+      "workingWidthOptions": "7.30m (66 discs), 7.75m (70 discs), 8.20m (74 discs), 9.10m (82 discs), 10.00m (90 discs), 12.00m (106 discs)"
+    },
+    "variants": [
+      {
+        "sku": "90-disc",
+        "blades": 90,
+        "workingWidthM": 10.0,
+        "transportWidthM": "3.00-3.60 (per equipment)",
+        "weightKg": 11880
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-discordon-t70-dxrv",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Discordon T70 (DXRV)",
+    "displayName": "Gregoire-Besson Discordon T70 (DXRV) Disc/Tine Cultivator",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_discordon-t70-dxrv_2019_10_english.pdf, p.11-12 (technical specs + dimensions/weights) & p.17 (tractor power). Only edition found for this model. Combination disc/tine implement; GB's own category framing is a disc-harrow-style cultivator, filed under Disks per this library's countField convention (discs)."
+    },
+    "constants": {
+      "hitch": "Ring with forged ball, \u00d835/45/55mm, optional coupling cat.4/4N or Scharmuller hitch",
+      "frame": "Central frame 250x150x10mm w/ compensating cylinder & elastomer shock absorbers, tubular side frames 150x100x8mm, hydraulically vertically folding in 2 sections (3.00m transport)",
+      "discSpacingMm": 270,
+      "transportWidthM": 3.0,
+      "overallLengthM": "10.00-11.00"
+    },
+    "variants": [
+      {
+        "sku": "666-8/32-270",
+        "shaftMm": 40,
+        "blades": 32,
+        "tines": 7,
+        "workingWidthM": 4.2,
+        "weightKg": 6690,
+        "tractorPowerHp": 160
+      },
+      {
+        "sku": "666-12/36-270",
+        "shaftMm": 40,
+        "blades": 36,
+        "tines": 9,
+        "workingWidthM": 4.7,
+        "weightKg": 6940,
+        "tractorPowerHp": 220
+      },
+      {
+        "sku": "666-12/40-270",
+        "shaftMm": 40,
+        "blades": 40,
+        "tines": 9,
+        "workingWidthM": 5.2,
+        "weightKg": 7190,
+        "tractorPowerHp": 280
+      },
+      {
+        "sku": "717-8/32-270",
+        "shaftMm": 50,
+        "blades": 32,
+        "tines": 7,
+        "workingWidthM": 4.2,
+        "weightKg": 6910,
+        "tractorPowerHp": 160
+      },
+      {
+        "sku": "717-8/36-270",
+        "shaftMm": 50,
+        "blades": 36,
+        "tines": 9,
+        "workingWidthM": 4.7,
+        "weightKg": 7190,
+        "tractorPowerHp": 220
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-discordon-t80-dxrvhd",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Discordon T80 (DXRVHD / DXRVL-HD)",
+    "displayName": "Gregoire-Besson Discordon T80 (DXRVHD) Disc/Tine Cultivator",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_discordon_2024_11_english.pdf, p.11-12 (technical specs + dimensions/weights) & p.17 (tractor power). Filename is generic ('discordon_2024_11') but header confirms GB_MA_DI_DISCORDON_T80_2411_EN - the current edition of the T80 model. manual_gregoire-besson_discordon-t80-dxrvhd_2022_11_english.pdf (older edition, identical spec values) and manual_gregoire-besson_discordon_2024_03_english.pdf (intermediate edition) treated as superseded duplicates."
+    },
+    "constants": {
+      "hitch": "Ring with forged ball, \u00d835/45/55mm, optional coupling cat.4/4N or Scharmuller hitch",
+      "frame": "Central frame 250x150x10mm w/ compensating cylinder & elastomer shock absorbers, tubular side frames 150x100x8mm, hydraulically vertically folding in 2 sections (3.00m transport)",
+      "discSpacingMm": 270,
+      "transportWidthM": 3.0,
+      "overallLengthM": "10.30-11.60"
+    },
+    "variants": [
+      {
+        "sku": "666-12/44-270 (DXRV-HD)",
+        "shaftMm": 40,
+        "blades": 44,
+        "tines": 11,
+        "workingWidthM": 5.7,
+        "weightKg": 7390,
+        "tractorPowerHp": 270
+      },
+      {
+        "sku": "666-16/48-270 (DXRV-HD)",
+        "shaftMm": 40,
+        "blades": 48,
+        "tines": 13,
+        "workingWidthM": 6.2,
+        "weightKg": 8340,
+        "tractorPowerHp": 320
+      },
+      {
+        "sku": "666-16/52-270 (DXRV-HD)",
+        "shaftMm": 40,
+        "blades": 52,
+        "tines": 13,
+        "workingWidthM": 6.7,
+        "weightKg": 8590,
+        "tractorPowerHp": 400
+      },
+      {
+        "sku": "666-16/56-270 (DXRV-HD)",
+        "shaftMm": 40,
+        "blades": 56,
+        "tines": 15,
+        "workingWidthM": 7.2,
+        "weightKg": 8870,
+        "tractorPowerHp": 470
+      },
+      {
+        "sku": "717-12/44-270 (DXRVL-HD)",
+        "shaftMm": 50,
+        "blades": 44,
+        "tines": 11,
+        "workingWidthM": 5.7,
+        "weightKg": 8210,
+        "tractorPowerHp": 280
+      },
+      {
+        "sku": "717-16/48-270 (DXRVL-HD)",
+        "shaftMm": 50,
+        "blades": 48,
+        "tines": 13,
+        "workingWidthM": 6.2,
+        "weightKg": 8690,
+        "tractorPowerHp": 350
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-prima-40",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Prima 40",
+    "displayName": "Gregoire-Besson Prima 40 Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_prima-40-prima_2019_11_english.pdf, p.10 (headstock/frame/dimensions). manual_gregoire-besson_prima-40-prima_2019_english.pdf (undated near-duplicate edition) and GB_MA_PL_PRIMA_1503_EN.pdf (2015 edition, generic 'PRIMA' title) treated as superseded duplicates."
+    },
+    "constants": {
+      "headstock": "Fixed cat.2 hitch, hydraulic turnover, \u00d880mm shaft",
+      "frame": "120x120x10mm beam",
+      "workingWidthPerBody": "12-16in / 0.30-0.40m, manually adjustable",
+      "interbodyClearanceM": 1.0,
+      "heightBetweenPointsM": 1.6,
+      "safety": "Lightweight bolt type C",
+      "gaugeWheel": "Single, 600x8 tyre"
+    },
+    "variants": [
+      {
+        "sku": "3-body",
+        "bottoms": 3,
+        "overallWidthM": 3.4,
+        "workingWidthM": "0.90-1.20",
+        "weightKg": 920
+      },
+      {
+        "sku": "4-body",
+        "bottoms": 4,
+        "overallWidthM": 4.4,
+        "workingWidthM": "1.20-1.60",
+        "weightKg": 1070
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-prima-50-r4-r41",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Prima 50 (R4 / R41)",
+    "displayName": "Gregoire-Besson Prima 50 R4/R41 Fully-Mounted Light Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_prima-50-r4-r41_2018_11_english.pdf, p.12, section 3.3 Dimensions and weights. 'Indicative weight' given for three safety-device types (B, Y, N); N is heaviest. Only edition found for this model."
+    },
+    "constants": {
+      "overallHeightM": "1.60-1.70",
+      "safetyDeviceNote": "Indicative weight for type C safety device = weight of type B - 25kg"
+    },
+    "variants": [
+      {
+        "sku": "2-body/90cm",
+        "bottoms": 2,
+        "interbodyClearanceM": 0.9,
+        "workingWidthM": "0.6-1.0",
+        "overallLengthM": 2.5,
+        "weightBKg": 870,
+        "weightYKg": 930,
+        "weightNKg": 990
+      },
+      {
+        "sku": "3-body/90cm",
+        "bottoms": 3,
+        "interbodyClearanceM": 0.9,
+        "workingWidthM": "0.9-1.5",
+        "overallLengthM": 3.4,
+        "weightBKg": 1160,
+        "weightYKg": 1250,
+        "weightNKg": 1340
+      },
+      {
+        "sku": "4-body/90cm",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthM": "1.2-2.0",
+        "overallLengthM": 4.3,
+        "weightBKg": 1450,
+        "weightYKg": 1570,
+        "weightNKg": 1690
+      },
+      {
+        "sku": "2-body/100cm",
+        "bottoms": 2,
+        "interbodyClearanceM": 1.0,
+        "workingWidthM": "0.6-1.0",
+        "overallLengthM": 2.6,
+        "weightBKg": 880,
+        "weightYKg": 940,
+        "weightNKg": 1000
+      },
+      {
+        "sku": "3-body/100cm",
+        "bottoms": 3,
+        "interbodyClearanceM": 1.0,
+        "workingWidthM": "0.9-1.5",
+        "overallLengthM": 3.6,
+        "weightBKg": 1180,
+        "weightYKg": 1270,
+        "weightNKg": 1360
+      },
+      {
+        "sku": "4-body/100cm",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthM": "1.2-2.0",
+        "overallLengthM": 4.6,
+        "weightBKg": 1480,
+        "weightYKg": 1600,
+        "weightNKg": 1720
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-rover-40-r3-rw3",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Rover 40 (R3 / RW3)",
+    "displayName": "Gregoire-Besson Rover 40 (R3/RW3) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_rover-40-r3-rw3_2022_03_english.pdf, p.13 (section 3.3 Dimensions, mechanical multi-position and hydraulic-variable configurations). manual_gregoire-besson_rover-40-r3-rw3_2020_11_english.pdf (older edition) treated as superseded duplicate. Headstock: RH 100, mechanical tilt, \u00d8100mm shaft."
+    },
+    "constants": {
+      "headstock": "RH 100, mechanical tilt adjustment without suspension, \u00d8100mm shaft",
+      "weightNote": "Weight given without gauge wheel, with mouldboards H5 and mixed skimmers"
+    },
+    "variants": [
+      {
+        "sku": "2-body/90cm-multi",
+        "bottoms": 2,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 2.4,
+        "weightSafetyCKg": 775,
+        "weightSafetyYKg": 925
+      },
+      {
+        "sku": "3-body(2+1)/90cm-multi",
+        "bottoms": 3,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 3.5,
+        "weightSafetyCKg": 1000,
+        "weightSafetyYKg": 1150
+      },
+      {
+        "sku": "3-body/90cm-multi",
+        "bottoms": 3,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 3.5,
+        "weightSafetyCKg": 1007,
+        "weightSafetyYKg": 1157
+      },
+      {
+        "sku": "4-body(3+1)/90cm-multi",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 4.4,
+        "weightSafetyCKg": 1240,
+        "weightSafetyYKg": 1390
+      },
+      {
+        "sku": "2-body/100cm-multi",
+        "bottoms": 2,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 2.6,
+        "weightSafetyCKg": 785,
+        "weightSafetyYKg": 935
+      },
+      {
+        "sku": "3-body(2+1)/100cm-multi",
+        "bottoms": 3,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 3.8,
+        "weightSafetyCKg": 1015,
+        "weightSafetyYKg": 1165
+      },
+      {
+        "sku": "3-body/100cm-multi",
+        "bottoms": 3,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 3.8,
+        "weightSafetyCKg": 1022,
+        "weightSafetyYKg": 1172
+      },
+      {
+        "sku": "4-body(3+1)/100cm-multi",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 4.8,
+        "weightSafetyCKg": 1260,
+        "weightSafetyYKg": 1410
+      },
+      {
+        "sku": "3-body/90cm-hydraulic-variable",
+        "bottoms": 3,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 3.5,
+        "weightSafetyCKg": 1047,
+        "weightSafetyYKg": 1197
+      },
+      {
+        "sku": "4-body(3+1)/90cm-hydraulic-variable",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-18",
+        "workingWidthM": "0.30-0.45",
+        "overallWidthM": 4.4,
+        "weightSafetyCKg": 1280,
+        "weightSafetyYKg": 1430
+      },
+      {
+        "sku": "3-body/100cm-hydraulic-variable",
+        "bottoms": 3,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 3.8,
+        "weightSafetyCKg": 1062,
+        "weightSafetyYKg": 1202
+      },
+      {
+        "sku": "4-body(3+1)/100cm-hydraulic-variable",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-20",
+        "workingWidthM": "0.35-0.50",
+        "overallWidthM": 4.8,
+        "weightSafetyCKg": 1300,
+        "weightSafetyYKg": 1450
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-rover-50",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Rover 50",
+    "displayName": "Gregoire-Besson Rover 50 Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_rover-50_2023_12_english.pdf, p.13 (section 3.4 Dimensions, multipositions and hydraulic-variable configurations). manual_gregoire-besson_rover-50_2020_11_english.pdf and manual_gregoire-besson_rover-50_2022_04_english.pdf (older editions) treated as superseded duplicates. Headstock: RH 515, mechanical tilt, \u00d8115mm shaft."
+    },
+    "constants": {
+      "headstock": "RH 515, mechanical tilt adjustment without suspension, \u00d8115mm shaft",
+      "weightNote": "Weight given without gauge wheel, with mouldboards H5 and mixed skimmers"
+    },
+    "variants": [
+      {
+        "sku": "4-body/90cm-multi",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 4.1,
+        "weightSafetyCKg": 890,
+        "weightSafetyYKg": 1040
+      },
+      {
+        "sku": "5-body(4+1)/90cm-multi",
+        "bottoms": 5,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 5.0,
+        "weightSafetyCKg": 945,
+        "weightSafetyYKg": 1095
+      },
+      {
+        "sku": "6-body(5+1)/90cm-multi",
+        "bottoms": 6,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 5.8,
+        "weightSafetyCKg": 1005,
+        "weightSafetyYKg": 1155
+      },
+      {
+        "sku": "4-body/100cm-multi",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 4.3,
+        "weightSafetyCKg": 910,
+        "weightSafetyYKg": 1050
+      },
+      {
+        "sku": "5-body(4+1)/100cm-multi",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 5.1,
+        "weightSafetyCKg": 965,
+        "weightSafetyYKg": 1115
+      },
+      {
+        "sku": "6-body(5+1)/100cm-multi",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 6.0,
+        "weightSafetyCKg": 1025,
+        "weightSafetyYKg": 1175
+      },
+      {
+        "sku": "4-body/90cm-hydraulic-variable",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 4.1,
+        "weightSafetyCKg": 1000,
+        "weightSafetyYKg": 1150
+      },
+      {
+        "sku": "5-body(4+1)/90cm-hydraulic-variable",
+        "bottoms": 5,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 5.0,
+        "weightSafetyCKg": 1060,
+        "weightSafetyYKg": 1210
+      },
+      {
+        "sku": "6-body(5+1)/90cm-hydraulic-variable",
+        "bottoms": 6,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "workingWidthM": "0.30-0.50",
+        "overallWidthM": 5.8,
+        "weightSafetyCKg": 1120,
+        "weightSafetyYKg": 1270
+      },
+      {
+        "sku": "4-body/100cm-hydraulic-variable",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 4.3,
+        "weightSafetyCKg": 1020,
+        "weightSafetyYKg": 1170
+      },
+      {
+        "sku": "5-body(4+1)/100cm-hydraulic-variable",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 5.1,
+        "weightSafetyCKg": 1080,
+        "weightSafetyYKg": 1230
+      },
+      {
+        "sku": "6-body(5+1)/100cm-hydraulic-variable",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 6.0,
+        "weightSafetyCKg": 1100,
+        "weightSafetyYKg": 1250
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-rover-60-r6-rw6",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Rover 60 (R6 / RW6)",
+    "displayName": "Gregoire-Besson Rover 60 (R6/RW6) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": false,
+      "note": "manual_gregoire-besson_rover-60-r6-rw6_2023_12_english.pdf, p.12 (section 3.3 Dimensions). Table gives working width and overall width only - no weight column present anywhere in this manual (checked all pages containing 'kg'; only torque-spec and ballasting boilerplate found). Recorded without weight data. manual_gregoire-besson_rover-60-r6-rw6_2019_english.pdf, manual_gregoire-besson_rover-60-r6-rw6_2022_02_english.pdf, and manual_gregoire-besson_rover_2022_02_english.pdf (older editions, same model, generic-named file confirmed via header GB_MA_PL_ROVER_60) treated as superseded duplicates. Headstock: RH 615, \u00d8115mm shaft."
+    },
+    "constants": {
+      "headstock": "RH 615, mechanical tilt adjustment without suspension (optional hydraulic tilt + top-link suspension), \u00d8115mm shaft"
+    },
+    "variants": [
+      {
+        "sku": "4-body(3+1)/90cm",
+        "bottoms": 4,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 4.5
+      },
+      {
+        "sku": "5-body(4+1)/90cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 5.1
+      },
+      {
+        "sku": "6-body(5+1)/90cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 6.0
+      },
+      {
+        "sku": "4-body(3+1)/100cm",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 4.6
+      },
+      {
+        "sku": "5-body(3+1)/100cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 5.2
+      },
+      {
+        "sku": "6-body(3+1)/100cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 6.1
+      },
+      {
+        "sku": "4-body(3+1)/110cm",
+        "bottoms": 4,
+        "interbodyClearanceM": 1.1,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 4.7
+      },
+      {
+        "sku": "5-body(3+1)/110cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.1,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 5.3
+      },
+      {
+        "sku": "6-body(3+1)/110cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.1,
+        "workingWidthIn": "14-22",
+        "workingWidthM": "0.35-0.55",
+        "overallWidthM": 6.2
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-rover-70-r8-rw8-hrw8",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Rover 70 (R8 / RW8 / HRW8)",
+    "displayName": "Gregoire-Besson Rover 70 (R8/RW8/HRW8) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_rover-70-r8-rw8-hrw8_2024_02_english.pdf, p.11 (technical specs + dimensions/weights - note: no weight column in this table, overall width only) & p.19 (tractor power by body count). manual_gregoire-besson_rover-70-r8-rw8-hrw8_2015_french.pdf (older, French-language edition) and manual_gregoire-besson_rover_2021_09_english.pdf (older English edition, confirmed same model via header GB_MA_PL_Rover_70) treated as superseded duplicates."
+    },
+    "constants": {
+      "hitch": "Cat.3 standard, cat.4N optional",
+      "frame": "Modular beam 160x160mm",
+      "workingWidthPerBody": "Hydraulic 12-20in / 0.30-0.50m",
+      "heightBetweenPointsM": "1.70 standard, 1.80 optional"
+    },
+    "variants": [
+      {
+        "sku": "5-body(3+2)/90cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 5.15,
+        "tractorPowerHp": "150-160"
+      },
+      {
+        "sku": "6-body(5+1)/90cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 5.95,
+        "tractorPowerHp": "180-190"
+      },
+      {
+        "sku": "7-body(5+1+1)/90cm",
+        "bottoms": 7,
+        "interbodyClearanceM": 0.9,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 6.75,
+        "tractorPowerHp": "210-220"
+      },
+      {
+        "sku": "5-body(3+2)/100cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 5.65,
+        "tractorPowerHp": "150-160"
+      },
+      {
+        "sku": "6-body(4+2)/100cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 6.6,
+        "tractorPowerHp": "180-190"
+      },
+      {
+        "sku": "7-body(4+1+2)/100cm",
+        "bottoms": 7,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 7.5,
+        "tractorPowerHp": "210-220"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-voyager-c60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Voyager C60 (SPER81 / SPER8)",
+    "displayName": "Gregoire-Besson Voyager C60 (SPER81/SPER8) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_voyager-c60-sper81-sper8_2023_12_english.pdf, p.13-14 (technical specs + dimensions/weights). manual_gregoire-besson_voyager-c60-sper81-sper8_2019_english.pdf and manual_gregoire-besson_voyager_2022_02_english.pdf (older editions, generic-named file confirmed same model via header GB_MA_PL_VOYAGER_C60) treated as superseded duplicates."
+    },
+    "constants": {
+      "headstock": "Quick coupler fixed hitch cat.3N-3, pivoted headstock >110deg steering angle, rack-and-pinion turnover",
+      "frame": "Modular frame 180x180mm",
+      "workingWidthPerBody": "Variable by hydraulic cylinder, 12-20in, for 1.00m inter-body clearance",
+      "interbodyClearanceM": 1.0,
+      "heightBetweenPointsM": "1.70 standard, 1.80 optional"
+    },
+    "variants": [
+      {
+        "sku": "7-body(4 front+3(2+1) rear)",
+        "bottoms": 7,
+        "overallWidthM": 11.5,
+        "weightSafetyBKg": 4700,
+        "weightSafetyXYKg": 5050
+      },
+      {
+        "sku": "8-body(4 front+4(2+1+1) rear)",
+        "bottoms": 8,
+        "overallWidthM": 12.5,
+        "weightSafetyBKg": 5000,
+        "weightSafetyXYKg": 5400
+      },
+      {
+        "sku": "9-body(5 front+4(2+1+1) rear)",
+        "bottoms": 9,
+        "overallWidthM": 13.5,
+        "weightSafetyBKg": 5300,
+        "weightSafetyXYKg": 5750
+      },
+      {
+        "sku": "10-body(6 front+4(2+1+1) rear)",
+        "bottoms": 10,
+        "overallWidthM": 14.5,
+        "weightSafetyBKg": 5600,
+        "weightSafetyXYKg": 6100
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-voyager-c80",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Voyager C80 (SPSF9 / SPSL9 / SPHF9 / SPHL9)",
+    "displayName": "Gregoire-Besson Voyager C80 (SPSF9/SPSL9/SPHF9/SPHL9) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_voyager-c80-spsf9-spsl9-sphf9-sphl9_2019_11_english.pdf, p.12 (section 3.3 Dimensions and weights, large 20-configuration table). Only edition found for this model."
+    },
+    "constants": {
+      "note": "Two inter-body-clearance families: 1.00m (12-20in working width) and 1.14m (14-22in working width)"
+    },
+    "variants": [
+      {
+        "sku": "7-body/100cm(4+3)",
+        "bottoms": 7,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 11.6,
+        "weightSafetyBKg": 5875,
+        "weightSafetyXYKg": 5900
+      },
+      {
+        "sku": "8-body/100cm(5+3)",
+        "bottoms": 8,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 12.6,
+        "weightSafetyBKg": 6255,
+        "weightSafetyXYKg": 6280
+      },
+      {
+        "sku": "9-body/100cm(5+3+1)",
+        "bottoms": 9,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 13.6,
+        "weightSafetyBKg": 6685,
+        "weightSafetyXYKg": 6710
+      },
+      {
+        "sku": "10-body/100cm(5+1+3+1)",
+        "bottoms": 10,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 14.6,
+        "weightSafetyBKg": 7095,
+        "weightSafetyXYKg": 7120
+      },
+      {
+        "sku": "11-body/100cm(5+1+3+1+1)",
+        "bottoms": 11,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 15.6,
+        "weightSafetyBKg": 7485,
+        "weightSafetyXYKg": 7510
+      },
+      {
+        "sku": "12-body/100cm(7+3+1+1)",
+        "bottoms": 12,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 16.6,
+        "weightSafetyBKg": 7885,
+        "weightSafetyXYKg": 7910
+      },
+      {
+        "sku": "13-body/100cm(7+1+3+1+1)",
+        "bottoms": 13,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 17.6,
+        "weightSafetyBKg": 8285,
+        "weightSafetyXYKg": 8310
+      },
+      {
+        "sku": "14-body/100cm(7+1+3+1+1+1)",
+        "bottoms": 14,
+        "interbodyClearanceM": 1.0,
+        "overallWidthM": 18.6,
+        "weightSafetyBKg": 8635,
+        "weightSafetyXYKg": 8660
+      },
+      {
+        "sku": "7-body/114cm(4+3)",
+        "bottoms": 7,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 12.6,
+        "weightSafetyBKg": 6030,
+        "weightSafetyXYKg": 6055
+      },
+      {
+        "sku": "8-body/114cm(5+3)",
+        "bottoms": 8,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 13.7,
+        "weightSafetyBKg": 6425,
+        "weightSafetyXYKg": 6450
+      },
+      {
+        "sku": "9-body/114cm(5+3+1)",
+        "bottoms": 9,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 14.9,
+        "weightSafetyBKg": 6820,
+        "weightSafetyXYKg": 6845
+      },
+      {
+        "sku": "10-body/114cm(5+1+3+1)",
+        "bottoms": 10,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 16.0,
+        "weightSafetyBKg": 7245,
+        "weightSafetyXYKg": 7270
+      },
+      {
+        "sku": "11-body/114cm(5+1+3+1+1)",
+        "bottoms": 11,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 17.15,
+        "weightSafetyBKg": 7660,
+        "weightSafetyXYKg": 7685
+      },
+      {
+        "sku": "12-body/114cm(7+3+1+1)",
+        "bottoms": 12,
+        "interbodyClearanceM": 1.14,
+        "overallWidthM": 18.3,
+        "weightSafetyBKg": 8080,
+        "weightSafetyXYKg": 8105
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-voyager-s70",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Voyager S70 (SPMF9 / SPML9 / SPMFW9 / SPMLW9)",
+    "displayName": "Gregoire-Besson Voyager S70 (SPMF9/SPML9/SPMFW9/SPMLW9) Semi-Mounted Reversible Plough",
+    "category": "Plows",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_voyager-s70-spmf9-spml9-spmfw9-spmlw9_2019_english.pdf, p.11 (technical specs + section 3.4 dimensions/weights). Only edition found for this model."
+    },
+    "constants": {
+      "heightBetweenPointsM": "1.60 standard, 1.70/1.80 optional",
+      "wheel": "Mechanical arm angle adjustment, tyre \u00d81220mm (17.5R24) standard or \u00d81115mm (16.0/70-20) optional"
+    },
+    "variants": [
+      {
+        "sku": "5-body/100cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 6.8,
+        "weightSafetyBKg": 3570,
+        "weightSafetyXYKg": 3700
+      },
+      {
+        "sku": "6-body/100cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 7.8,
+        "weightSafetyBKg": 3870,
+        "weightSafetyXYKg": 4620
+      },
+      {
+        "sku": "7-body/100cm",
+        "bottoms": 7,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 8.8,
+        "weightSafetyBKg": 4170,
+        "weightSafetyXYKg": 4340
+      },
+      {
+        "sku": "8-body/100cm",
+        "bottoms": 8,
+        "interbodyClearanceM": 1.0,
+        "workingWidthIn": "12-20",
+        "overallWidthM": 9.8,
+        "weightSafetyBKg": 4470,
+        "weightSafetyXYKg": 4660
+      },
+      {
+        "sku": "5-body/114cm",
+        "bottoms": 5,
+        "interbodyClearanceM": 1.14,
+        "workingWidthIn": "14-22",
+        "overallWidthM": 7.4,
+        "weightSafetyBKg": 3610,
+        "weightSafetyXYKg": 3740
+      },
+      {
+        "sku": "6-body/114cm",
+        "bottoms": 6,
+        "interbodyClearanceM": 1.14,
+        "workingWidthIn": "14-22",
+        "overallWidthM": 8.6,
+        "weightSafetyBKg": 3920,
+        "weightSafetyXYKg": 4070
+      },
+      {
+        "sku": "7-body/114cm",
+        "bottoms": 7,
+        "interbodyClearanceM": 1.14,
+        "workingWidthIn": "14-22",
+        "overallWidthM": 9.8,
+        "weightSafetyBKg": 4330,
+        "weightSafetyXYKg": 4400
+      },
+      {
+        "sku": "8-body/114cm",
+        "bottoms": 8,
+        "interbodyClearanceM": 1.14,
+        "workingWidthIn": "14-22",
+        "overallWidthM": 11.0,
+        "weightSafetyBKg": 4580,
+        "weightSafetyXYKg": 4770
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-normandie-50",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Normandie 50 (PF)",
+    "displayName": "Gregoire-Besson Normandie 50 (PF) Fixed-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_normandie_2022_12_english.pdf, p.11 (GB_MA_DI_NORMANDIE+_50_2212_EN, current 'Normandie+' generation - identical dimension table to the older PF edition but with NSC non-stop elastomer safety replacing the old Rabeflex system). GB_MA_DI_NORMANDIE_PF_1708_EN.pdf (2017) and manual_gregoire-besson_normandie-50-normandie-pf_2019_english.pdf (2019) treated as superseded older editions."
+    },
+    "constants": {
+      "linkage": "Three-point cat.III, width II, pins locked in rotation",
+      "frame": "Round tube \u00d8105mm",
+      "discSpacingMm": 250,
+      "discs": "Crenellated curved mulching discs 5mm thk. \u00d8510",
+      "safety": "NSC non-stop elastomer",
+      "depthControl": "By rear roller, with or without levelling device"
+    },
+    "variants": [
+      {
+        "sku": "20-disc",
+        "blades": 20,
+        "workingWidthM": 2.5,
+        "transportWidthM": 2.5,
+        "weightKg": 1000
+      },
+      {
+        "sku": "24-disc",
+        "blades": 24,
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 1140
+      },
+      {
+        "sku": "28-disc",
+        "blades": 28,
+        "workingWidthM": 3.5,
+        "transportWidthM": 3.5,
+        "weightKg": 1620
+      },
+      {
+        "sku": "32-disc",
+        "blades": 32,
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.3,
+        "weightKg": 2120
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-normandie-pr-60-70",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Normandie PR (60 / 70)",
+    "displayName": "Gregoire-Besson Normandie PR (60/70) Folding Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_normandie-60-normandie-pr-4m-normandie-pr-5m_2019_english.pdf, p.10 (GB_MA_DI_NORMANDIE_PR_1902_EN). manual_gregoire-besson_normandie-70-normandie-pr-6m_2019_english.pdf is a byte-identical duplicate of the same document (same doc code, same content) despite being filed under a 'Normandie 70' name - both filenames are dealer labels for the same PR product line, which covers 4.00-6.00m in one manual. GB_MA_DI_NORMANDIE_PR_1708_EN.pdf (2017 edition) treated as superseded."
+    },
+    "constants": {
+      "linkage": "Three-point cat.III, width II, pins locked in rotation",
+      "frame": "Round tube \u00d8105mm",
+      "discSpacingMm": 250,
+      "discs": "Crenellated curved mulching discs 5mm thk. \u00d8510",
+      "depthControl": "By rear roller, with or without levelling device"
+    },
+    "variants": [
+      {
+        "sku": "32-disc",
+        "blades": 32,
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.5,
+        "weightKg": 1640
+      },
+      {
+        "sku": "40-disc",
+        "blades": 40,
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.5,
+        "weightKg": 2040
+      },
+      {
+        "sku": "48-disc",
+        "blades": 48,
+        "workingWidthM": 6.0,
+        "transportWidthM": 2.5,
+        "weightKg": 2410
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-normandie-t60-sp2p",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Normandie T60 (SP2P)",
+    "displayName": "Gregoire-Besson Normandie T60 (SP2P) Semi-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_normandie-t60-normandie-sp2_2019_english.pdf, p.11 (GB_MA_DI_NORMANDIE_SP_2P_1902_EN). Only edition found for this model."
+    },
+    "constants": {
+      "hitch": "Coupling on lift arm cat.III, optional cat.II/IIIN or conical \u00d835/45/55mm",
+      "frame": "Upper frame 300x200x10mm, vertical hydraulic folding to 2.50m with 4 cylinders",
+      "discSpacingMm": 250,
+      "depthControl": "By rear roller, with or without levelling device"
+    },
+    "variants": [
+      {
+        "sku": "32-disc",
+        "blades": 32,
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.5,
+        "weightKg": 3700
+      },
+      {
+        "sku": "40-disc",
+        "blades": 40,
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.5,
+        "weightKg": 4200
+      },
+      {
+        "sku": "48-disc",
+        "blades": 48,
+        "workingWidthM": 6.0,
+        "transportWidthM": 2.5,
+        "weightKg": 4800
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-normandie-t70-sp3p",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Normandie T70 (SP3P)",
+    "displayName": "Gregoire-Besson Normandie T70 (SP3P) Semi-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_normandie-t70-normandie-sp3_2019_english.pdf, p.11 (GB_MA_DI_NORMANDIE_SP_3P_1902_EN). GB_MA_DI_NORMANDIE_SP_3_1505_EN.pdf (2015 edition) treated as superseded."
+    },
+    "constants": {
+      "hitch": "Coupling on lift arm cat.II/III, optional cat.II/IIIN/III/IV or tapered ring \u00d845/55mm",
+      "frame": "Central frame, vertical hydraulic folding to 3.00m with 4 cylinders",
+      "discSpacingMm": 250,
+      "depthControl": "By rear roller and hydraulic cylinders with shims at front"
+    },
+    "variants": [
+      {
+        "sku": "56-disc",
+        "blades": 56,
+        "workingWidthM": 7.0,
+        "transportWidthM": 3.0,
+        "weightKg": 5450
+      },
+      {
+        "sku": "64-disc",
+        "blades": 64,
+        "workingWidthM": 8.0,
+        "transportWidthM": 3.0,
+        "weightKg": 5900
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-normandie-t80-sp4p",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Normandie T80 (SP4P)",
+    "displayName": "Gregoire-Besson Normandie T80 (SP4P / Normandie+) Semi-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_normandie-t80-normandie-sp4_2019_english.pdf p.11 (GB_MA_DI_NORMANDIE_SP_4P_1902_EN, 10.00/12.00m sizes) plus manual_gregoire-besson_normandie-t80-normandie-sp4_2024_07_english.pdf p.11 (GB_MA_DI_NORMANDIE+_T80_12.50_2407_EN, newer 'Normandie+' generation adding a larger 12.50m/100-disc size). GB_MA_DI_NORMANDIE_SP_4P_1609_EN.pdf (2016 edition) treated as superseded."
+    },
+    "constants": {
+      "hitch": "Scharmuller fixed ring, optional conical \u00d855/65/70mm",
+      "frame": "Central frame, hydraulic folding",
+      "discSpacingMm": 250,
+      "depthControl": "By roller and hydraulic cylinders with shims"
+    },
+    "variants": [
+      {
+        "sku": "80-disc",
+        "blades": 80,
+        "workingWidthM": 10.0,
+        "transportWidthM": 3.0,
+        "weightKg": 8700
+      },
+      {
+        "sku": "96-disc",
+        "blades": 96,
+        "workingWidthM": 12.0,
+        "transportWidthM": 3.0,
+        "weightKg": 9500
+      },
+      {
+        "sku": "100-disc (Normandie+)",
+        "blades": 100,
+        "workingWidthM": 12.5,
+        "transportWidthM": ">3.00",
+        "weightKg": 10800
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-occitan-50",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Occitan 50",
+    "displayName": "Gregoire-Besson Occitan 50 Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_occitan-50_2025_03_english.pdf, p.10 (GB_MA_DI_OCCITAN_50_2503_EN). manual_gregoire-besson_occitan-50_2021_08_english.pdf and manual_gregoire-besson_occitan-50_2023_12_english.pdf (older editions) treated as superseded. Table gives weight per roller type (with rear-mounted cleaners standard), not an unequipped baseline."
+    },
+    "constants": {
+      "linkage": "Three-point cat.3, 3N width, quick coupler",
+      "discSpacingMm": 230,
+      "discSizeMm": "620-6",
+      "safety": "Spring-loaded Non-Stop"
+    },
+    "variants": [
+      {
+        "sku": "20-disc",
+        "blades": 20,
+        "workingWidthM": 2.5,
+        "transportWidthM": 2.5,
+        "weightCrumblingRollerKg": 1725,
+        "weightDoubleCrumblingRollerKg": 1955,
+        "weightVImpackRollerKg": 1810,
+        "weightUImpackRollerKg": 1840
+      },
+      {
+        "sku": "24-disc",
+        "blades": 24,
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 1965,
+        "weightDoubleCrumblingRollerKg": 2225,
+        "weightVImpackRollerKg": 2080,
+        "weightUImpackRollerKg": 2110
+      },
+      {
+        "sku": "28-disc",
+        "blades": 28,
+        "workingWidthM": 3.5,
+        "transportWidthM": 3.5,
+        "weightCrumblingRollerKg": 2200,
+        "weightDoubleCrumblingRollerKg": 2511,
+        "weightVImpackRollerKg": 2330,
+        "weightUImpackRollerKg": 2370
+      },
+      {
+        "sku": "32-disc",
+        "blades": 32,
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightCrumblingRollerKg": 2460,
+        "weightDoubleCrumblingRollerKg": 2800,
+        "weightVImpackRollerKg": 2620,
+        "weightUImpackRollerKg": 2680
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-occitan-60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Occitan 60",
+    "displayName": "Gregoire-Besson Occitan 60 Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_occitan-60_2025_03_english.pdf, p.11 (GB_MA_DI_OCCITAN_60_2503_EN). manual_gregoire-besson_occitan-60_2021_08_english.pdf and manual_gregoire-besson_occitan-60_2023_12_english.pdf (older editions) treated as superseded."
+    },
+    "constants": {
+      "linkage": "Three-point cat.3, 3N width, quick coupler",
+      "discSpacingMm": 230,
+      "discSizeMm": "620-6",
+      "safety": "Spring-loaded Non-Stop"
+    },
+    "variants": [
+      {
+        "sku": "36-disc",
+        "blades": 36,
+        "workingWidthM": 4.2,
+        "transportWidthM": "<3.00",
+        "weightCrumblingRollerKg": 3150,
+        "weightDoubleCrumblingRollerKg": 3600,
+        "weightVImpackRollerKg": 3250,
+        "weightUImpackRollerKg": 3330
+      },
+      {
+        "sku": "44-disc",
+        "blades": 44,
+        "workingWidthM": 5.2,
+        "transportWidthM": "<3.00",
+        "weightCrumblingRollerKg": 3780,
+        "weightDoubleCrumblingRollerKg": 4290,
+        "weightVImpackRollerKg": 3970,
+        "weightUImpackRollerKg": 4055
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-occitan-t60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Occitan T60",
+    "displayName": "Gregoire-Besson Occitan T60 Semi-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_occitan-t60_2025_03_english.pdf, p.12 (GB_MA_DI_OCCITAN_T60_2503_EN). manual_gregoire-besson_occitan-t60_2021_08_english.pdf, manual_gregoire-besson_occitan-t60_2023_12_english.pdf, manual_gregoire-besson_occitan-t60_2024_04_english.pdf (older editions) treated as superseded. 'NC' = not communicated for the U-profile Impack roller column."
+    },
+    "constants": {
+      "linkage": "Pivot on cat.3/3N/4 arm, quick coupler; optional forged ball \u00d845/55mm or Scharmuller K80",
+      "frame": "Central frame, hydraulic compensating on boom, vertical hydraulic folding to 2.50m",
+      "discSpacingMm": 230,
+      "discSizeMm": "620-6",
+      "safety": "Non-Stop spring"
+    },
+    "variants": [
+      {
+        "sku": "36-disc",
+        "blades": 36,
+        "workingWidthM": 4.2,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 5290,
+        "weightDoubleCrumblingRollerKg": 5700,
+        "weightVImpackRollerKg": 5530,
+        "weightUImpackRollerKg": "NC"
+      },
+      {
+        "sku": "44-disc",
+        "blades": 44,
+        "workingWidthM": 5.2,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 5860,
+        "weightDoubleCrumblingRollerKg": 6310,
+        "weightVImpackRollerKg": 6220,
+        "weightUImpackRollerKg": "NC"
+      },
+      {
+        "sku": "52-disc",
+        "blades": 52,
+        "workingWidthM": 6.2,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 6400,
+        "weightDoubleCrumblingRollerKg": 6900,
+        "weightVImpackRollerKg": 6870,
+        "weightUImpackRollerKg": "NC"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-occitan-t70",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Occitan T70",
+    "displayName": "Gregoire-Besson Occitan T70 Semi-Mounted Disc Harrow",
+    "category": "Disks",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_occitan-t70_2025_03_english.pdf, p.12 (GB_MA_DI_OCCITAN_T70_2503_EN). manual_gregoire-besson_occitan-t70_2023_12_english.pdf, manual_gregoire-besson_occitan-t70_2024_10_english.pdf, and manual_gregoire-besson_divers_2023_04_english.pdf (misnamed file, actually an even older Occitan T70 edition per its header) treated as superseded. 'NC' = not communicated for the V/U-profile Impack roller columns."
+    },
+    "constants": {
+      "linkage": "Pivot on cat.3/3N arm, quick coupler; optional forged ball \u00d845/55mm or Scharmuller K80",
+      "frame": "Central frame, hydraulic compensating on boom, vertical hydraulic folding to 3.00m with 6 cylinders",
+      "discSpacingMm": 230,
+      "safety": "Non-Stop spring"
+    },
+    "variants": [
+      {
+        "sku": "60-disc",
+        "blades": 60,
+        "workingWidthM": 7.2,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 9140,
+        "weightDoubleCrumblingRollerKg": 9800,
+        "weightVImpackRollerKg": "NC",
+        "weightUImpackRollerKg": "NC"
+      },
+      {
+        "sku": "68-disc",
+        "blades": 68,
+        "workingWidthM": 8.2,
+        "transportWidthM": 3.0,
+        "weightCrumblingRollerKg": 9650,
+        "weightDoubleCrumblingRollerKg": 10440,
+        "weightVImpackRollerKg": "NC",
+        "weightUImpackRollerKg": "NC"
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-crossland-50",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Crossland 50",
+    "displayName": "Gregoire-Besson Crossland 50 Mounted Stubble Harrow",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_crossland-50-crossland-pf_2019_english.pdf, p.11 (GB_MA_TI_CROSSLAND_50_1909_EN). GB_MA_TI_CROSSLAND_1230_1306_1405_EN.pdf (2014 edition of the predecessor model) treated as superseded."
+    },
+    "constants": {
+      "linkage": "Three-point cat.III, cat.IIIN, pins locked in rotation",
+      "frame": "Three beams 100x100mm, under-frame clearance 750mm, inter-beam clearance 800mm",
+      "tineSpacingMm": 230,
+      "tines": "Eurochisel forged steel, 'Edge On' profile"
+    },
+    "variants": [
+      {
+        "sku": "13-tine (safety bolt)",
+        "shanks": 13,
+        "workingWidthM": 3.0,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 1402,
+        "weightTripleFollowingHarrowKg": 1717,
+        "weightCrumblingRollerKg": 1744
+      },
+      {
+        "sku": "15-tine (safety bolt)",
+        "shanks": 15,
+        "workingWidthM": 3.5,
+        "transportWidthM": "<3.50",
+        "weightNoAttachmentKg": 1535,
+        "weightTripleFollowingHarrowKg": 1870,
+        "weightCrumblingRollerKg": 1905
+      },
+      {
+        "sku": "13-tine (safety spring)",
+        "shanks": 13,
+        "workingWidthM": 3.0,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 1792,
+        "weightTripleFollowingHarrowKg": 2107,
+        "weightCrumblingRollerKg": 2134
+      },
+      {
+        "sku": "15-tine (safety spring)",
+        "shanks": 15,
+        "workingWidthM": 3.5,
+        "transportWidthM": "<3.50",
+        "weightNoAttachmentKg": 1985,
+        "weightTripleFollowingHarrowKg": 2320,
+        "weightCrumblingRollerKg": 2355
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-crossland-60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Crossland 60",
+    "displayName": "Gregoire-Besson Crossland 60 Folding Mounted Stubble Harrow",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_crossland_2024_02_english.pdf, p.11 (GB_MA_TI_CROSSLAND_60_2402_EN, current edition). manual_gregoire-besson_crossland-60-crossland-pr_2019_english.pdf, manual_gregoire-besson_crossland-60-crossland-pr_2019_english-2.pdf (2019 editions) and GB_MA_TI_CROSSLAND_2230_2306_1406_EN.pdf (2014 edition of predecessor model) treated as superseded."
+    },
+    "constants": {
+      "linkage": "Three-point cat.III, cat.IIIN, pins locked in rotation",
+      "frame": "Three beams 100x100mm, under-frame clearance 700mm, hydraulic flat folding <3.00m for transport",
+      "tineSpacingMm": 230,
+      "tines": "Eurochisel forged steel, 'Edge On' profile"
+    },
+    "variants": [
+      {
+        "sku": "19-tine (safety bolt)",
+        "shanks": 19,
+        "workingWidthM": 4.4,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 2189,
+        "weightTripleFollowingHarrowKg": 2769,
+        "weightCrumblingRollerKg": 2900
+      },
+      {
+        "sku": "21-tine (safety bolt)",
+        "shanks": 21,
+        "workingWidthM": 4.85,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 2332,
+        "weightCrumblingRollerKg": 3054
+      },
+      {
+        "sku": "23-tine (safety bolt)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 2520,
+        "weightCrumblingRollerKg": 3285
+      },
+      {
+        "sku": "19-tine (safety spring)",
+        "shanks": 19,
+        "workingWidthM": 4.4,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 2759,
+        "weightTripleFollowingHarrowKg": 3339,
+        "weightCrumblingRollerKg": 3470
+      },
+      {
+        "sku": "21-tine (safety spring)",
+        "shanks": 21,
+        "workingWidthM": 4.85,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 2962,
+        "weightCrumblingRollerKg": 3592
+      },
+      {
+        "sku": "23-tine (safety spring)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 3210,
+        "weightCrumblingRollerKg": 4160
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-crossland-t60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Crossland T60",
+    "displayName": "Gregoire-Besson Crossland T60 Folding Semi-Mounted Stubble Harrow",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_crossland-t60-crossland-4000_2019_english.pdf, p.11 (GB_MA_TI_CROSSLAND_T60_1909_EN). GB_MA_TI_CROSSLAND_4000_1608_EN.pdf (2016 edition of predecessor 'Crossland 4000') treated as superseded."
+    },
+    "constants": {
+      "wheels": "Six-hole hub, 13.0/65 R18 tyres; centre frame 4 HD tandem wheels \u00d890mm, side sections single wheel",
+      "tines": "Eurochisel forged steel, 'Edge On' profile",
+      "depthControl": "Automatic levelling by all wheels and drawbar"
+    },
+    "variants": [
+      {
+        "sku": "19-tine (safety bolt)",
+        "shanks": 19,
+        "workingWidthM": 4.4,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 5300,
+        "weightTripleFollowingHarrowKg": 5580,
+        "weightWheelRollersKg": 5941
+      },
+      {
+        "sku": "21-tine (safety bolt)",
+        "shanks": 21,
+        "workingWidthM": 4.85,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 5400,
+        "weightTripleFollowingHarrowKg": 5990,
+        "weightWheelRollersKg": 6068
+      },
+      {
+        "sku": "23-tine (safety bolt)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6050,
+        "weightTripleFollowingHarrowKg": 6650,
+        "weightWheelRollersKg": 6750
+      },
+      {
+        "sku": "19-tine (safety spring)",
+        "shanks": 19,
+        "workingWidthM": 4.4,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 5870,
+        "weightTripleFollowingHarrowKg": 6150,
+        "weightWheelRollersKg": 6511
+      },
+      {
+        "sku": "21-tine (safety spring)",
+        "shanks": 21,
+        "workingWidthM": 4.85,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6030,
+        "weightTripleFollowingHarrowKg": 6620,
+        "weightWheelRollersKg": 6698
+      },
+      {
+        "sku": "23-tine (safety spring)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6740,
+        "weightTripleFollowingHarrowKg": 7340,
+        "weightWheelRollersKg": 7440
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-crossland-t70",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Crossland T70",
+    "displayName": "Gregoire-Besson Crossland T70 Folding Semi-Mounted Stubble Harrow",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_crossland-t70-crossland-3600_2019_english.pdf, p.11 (GB_MA_TI_CROSSLAND_T70_1909_EN). GB_MA_TI_CROSSLAND_3600_1608_EN.pdf (2016 edition of predecessor 'Crossland 3600') treated as superseded."
+    },
+    "constants": {
+      "discSpacingMm": 230,
+      "wheels": "Six-hole hub, 13.0/65 R18 tyres; centre frame 4 HD tandem wheels \u00d890mm, side sections single wheel",
+      "tines": "Eurochisel forged steel, 'Edge On' profile",
+      "depthControl": "Automatic levelling by all wheels and drawbar"
+    },
+    "variants": [
+      {
+        "sku": "23-tine (safety bolt)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6040,
+        "weightTripleFollowingHarrowKg": 6650,
+        "weightWheelRollersKg": 6740
+      },
+      {
+        "sku": "25-tine (safety bolt)",
+        "shanks": 25,
+        "workingWidthM": 5.75,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6190,
+        "weightTripleFollowingHarrowKg": 6800,
+        "weightWheelRollersKg": 6890
+      },
+      {
+        "sku": "23-tine (safety spring)",
+        "shanks": 23,
+        "workingWidthM": 5.3,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6730,
+        "weightTripleFollowingHarrowKg": 7340,
+        "weightWheelRollersKg": 7430
+      },
+      {
+        "sku": "25-tine (safety spring)",
+        "shanks": 25,
+        "workingWidthM": 5.75,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 6940,
+        "weightTripleFollowingHarrowKg": 7550,
+        "weightWheelRollersKg": 7640
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-crossland-t80",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Crossland T80",
+    "displayName": "Gregoire-Besson Crossland T80 Folding Semi-Mounted Stubble Harrow",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_crossland_2023_11_english.pdf, p.11 (GB_MA_TI_CROSSLAND_T80_2311_EN, current edition). manual_gregoire-besson_crossland-t80-crossland-4600_2019_english.pdf (2019 edition) and GB_MA_TI_CROSSLAND_4600_1608_EN.pdf (2016 edition of predecessor 'Crossland 4600') treated as superseded."
+    },
+    "constants": {
+      "wheels": "Six-hole hub, 340/65 R18 radial tyres; centre frame 4 HD tandem wheels \u00d890mm, single wheel on 6.20m / tandem wheels on 7.15-8.05m side sections",
+      "tines": "Eurochisel forged steel, 'Edge On' profile",
+      "depthControl": "Automatic levelling by all wheels and drawbar"
+    },
+    "variants": [
+      {
+        "sku": "27-tine (safety bolt)",
+        "shanks": 27,
+        "workingWidthM": 6.2,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 7000,
+        "weightTripleFollowingHarrowKg": 7700,
+        "weightWheelRollersKg": 7950
+      },
+      {
+        "sku": "31-tine (safety bolt)",
+        "shanks": 31,
+        "workingWidthM": 7.15,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 7650,
+        "weightTripleFollowingHarrowKg": 8400,
+        "weightWheelRollersKg": 8650
+      },
+      {
+        "sku": "35-tine (safety bolt)",
+        "shanks": 35,
+        "workingWidthM": 8.05,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 8000,
+        "weightTripleFollowingHarrowKg": 8800,
+        "weightWheelRollersKg": 9000
+      },
+      {
+        "sku": "27-tine (safety spring)",
+        "shanks": 27,
+        "workingWidthM": 6.2,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 7810,
+        "weightTripleFollowingHarrowKg": 8510,
+        "weightWheelRollersKg": 8760
+      },
+      {
+        "sku": "31-tine (safety spring)",
+        "shanks": 31,
+        "workingWidthM": 7.15,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 8580,
+        "weightTripleFollowingHarrowKg": 9330,
+        "weightWheelRollersKg": 9580
+      },
+      {
+        "sku": "35-tine (safety spring)",
+        "shanks": 35,
+        "workingWidthM": 8.05,
+        "transportWidthM": "<3.00",
+        "weightNoAttachmentKg": 9050,
+        "weightTripleFollowingHarrowKg": 9850,
+        "weightWheelRollersKg": 10050
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-tetra-60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Tetra 60",
+    "displayName": "Gregoire-Besson Tetra 60 Mounted Tine Cultivator",
+    "category": "Field Cultivators",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_tetra_2025_03_english.pdf, p.12 (GB_MA_TI_TETRA_60_2503_EN). Only edition found."
+    },
+    "constants": {
+      "linkage": "Lower coupling cat.2/3/3N, upper for top link"
+    },
+    "variants": [
+      {
+        "sku": "48-tine (straight)",
+        "shanks": 48,
+        "tineType": "Straight",
+        "workingWidthM": 4.5,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1182.5,
+        "weightDoubleCrumblingRollerKg": 1544.5,
+        "weightTrailBreakersKg": 1603.0,
+        "weightLevellingBarKg": 1790.0
+      },
+      {
+        "sku": "48-tine (S-tine)",
+        "shanks": 48,
+        "tineType": "S",
+        "workingWidthM": 4.5,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1211.5,
+        "weightDoubleCrumblingRollerKg": 1573.5,
+        "weightTrailBreakersKg": 1632.0,
+        "weightLevellingBarKg": 1819.0
+      },
+      {
+        "sku": "75-tine (straight)",
+        "shanks": 75,
+        "tineType": "Straight",
+        "workingWidthM": 4.5,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1152.0,
+        "weightDoubleCrumblingRollerKg": 1514.0,
+        "weightTrailBreakersKg": 1570.0,
+        "weightLevellingBarKg": 1757.0
+      },
+      {
+        "sku": "64-tine (straight)",
+        "shanks": 64,
+        "tineType": "Straight",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1431.0,
+        "weightDoubleCrumblingRollerKg": 1920.0,
+        "weightTrailBreakersKg": 1980.0,
+        "weightLevellingBarKg": 2230.0
+      },
+      {
+        "sku": "64-tine (S-tine)",
+        "shanks": 64,
+        "tineType": "S",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1469.0,
+        "weightDoubleCrumblingRollerKg": 1958.0,
+        "weightTrailBreakersKg": 2016.0,
+        "weightLevellingBarKg": 2266.0
+      },
+      {
+        "sku": "100-tine (straight)",
+        "shanks": 100,
+        "tineType": "Straight",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3.0,
+        "weightNoOptionsKg": 1390.0,
+        "weightDoubleCrumblingRollerKg": 1879.0,
+        "weightTrailBreakersKg": 1937.0,
+        "weightLevellingBarKg": 2187.0
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-heliripper",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Heliripper",
+    "displayName": "Gregoire-Besson Heliripper Twin-Beam Mounted Loosener",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "GB_MA_TI_HELIRIPPER_1412_EN.pdf, p.11 (GB_MA_TI_HELIRIPPER_1412_EN). Only edition found; single fixed configuration."
+    },
+    "constants": {
+      "hitch": "Cat.III and IV",
+      "frame": "Tubular beam 150x150x10mm or 200x150x10mm, underframe clearance 1000mm",
+      "tines": "800mm or 500mm subsoiler tine",
+      "safety": "Non-Stop hydraulics"
+    },
+    "variants": [
+      {
+        "sku": "Heliripper",
+        "shanks": 13,
+        "workingWidthM": 6.0,
+        "transportWidthM": 6.0,
+        "weightKg": 4700
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-helios",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Helios",
+    "displayName": "Gregoire-Besson Helios Twin-Beam Subsoiler (Not Foldable)",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Helios septembre 2008 ang.pdf, p.10-11 (2008 edition, no revision code present but only edition found for this model). Older-generation Gr\u00e9goire-Besson product; superseded conceptually by the newer Helios Duo line but no newer 'Helios' (non-Duo) edition exists in this file set."
+    },
+    "constants": {
+      "linkage": "3-point, yoke \u00d8 II and III, width III",
+      "frame": "Main frame twin beam 160x160mm, clearance between beams 700mm, underbeam clearance 900mm",
+      "tines": "Curved 'Michel' type, special treated steel"
+    },
+    "variants": [
+      {
+        "sku": "4-blade (shear bolt)",
+        "shanks": 4,
+        "safety": "Shear bolt",
+        "workingWidthM": "2.00-3.00",
+        "transportWidthM": 3.0,
+        "weightKg": 830
+      },
+      {
+        "sku": "6-blade/3.00m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 980
+      },
+      {
+        "sku": "6-blade/4.00m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": "3.00-4.00",
+        "transportWidthM": 4.0,
+        "weightKg": 1130
+      },
+      {
+        "sku": "8-blade (shear bolt)",
+        "shanks": 8,
+        "safety": "Shear bolt",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1240
+      },
+      {
+        "sku": "4-blade (non-stop hydraulic)",
+        "shanks": 4,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 2.8,
+        "transportWidthM": 3.0,
+        "weightKg": 1100
+      },
+      {
+        "sku": "6-blade (non-stop hydraulic)",
+        "shanks": 6,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 1340
+      },
+      {
+        "sku": "8-blade (non-stop hydraulic)",
+        "shanks": 8,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1720
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-helios-r",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Helios R",
+    "displayName": "Gregoire-Besson Helios R Twin-Beam Subsoiler (Foldable)",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Helios R Septembre 2008 ang.pdf, p.10-11 (2008 edition, only edition found for this model). Foldable counterpart to the fixed 'Helios'."
+    },
+    "constants": {
+      "linkage": "Front 3-point, yoke \u00d8 III and IV, width III",
+      "frame": "2-section foldable, transport width 2.70m; main frame single beam 300x300mm, wing frames twin beam 160x160mm; clearance between beams 700mm, underbeam clearance 900mm",
+      "tines": "Curved 'Michel' type, special treated steel"
+    },
+    "variants": [
+      {
+        "sku": "8-blade",
+        "shanks": 8,
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.7,
+        "weightShearBoltKg": 1800,
+        "weightNonStopHydraulicKg": 2360
+      },
+      {
+        "sku": "10-blade",
+        "shanks": 10,
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.7,
+        "weightShearBoltKg": 1980,
+        "weightNonStopHydraulicKg": 2680
+      },
+      {
+        "sku": "12-blade",
+        "shanks": 12,
+        "workingWidthM": 6.0,
+        "transportWidthM": 2.7,
+        "weightShearBoltKg": 2200,
+        "weightNonStopHydraulicKg": 3040
+      },
+      {
+        "sku": "14-blade",
+        "shanks": 14,
+        "workingWidthM": 7.0,
+        "transportWidthM": 2.7,
+        "weightShearBoltKg": 2530
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-heliplow",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Heliplow",
+    "displayName": "Gregoire-Besson Heliplow Single-Beam Subsoiler",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Heliplow nov 2009 ang.pdf, p.11 (2009 edition, only edition found). Single-beam sibling of the twin-beam 'Heliplow Bipoutre'."
+    },
+    "constants": {
+      "linkage": "Front 3-point, yoke \u00d8 III, width III",
+      "frame": "Main frame single beam 150x150mm, underbeam clearance 900mm",
+      "tines": "Curved 'Michel' type, special treated steel",
+      "safety": "Shear bolt"
+    },
+    "variants": [
+      {
+        "sku": "4-blade/3.00m",
+        "shanks": 4,
+        "workingWidthM": "2-3",
+        "transportWidthM": 3.0,
+        "overallLengthM": 1.1,
+        "weightKg": 700
+      },
+      {
+        "sku": "6-blade/3.00m",
+        "shanks": 6,
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "overallLengthM": 1.1,
+        "weightKg": 850
+      },
+      {
+        "sku": "6-blade/4.00m",
+        "shanks": 6,
+        "workingWidthM": "3-4",
+        "transportWidthM": 4.0,
+        "overallLengthM": 1.1,
+        "weightKg": 1000
+      },
+      {
+        "sku": "6-blade/3.45m",
+        "shanks": 6,
+        "workingWidthM": 3.45,
+        "transportWidthM": 3.45,
+        "overallLengthM": 1.1,
+        "weightKg": 1050
+      },
+      {
+        "sku": "8-blade/3.50m",
+        "shanks": 8,
+        "workingWidthM": 3.5,
+        "transportWidthM": 3.45,
+        "overallLengthM": 1.1,
+        "weightKg": 1050
+      },
+      {
+        "sku": "8-blade/4.00m",
+        "shanks": 8,
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "overallLengthM": 1.1,
+        "weightKg": 1100
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-heliplow-bipoutre",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Heliplow Bipoutre",
+    "displayName": "Gregoire-Besson Heliplow Bipoutre Twin-Beam Subsoiler (Fixed)",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "Heliplow bipoutre Novembre 2008 ang.pdf, p.10 (2008 edition, only edition found). Distinct from the single-beam 'Heliplow' - twin-beam, fully-mounted, fixed (non-foldable)."
+    },
+    "constants": {
+      "linkage": "Front 3-point, yoke \u00d8 II/III (width 2 on 2.4/3.2m frames, width 3 on 4.0m frame)",
+      "frame": "Twin beam main frame 120x120mm, clearance between beams 700mm, underbeam clearance 850mm",
+      "tines": "Curved 'Michel' type, special treated steel",
+      "safety": "Shear bolt"
+    },
+    "variants": [
+      {
+        "sku": "6-blade",
+        "shanks": 6,
+        "workingWidthM": 2.4,
+        "transportWidthM": 2.4,
+        "weightKg": 800
+      },
+      {
+        "sku": "8-blade",
+        "shanks": 8,
+        "workingWidthM": 3.2,
+        "transportWidthM": 3.2,
+        "weightKg": 1160
+      },
+      {
+        "sku": "12-blade",
+        "shanks": 12,
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1600
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-helios-duo-60",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Helios Duo 60",
+    "displayName": "Gregoire-Besson Helios Duo 60 Twin-Beam Subsoiler",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_helios-duo-60-helios_2019_04_english.pdf, p.10 (GB_MA_TI_HELIOS_DUO_60_1904_EN). Only edition found."
+    },
+    "constants": {
+      "hitch": "Fixed cat.2-3, optional cat.3-4 (Helios wide)",
+      "frame": "Tubular dual beam 160x160mm, clearance between beams 960mm, clearance under frame 850mm",
+      "tines": "Welded tine support, special steel 'Michel' blades"
+    },
+    "variants": [
+      {
+        "sku": "4-blade (shear bolt)",
+        "shanks": 4,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 830
+      },
+      {
+        "sku": "6-blade/3.00m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 980
+      },
+      {
+        "sku": "6-blade-wide/3.25m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.25,
+        "transportWidthM": 3.25,
+        "weightKg": 1100
+      },
+      {
+        "sku": "8-blade/3.00m (shear bolt)",
+        "shanks": 8,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 1130
+      },
+      {
+        "sku": "6-blade/3.50m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": 3.5,
+        "transportWidthM": 3.5,
+        "weightKg": 1080
+      },
+      {
+        "sku": "6-blade/4.00m (shear bolt)",
+        "shanks": 6,
+        "safety": "Shear bolt",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1130
+      },
+      {
+        "sku": "8-blade/4.00m (shear bolt)",
+        "shanks": 8,
+        "safety": "Shear bolt",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1240
+      },
+      {
+        "sku": "8-blade-wide/4.00m (shear bolt)",
+        "shanks": 8,
+        "safety": "Shear bolt",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1250
+      },
+      {
+        "sku": "10-blade-wide/5.00m (shear bolt)",
+        "shanks": 10,
+        "safety": "Shear bolt",
+        "workingWidthM": 5.0,
+        "transportWidthM": 5.0,
+        "weightKg": 1650
+      },
+      {
+        "sku": "4-blade (non-stop hydraulic)",
+        "shanks": 4,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 2.8,
+        "transportWidthM": 3.0,
+        "weightKg": 1100
+      },
+      {
+        "sku": "6-blade/3.00m (non-stop hydraulic)",
+        "shanks": 6,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 1340
+      },
+      {
+        "sku": "8-blade/3.00m (non-stop hydraulic)",
+        "shanks": 8,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 3.0,
+        "transportWidthM": 3.0,
+        "weightKg": 1580
+      },
+      {
+        "sku": "6-blade/3.50m (non-stop hydraulic)",
+        "shanks": 6,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 3.45,
+        "transportWidthM": 3.5,
+        "weightKg": 1340
+      },
+      {
+        "sku": "8-blade/4.00m (non-stop hydraulic)",
+        "shanks": 8,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 4.0,
+        "transportWidthM": 4.0,
+        "weightKg": 1720
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-helios-duo-t80-t90",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Helios Duo T80 / T90",
+    "displayName": "Gregoire-Besson Helios Duo T80/T90 Semi-Mounted Subsoiler",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_helios-duo-t80-helios-sp_2018_09_english.pdf, p.10 (GB_MA_TI_HELIOS_DUO_T80_T90_1809_EN). manual_gregoire-besson_helios-duo-t90-helios-sp_2018_09_english.pdf is a byte-identical duplicate of the same document (same doc code, covers both T80 and T90 in one manual)."
+    },
+    "constants": {
+      "hitch": "Coupling on lift arm cat.II/III, optional forged ball ring \u00d835/45/55mm",
+      "frame": "Central frame 300x300x10mm (4/5m) or twin beam 250x150x10mm (6/7m), side frames 150x100x8mm, hydraulic compensating cylinder w/ elastomer shock absorber",
+      "tines": "Welded tine support, special steel 'Michel' blades"
+    },
+    "variants": [
+      {
+        "sku": "8-tine (shear bolt)",
+        "shanks": 8,
+        "safety": "Shear bolt",
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.9,
+        "weightWithoutRollerKg": 3860,
+        "weightWithRollerKg": 5310
+      },
+      {
+        "sku": "10-tine (shear bolt)",
+        "shanks": 10,
+        "safety": "Shear bolt",
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.9,
+        "weightWithoutRollerKg": 4360,
+        "weightWithRollerKg": 6020
+      },
+      {
+        "sku": "12-tine (shear bolt)",
+        "shanks": 12,
+        "safety": "Shear bolt",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3.1,
+        "weightWithoutRollerKg": 6100,
+        "weightWithRollerKg": 8110
+      },
+      {
+        "sku": "14-tine (shear bolt)",
+        "shanks": 14,
+        "safety": "Shear bolt",
+        "workingWidthM": 7.0,
+        "transportWidthM": 3.1,
+        "weightWithoutRollerKg": 6300,
+        "weightWithRollerKg": 8700
+      },
+      {
+        "sku": "8-tine (non-stop hydraulic)",
+        "shanks": 8,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 4.0,
+        "transportWidthM": 2.9,
+        "weightWithoutRollerKg": 4110,
+        "weightWithRollerKg": 5560
+      },
+      {
+        "sku": "10-tine (non-stop hydraulic)",
+        "shanks": 10,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 5.0,
+        "transportWidthM": 2.9,
+        "weightWithoutRollerKg": 4610,
+        "weightWithRollerKg": 6270
+      },
+      {
+        "sku": "12-tine (non-stop hydraulic)",
+        "shanks": 12,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 6.0,
+        "transportWidthM": 3.1,
+        "weightWithoutRollerKg": 6600,
+        "weightWithRollerKg": 8610
+      },
+      {
+        "sku": "14-tine (non-stop hydraulic)",
+        "shanks": 14,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 7.0,
+        "transportWidthM": 3.1,
+        "weightWithoutRollerKg": 7100,
+        "weightWithRollerKg": 9500
+      }
+    ],
+    "referencePhotos": []
+  },
+  {
+    "id": "gregoire-besson-helios-cracker-70-80",
+    "manufacturer": "Gregoire-Besson",
+    "modelFamily": "Helios Cracker 70 / 80",
+    "displayName": "Gregoire-Besson Helios Cracker 70/80 Mounted Subsoiler",
+    "category": "Rippers",
+    "source": {
+      "type": "spec_sheet",
+      "verified": true,
+      "note": "manual_gregoire-besson_helios-cracker-70-helikrak_2024_02_english.pdf, p.10 (GB_MA_TI_HELIOS_CRACKER_70_2402_EN). manual_gregoire-besson_helios-cracker-80-helikrak_2024_02_english.pdf is a byte-identical duplicate (same doc code, covers both 70 and 80 in one manual). Distinctive 'Cracker' tine loosens soil to 45cm depth, similar to pseudo-tillage, mixing residue in wet/compacted conditions."
+    },
+    "constants": {
+      "hitch": "Lower cat.3/4N per model, upper for 3rd link",
+      "tine": "'Cracker' tine, loosens to 45cm depth"
+    },
+    "variants": [
+      {
+        "sku": "Helios 70 - 5-tine (safety bolt)",
+        "shanks": 5,
+        "safety": "Safety bolt",
+        "workingWidthM": 2.5,
+        "weightWithRollerKg": 2375
+      },
+      {
+        "sku": "Helios 70 - 7-tine (safety bolt)",
+        "shanks": 7,
+        "safety": "Safety bolt",
+        "workingWidthM": 3.0,
+        "weightWithRollerKg": 2753
+      },
+      {
+        "sku": "Helios 70 - 5-tine (non-stop hydraulic)",
+        "shanks": 5,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 2.5,
+        "weightWithRollerKg": 1750
+      },
+      {
+        "sku": "Helios 70 - 7-tine (non-stop hydraulic)",
+        "shanks": 7,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 3.0,
+        "weightWithRollerKg": 2300
+      },
+      {
+        "sku": "Helios 80 - 9-tine (safety bolt)",
+        "shanks": 9,
+        "safety": "Safety bolt",
+        "workingWidthM": 4.0,
+        "weightWithRollerKg": 3321
+      },
+      {
+        "sku": "Helios 80 - 11-tine (safety bolt)",
+        "shanks": 11,
+        "safety": "Safety bolt",
+        "workingWidthM": 5.0,
+        "weightWithRollerKg": 3959
+      },
+      {
+        "sku": "Helios 80 - 9-tine (non-stop hydraulic)",
+        "shanks": 9,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 4.0,
+        "weightWithRollerKg": 3500
+      },
+      {
+        "sku": "Helios 80 - 11-tine (non-stop hydraulic)",
+        "shanks": 11,
+        "safety": "Non-stop hydraulic",
+        "workingWidthM": 5.0,
+        "weightWithRollerKg": 4200
+      }
+    ],
+    "referencePhotos": []
+  }
+]

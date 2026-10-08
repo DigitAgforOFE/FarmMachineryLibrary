@@ -1,0 +1,597 @@
+[
+  {
+    "id": "b-and-h-row-crop-cultivator",
+    "manufacturer": "B&H Manufacturing",
+    "modelFamily": "Row Crop Cultivator",
+    "displayName": "B&H Row Crop Cultivator (parallel-linkage)",
+    "category": "Row Crop Cultivators",
+    "source": {
+      "type": "manual",
+      "verified": true,
+      "note": "cultivator-manual.pdf (and identical copies cultivator-manual-2.pdf / -3.pdf): B&H Mfg. Row Crop Cultivator operator's manual, scanned with no text layer; identified from the manual text (\"The B&H Row Crop Cultivator\") and read from rendered images of Section 7.1 Mechanical specifications (PDF pp.46-48, manual pp.42-44). Each configuration is sold as four item numbers (with/without crop shields x with/without rock trips); rock trips do not change the listed weight, shields add 260-1,040 lb. Folding toolbars with shields are slightly wider in transport. Width column in the source = row spacing."
+    },
+    "constants": {},
+    "variants": [
+      {
+        "sku": "4R30 Rigid",
+        "rows": 4,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 136,
+        "weightLbByShields": {
+          "without shields": 2417,
+          "with shields": 2677
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2059",
+          "no shields, rock trips": "1221",
+          "shields, no rock trips": "2080",
+          "shields, rock trips": "2041"
+        },
+        "transportWidthIn": 136
+      },
+      {
+        "sku": "4R36 Rigid",
+        "rows": 4,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 160,
+        "weightLbByShields": {
+          "without shields": 2461,
+          "with shields": 2721
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2060",
+          "no shields, rock trips": "2038",
+          "shields, no rock trips": "2081",
+          "shields, rock trips": "1220"
+        },
+        "transportWidthIn": 160
+      },
+      {
+        "sku": "4R38 Rigid",
+        "rows": 4,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 168,
+        "weightLbByShields": {
+          "without shields": 2476,
+          "with shields": 2736
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2061",
+          "no shields, rock trips": "1222",
+          "shields, no rock trips": "2082",
+          "shields, rock trips": "2042"
+        },
+        "transportWidthIn": 168
+      },
+      {
+        "sku": "4R40 Rigid",
+        "rows": 4,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 176,
+        "weightLbByShields": {
+          "without shields": 2490,
+          "with shields": 2750
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2062",
+          "no shields, rock trips": "2039",
+          "shields, no rock trips": "2083",
+          "shields, rock trips": "2043"
+        },
+        "transportWidthIn": 176
+      },
+      {
+        "sku": "6R30 Rigid",
+        "rows": 6,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 196,
+        "weightLbByShields": {
+          "without shields": 3294,
+          "with shields": 3684
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2063",
+          "no shields, rock trips": "1223",
+          "shields, no rock trips": "2003",
+          "shields, rock trips": "1646"
+        },
+        "transportWidthIn": 196
+      },
+      {
+        "sku": "6R36 Rigid",
+        "rows": 6,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 232,
+        "weightLbByShields": {
+          "without shields": 3360,
+          "with shields": 3750
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2064",
+          "no shields, rock trips": "1224",
+          "shields, no rock trips": "2084",
+          "shields, rock trips": "2044"
+        },
+        "transportWidthIn": 232
+      },
+      {
+        "sku": "6R38 Rigid",
+        "rows": 6,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 244,
+        "weightLbByShields": {
+          "without shields": 3382,
+          "with shields": 3772
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2065",
+          "no shields, rock trips": "1225",
+          "shields, no rock trips": "2085",
+          "shields, rock trips": "2045"
+        },
+        "transportWidthIn": 244
+      },
+      {
+        "sku": "6R40 Rigid",
+        "rows": 6,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 256,
+        "weightLbByShields": {
+          "without shields": 3404,
+          "with shields": 3794
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2066",
+          "no shields, rock trips": "1226",
+          "shields, no rock trips": "2086",
+          "shields, rock trips": "2046"
+        },
+        "transportWidthIn": 256
+      },
+      {
+        "sku": "8R30 Folding",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 256,
+        "weightLbByShields": {
+          "without shields": 5121,
+          "with shields": 5641
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2072",
+          "no shields, rock trips": "1228",
+          "shields, no rock trips": "2091",
+          "shields, rock trips": "2051"
+        },
+        "transportWidthInByShields": {
+          "without shields": 159,
+          "with shields": 163
+        }
+      },
+      {
+        "sku": "8R30 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 256,
+        "weightLbByShields": {
+          "without shields": 4171,
+          "with shields": 4691
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2067",
+          "no shields, rock trips": "1227",
+          "shields, no rock trips": "2002",
+          "shields, rock trips": "1442"
+        },
+        "transportWidthIn": 256
+      },
+      {
+        "sku": "8R36 Folding",
+        "rows": 8,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 304,
+        "weightLbByShields": {
+          "without shields": 5338,
+          "with shields": 5858
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2073",
+          "no shields, rock trips": "1232",
+          "shields, no rock trips": "2092",
+          "shields, rock trips": "2052"
+        },
+        "transportWidthInByShields": {
+          "without shields": 183,
+          "with shields": 193
+        }
+      },
+      {
+        "sku": "8R36 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 304,
+        "weightLbByShields": {
+          "without shields": 4538,
+          "with shields": 5058
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2068",
+          "no shields, rock trips": "1230",
+          "shields, no rock trips": "2087",
+          "shields, rock trips": "2047"
+        },
+        "transportWidthIn": 304
+      },
+      {
+        "sku": "8R38 Folding",
+        "rows": 8,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 320,
+        "weightLbByShields": {
+          "without shields": 5338,
+          "with shields": 5858
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2074",
+          "no shields, rock trips": "1233",
+          "shields, no rock trips": "2093",
+          "shields, rock trips": "2053"
+        },
+        "transportWidthInByShields": {
+          "without shields": 191,
+          "with shields": 203
+        }
+      },
+      {
+        "sku": "8R38 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 320,
+        "weightLbByShields": {
+          "without shields": 4582,
+          "with shields": 5102
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2069",
+          "no shields, rock trips": "2040",
+          "shields, no rock trips": "2088",
+          "shields, rock trips": "2048"
+        },
+        "transportWidthIn": 320
+      },
+      {
+        "sku": "8R40 Folding",
+        "rows": 8,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 336,
+        "weightLbByShields": {
+          "without shields": 5338,
+          "with shields": 5858
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2075",
+          "no shields, rock trips": "1234",
+          "shields, no rock trips": "2094",
+          "shields, rock trips": "2054"
+        },
+        "transportWidthInByShields": {
+          "without shields": 199,
+          "with shields": 213
+        }
+      },
+      {
+        "sku": "8R40 Rigid",
+        "rows": 8,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 336,
+        "weightLbByShields": {
+          "without shields": 4626,
+          "with shields": 5146
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2070",
+          "no shields, rock trips": "1231",
+          "shields, no rock trips": "2089",
+          "shields, rock trips": "2049"
+        },
+        "transportWidthIn": 336
+      },
+      {
+        "sku": "10R30 Folding",
+        "rows": 10,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 316,
+        "weightLbByShields": {
+          "without shields": 6051,
+          "with shields": 6701
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2076",
+          "no shields, rock trips": "1236",
+          "shields, no rock trips": "2095",
+          "shields, rock trips": "2055"
+        },
+        "transportWidthInByShields": {
+          "without shields": 219,
+          "with shields": 223
+        }
+      },
+      {
+        "sku": "10R30 Rigid",
+        "rows": 10,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 316,
+        "weightLbByShields": {
+          "without shields": 5338,
+          "with shields": 5998
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2071",
+          "no shields, rock trips": "1235",
+          "shields, no rock trips": "2090",
+          "shields, rock trips": "2050"
+        },
+        "transportWidthIn": 316
+      },
+      {
+        "sku": "10R36 Folding",
+        "rows": 10,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 376,
+        "weightLbByShields": {
+          "without shields": 6213,
+          "with shields": 6863
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2077",
+          "no shields, rock trips": "1360",
+          "shields, no rock trips": "2096",
+          "shields, rock trips": "2056"
+        },
+        "transportWidthInByShields": {
+          "without shields": 255,
+          "with shields": 265
+        }
+      },
+      {
+        "sku": "10R36 Rigid",
+        "rows": 10,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 376,
+        "weightLbByShields": {
+          "without shields": 5503,
+          "with shields": 6153
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2118",
+          "no shields, rock trips": "2117",
+          "shields, no rock trips": "2120",
+          "shields, rock trips": "2119"
+        },
+        "transportWidthIn": 376
+      },
+      {
+        "sku": "10R38 Folding",
+        "rows": 10,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 396,
+        "weightLbByShields": {
+          "without shields": 6213,
+          "with shields": 6863
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2278",
+          "no shields, rock trips": "2266",
+          "shields, no rock trips": "2280",
+          "shields, rock trips": "2267"
+        },
+        "transportWidthInByShields": {
+          "without shields": 267,
+          "with shields": 279
+        }
+      },
+      {
+        "sku": "10R38 Rigid",
+        "rows": 10,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 396,
+        "weightLbByShields": {
+          "without shields": 5558,
+          "with shields": 6208
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2274",
+          "no shields, rock trips": "2287",
+          "shields, no rock trips": "2276",
+          "shields, rock trips": "2288"
+        },
+        "transportWidthIn": 396
+      },
+      {
+        "sku": "10R40 Folding",
+        "rows": 10,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 416,
+        "weightLbByShields": {
+          "without shields": 6213,
+          "with shields": 6863
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2279",
+          "no shields, rock trips": "2268",
+          "shields, no rock trips": "2281",
+          "shields, rock trips": "2269"
+        },
+        "transportWidthInByShields": {
+          "without shields": 279,
+          "with shields": 293
+        }
+      },
+      {
+        "sku": "10R40 Rigid",
+        "rows": 10,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 416,
+        "weightLbByShields": {
+          "without shields": 5613,
+          "with shields": 6263
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2275",
+          "no shields, rock trips": "2264",
+          "shields, no rock trips": "2277",
+          "shields, rock trips": "2265"
+        },
+        "transportWidthIn": 416
+      },
+      {
+        "sku": "12R30 Folding",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 376,
+        "weightLbByShields": {
+          "without shields": 6980,
+          "with shields": 7760
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2010",
+          "no shields, rock trips": "1238",
+          "shields, no rock trips": "2009",
+          "shields, rock trips": "1649"
+        },
+        "transportWidthInByShields": {
+          "without shields": 219,
+          "with shields": 223
+        }
+      },
+      {
+        "sku": "12R30 Rigid",
+        "rows": 12,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Rigid",
+        "workingWidthIn": 376,
+        "weightLbByShields": {
+          "without shields": 6270,
+          "with shields": 7050
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2114",
+          "no shields, rock trips": "2113",
+          "shields, no rock trips": "2116",
+          "shields, rock trips": "2115"
+        },
+        "transportWidthIn": 376
+      },
+      {
+        "sku": "12R36 Folding",
+        "rows": 12,
+        "rowSpacingIn": 36,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 448,
+        "weightLbByShields": {
+          "without shields": 7895,
+          "with shields": 8675
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2078",
+          "no shields, rock trips": "1239",
+          "shields, no rock trips": "2097",
+          "shields, rock trips": "2057"
+        },
+        "transportWidthInByShields": {
+          "without shields": 255,
+          "with shields": 265
+        }
+      },
+      {
+        "sku": "12R38 Folding",
+        "rows": 12,
+        "rowSpacingIn": 38,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 472,
+        "weightLbByShields": {
+          "without shields": 7895,
+          "with shields": 8675
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2282",
+          "no shields, rock trips": "2270",
+          "shields, no rock trips": "2284",
+          "shields, rock trips": "2271"
+        },
+        "transportWidthInByShields": {
+          "without shields": 267,
+          "with shields": 279
+        }
+      },
+      {
+        "sku": "12R40 Folding",
+        "rows": 12,
+        "rowSpacingIn": 40,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 496,
+        "weightLbByShields": {
+          "without shields": 7895,
+          "with shields": 8675
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2283",
+          "no shields, rock trips": "2272",
+          "shields, no rock trips": "2285",
+          "shields, rock trips": "2273"
+        },
+        "transportWidthInByShields": {
+          "without shields": 279,
+          "with shields": 293
+        }
+      },
+      {
+        "sku": "16R30 Folding",
+        "rows": 16,
+        "rowSpacingIn": 30,
+        "toolbarStyle": "Folding",
+        "workingWidthIn": 496,
+        "weightLbByShields": {
+          "without shields": 9561,
+          "with shields": 10601
+        },
+        "itemNumbers": {
+          "no shields, no rock trips": "2079",
+          "no shields, rock trips": "1242",
+          "shields, no rock trips": "2098",
+          "shields, rock trips": "2058"
+        },
+        "transportWidthInByShields": {
+          "without shields": 279,
+          "with shields": 283
+        }
+      }
+    ],
+    "referencePhotos": []
+  }
+]
