@@ -11,6 +11,8 @@ tell whether a file they downloaded is already known -- even under another filen
                                                   copy the files NAME added, ready to send
   python3 tools/brochures.py export --status unreviewed --manufacturer Wil-Rich --out DIR
                                                   copy files someone could work on
+  python3 tools/brochures.py status [--html progress.html]
+                                                  progress summary per manufacturer
   python3 tools/brochures.py validate             sanity-check the library JSON + manifest
 
 Standard library only -- no installs needed beyond Python 3.8+.
@@ -205,6 +207,94 @@ def cmd_export(args):
             print('   ', p)
 
 
+def progress_data():
+    """Per-manufacturer counts of documents (by status) and library entries/models."""
+    rows = load_manifest()
+    by_mfr = {}
+    for r in rows:
+        m = by_mfr.setdefault(r['manufacturer'] or '(none)', {s: 0 for s in STATUSES})
+        m[r['status']] = m.get(r['status'], 0) + 1
+    # Group entries under the folder of the document they came from, so a manufacturer
+    # filed as "Summers Mfg" or "Unsorted" doesn't show up as two separate rows.
+    folder_of = {}
+    for r in rows:
+        if r['status'] == 'processed':
+            for i in r['library_ids'].split(';'):
+                if i:
+                    folder_of.setdefault(i, r['manufacturer'])
+    entries, models, categories = {}, {}, {}
+    for entry_id, found in load_library().items():
+        for _, e in found:
+            mfr = folder_of.get(entry_id) or e.get('manufacturer', '?')
+            if mfr == 'Unsorted':
+                mfr = e.get('manufacturer', mfr)
+            entries[mfr] = entries.get(mfr, 0) + 1
+            models[mfr] = models.get(mfr, 0) + len(e.get('variants') or [])
+            categories[e.get('category')] = categories.get(e.get('category'), 0) + 1
+    names = sorted(set(by_mfr) | set(entries), key=str.lower)
+    table = [{'manufacturer': n, 'docs': by_mfr.get(n, {s: 0 for s in STATUSES}),
+              'entries': entries.get(n, 0), 'models': models.get(n, 0)} for n in names]
+    totals = {s: sum(t['docs'][s] for t in table) for s in STATUSES}
+    totals.update(entries=sum(entries.values()), models=sum(models.values()), documents=len(rows))
+    return table, totals, categories
+
+
+def cmd_status(args):
+    table, totals, categories = progress_data()
+    print(f"{totals['documents']} known documents: {totals['processed']} processed, "
+          f"{totals['related']} related, {totals['skipped']} skipped, {totals['unreviewed']} waiting")
+    print(f"{totals['entries']} library entries covering {totals['models']} models\n")
+    print(f"{'Manufacturer':22} {'docs':>5} {'proc':>5} {'rel':>5} {'skip':>5} {'wait':>5} {'entries':>8} {'models':>7}")
+    for t in table:
+        d = t['docs']
+        print(f"{t['manufacturer'][:22]:22} {sum(d.values()):5} {d['processed']:5} {d['related']:5} "
+              f"{d['skipped']:5} {d['unreviewed']:5} {t['entries']:8} {t['models']:7}")
+    print('\nEntries by category: ' + ', '.join(f'{k} {v}' for k, v in sorted(categories.items(), key=lambda x: -x[1])))
+    if args.html:
+        write_progress_html(args.html, table, totals, categories)
+        print(f'\nWrote {args.html} - open it in a web browser.')
+
+
+def write_progress_html(path, table, totals, categories):
+    import html
+    today = datetime.date.today().isoformat()
+    def bar(d):
+        total = sum(d.values()) or 1
+        segs = ''.join(f'<span class="{s}" style="width:{100 * d[s] / total:.1f}%" title="{s}: {d[s]}"></span>'
+                       for s in STATUSES if d[s])
+        return f'<div class="bar">{segs}</div>'
+    rows = '\n'.join(
+        f'<tr><td>{html.escape(t["manufacturer"])}</td><td class="n">{sum(t["docs"].values())}</td>'
+        f'<td>{bar(t["docs"])}</td><td class="n">{t["docs"]["unreviewed"] or ""}</td>'
+        f'<td class="n">{t["entries"]}</td><td class="n">{t["models"]}</td></tr>' for t in table)
+    cats = ''.join(f'<li>{html.escape(str(k))} <b>{v}</b></li>'
+                   for k, v in sorted(categories.items(), key=lambda x: -x[1]))
+    page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Library Progress</title>
+<style>
+:root{{--bg:#fafaf7;--fg:#1d1d1b;--muted:#6a6a64;--line:#e2e0d8;--processed:#3d7a52;--related:#8db89a;--skipped:#c9c4b5;--unreviewed:#d08a2e}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#171714;--fg:#ecebe5;--muted:#a3a299;--line:#34332e;--skipped:#55524a}}}}
+body{{background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,sans-serif;margin:0}}
+main{{max-width:960px;margin:0 auto;padding:24px 16px}} h1{{margin:0 0 4px}} .muted{{color:var(--muted)}}
+.kpis{{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}} .kpi{{border:1px solid var(--line);border-radius:8px;padding:10px 14px;min-width:120px}}
+.kpi b{{display:block;font-size:26px}} table{{width:100%;border-collapse:collapse}} td,th{{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}}
+.n{{text-align:right;font-variant-numeric:tabular-nums}} .bar{{display:flex;height:12px;border-radius:3px;overflow:hidden;min-width:120px}}
+.bar span{{display:block}} .processed{{background:var(--processed)}} .related{{background:var(--related)}} .skipped{{background:var(--skipped)}} .unreviewed{{background:var(--unreviewed)}}
+.legend span{{display:inline-block;width:10px;height:10px;margin:0 4px 0 12px;border-radius:2px}} ul{{columns:2;padding-left:18px}}
+.wrap{{overflow-x:auto}}
+</style></head><body><main>
+<h1>Farm Machinery Library - progress</h1><p class="muted">Generated {today} from library/sources.csv and library/manufacturers/.</p>
+<div class="kpis"><div class="kpi"><b>{totals["entries"]}</b>library entries</div><div class="kpi"><b>{totals["models"]}</b>models (variants)</div>
+<div class="kpi"><b>{totals["documents"]}</b>known documents</div><div class="kpi"><b>{totals["processed"]}</b>documents used</div>
+<div class="kpi"><b>{totals["unreviewed"]}</b>waiting to be processed</div></div>
+<p class="legend muted">Documents:<span class="processed"></span>processed<span class="related"></span>related<span class="skipped"></span>skipped<span class="unreviewed"></span>waiting</p>
+<div class="wrap"><table><thead><tr><th>Manufacturer</th><th class="n">Docs</th><th>Status</th><th class="n">Waiting</th><th class="n">Entries</th><th class="n">Models</th></tr></thead>
+<tbody>{rows}</tbody></table></div>
+<h2>Entries by category</h2><ul>{cats}</ul></main></body></html>'''
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(page)
+
+
 def cmd_validate(args):
     errors, warnings = [], []
     with open(os.path.join(LIBRARY, 'categories.json'), encoding='utf-8') as f:
@@ -284,6 +374,10 @@ def main():
     x.add_argument('--manufacturer', nargs='+', help='one or more manufacturer folder names')
     x.add_argument('--out', required=True, help='destination folder (outside the repo)')
     x.set_defaults(func=cmd_export)
+
+    s = sub.add_parser('status', help='progress summary per manufacturer (optionally as an HTML page)')
+    s.add_argument('--html', metavar='FILE', help='also write a progress page, e.g. progress.html')
+    s.set_defaults(func=cmd_status)
 
     v = sub.add_parser('validate', help='sanity-check library JSON and the manifest')
     v.set_defaults(func=cmd_validate)

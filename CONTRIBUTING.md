@@ -154,6 +154,8 @@ Then repeat:
   rules below and update its status. `python3 tools/brochures.py check` should then
   list nothing as NEW.
 - **Reviewing**: `python3 tools/brochures.py validate` must show 0 errors.
+- **Progress**: `python3 tools/brochures.py status --html progress.html`, then open
+  `progress.html` in a browser (see the README).
 
 ## Extraction rules (for whoever processes documents)
 
