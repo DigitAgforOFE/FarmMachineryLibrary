@@ -92,6 +92,7 @@ count. If you can't, don't keep it.
    ```bash
    git clone https://github.com/DigitAgforOFE/FarmMachineryLibrary.git
    cd FarmMachineryLibrary
+   git config pull.rebase false     # once: lets `git pull` merge others' work into your branch
    ```
 4. **Make a `Brochures` folder** inside the project. Git ignores it. Save each file
    under `Brochures/<Manufacturer>/`, using the folder names from the `manufacturer`
@@ -118,8 +119,10 @@ Then repeat:
 1. **Find files** on manufacturer websites ("literature", "brochures", "spec sheets",
    "operator's manuals"), dealer sites and the like. Save them under
    `Brochures/<Manufacturer>/`.
-2. **Check what's new:**
+2. **Check what's new.** First bring in what everyone else has registered, so you don't
+   collect files someone already found:
    ```bash
+   git pull origin main
    python3 tools/brochures.py check
    ```
    Delete everything listed as **already in the collection** or **already handled**:
@@ -138,24 +141,118 @@ Then repeat:
    ```
    The first time, open a **pull request** on GitHub from your branch to `main`. Later
    pushes update it, and the owner merges it.
+
+   If `git pull origin main` (step 2) reports **CONFLICT in library/sources.csv**, someone
+   registered files next to yours. That's normal, and you don't need to edit anything:
+   ```bash
+   python3 tools/brochures.py tidy        # removes the conflict marks, merges duplicate rows
+   python3 tools/brochures.py validate
+   git add library/sources.csv
+   git commit --no-edit
+   ```
+   If `tidy` says a file of yours was renamed (e.g. `manual (2).pdf`), another person had
+   registered a different file with the same name. Nothing else to do: the owner's
+   `import` uses the new name.
 5. **Hand over the files** (every week or two, so processing keeps pace):
    ```bash
    python3 tools/brochures.py export --added-by jsmith --out ~/Desktop/handoff-jsmith
    ```
    This copies only the files you registered. Zip `~/Desktop/handoff-jsmith/Brochures`
-   and share it with the owner on the shared drive (not by email, and not in git). Run
-   it again later and it simply includes everything you've added so far.
+   and upload it to the project's Box folder (not by email, and not in git). Name the zip
+   with your name and the date, e.g. `handoff-jsmith-2026-11-15.zip`. Running `export`
+   again later includes everything you've added so far; the owner's `import` skips files
+   it already has, so re-sending is harmless.
+6. **After the owner processes your files**, run `git pull origin main`. Your files
+   then show as processed or skipped in `sources.csv` and in the progress page.
 
-## For the project owner
+## For the project owner: merging contributions
 
-- **Onboarding**: add each student as a GitHub collaborator and assign the work.
-- **Receiving files**: merge the student's pull request, copy their `Brochures/` folder
-  into yours (the layout matches), then process every `unreviewed` row following the
-  rules below and update its status. `python3 tools/brochures.py check` should then
-  list nothing as NEW.
-- **Reviewing**: `python3 tools/brochures.py validate` must show 0 errors.
-- **Progress**: `python3 tools/brochures.py status --html progress.html`, then open
-  `progress.html` in a browser (see the README).
+Contributions arrive in two parts that travel separately: the **registrations** (rows in
+`library/sources.csv`, via a GitHub pull request) and the **files** (a zip in Box). The
+steps below bring both together. Do them in this order, about every week or two, in your
+local copy of the repository (the folder that contains `Brochures/`).
+
+**Onboarding**: add each student as a collaborator (GitHub → the repository →
+Settings → Collaborators → Add people) and give them their assignment.
+
+### 1. Merge the pull requests
+
+On GitHub, open **Pull requests**, then each student's request:
+
+1. Open the **Files changed** tab. It should only touch `library/sources.csv` (new rows
+   with status `unreviewed`). Anything else, such as edits to JSON files or other people's
+   rows, is a reason to ask before merging.
+2. If GitHub shows **"This branch has no conflicts"**, click **Merge pull request →
+   Confirm merge**.
+3. If it shows **"This branch has conflicts"**, don't use GitHub's editor. Merge it on
+   your computer instead; `tidy` resolves the conflict:
+   ```bash
+   git checkout main && git pull
+   git fetch origin
+   git merge origin/jsmith/wil-rich       # the branch name shown on the pull request
+   python3 tools/brochures.py tidy
+   python3 tools/brochures.py validate
+   git add library/sources.csv && git commit --no-edit
+   git push                               # GitHub marks the pull request as merged
+   ```
+
+### 2. Update your copy and clean up
+
+```bash
+git checkout main && git pull
+python3 tools/brochures.py tidy
+python3 tools/brochures.py validate
+```
+
+Two students sometimes register the same document. Their pull requests merge without a
+conflict, but `sources.csv` then lists the file twice and `validate` reports *same file as
+line…*. `tidy` merges such rows, keeps the earliest finder as `added_by`, and renames one
+of two *different* files registered under the same name. If `tidy` changed anything,
+commit and push it (`git commit -am "Tidy sources.csv" && git push`).
+
+### 3. Bring in the files from Box
+
+Download each handoff zip from Box and unzip it (e.g. into `~/Downloads/handoff-jsmith`).
+**Never drag a handoff's folders onto `Brochures/` in Finder.** Finder offers to
+*replace* a folder with the same name, and that would delete every file you already have
+for that manufacturer. Use `import`, which only adds files and never overwrites:
+
+```bash
+python3 tools/brochures.py import ~/Downloads/handoff-jsmith --dry-run   # preview
+python3 tools/brochures.py import ~/Downloads/handoff-jsmith
+```
+
+`import` reports which files it copied, which you already had (skipped), and any that
+are **not registered**. Those usually mean the student's pull request isn't merged yet
+(go back to step 1), or they forgot to `record` them. If it renamed a file to avoid a
+name clash, run `tidy` afterwards.
+
+Then check that registrations and files match up:
+
+```bash
+python3 tools/brochures.py missing      # registered, but the file hasn't arrived
+python3 tools/brochures.py check        # files you have that nobody registered ("NEW")
+```
+
+`missing` lists, per student, the registrations whose files you still need; ask those
+students for a new export. Anything `check` lists as NEW can be registered by you with
+`record`, or simply processed as part of the next step.
+
+### 4. Process and publish
+
+Every `unreviewed` row is now a file waiting to be processed. Open the repository in
+Claude Code and ask it to *"process the unreviewed files"*. It follows the extraction
+rules below and marks every file `processed`, `related` or `skipped`. Review the changes
+(e.g. spot-check a few numbers against the PDFs), then:
+
+```bash
+python3 tools/brochures.py validate      # must show 0 errors
+git add library && git commit -m "Process handoffs from jsmith, akim" && git push
+python3 tools/brochures.py status --html progress.html   # optional: see progress
+```
+
+Tell the students to `git pull origin main` so they see the result. Back up `Brochures/`
+to Box after each round.
 
 ## Extraction rules (for whoever processes documents)
 

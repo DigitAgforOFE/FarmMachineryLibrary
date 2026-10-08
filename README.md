@@ -59,7 +59,8 @@ Building the library is split between two roles:
  2. `check`: is it new?               │
  3. `record`: register it ────────────┼──▶ sources.csv on GitHub (pull request)
  4. `export`: hand the files over ────┴──▶ shared drive (Box)
-                                             5. Copy files into Brochures/
+                                             5. Merge pull requests, `import` files
+                                                into Brochures/
                                              6. Extract the spec tables into
                                                 library/manufacturers/*.json
                                              7. Mark each file processed / skipped /
@@ -69,6 +70,8 @@ Building the library is split between two roles:
 
 - **Collecting** is described step by step in [CONTRIBUTING.md](CONTRIBUTING.md), with
   pictures of perfect and useless documents.
+- **Merging** students' work (pull requests plus the files from Box) is described in
+  [CONTRIBUTING.md → For the project owner](CONTRIBUTING.md#for-the-project-owner-merging-contributions).
 - **Processing** follows the extraction rules at the end of CONTRIBUTING.md: never guess,
   check every number against the source, cite the document and page, keep the source's
   units. Scanned documents are read from page images.
@@ -111,6 +114,9 @@ Run from the repository folder:
 | `python3 tools/brochures.py check` | Lists which files in `Brochures/` are new, already known, or waiting |
 | `python3 tools/brochures.py record FILE --status unreviewed --by NAME` | Registers a new document |
 | `python3 tools/brochures.py export --added-by NAME --out DIR` | Copies the documents someone added, ready to upload to Box |
+| `python3 tools/brochures.py import HANDOFF_DIR` | Owner: adds a student's handoff to `Brochures/`, never overwriting existing files |
+| `python3 tools/brochures.py missing` | Owner: registered documents whose file hasn't arrived yet |
+| `python3 tools/brochures.py tidy` | Repairs `sources.csv` after merging (git conflict marks, the same document registered twice) |
 | `python3 tools/brochures.py validate` | Checks the JSON files and `sources.csv` for errors (run before every commit) |
 
 On Windows, type `py` instead of `python3`.
